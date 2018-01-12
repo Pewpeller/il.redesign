@@ -118,37 +118,6 @@ body {
 	display: inline-block;
 	padding-right: 1px;
 }
-
-/*
-	.icon-shadow {
-		position: relative;
-		display: inline-block;
-		vertical-align: middle;
-		z-index: 1;
-		color: #fff;
-		fill: #181818;
-		width: 48px;
-		height: 48px;
-		transition: all .15s cubic-bezier(0.4, 0.0, 0.2, 1) 0s;
-		will-change: transform, opacity;
-		opacity: .9647058823529412;
-	}
-	.icon-shadow::after {
-		content: '';
-		box-shadow: 0 4px 4px 0 rgba(0,0,0,.1784);
-		position: absolute;
-		top: 0;
-		right: 4px;
-		bottom: 8px;
-		left: 4px;
-		border-radius: 50%;
-		z-index: -1;
-	}
-	.icon-shadow:hover {
-		transform: scale(1.2083);
-		opacity: 1;
-	}
-*/
 	.icon-shadow {
 		position: relative;
 		display: inline-block;
