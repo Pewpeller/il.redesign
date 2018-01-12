@@ -1,0 +1,27 @@
+<!--
+<div class="layout">
+	<div class="grid">
+		<div class="grid__cell">
+			<article class="ear dummy">
+				<div class="dummy__text text_small library__subheader">
+					Анонс блога Рубинштейна (блог одного автора на нашем домене) &ndash; пока без дизайна
+				</div>
+			</article>
+		</div>
+		<div class="grid__cell">
+			<article class="ear dummy">
+				<div class="dummy__text text_small library__subheader">
+					Анонс материалов старого сайта, архив. Без дизайна пока
+				</div>
+			</article>
+		</div>
+	</div>
+	<div class="banner">
+		<div class="dummy">
+			<div class="dummy__text text_small library__subheader">
+				Банер всего семестра курсов &ndash; пока без дизайна
+			</div>
+		</div>
+	</div>
+</div>
+-->

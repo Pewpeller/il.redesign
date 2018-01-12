@@ -1,0 +1,53 @@
+.book_announce {
+	width: 100%;
+	color: #fff;
+	text-align: center;
+	margin-bottom: 42px;
+	position: relative;
+}
+	.book_announce .layout {
+		padding-top: 24px;
+		padding-bottom: 20px;
+	}
+	.book_announce--dark {
+		color: #181818;
+	}
+.book_announce__name {
+	font: bold 22px/28px Figgins Sans, Arial, sans-serif;
+	text-transform: uppercase;
+	margin-bottom: 2px;
+}
+.book_announce__subheader {
+	font: 15px/22px Parmigiano Piccolo Light, Arial, sans-serif;
+}
+.book_announce__photo {
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	overflow: hidden;
+	margin: 0;
+}
+	.book_announce__poster {
+		width: 100%;
+	}
+
+@media only screen and (min-width: 621px) {
+	.book_announce .layout {
+		position: relative;
+		padding-bottom: 21px;
+	}
+	.book_announce__name {
+		margin-bottom: 0;
+	}
+	.book_announce__subheader {
+		font-size: 16px;
+		line-height: 25px;
+	}
+	.book_announce__photo {
+		left: 22px;
+		right: 22px;
+	}
+}

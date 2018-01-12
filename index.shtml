@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+	<!--#include virtual="/inc/head.shtml" -->
+	<body>
+		<!--#include virtual="/inc/header.shtml" -->
+		<div class="main" role="main">
+			<!--#include virtual="/inc/announce.shtml" -->
+			<!--#include virtual="/inc/magazine.shtml" -->
+			<!--#include virtual="/inc/project.shtml" -->
+			<!--#include virtual="/inc/library.shtml" -->
+			<!--#include virtual="/inc/blogs.shtml" -->
+			<!--#include virtual="/inc/book_announce.shtml" -->
+			<!--#include virtual="/inc/old_stuff.shtml" -->
+		</div>
+		<!--#include virtual="/inc/footer.shtml" -->
+	</body>
+</html>

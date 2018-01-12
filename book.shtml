@@ -1,0 +1,134 @@
+<!doctype html>
+<html>
+	<!--#include virtual="/inc/head.shtml" -->
+	<body>
+		<!--#include virtual="/inc/header.shtml" -->
+		<div class="main" role="main">
+			<div class="book">
+				<div class="book_post">
+					<header class="book_post__header">
+						<div class="layout">
+							<div class="ear ear--dark ear_m_normal ear_t_small ear_d_normal ear--no_indent book_post__header_text">
+								<div class="book_post__author">
+									<a href="#">Наталья Горбаневская</a>
+								</div>
+								<h1 class="book_post__name">
+									<a href="#">Искусство быть неподвластным</a>
+								</h1>
+								<h2 class="project__subheader">
+									<a href="#">Дело о демонстрации 25 августа 1968 года на Красной площади</a>
+								</h2>
+							</div>
+							<div class="book_post__photo">
+								<picture>
+									<source srcset="/i/Jacobs.webp" type="image/webp">
+									<img src="/i/Jacobs.jpg" alt="" class="book_post__poster">
+								</picture>
+							</div>
+						</div>
+						<div class="doc_socials">
+							<div class="doc_socials__item">
+								<a href="#" class="icon-shadow"><svg class="icon icon--fb" role="img"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-fb"></use></svg></a>
+							</div>
+							<div class="doc_socials__item">
+								<a href="#" class="icon-shadow"><svg class="icon icon--vk" role="img"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-vk"></use></svg></a>
+							</div>
+						</div>
+					</header>
+				</div>
+				<div class="layout">
+					<div class="grid">
+						<div class="grid__inner">
+							<div class="grid__cell grid_t_full grid_d_big">
+								<div class="book__commets">
+									<p class="book__text">
+										Этим летом по четвергам c 2 июня по 18 августа в Парке искусств Музеон журналист, шеф-редактор просветительского сайта arzamas.academy Олег Коронный по просьбе просветительского проекта InLiberty пытается разобраться, почему вокруг столько врут, а главное, что с этим делать. Его гости — кинокритик и режиссер Роман Волобуев, социолог Кирилл Титаев, биоинформатик Михаил Гельфанд, историк Андрей Зорин, антрополог Александр Панченко, политолог Екатерина Шульман, биолог Андрей Чабовский, психолог Мария Фаликман, нейроэкономист Василий Ключарев и лингвист Ирина Левонтина.
+									</p>
+									<div class="book__opinion">
+										<p class="book__opinion_text">
+											Этим летом по четвергам c 2 июня по 18 августа в Парке искусств Музеон журналист, шеф-редактор просветительского сайта arzamas.academy Олег Коронный по просьбе просветительского проекта InLiberty пытается разобраться, почему вокруг столько врут, а главное, что с этим делать. Его гости — кинокритик и режиссер Роман Волобуев, социолог Кирилл Титаев, биоинформатик Михаил Гельфанд, историк Андрей Зорин, антрополог Александр Панченко, политолог Екатерина Шульман, биолог Андрей Чабовский, психолог Мария Фаликман, нейроэкономист Василий Ключарев и лингвист Ирина Левонтина, политолог Екатерина Шульман и Мария.
+										</p>
+										<p class="book__opinion_source">
+											<a href="#">Colta.ru</a>
+										</p>
+									</div>
+									<div class="book__opinion">
+										<p class="book__opinion_text">
+											Этим летом по четвергам c 2 июня по 18 августа в Парке искусств Музеон журналист, шеф-редактор просветительского сайта arzamas.academy Олег Коронный по просьбе просветительского проекта InLiberty пытается разобраться, почему вокруг столько врут, а главное, что с этим делать. Его гости — кинокритик и режиссер Роман Волобуев, социолог Кирилл Титаев, биоинформатик Михаил Гельфанд, историк Андрей Зорин, антрополог Александр Панченко, политолог Екатерина Шульман, биолог Андрей Чабовский, психолог Мария Фаликман, нейроэкономист Василий Ключарев и лингвист Ирина Левонтина.
+										</p>
+										<p class="book__opinion_source">
+											<a href="#">Colta.ru</a>
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="grid__cell grid_d_small">
+								<div class="book__aside">
+									<button class="il_button kbd_button" tabindex="0" type="button">
+										<div class="kbd_button__body" tabindex="-1">Купить</div>
+									</button>
+									<button class="il_button kbd_button" tabindex="0" type="button">
+										<div class="kbd_button__body" tabindex="-1">Читать</div>
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="grid book_index">
+						<div class="grid__inner">
+							<div class="grid__cell grid_t_full grid_tm_half grid_d_small">
+								<div class="book_index__photo">
+									<picture>
+										<source media="(-webkit-min-device-pixel-ratio: 1.25),
+	    								(min-resolution: 120dpi)" srcset="/i/book_index2x.webp" type="image/webp">
+										<source media="(-webkit-min-device-pixel-ratio: 1.25),(min-resolution: 120dpi)" srcset="/i/book_index2x.jpg">
+										<source srcset="/i/book_index.webp" type="image/webp">
+										<img src="/i/book_index.jpg" alt="Наталья Горбаневская">
+									</picture>
+								</div>
+								<h3 class="book_index__text">
+									Наталья Горбаневская
+								</h3>
+								<p class="book_index__text">
+									Американский антрополог Джеймс Скотт уже долго работает над тем, чтобы сделать из анархизма исследовательскую программу. Великая Китайская стена, считает Скотт, была нужна не только китайскому государству, которое она оберегала от варваров, но и варварам, которых стена защищала от сборщиков податей.
+								</p>
+							</div>
+							<div class="grid__cell grid_t_full grid_tm_half grid_d_small">
+								<h4 class="text_tag">
+									Оглавление
+								</h4>
+								<p class="book_index__text">
+									Американский антрополог Джеймс Скотт уже долго работает над тем, чтобы сделать из анархизма исследовательскую программу. Великая Китайская стена, считает Скотт, была нужна не только китайскому государству, которое она оберегала от варваров, но и варварам, которых стена защищала от сборщиков податей.
+								</p>
+								<h3 class="book_index__text">
+									Условия разнообразия в больших городах
+								</h3>
+								<p class="book_index__text">
+									Американский антрополог Джеймс Скотт уже долго работает над тем, чтобы сделать из анархизма исследовательскую программу. Великая Китайская стена, считает Скотт, была нужна не только китайскому государству, которое она оберегала от варваров, но и варварам, которых стена защищала от сборщиков податей.
+								</p>
+								<h3 class="book_index__text">
+									Условия разнообразия в больших городах
+								</h3>
+								<p class="book_index__text">
+									Американский антрополог Джеймс Скотт уже долго работает над тем, чтобы сделать из анархизма исследовательскую программу. Великая Китайская стена, считает Скотт, была нужна не только китайскому государству, которое она оберегала от варваров, но и варварам, которых стена защищала от сборщиков податей.
+								</p>
+							</div>
+							<div class="grid__cell grid_t_full grid_d_small">
+								<p class="book_index__text">
+									ISBN 978-5-94056-033-3<br>
+									Год издания 2014<br>
+									Перевод с итальянского М. Визеля<br>
+									Формат 120 х 194 мм,<br>
+									224 страницы<br>
+									Черно-белые иллюстрации<br>
+									Мягкая обложка с клапаном<br>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--#include virtual="/inc/footer.shtml" -->
+	</body>
+</html>

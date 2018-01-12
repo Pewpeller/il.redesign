@@ -1,0 +1,97 @@
+<div class="layout">
+	<div class="grid">
+		<div class="grid__inner">
+			<!--
+			<div class="grid__cell grid__cell--big">
+				<article class="ear dummy">
+					<div class="dummy__text text_small library__subheader">
+						Анонс курса &ndash;<br>
+						пока без дизайна
+					</div>
+				</article>
+			</div>
+			-->
+
+			<div class="grid__cell grid_d_small">
+				<article class="ear ear_m_normal ear_t_small ear_d_normal ear--dark library">
+					<div class="library__content">
+						<div class="text_tag library__tag">
+							<a href="#">Максим Трудолюбов</a>
+						</div>
+						<h2 class="library__name">
+							<a href="#">Люди за забором</a>
+						</h2>
+						<p class="text_small library__subheader">
+							<a href="#">Власть, собственность и частное пространство в России</a>
+						</p>
+					</div>
+					<div class="book_post__photo">
+						<a href="#">
+							<picture>
+								<source srcset="/i/Fridman.webp" type="image/webp">
+								<img src="/i/Fridman.jpg" alt="" class="book_post__poster">
+							</picture>
+						</a>
+					</div>
+				</article>
+			</div>
+			<div class="grid__cell grid_d_small">
+				<article class="ear ear_m_small ear_m_normal ruche">
+					<div class="ear__content">
+						<div class="ear__photo dark_blind">
+							<a href="#">
+								<picture>
+									<source srcset="/i/main_post_black.webp" type="image/webp">
+									<img src="/i/main_post_black.jpg" alt="Лекция: Драматургия лжи: как нам врут по телевизору" class="ear__poster">
+								</picture>
+							</a>
+						</div>
+						<time class="date_bar">
+							<span class="date_bar__date">30.09</span>
+							<span class="date_bar__day">пт</span>
+							<span class="date_bar__time">21:00</span>
+						</time>
+						<div class="ear__tag">
+							<a href="#">Лекция</a>
+						</div>
+						<h2 class="ear__name">
+							<a href="#">Драматургия лжи: как нам врут в кино и по телевизору</a>
+						</h2>
+						<p class="ear__author">
+							Олег Коронный, Роман Волобуев
+						</p>
+					</div>
+				</article>
+			</div>
+			<div class="grid__cell grid_d_small">
+				<article class="ear ear_m_small ear_m_normal ruche">
+					<div class="ear__content">
+						<div class="ear__photo dark_blind">
+							<a href="#">
+								<picture>
+									<source srcset="/i/project2.webp" type="image/webp">
+									<img src="/i/project2.jpg" alt="Лекция: Драматургия лжи: как нам врут по телевизору" class="ear__poster">
+								</picture>
+							</a>
+						</div>
+						<time class="date_bar">
+							<span class="date_bar__date">30.09</span>
+							<span class="date_bar__day">пт</span>
+							<span class="date_bar__time">21:00</span>
+						</time>
+						<div class="ear__tag">
+							<a href="#">Лекция</a>
+						</div>
+						<h2 class="ear__name">
+							<a href="#">Очень длинная комната</a>
+						</h2>
+						<p class="ear__author">
+							Олег Коронный, Роман Волобуев
+						</p>
+					</div>
+				</article>
+			</div>
+
+		</div>
+	</div>
+</div>

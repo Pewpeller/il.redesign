@@ -1,0 +1,230 @@
+/* main post */
+.main_post {
+	margin-top: -8px;
+	margin-bottom: 37px;
+	position: relative;
+	color: #fff;
+	padding-bottom: 46px;
+}
+.main_post--dark {
+	color: #000;
+}
+.main_post__header {
+	height: 270px;
+	position: relative;
+	padding: 26px 0;
+	box-sizing: border-box;
+	z-index: 1;
+	background-color: #f6f6f6;
+	max-height: 565px;
+}
+.main_post__photo {
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-repeat: repeat-x;
+	background-position: 50% 100%;
+	background-size: cover;
+}
+	.main_post__poster {
+		height: 100%;
+		width: auto;
+		display: block;
+		position: absolute;
+		right: 0;
+	}
+	.object-fit .main_post__poster {
+		width: 100%;
+		/*
+		object-fit: cover;
+		object-position: 100% 100%;
+		*/
+	}
+
+@media only screen and (min-width: 621px) {
+	.main_post {
+		padding-bottom: 45px;
+	}
+	.main_post__header {
+		height: 390px;
+	}
+}
+@media only screen and (min-width: 1024px) {
+	.main_post {
+		margin-bottom: 65px;
+		padding-bottom: 73px;
+	}
+	.main_post__header {
+		height: 452px;
+		padding-top: 61px;
+	}
+	.main_post__header_text {
+		margin-right: 230px;
+	}
+}
+@media only screen and (min-width: 1280px) {
+	.main_post__photo {
+		background-size: auto;
+	}
+	.main_post__header--fluid {
+		height: calc(35.3125vw);
+	}
+}
+@media only screen and (min-width: 1600px) {
+	.main_post__header--fluid {
+		height: 565px;
+	}
+}
+
+.main_post__tag {
+    font: italic 12px/15px Figgins Sans, Arial, sans-serif;
+    margin-bottom: 7px;
+}
+
+.main_post__author {
+	font: 22px/27px Figgins Sans, Arial, sans-serif;
+	margin-bottom: 14px;
+}
+
+.main_post__name {
+	font: bold 22px/28px Figgins Sans, Arial, sans-serif;
+	text-transform: uppercase;
+	margin-bottom: 1px;
+}
+.main_post__subheader {
+	font: 15px/22px Parmigiano Piccolo Light, Arial, sans-serif;
+}
+
+.main_post__partner_image {
+	height: 20px;
+}
+
+@media only screen and (min-width: 621px) {
+	.main_post__tag {
+		font-size: 16px;
+		line-height: 22px;
+		margin-bottom: 8px;
+	}
+
+	.main_post__name {
+		font-size: 40px;
+		line-height: 42px;
+		margin-bottom: 8px;
+	}
+	.main_post__subheader {
+		font-size: 19px;
+		line-height: 28px;
+	}
+}
+@media only screen and (min-width: 1024px) {
+	.main_post__tag {
+		margin-bottom: 15px;
+	}
+	.main_post__name {
+		font-size: 70px;
+		line-height: 74px;
+	}
+	.main_post__subheader {
+		font-size: 24px;
+		line-height: 32px;
+	}
+}
+
+.main_post__partners {
+	color: #fff;
+	margin-bottom: 22px;
+	background-color: #181818;
+	font-size: 0;
+	padding-top: 41px;
+	min-height: 140px;
+	box-sizing: border-box;
+}
+	.main_post__partners_item {
+		display: inline-block;
+		vertical-align: top;
+		text-align: center;
+		width: calc((100% - 22px) / 2);
+		margin-bottom: 28px;
+	}
+	.main_post__partners_item:nth-child(even) {
+		margin-left: 22px;
+	}
+
+@media only screen and (min-width: 480px) {
+	.main_post__partners_item {
+		width: calc((100% - 44px) / 3);
+	}
+	.main_post__partners_item:nth-child(even) {
+		margin-left: 0;
+	}
+	.main_post__partners_item:nth-child(3n+1) {
+		margin-left: 22px;
+		margin-right: 22px;
+	}
+}
+
+	.flexbox .main_post__partners_list {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.flexbox .main_post__partners_item {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+
+.main_post__partner_name {
+	font: italic 12px/15px Figgins Sans, Arial, sans-serif;
+    margin-bottom: 16px;
+}
+
+@media only screen and (min-width: 621px) {
+	.main_post__partner_name {
+		margin-bottom: 16px;
+		font-size: 16px;
+		line-height: 22px;
+	}
+}
+
+.main_post__lead a {
+	border-bottom: 1px solid #d8d8d8;
+}
+.main_post__lead {
+	font: 17px/25px Parmigiano Piccolo Light, Georgia, sans-serif;
+	color: #181818;
+	margin: 0 auto;
+	max-width: 692px;
+	box-sizing: border-box;
+	padding-left: 22px;
+	padding-right: 22px;
+}
+	.main_post__lead b,
+	.main_post__lead strong {
+		font-family: Figgins Sans, Arial, sans-serif;
+		font-weight: bold;
+		font-size: 20px;
+	}
+	.main_post__lead em,
+	.main_post__lead i {
+		font-family: Figgins Sans, Arial, sans-serif;
+		font-style: italic;
+		font-size: 20px;
+	}
+
+@media only screen and (min-width: 621px) {
+	.main_post__lead {
+		font-size: 24px;
+		line-height: 32px;
+	}
+	.main_post__lead b,
+	.main_post__lead strong {
+		font-size: 28px;
+	}
+	.main_post__lead em,
+	.main_post__lead i {
+		font-size: 28px;
+	}
+}

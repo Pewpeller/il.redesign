@@ -1,0 +1,40 @@
+<article class="magazine fit_screen">
+	<div class="layout">
+		<div class="magazine__tag">
+			<h4 class="tag"><a href="#">Журнал</a></h4>
+		</div>
+		<div class="magazine__text_frame">
+			<h1 class="magazine__name"><a href="#">Свобода сегодня</a></h1>
+			<h2 class="magazine__subheader"><a href="#">10 главных экономических идей 20 века</a></h2>
+		</div>
+		<div id="magazine_photo" class="magazine__photo fit_screen__item">
+		</div>
+		<div class="magazine__text_frame">
+			<p class="magazine__intro">
+				<a href="#">
+					Конец августа — эмоциональное дно украинского кризиса. Через три дня, 24-го, российские батальонно-тактические группы перейдут в контрнаступление под Иловайском.
+				</a>
+			</p>
+			<p class="magazine__author">
+				<a href="#">Максим Трудолюбов, Лев Рубинштейн, Юлий Гуголев, Алексей Цветков</a>
+			</p>
+		</div>
+	</div>
+</article>
+<script>
+	Modernizr.on('webp', function(result) {
+		if (result) {
+			var i = "url('/i/main_post_black.webp')";
+		} else {
+			var i = "url('/i/main_post_black.jpg')";
+		}
+		document.getElementById('magazine_photo').style.backgroundImage = i;
+	});
+</script>
+<noscript>
+	<style>
+		#magazine_photo {
+			background-image: url(/i/main_post_black.jpg);
+		}
+	</style>
+</noscript>

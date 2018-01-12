@@ -1,0 +1,52 @@
+.text_color_dark {
+	color: #181818;
+}
+.text_color_light {
+	color: #fff;
+}
+.text_small {
+	font: 12px/15px Figgins Sans, Arial, sans-serif;
+	margin-bottom: 7px;
+}
+	@media only screen and (min-width: 621px) {
+		.text_small {
+			font-size: 16px;
+			line-height: 22px;
+			margin-bottom: 6px;
+		}
+	}
+.text_tag {
+	font: italic 12px/15px Figgins Sans, Arial, sans-serif;
+	margin-bottom: 6px;
+}
+	@media only screen and (min-width: 621px) {
+		.text_tag {
+			font-size: 16px;
+			line-height: 22px;
+			margin-bottom: 6px;
+		}
+	}
+.text_event {
+	font: bold 17px/22px Figgins Sans, Arial, sans-serif;
+	text-transform: uppercase;
+	margin-bottom: 4px;
+}
+	@media only screen and (min-width: 621px) {
+		.text_event {
+			font-size: 22px;
+			line-height: 28px;
+			margin-bottom: 1px;
+		}
+	}
+.text_event {
+	font: bold 17px/22px Figgins Sans, Arial, sans-serif;
+	text-transform: uppercase;
+	margin-bottom: 4px;
+}
+	@media only screen and (min-width: 621px) {
+		.text_event {
+			font-size: 22px;
+			line-height: 28px;
+			margin-bottom: 1px;
+		}
+	}

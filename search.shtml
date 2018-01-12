@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+	<!--#include virtual="/inc/head.shtml" -->
+	<body>
+		<!--#include virtual="/inc/header.shtml?results" -->
+		<div class="main" role="main">
+			<div class="layout">
+				<div class="search_results">
+					<article class="search_result">
+						<h2 class="search_result__name">
+							Новые памятники для новой истории
+						</h2>
+						<h3 class="search_result__subheader">
+							Какие они будут?
+						</h3>
+						<span class="search_result__essence">Разговор</span>
+						<span class="search_result__author">Ильи Венявкина и Андрея Бабицкого</span>
+					</article>
+					<article class="search_result">
+						<h2 class="search_result__name">
+							Повседневная ложь
+						</h2>
+						<h3 class="search_result__subheader">
+							Десять разговоров о том кому и зачем м врем
+						</h3>
+						<span class="search_result__essence">Цикл</span>
+					</article>
+					<article class="search_result">
+						<h2 class="search_result__name">
+							Новые памятники для истории: нужно ли роботам читать?
+						</h2>
+						<h3 class="search_result__subheader">
+							Какие они будут?
+						</h3>
+						<span class="search_result__essence">Разговор</span>
+						<span class="search_result__author">Ильи Венявкина и Андрея Бабицкого</span>
+					</article>
+					<article class="search_result">
+						<h2 class="search_result__name">
+							Повседневная ложь
+						</h2>
+						<h3 class="search_result__subheader">
+							Десять разговоров о том кому и зачем м врем
+						</h3>
+						<span class="search_result__essence">Цикл</span>
+					</article>
+				</div>
+			</div>
+		</div>
+		<!--include virtual="/inc/footer.shtml" -->
+	</body>
+</html>

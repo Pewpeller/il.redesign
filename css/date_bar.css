@@ -1,0 +1,132 @@
+	.date_bar {
+		font: 0/0 a;
+		border: 1px solid currentcolor;
+		box-sizing: border-box;
+		text-align: justify;
+		text-justify: distribute-all-lines;
+		display: block;
+		height: 40px;
+		margin-bottom: 11px;
+		position: relative;
+		width: 255px;
+		max-width: 100%;
+	}
+		.date_bar--light {
+			color: #fff;
+		}
+		@media only screen and (min-width: 621px) {
+			.date_bar {
+				height: 47px;
+				width: 278px;
+			}
+		}
+		@media only screen and (min-width: 1024px) {
+			.date_bar {
+				width: 230px;
+			}
+		}
+		.date_bar--small {
+			width: 230px;
+		}
+		.date_bar::after {
+			width: 100%;
+			content: '';
+			display: inline-block;
+		}
+		.date_bar > * {
+			text-align: left;
+			text-justify: auto;
+		}
+	.date_bar__day {
+		font: bold 17px/38px Figgins Sans, Arial, sans-serif;
+		text-transform: lowercase;
+		width: calc(100% / 252 * 112);
+		display: inline-block;
+		vertical-align: top;
+		text-align: center;
+		position: relative;
+	}
+		.date_bar__day::before,
+		.date_bar__day::after {
+			position: absolute;
+			content: '';
+			border-left: 1px solid currentcolor;
+			height: 22px;
+			top: 9px;
+		}
+		.date_bar__day::before {
+			left: 0;
+		}
+		.date_bar__day::after {
+			right: 0;
+		}
+	.date_bar__date,
+	.date_bar__time,
+	.date_bar__range_date {
+		font: bold 17px/38px Figgins Sans, Arial, sans-serif;
+		width: calc(100% / 252 * 70);
+		display: inline-block;
+		vertical-align: top;
+		text-align: left;
+		box-sizing: border-box;
+	}
+	.date_bar__date {
+		padding-left: 12px;
+	}
+	.date_bar__time {
+		padding-right: 12px;
+		text-align: right;
+	}
+	.date_bar__range_date {
+		padding-left: 12px;
+		width: 100%;
+	}
+	@media only screen and (min-width: 621px) {
+		.date_bar__day {
+			font-size: 22px;
+			line-height: 45px;
+			width: calc(100% / 278 * 100);
+		}
+		.date_bar__day::before,
+		.date_bar__day::after {
+			height: 26px;
+			top: 10px;
+		}
+		.date_bar__date,
+		.date_bar__time,
+		.date_bar__range_date {
+			font-size: 22px;
+			line-height: 45px;
+			width: calc(100% / 278 * 86);
+		}
+		.date_bar__date,
+		.date_bar__range_date {
+			padding-left: 16px;
+		}
+		.date_bar__time {
+			padding-right: 16px;
+		}
+		.date_bar__range_date {
+			padding-left: 16px;
+			width: 100%;
+		}
+	}
+	@media only screen and (min-width: 1024px) {
+		.date_bar__date,
+		.date_bar__time {
+			width: calc(100% / 229 * 72);
+		}
+		.date_bar__date,
+		.date_bar__range_date {
+			padding-left: 12px;
+		}
+		.date_bar__time {
+			padding-right: 12px;
+		}
+		.date_bar__day {
+			width: calc(100% / 229 * 80);
+		}
+		.date_bar__range_date {
+			width: 100%;
+		}
+	}

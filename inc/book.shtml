@@ -1,0 +1,15 @@
+<div class="book">
+	<div class="layout">
+		<h2 class="book__name">
+			<a href="#">Ложь</a>
+		</h2>
+		<h3 class="book__subheader">
+			<a href="#">Десять разговоров о том, кому и зачем мы врем</a>
+		</h3>
+		<div class="book__photo dark_blind ruche">
+			<a href="#">
+				<img class="book__poster" src="/i/project2.jpg" alt="Книги: Ложь / Десять разговоров о том, кому и зачем мы врем">
+			</a>
+		</div>
+	</div>
+</div>

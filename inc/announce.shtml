@@ -1,0 +1,235 @@
+<div class="announce_slider slider slider-simple">
+	<div class="announce_slider__canvas slider-canvas">
+		<div class="announce_slider__item slider-item">
+			<article class="announce">
+				<time class="date_bar">
+					<span class="date_bar__date">30.09</span>
+					<span class="date_bar__day">пт</span>
+					<span class="date_bar__time">21:00</span>
+				</time>
+				<div class="text_tag announce__tag">
+					<a href="#">Разговор</a> / <a href="#">Возвращение этики</a>
+				</div>
+				<h2 class="announce__name"><a href="#">Машины-убийцы: надо ли роботу читать канта? Еще строка</a></h2>
+				<p class="announce__author">
+					Максим Трудолюбов<br>и Лев Рубинштейн
+				</p>
+			</article>
+		</div>
+		<div class="announce_slider__item slider-item">
+			<article class="announce">
+				<time class="date_bar">
+					<span class="date_bar__date">30.09</span>
+					<span class="date_bar__day">пт</span>
+					<span class="date_bar__time">21:00</span>
+				</time>
+				<div class="text_tag announce__tag">
+					<a href="#">Лекция</a> / <a href="#">Зомби-идеи</a>
+				</div>
+				<h2 class="announce__name"><a href="#">Зомби-государственник</a></h2>
+				<p class="announce__author">
+					Екатерина Кронгауз<br>
+					и&nbsp;Вера Шенгелия
+				</p>
+			</article>
+		</div>
+		<div class="announce_slider__item slider-item">
+			<article class="announce">
+				<time class="date_bar">
+					<span class="date_bar__range_date">30.12-20.12</span>
+				</time>
+				<div class="text_tag announce__tag">
+					<a href="#">Тренинг</a>
+				</div>
+				<h2 class="announce__name"><a href="#">Мысленные эксперименты</a></h2>
+			</article>
+		</div>
+		<div class="announce_slider__item slider-item">
+			<article class="announce">
+				<time class="date_bar">
+					<span class="date_bar__range_date">30.11-2012</span>
+				</time>
+				<div class="text_tag announce__tag">
+					<a href="#">Спиддейтин</a>
+				</div>
+				<h2 class="announce__name"><a href="#">Свидания с инлиберти</a></h2>
+			</article>
+		</div>
+		<div class="announce_slider__item slider-item">
+			<article class="announce">
+				<time class="date_bar">
+					<span class="date_bar__date">30.09</span>
+					<span class="date_bar__day">пт</span>
+					<span class="date_bar__time">21:00</span>
+				</time>
+				<div class="text_tag announce__tag">
+					<a href="#">Разговор</a> / <a href="#">Возвращение этики</a>
+				</div>
+				<h2 class="announce__name"><a href="#">Машины-убийцы: надо ли роботу читать канта? Еще строка</a></h2>
+				<p class="announce__author">
+					Максим Трудолюбов<br>и Лев Рубинштейн
+				</p>
+			</article>
+		</div>
+		<div class="announce_slider__item slider-item">
+			<article class="announce">
+				<time class="date_bar">
+					<span class="date_bar__date">30.09</span>
+					<span class="date_bar__day">пт</span>
+					<span class="date_bar__time">21:00</span>
+				</time>
+				<div class="text_tag announce__tag">
+					<a href="#">Лекция</a> / <a href="#">Зомби-идеи</a>
+				</div>
+				<h2 class="announce__name"><a href="#">Зомби-государственник</a></h2>
+				<p class="announce__author">
+					Екатерина Кронгауз<br>
+					и&nbsp;Вера Шенгелия
+				</p>
+			</article>
+		</div>
+		<div class="announce_slider__item slider-item">
+			<article class="announce">
+				<time class="date_bar">
+					<span class="date_bar__range_date">30.12-20.12</span>
+				</time>
+				<div class="text_tag announce__tag">
+					<a href="#">Тренинг</a>
+				</div>
+				<h2 class="announce__name"><a href="#">Мысленные эксперименты</a></h2>
+			</article>
+		</div>
+		<div class="announce_slider__item slider-item">
+			<article class="announce">
+				<time class="date_bar">
+					<span class="date_bar__range_date">30.11-2012</span>
+				</time>
+				<div class="text_tag announce__tag">
+					<a href="#">Спиддейтин</a>
+				</div>
+				<h2 class="announce__name"><a href="#">Свидания с инлиберти</a></h2>
+			</article>
+		</div>
+		<div class="announce_slider__item slider-item">
+			<article class="announce">
+				<time class="date_bar">
+					<span class="date_bar__date">30.09</span>
+					<span class="date_bar__day">пт</span>
+					<span class="date_bar__time">21:00</span>
+				</time>
+				<div class="text_tag announce__tag">
+					<a href="#">Разговор</a> / <a href="#">Возвращение этики</a>
+				</div>
+				<h2 class="announce__name"><a href="#">Машины-убийцы: надо ли роботу читать канта? Еще строка</a></h2>
+				<p class="announce__author">
+					Максим Трудолюбов<br>и Лев Рубинштейн
+				</p>
+			</article>
+		</div>
+		<div class="announce_slider__item slider-item">
+			<article class="announce">
+				<time class="date_bar">
+					<span class="date_bar__date">30.09</span>
+					<span class="date_bar__day">пт</span>
+					<span class="date_bar__time">21:00</span>
+				</time>
+				<div class="text_tag announce__tag">
+					<a href="#">Лекция</a> / <a href="#">Зомби-идеи</a>
+				</div>
+				<h2 class="announce__name"><a href="#">Зомби-государственник</a></h2>
+				<p class="announce__author">
+					Екатерина Кронгауз<br>
+					и&nbsp;Вера Шенгелия
+				</p>
+			</article>
+		</div>
+		<div class="announce_slider__item slider-item">
+			<article class="announce">
+				<time class="date_bar">
+					<span class="date_bar__range_date">30.12-20.12</span>
+				</time>
+				<div class="text_tag announce__tag">
+					<a href="#">Тренинг</a>
+				</div>
+				<h2 class="announce__name"><a href="#">Мысленные эксперименты</a></h2>
+			</article>
+		</div>
+		<div class="announce_slider__item slider-item">
+			<article class="announce">
+				<time class="date_bar">
+					<span class="date_bar__range_date">30.11-2012</span>
+				</time>
+				<div class="text_tag announce__tag">
+					<a href="#">Спиддейтин</a>
+				</div>
+				<h2 class="announce__name"><a href="#">Свидания с инлиберти</a></h2>
+			</article>
+		</div>
+		<div class="announce_slider__item slider-item">
+			<article class="announce">
+				<time class="date_bar">
+					<span class="date_bar__date">30.09</span>
+					<span class="date_bar__day">пт</span>
+					<span class="date_bar__time">21:00</span>
+				</time>
+				<div class="text_tag announce__tag">
+					<a href="#">Разговор</a> / <a href="#">Возвращение этики</a>
+				</div>
+				<h2 class="announce__name"><a href="#">Машины-убийцы: надо ли роботу читать канта? Еще строка</a></h2>
+				<p class="announce__author">
+					Максим Трудолюбов<br>и Лев Рубинштейн
+				</p>
+			</article>
+		</div>
+		<div class="announce_slider__item slider-item">
+			<article class="announce">
+				<time class="date_bar">
+					<span class="date_bar__date">30.09</span>
+					<span class="date_bar__day">пт</span>
+					<span class="date_bar__time">21:00</span>
+				</time>
+				<div class="text_tag announce__tag">
+					<a href="#">Лекция</a> / <a href="#">Зомби-идеи</a>
+				</div>
+				<h2 class="announce__name"><a href="#">Зомби-государственник</a></h2>
+				<p class="announce__author">
+					Екатерина Кронгауз<br>
+					и&nbsp;Вера Шенгелия
+				</p>
+			</article>
+		</div>
+		<div class="announce_slider__item slider-item">
+			<article class="announce">
+				<time class="date_bar">
+					<span class="date_bar__range_date">30.12-20.12</span>
+				</time>
+				<div class="text_tag announce__tag">
+					<a href="#">Тренинг</a>
+				</div>
+				<h2 class="announce__name"><a href="#">Мысленные эксперименты</a></h2>
+			</article>
+		</div>
+		<div class="announce_slider__item slider-item">
+			<article class="announce">
+				<time class="date_bar">
+					<span class="date_bar__range_date">30.11-2012</span>
+				</time>
+				<div class="text_tag announce__tag">
+					<a href="#">Спиддейтин</a>
+				</div>
+				<h2 class="announce__name"><a href="#">Свидания с инлиберти</a></h2>
+			</article>
+		</div>
+
+	</div>
+	<div class="announce_slider__nav announce_slider__prev slider-prev">
+		<a href="#" class="slider-link">
+			<svg class="icon icon--arrow icon--arrow_left" role="img"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-arrow"></use></svg>
+		</a>
+	</div>
+	<div class="announce_slider__nav announce_slider__next slider-next">
+		<a href="#" class="slider-link">
+			<svg class="icon icon--arrow" role="img"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-arrow"></use></svg>
+		</a>
+	</div>
+</div>

@@ -1,0 +1,48 @@
+	<head>
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>inliberty.ru</title>
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<meta name="title" content="inliberty.ru" />
+		<meta property="og:type" content="article" />
+		<meta property="og:url" content="http://dev.inliberty.ru" />
+		<meta property="og:title" content="inliberty.ru" />
+		<meta property="og:description" content="" />
+		<meta property="og:image" content="" />
+		<meta name="twitter:title" content="inliberty.ru" />
+		<meta name="twitter:description" content="" />
+		<meta name="twitter:image" content="/photo/meta/may25.jpg" />
+		<!--include virtual="/inc/favicon.html" -->
+		<link rel="image_src" href="" />
+		<link rel="stylesheet" href="/css/style.css">
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+		<script src="/js/jquery.slider.js" charset="utf-8"></script>
+		<script src="/js/thirdparty.js" charset="utf-8"></script>
+		<script src="/js/scripts.js" charset="utf-8"></script>
+		
+		<link rel="stylesheet" href="https://fonts.typotheque.com/WF-023254-010154.css" type="text/css" />
+
+		<link rel="stylesheet" href="/css/text_guide.css">
+		<link rel="stylesheet" href="/css/search_field.css">
+		<link rel="stylesheet" href="/css/header.css">
+		<link rel="stylesheet" href="/css/grid.css">
+		<link rel="stylesheet" href="/css/announce.css">
+		<link rel="stylesheet" href="/css/date_bar.css">
+		<link rel="stylesheet" href="/css/tag.css">
+		<link rel="stylesheet" href="/css/magazine.css">
+		<link rel="stylesheet" href="/css/ear_grid.css">
+		<link rel="stylesheet" href="/css/ear_content.css">
+		<link rel="stylesheet" href="/css/project.css">
+		<link rel="stylesheet" href="/css/button.css">
+		<link rel="stylesheet" href="/css/library.css">
+		<link rel="stylesheet" href="/css/blog.css">
+		<link rel="stylesheet" href="/css/book_announce.css">
+		<link rel="stylesheet" href="/css/banner.css">
+		<link rel="stylesheet" href="/css/main_post.css">
+		<link rel="stylesheet" href="/css/doc_socials.css">
+		<link rel="stylesheet" href="/css/cycle.css">
+		<link rel="stylesheet" href="/css/book.css">
+		<link rel="stylesheet" href="/css/footer.css">
+		<link rel="stylesheet" href="/css/search.css">
+	</head>

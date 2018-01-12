@@ -1,0 +1,197 @@
+<!doctype html>
+<html>
+	<!--#include virtual="/inc/head.shtml" -->
+	<body>
+		<!--#include virtual="/inc/header.shtml" -->
+		<div class="main" role="main">
+			<div class="main_post fit_screen ruche ruche--separator">
+				<header class="main_post__header main_post__header--fluid">
+					<div class="layout">
+						<div class="main_post__header_text">
+							<div class="main_post__tag">
+								Цикл
+							</div>
+							<h1 class="main_post__name">
+								Повседневная ложь
+							</h1>
+							<h2 class="main_post__subheader">
+								Десять разговоров о том, кому и зачем мы врем
+							</h2>
+						</div>
+						<div id="main_post__photo" class="main_post__photo ruche fit_screen__item">
+							<!--
+							<picture>
+								<source srcset="/i/main_post_black.webp" type="image/webp">
+								<img src="/i/main_post_black.jpg" alt="" class="main_post__poster">
+							</picture>
+							-->
+						</div>
+						<script>
+							Modernizr.on('webp', function(result) {
+								if (result) {
+									var i = "url('/i/main_post_black.webp')";
+								} else {
+									var i = "url('/i/main_post_black.jpg')";
+								}
+								document.getElementById('main_post__photo').style.backgroundImage = i;
+							});
+						</script>
+						<noscript>
+							<style>
+								#main_post__photo {
+									background-image: url(/i/main_post_black.jpg);
+								}
+							</style>
+						</noscript>
+					</div>
+					<div class="doc_socials">
+						<div class="doc_socials__item">
+							<a href="#" class="icon__may_zoom"><svg class="icon icon--fb" role="img"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-fb"></use></svg></a>
+						</div>
+						<div class="doc_socials__item">
+							<a href="#" class="icon__may_zoom"><svg class="icon icon--vk" role="img"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-vk"></use></svg></a>
+						</div>
+					</div>
+				</header>
+				<div class="main_post__partners">
+					<div class="layout">
+						<ul class="main_post__partners_list">
+							<li class="main_post__partners_item">
+								<div class="main_post__partner_name">
+									<a href="#">Информационный партнер</a>
+								</div>
+								<div class="main_post__partner_logo">
+									<a href="#">
+										<img src="/i/partner_logo2.svg" alt="" class="main_post__partner_image">
+									</a>
+								</div>
+							</li>
+							<li class="main_post__partners_item">
+								<div class="main_post__partner_name">
+									<a href="#">Другой партнер</a>
+								</div>
+								<div class="main_post__partner_logo">
+									<a href="#">
+										<img src="/i/partner_logo2.svg" alt="" class="main_post__partner_image">
+									</a>
+								</div>
+							</li>
+							<li class="main_post__partners_item">
+								<div class="main_post__partner_name">
+									<a href="#">
+										Третий партнер
+									</a>
+								</div>
+								<div class="main_post__partner_logo">
+									<a href="#">
+										<img src="/i/partner_logo3.svg" alt="" class="main_post__partner_image">
+									</a>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="layout">
+					<div class="main_post__lead">
+						<p>
+							Этим летом по четвергам c 2 июня по 18 августа в Парке искусств Музеон журналист, шеф-редактор просветительского сайта arzamas.academy <b>Олег Коронный</b> по просьбе <a href="#" target="_blank">просветительского проекта InLiberty</a> пытается разобраться, почему вокруг столько врут, а главное, что с этим делать. Его гости — <i>кинокритик и режиссер</i> Роман Волобуев, социолог Кирилл Титаев, биоинформатик Михаил Гельфанд, историк Андрей Зорин, антрополог Александр Панченко, политолог Екатерина Шульман, биолог Андрей Чабовский, психолог Мария Фаликман, нейроэкономист Василий Ключарев и лингвист Ирина Левонтина.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="cycle ruche ruche--separator">
+				<div class="layout">				
+					<div class="cycle__body">
+						<div class="cycle__announce">
+							<article class="announce">
+								<time class="date_bar">
+									<span class="date_bar__date">30.09</span>
+									<span class="date_bar__day">пт</span>
+									<span class="date_bar__time">21:00</span>
+								</time>
+								<div class="announce__tag">
+									<a href="#">Лекция</a> / <a href="#">Зомби-идеи</a>
+								</div>
+								<h2 class="announce__name"><a href="#">Зомби-государственник</a></h2>
+								<p class="announce__author">
+									Екатерина Кронгауз<br>
+									и&nbsp;Вера Шенгелия
+								</p>
+							</article>
+							<div class="cycle__text_small">
+								<a href="#"><svg class="icon icon--pin" role="img"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-pin"></use></svg>Площадка инлиберти</a>
+							</div>
+						</div>
+						<div class="cycle__details">
+							<div class="cycle__text">
+								<p>
+									<a href="#">Нейроэкономика — новое направление науки.</a> Почему оно появилось? Оказалось, что люди принимают очень странные решения и традиционная наука не всегда может их объяснить. Например, все мы знаем, что в Америке много ураганов, порой с большими человеческими жертвами. Статистика показывает, что от ураганов с женским именем страдает и гибнет больше людей, чем от ураганов мужским именем. <strong>Странное наблюдение!</strong> Оказывается, люди воспринимают ураган с женским именем как менее опасный. Для ученых, изучающих принятие решений, скажем, традиционных экономистов, такой феномен необъясним. Поэтому возникла <b>нейроэкономика</b> — область знаний, где экономисты, нейробиологи и психологи пытаются понять, как мы формируем решение, хотят выяснить, можно ли предсказать его по активности мозга.
+								</p>
+								<p>
+									Нейроэкономика — <i>новое направление науки</i>. Почему оно появилось? Оказалось, что люди принимают очень странные решения и традиционная наука не всегда может их объяснить. Например, все мы знаем, что в Америке много ураганов, порой с большими человеческими жертвами. <a href="#">Статистика показывает</a>, что от ураганов с женским именем страдает и гибнет больше людей, чем от ураганов мужским именем. 
+								</p>
+							</div>
+							<div class="cycle__footer">
+								<button class="il_button kbd_button" tabindex="0" type="button">
+									<div class="kbd_button__body" tabindex="-1">Регистрация</div>
+								</button>
+								<div class="cycle__note">
+									Трансляция на <a href="#">afisha.ru</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="cycle cycle--finished ruche"><!-- cycle--finished ставим, когда цикл завершен -->
+				<div class="layout">
+					<div class="cycle__body">
+						<div class="cycle__announce">
+							<article class="announce">
+								<time class="date_bar">
+									<span class="date_bar__date">30.09</span>
+									<span class="date_bar__day">пт</span>
+									<span class="date_bar__time">21:00</span>
+								</time>
+								<div class="announce__tag">
+									<a href="#">Лекция</a> / <a href="#">Зомби-идеи</a>
+								</div>
+								<h2 class="announce__name"><a href="#">Зомби-государственник</a></h2>
+								<p class="announce__author">
+									Екатерина Кронгауз<br>
+									и&nbsp;Вера Шенгелия
+								</p>
+							</article>
+							<div class="cycle__text_small">
+								<a href="#"><svg class="icon icon--pin" role="img"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-pin"></use></svg>Площадка инлиберти</a>
+							</div>
+						</div>
+						<div class="cycle__details">
+							<div class="cycle__text">
+								<p>
+									Нейроэкономика — новое направление науки. Почему оно появилось? Оказалось, что люди принимают очень странные решения и традиционная наука не всегда может их объяснить. Например, все мы знаем, что <b>в Америке много ураганов</b>, порой с большими человеческими жертвами. Статистика показывает, что от ураганов с женским именем страдает и гибнет больше людей, чем от ураганов мужским именем. Странное наблюдение! Оказывается, люди воспринимают ураган с женским именем как менее опасный. Для ученых, изучающих принятие решений, скажем, традиционных экономистов, такой феномен необъясним. Поэтому возникла <b>нейроэкономика</b> — область знаний, где экономисты, нейробиологи и психологи пытаются понять, как мы формируем решение, хотят выяснить, можно ли предсказать его по активности мозга.
+								</p>
+							</div>
+							<ul class="cycle__words">
+								<li class="cycle__words_item">
+									<a href="#">Расшифровка</a>
+								</li>
+								<li class="cycle__words_item">
+									<a href="#">Видео</a>
+								</li>
+								<li class="cycle__words_item">
+									<a href="#">Фотографии</a>
+								</li>
+								<li class="cycle__words_item">
+									<a href="#">Подкаст</a>
+								</li>
+							</ul>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--#include virtual="/inc/footer.shtml" -->
+	</body>
+</html>

@@ -1,0 +1,178 @@
+<!doctype html>
+<html>
+	<!--#include virtual="/inc/head.shtml" -->
+	<body>
+		<!--#include virtual="/inc/svg_icons.shtml" -->
+		<!--#include virtual="/inc/header.shtml" -->
+		<div class="main" role="main">
+			<div class="layout">
+				<div class="grid">
+					<div class="grid__inner">
+						<div class="grid__cell grid_t_full book_post">
+							<div class="ear ear--dark ear_m_normal ear_t_small ear_d_normal book_post__header">
+								<div class="book_post__header_text">
+									<div class="book_post__author">
+										<a href="#">Наталья Горбаневская</a>
+									</div>
+									<h1 class="book_post__name">
+										<a href="#">Искусство быть неподвластным</a>
+									</h1>
+									<h2 class="book_post__subheader">
+										<a href="#">Дело о демонстрации 25 августа 1968 года на Красной площади</a>
+									</h2>
+								</div>
+								<div class="book_post__photo">
+									<a href="#">
+										<picture>
+											<source srcset="/i/Jacobs.webp" type="image/webp">
+											<img src="/i/Jacobs.jpg" alt="" class="book_post__poster">
+										</picture>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="grid__cell grid_t_full grid_tm_half grid_d_small">
+							<article class="ear ear_m_normal ear_t_normal ear_d_normal ear--dark library">
+								<div class="library__content">
+									<div class="text_tag library__tag">
+										<a href="#">Максим Трудолюбов</a>
+									</div>
+									<h2 class="library__name">
+										<a href="#">Люди за забором</a>
+									</h2>
+									<p class="text_small library__subheader">
+										<a href="#">Власть, собственность и частное пространство в России</a>
+									</p>
+								</div>
+								<div class="book_post__photo">
+									<a href="#">
+										<picture>
+											<source srcset="/i/Fridman.webp" type="image/webp">
+											<img src="/i/Fridman.jpg" alt="" class="book_post__poster">
+										</picture>
+									</a>
+								</div>
+							</article>
+						</div>
+						<div class="grid__cell grid_t_full grid_tm_half grid_d_small">
+							<article class="ear ear_m_normal ear_t_normal ear_d_normal ear--dark library">
+								<div class="library__content">
+									<div class="text_tag library__tag">
+										<a href="#">Максим Трудолюбов</a>
+									</div>
+									<h2 class="library__name">
+										<a href="#">Люди за забором</a>
+									</h2>
+									<p class="text_small library__subheader">
+										<a href="#">Власть, собственность и частное пространство в России</a>
+									</p>
+								</div>
+								<div class="book_post__photo">
+									<a href="#">
+										<picture>
+											<source srcset="/i/Gorbanevskaya.webp" type="image/webp">
+											<img src="/i/Gorbanevskaya.jpg" alt="" class="book_post__poster">
+										</picture>
+									</a>
+								</div>
+							</article>
+						</div>
+						<div class="grid__cell grid_t_full grid_tm_half grid_d_small">
+							<article class="ear ear_m_normal ear_t_normal ear_d_normal ear--dark library">
+								<div class="library__content">
+									<div class="text_tag library__tag">
+										<a href="#">Максим Трудолюбов</a>
+									</div>
+									<h2 class="library__name">
+										<a href="#">Люди за забором</a>
+									</h2>
+									<p class="text_small library__subheader">
+										<a href="#">Как китай стал капиталисическим</a>
+									</p>
+								</div>
+								<div class="book_post__photo">
+									<a href="#">
+										<picture>
+											<source srcset="/i/Jacobs.webp" type="image/webp">
+											<img src="/i/Jacobs.jpg" alt="" class="book_post__poster">
+										</picture>
+									</a>
+								</div>
+							</article>
+						</div>
+						<div class="grid__cell grid_t_full grid_tm_half grid_d_small">
+							<article class="ear ear_m_normal ear_t_normal ear_d_normal ear--dark library">
+								<div class="library__content">
+									<div class="text_tag library__tag">
+										<a href="#">Максим Трудолюбов</a>
+									</div>
+									<h2 class="library__name">
+										<a href="#">Люди за забором</a>
+									</h2>
+									<p class="text_small library__subheader">
+										<a href="#">Власть, собственность и частное пространство в России</a>
+									</p>
+								</div>
+								<div class="book_post__photo">
+									<a href="#">
+										<picture>
+											<source srcset="/i/Fridman.webp" type="image/webp">
+											<img src="/i/Fridman.jpg" alt="" class="book_post__poster">
+										</picture>
+									</a>
+								</div>
+							</article>
+						</div>
+						<div class="grid__cell grid_t_full grid_tm_half grid_d_small">
+							<article class="ear ear_m_normal ear_t_normal ear_d_normal ear--dark library">
+								<div class="library__content">
+									<div class="text_tag library__tag">
+										<a href="#">Максим Трудолюбов</a>
+									</div>
+									<h2 class="library__name">
+										<a href="#">Люди за забором</a>
+									</h2>
+									<p class="text_small library__subheader">
+										<a href="#">Власть, собственность и частное пространство в России</a>
+									</p>
+								</div>
+								<div class="book_post__photo">
+									<a href="#">
+										<picture>
+											<source srcset="/i/Gorbanevskaya.webp" type="image/webp">
+											<img src="/i/Gorbanevskaya.jpg" alt="" class="book_post__poster">
+										</picture>
+									</a>
+								</div>
+							</article>
+						</div>
+						<div class="grid__cell grid_t_full grid_tm_half grid_d_small">
+							<article class="ear ear_m_normal ear_t_normal ear_d_normal ear--dark library">
+								<div class="library__content">
+									<div class="text_tag library__tag">
+										<a href="#">Максим Трудолюбов</a>
+									</div>
+									<h2 class="library__name">
+										<a href="#">Люди за забором</a>
+									</h2>
+									<p class="text_small library__subheader">
+										<a href="#">Как китай стал капиталисическим</a>
+									</p>
+								</div>
+								<div class="book_post__photo">
+									<a href="#">
+										<picture>
+											<source srcset="/i/Jacobs.webp" type="image/webp">
+											<img src="/i/Jacobs.jpg" alt="" class="book_post__poster">
+										</picture>
+									</a>
+								</div>
+							</article>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--#include virtual="/inc/footer.shtml" -->
+	</body>
+</html>

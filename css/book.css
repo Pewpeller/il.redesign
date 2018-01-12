@@ -1,0 +1,250 @@
+.book_post {
+	margin-top: -8px;
+}
+.book_post__header {
+	z-index: 1;
+	background-color: #f6f6f6;
+	position: relative;
+	margin-bottom: 37px;
+}
+.book_post__header_text {
+	max-width: 276px;
+	margin-bottom: 0;
+}
+
+@media only screen and (min-width: 621px) {
+	.book_post .book_post__header_text {
+		max-width: 256px;
+	}
+}
+@media only screen and (min-width: 668px) {
+	.book_post .book_post__header_text {
+		max-width: 378px;
+	}
+}
+@media only screen and (min-width: 1024px) {
+	.book_post__header {
+		margin-bottom: 63px;
+	}
+	.book_post .book_post__header_text,
+	.book_post__header_text {
+			max-width: 450px;
+		}
+	}
+	.book_post__poster {
+		margin-left: auto;
+		position: absolute;
+		bottom: 28px;
+		right: 22px;
+		left: 22px;
+		max-height: 276px;
+		z-index: -1;
+		max-width: calc(100% - 44px);
+	}
+@media only screen and (min-width: 621px) {
+		.book_post__poster {
+			position: absolute;
+			bottom: 28px;
+			left: auto;
+			max-height: 224px; /* 100 - 28px */
+		}
+}
+@media only screen and (min-width: 1024px) {
+	.book_post__poster {
+		max-height: 262px;
+		right: 22px;
+	}
+	.book_post .book_post__poster {
+		max-height: 334px;
+		right: calc((100% - 962px) / 2 + 62px);
+	}
+}
+
+.book__text,
+.book__opinion_text {
+	padding-left: 22px;
+	padding-right: 22px;
+	box-sizing: border-box;
+	color: #181818;
+}
+.book__text {
+	font: 15px/22px Parmigiano Piccolo Light, Georgia, serif;
+	margin-bottom: 18px;
+}
+.book__opinion {
+	margin-bottom: 18px;
+}
+.book__opinion_text {
+	font: italic 15px/22px Figgins Sans, Arial, sans-serif;
+	margin-bottom: 1px;
+}
+.book_post__author {
+	font: 14px/22px Figgins Sans, Arial, sans-serif;
+	margin-bottom: 4px;
+}
+.book_post__name {
+	font: bold 17px/22px Figgins Sans, Arial, sans-serif;
+	text-transform: uppercase;
+}
+.book_post__subheader {
+	font: 15px/22px Parmigiano Piccolo Light, Arial, sans-serif;
+}
+@media only screen and (min-width: 621px) {
+	.book__text {
+		font-size: 19px;
+		line-height: 28px;
+		margin-bottom: 30px;
+		width: 678px;
+		max-width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.book__opinion_text {
+		margin-bottom: 12px;
+		font-size: 22px;
+		line-height: 28px;
+		width: 678px;
+		max-width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.book_post__author {
+		font-size: 16px;
+		line-height: 22px;
+	}
+	.book_post__name {
+		font-size: 22px;
+		line-height: 28px;
+		margin-bottom: 1px;
+	}
+	.book_post__subheader {
+		font-size: 16px;
+		line-height: 22px;
+	}
+	.book__opinion {
+		margin-bottom: 30px;
+	}
+}
+@media only screen and (min-width: 1024px) {
+	.book__text {
+		margin-bottom: 52px;
+		margin-left: 0;
+		margin-right: 0;
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.book__opinion {
+		margin-bottom: 17px;
+	}
+	.book__opinion_text {
+		margin-left: 0;
+		margin-right: 0;
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.book_post__author {
+		font-size: 22px;
+		line-height: 28px;
+		margin-bottom: 11px;
+	}
+	.book_post__name {
+		font-size: 40px;
+		line-height: 42px;
+		margin-bottom: 6px;
+	}
+	.book_post__subheader {
+		font-size: 19px;
+		line-height: 28px;
+	}
+	.book__opinion {
+		margin-bottom: 58px;
+	}
+}
+
+.book__opinion_source {
+	margin-top: 1px;
+	font: bold 14px/19px Figgins Sans, Arial, sans-serif;
+	color: #181818;
+	text-align: right;
+}
+@media only screen and (min-width: 621px) {
+	.book__opinion_source {
+		font-size: 16px;
+		line-height: 22px;
+	}
+}
+
+.book_index {
+	margin-top: 20px;
+	padding-top: 42px;
+	border-top: 1px solid #d8d8d8;
+}
+
+.book_index__text {
+	font: 14px/18px Figgins Sans, Arial, sans-serif;
+	margin-bottom: 14px;
+}
+h3.book_index__text {
+	font-weight: bold;
+	margin-bottom: 11px;
+}
+@media only screen and (min-width: 621px) {
+	.book_index__text {
+		font-size: 16px;
+		line-height: 22px;
+	}
+	.book_index {
+		margin-top: 27px;
+	}
+}
+.book_index__photo {
+	margin-bottom: 22px;
+}
+	.book_index__photo img {
+		max-width: 225px;
+	}
+
+.book__aside {
+	text-align: center;
+	padding-top: 5px;
+}
+
+@media only screen and (min-width: 1024px) {
+	.book_index {
+		margin-top: 5px;
+	}
+	.book__aside {
+		padding-top: 7px;
+	}
+}
+
+.book .il_button  {
+	width: 146px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+@media only screen and (min-width: 621px) {
+	.book .il_button {
+		display: inline-block;
+		margin-left: 11px;
+		margin-right: 11px;
+		margin-bottom: 15px;
+	}
+}
+@media only screen and (min-width: 1024px) {
+	.book .il_button {
+		margin-bottom: 40px;
+	}
+}
+@media only screen and (min-width: 1024px) {
+	.book_post .doc_socials {
+		top: 66px;	
+	}
+}
+@media only screen and (min-width: 1024px) {
+	.book_post .doc_socials {
+		top: 70px;	
+	}
+}

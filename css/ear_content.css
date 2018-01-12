@@ -1,0 +1,70 @@
+.ear__content {
+	max-width: 272px;
+}
+
+.ear__photo {
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	overflow: hidden;
+	margin: 0;
+}
+	.ear__poster {
+		min-width: 977px;
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		min-height: 100%;
+	}
+.ear__name {
+	font: bold 17px/22px Figgins Sans, Arial, sans-serif;
+	text-transform: uppercase;
+	margin-bottom: 4px;
+}
+.ear__name--events {
+	font-size: 22px;
+	line-height: 28px;
+}
+.ear__author {
+    font: 12px/15px Figgins Sans, Arial, sans-serif;
+    margin-bottom: 7px;
+}
+.ear__tag {
+	font: italic 12px/15px Figgins Sans, Arial, sans-serif;
+	margin-bottom: 7px;
+}
+@media only screen and (min-width: 621px) {
+	.ear__tag {
+		font-size: 16px;
+		line-height: 22px;
+		margin-bottom: 6px;
+	}
+	.ear__author {
+		font-size: 16px;
+		line-height: 22px;		
+	}
+}
+.ear__subheader {
+	font: 15px/22px Parmigiano Piccolo Light, Arial, sans-serif;
+}
+@media only screen and (min-width: 621px) {
+	.ear__tag {
+		margin-bottom: 8px;
+	}
+	.ear__name {
+		font-size: 22px;
+		line-height: 28px;
+		margin-bottom: 1px;
+	}
+	.ear__name--accent {
+		font-size: 40px;
+		line-height: 42px;
+	}
+	.ear__subheader {
+		font-size: 19px;
+		line-height: 28px;
+	}
+}

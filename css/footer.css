@@ -1,0 +1,197 @@
+.main_footer {
+	margin-top: 42px;
+	margin-bottom: 42px;
+	padding-top: 28px;
+	text-align: center;
+	border-top: 3px solid #181818;
+	position: relative;
+	font-size: 0;
+}
+.main_footer .inliberty_logo {
+	vertical-align: top;
+	margin: 0 auto 28px auto;
+	display: block;
+}
+
+@media only screen and (min-width: 621px) {
+	.main_footer {
+		text-align: left;
+	}
+	.main_footer .inliberty_logo {
+		position: relative;
+		margin-right: 24px;
+		margin-left: 0;
+		float: left;
+		margin-bottom: 42px;
+		top: 1px;
+	}
+}
+@media only screen and (min-width: 1024px) {
+	.main_footer {
+		margin-top: 70px;
+		margin-bottom: 70px;
+	}	
+}
+.main_footer__nav {
+	display: block;
+}
+.main_footer__item {
+	font: bold 16px/1 Figgins Sans, Arial, sans-serif;
+	color: #181818;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 18px;
+	margin-right: 18px;
+	margin-bottom: 22px;
+}
+.main_footer__item:first-child {
+	margin-left: 0;
+}
+.main_footer__item:last-child {
+	margin-right: 0;
+}
+@media only screen and (min-width: 621px) {
+	.main_footer__nav::after {
+		display: table;
+		content: '';
+		position: relative;
+		clear: both;
+	}
+	.main_footer__item {
+		margin-left: 7px;
+		margin-right: 7px;
+	}
+	.main_footer__item--pinned {
+		float: right;
+	}
+}
+.main_footer__about {
+	clear: both;
+	font: 15px/22px Parmigiano Piccolo Light, Arial, sans-serif;
+	color: #181818;
+	margin-top: 11px;
+	text-align: left;
+	margin-bottom: 42px;
+}
+@media only screen and (min-width: 621px) {
+	.main_footer__about {
+		font-size: 16px;
+		margin-left: 70px;
+		margin-right: 70px;
+	}
+}
+.main_footer__subscribe {
+	width: 376px;
+	max-width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	padding: 0;
+}
+@media only screen and (min-width: 1280px) {
+	.main_footer__about {
+		display: inline-block;
+		width: 50%;
+		padding-right: 11px;
+		box-sizing: border-box;
+		vertical-align: middle;
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.main_footer__subscribe {
+		display: inline-block;
+		width: 50%;
+		padding-left: 11px;
+		box-sizing: border-box;
+		vertical-align: middle;
+	}
+}
+
+.main_footer__note {
+	font: italic 16px/22px Figgins Sans, Arial, sans-serif;
+	margin-bottom: 17px;
+	width: 312px;
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.main_footer__subscribe_field {
+	max-width: 100%;
+	width: 312px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #181818;
+	margin: 0 auto 28px auto;
+}
+	.main_footer__subscribe_input {
+		font: 22px/1 Figgins Sans, Arial, sans-serif;
+		color: #181818;
+		border: 0;
+		border-radius: 0;
+		width: 312px;
+		max-width: 100%;
+		background-color: transparent;
+		height: 28px;
+		text-align: center;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.main_footer__subscribe_input::placeholder {
+		color: #181818;
+		opacity: .3;
+	}
+
+@media only screen and (min-width: 621px) {
+	.main_footer__subscribe_input {
+		font: 28px/1 Figgins Sans, Arial, sans-serif;
+		height: 32px;
+	}
+}
+/* socials */
+.main_footer_socials {
+	margin-top: 20px;
+	margin-bottom: 12px;
+	text-align: center;
+}
+@media only screen and (min-width: 1024px) {
+	.main_footer_socials {
+		margin-top: 56px;
+		margin-bottom: 68px;
+		font: 0/0 a;
+	}
+}
+@media only screen and (min-width: 1280px) {
+	.main_footer_socials {
+		margin-top: 34px;
+		margin-bottom: 68px;
+	}
+}
+.main_footer_socials__item {
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 11px;
+	margin-right: 11px;
+	margin-bottom: 22px;
+}
+
+@media only screen and (min-width: 370px) {
+	.main_footer_socials__item {
+		margin-left: calc(11px + 22 * (100vw - 370px) / (621 - 370));
+		margin-right: calc(11px + 22 * (100vw - 370px) / (621 - 370));
+	}
+}
+@media only screen and (min-width: 621px) {
+	.main_footer_socials__item {
+		margin-left: 33px;
+		margin-right: 33px;
+		// margin-bottom: 0;
+	}
+}
+.main_footer__license {
+	font: 12px/15px Figgins Sans, Arial, sans-serif;
+	text-align: center;
+}
+@media only screen and (min-width: 1024px) {
+	.main_footer__license {
+		text-align: left;
+	}
+}

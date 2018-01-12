@@ -1,0 +1,267 @@
+<!doctype html>
+<html>
+	<!--#include virtual="/inc/head.shtml" -->
+	<body>
+		<!--#include virtual="/inc/svg_icons2.shtml" -->
+		<!--#include virtual="/inc/header.shtml" -->
+		<div class="main" role="main">
+			<div class="layout">
+				<div class="blogs">
+					<article class="blog">
+						<time class="tag blog__date"><!-- 52px/66px -->
+							<a href="#">03.09.17</a>
+						</time>
+						<a href="#">
+							<svg class="icon icon--sound blog__icon" role="img"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-sound"></use></svg>
+						</a>
+						<div class="blog__text">
+							<h2 class="blog__name">
+								<a href="#">Новые памятники для новой истории</a>
+							</h2>
+							<h3 class="blog__subheader">
+								<a href="#">Итоги воркшопа Inliberty и МАРШ</a>
+							</h3>
+						</div>
+						<p class="text_tag blog__author">
+							<a href="#">
+								<i>Разговор</i> Ильи Венявкина и Андрея Бабицкого
+							</a>
+						</p>
+					</article>
+					<article class="blog">
+						<time class="tag blog__date"><!-- 52px/66px -->
+							<a href="#">03.09.17</a>
+						</time>
+						<a href="#">
+							<svg class="icon icon--play blog__icon" role="img"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-play"></use></svg>
+						</a>
+						<div class="blog__text">
+							<h2 class="blog__name">
+								<a href="#">Новые памятники для новой истории</a>
+							</h2>
+							<h3 class="blog__subheader">
+								<a href="#">Итоги воркшопа Inliberty и МАРШ</a>
+							</h3>
+						</div>
+						<p class="text_tag blog__author">
+							<a href="#">
+								<i>Разговор</i> Ильи Венявкина и Андрея Бабицкого
+							</a>
+						</p>
+					</article>
+					<article class="blog">
+						<time class="tag blog__date"><!-- 52px/66px -->
+							<a href="#">03.09.17</a>
+						</time>
+						<a href="#">
+							<svg class="icon icon--text blog__icon" role="img"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-text"></use></svg>
+						</a>
+						<div class="blog__text">
+							<h2 class="blog__name">
+								<a href="#">Новые памятники для новой истории</a>
+							</h2>
+							<h3 class="blog__subheader">
+								<a href="#">Итоги воркшопа Inliberty и МАРШ</a>
+							</h3>
+						</div>
+						<p class="text_tag blog__author">
+							<a href="#">
+								<i>Разговор</i> Ильи Венявкина и Андрея Бабицкого
+							</a>
+						</p>
+					</article>
+					<article class="blog">
+						<time class="tag blog__date"><!-- 52px/66px -->
+							<a href="#">03.09.17</a>
+						</time>
+						<a href="#">
+							<svg class="icon icon--sound blog__icon" role="img"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-sound"></use></svg>
+						</a>
+						<div class="blog__text">
+							<h2 class="blog__name">
+								<a href="#">Новые памятники для новой истории</a>
+							</h2>
+							<h3 class="blog__subheader">
+								<a href="#">Итоги воркшопа Inliberty и МАРШ</a>
+							</h3>
+						</div>
+						<p class="text_tag blog__author">
+							<a href="#">
+								<i>Разговор</i> Ильи Венявкина и Андрея Бабицкого
+							</a>
+						</p>
+					</article>
+					<article class="blog">
+						<time class="tag blog__date"><!-- 52px/66px -->
+							<a href="#">03.09.17</a>
+						</time>
+						<a href="#">
+							<svg class="icon icon--play blog__icon" role="img"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-play"></use></svg>
+						</a>
+						<div class="blog__text">
+							<h2 class="blog__name">
+								<a href="#">Новые памятники для новой истории</a>
+							</h2>
+							<h3 class="blog__subheader">
+								<a href="#">Итоги воркшопа Inliberty и МАРШ</a>
+							</h3>
+						</div>
+						<p class="text_tag blog__author">
+							<a href="#">
+								<i>Разговор</i> Ильи Венявкина и Андрея Бабицкого
+							</a>
+						</p>
+					</article>
+					<article class="blog">
+						<time class="tag blog__date"><!-- 52px/66px -->
+							<a href="#">03.09.17</a>
+						</time>
+						<a href="#">
+							<svg class="icon icon--text blog__icon" role="img"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-text"></use></svg>
+						</a>
+						<div class="blog__text">
+							<h2 class="blog__name">
+								<a href="#">Новые памятники для новой истории</a>
+							</h2>
+							<h3 class="blog__subheader">
+								<a href="#">Итоги воркшопа Inliberty и МАРШ</a>
+							</h3>
+						</div>
+						<p class="text_tag blog__author">
+							<a href="#">
+								<i>Разговор</i> Ильи Венявкина и Андрея Бабицкого
+							</a>
+						</p>
+					</article>
+					<article class="blog">
+						<time class="tag blog__date"><!-- 52px/66px -->
+							<a href="#">03.09.17</a>
+						</time>
+						<a href="#">
+							<svg class="icon icon--sound blog__icon" role="img"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-sound"></use></svg>
+						</a>
+						<div class="blog__text">
+							<h2 class="blog__name">
+								<a href="#">Новые памятники для новой истории</a>
+							</h2>
+							<h3 class="blog__subheader">
+								<a href="#">Итоги воркшопа Inliberty и МАРШ</a>
+							</h3>
+						</div>
+						<p class="text_tag blog__author">
+							<a href="#">
+								<i>Разговор</i> Ильи Венявкина и Андрея Бабицкого
+							</a>
+						</p>
+					</article>
+					<article class="blog">
+						<time class="tag blog__date"><!-- 52px/66px -->
+							<a href="#">03.09.17</a>
+						</time>
+						<a href="#">
+							<svg class="icon icon--play blog__icon" role="img"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-play"></use></svg>
+						</a>
+						<div class="blog__text">
+							<h2 class="blog__name">
+								<a href="#">Новые памятники для новой истории</a>
+							</h2>
+							<h3 class="blog__subheader">
+								<a href="#">Итоги воркшопа Inliberty и МАРШ</a>
+							</h3>
+						</div>
+						<p class="text_tag blog__author">
+							<a href="#">
+								<i>Разговор</i> Ильи Венявкина и Андрея Бабицкого
+							</a>
+						</p>
+					</article>
+					<article class="blog">
+						<time class="tag blog__date"><!-- 52px/66px -->
+							<a href="#">03.09.17</a>
+						</time>
+						<a href="#">
+							<svg class="icon icon--text blog__icon" role="img"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-text"></use></svg>
+						</a>
+						<div class="blog__text">
+							<h2 class="blog__name">
+								<a href="#">Новые памятники для новой истории</a>
+							</h2>
+							<h3 class="blog__subheader">
+								<a href="#">Итоги воркшопа Inliberty и МАРШ</a>
+							</h3>
+						</div>
+						<p class="text_tag blog__author">
+							<a href="#">
+								<i>Разговор</i> Ильи Венявкина и Андрея Бабицкого
+							</a>
+						</p>
+					</article>
+					<article class="blog">
+						<time class="tag blog__date"><!-- 52px/66px -->
+							<a href="#">03.09.17</a>
+						</time>
+						<a href="#">
+							<svg class="icon icon--sound blog__icon" role="img"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-sound"></use></svg>
+						</a>
+						<div class="blog__text">
+							<h2 class="blog__name">
+								<a href="#">Новые памятники для новой истории</a>
+							</h2>
+							<h3 class="blog__subheader">
+								<a href="#">Итоги воркшопа Inliberty и МАРШ</a>
+							</h3>
+						</div>
+						<p class="text_tag blog__author">
+							<a href="#">
+								<i>Разговор</i> Ильи Венявкина и Андрея Бабицкого
+							</a>
+						</p>
+					</article>
+					<article class="blog">
+						<time class="tag blog__date"><!-- 52px/66px -->
+							<a href="#">03.09.17</a>
+						</time>
+						<a href="#">
+							<svg class="icon icon--play blog__icon" role="img"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-play"></use></svg>
+						</a>
+						<div class="blog__text">
+							<h2 class="blog__name">
+								<a href="#">Новые памятники для новой истории</a>
+							</h2>
+							<h3 class="blog__subheader">
+								<a href="#">Итоги воркшопа Inliberty и МАРШ</a>
+							</h3>
+						</div>
+						<p class="text_tag blog__author">
+							<a href="#">
+								<i>Разговор</i> Ильи Венявкина и Андрея Бабицкого
+							</a>
+						</p>
+					</article>
+					<article class="blog">
+						<time class="tag blog__date"><!-- 52px/66px -->
+							<a href="#">03.09.17</a>
+						</time>
+						<a href="#">
+							<svg class="icon icon--text blog__icon" role="img"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-text"></use></svg>
+						</a>
+						<div class="blog__text">
+							<h2 class="blog__name">
+								<a href="#">Новые памятники для новой истории</a>
+							</h2>
+							<h3 class="blog__subheader">
+								<a href="#">Итоги воркшопа Inliberty и МАРШ</a>
+							</h3>
+						</div>
+						<p class="text_tag blog__author">
+							<a href="#">
+								<i>Разговор</i> Ильи Венявкина и Андрея Бабицкого
+							</a>
+						</p>
+					</article>
+				</div>
+			</div>
+		</div>
+		<!--#include virtual="/inc/footer.shtml" -->
+	</body>
+</html>

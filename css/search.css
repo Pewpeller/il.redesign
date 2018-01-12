@@ -1,0 +1,33 @@
+.search_results {
+	margin-top: 42px;
+	max-width: 648px;
+	margin: 42px auto 42px auto;
+}
+@media only screen and (min-width: 1024px) {
+	.search_results {
+		margin-top: 38px;
+		margin-bottom: 38px;
+	}
+}
+.search_result {
+	color: #181818;
+	margin-bottom: 16px;
+}
+.search_result__name {
+	font: bold 22px/1 Figgins Sans, Arial, sans-serif;
+	margin-bottom: 2px;
+}
+.search_result__subheader {
+	font: 16px/22px Parmigiano Piccolo Light, Arial, sans-serif;
+	margin-bottom: 7px;
+}
+.search_result__essence {
+	font: italic 16px/22px Figgins Sans, Arial, sans-serif;
+}
+.search_result__essence::after {
+	white-space: pre;
+	content: '  ';
+}
+.search_result__author {
+	font: 16px/22px Figgins Sans, Arial, sans-serif;
+}

@@ -1,0 +1,61 @@
+<div class="layout">
+	<footer class="main_footer">
+		<a href="/">
+			<svg class="inliberty_logo"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#inliberty_logo"></use></svg>
+		</a>
+		<nav class="main_footer__nav">
+			<ul class="main_footer__nav_list">
+				<li class="main_footer__item">
+					<a href="#">
+						Материалы
+					</a>
+				</li>
+				<li class="main_footer__item">
+					<a href="#">
+						О проекте
+					</a>
+				</li>
+				<li class="main_footer__item main_footer__item--pinned">
+					<a href="#">
+						Архив
+					</a>
+				</li>
+			</ul>
+		</nav>
+		<div class="main_footer__about">
+			<p>
+				InLiberty — просветительский проект и дискуссионная площадка для обсуждения будущего человеческого общества, его истории и тех изменений, которые происходят с ним на наших глазах. InLiberty поддерживает одноименный сайт и издает книги, проводит лекции и семинары, организует конкурсы студенческих исследований и летние школы, а также консультирует в сфере образования и культуры.
+			</p>
+		</div>
+		<form class="main_footer__subscribe" name="subscribe" id="subscribe">
+			<p class="main_footer__note">Подпишитесь, чтобы быть в курсе последних статей</p>
+			<div class="main_footer__subscribe_field">
+				<input type="email" name="subscribe_email" class="main_footer__subscribe_input" placeholder="E-Mail">
+			</div>
+			<button class="il_button" type="submit">
+				Подписаться
+			</button>
+		</form>
+		<div class="main_footer_socials">
+			<div class="main_footer_socials__item">
+				<a href="#"><svg class="icon icon__may_zoom icon--fb" role="img"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-fb"></use></svg></a>
+			</div>
+			<div class="main_footer_socials__item">
+				<a href="#"><svg class="icon icon__may_zoom icon--vk" role="img"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-vk"></use></svg></a>
+			</div>
+			<div class="main_footer_socials__item">
+				<a href="#"><svg class="icon icon__may_zoom icon--youtube" role="img"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-youtube"></use></svg></a>
+			</div>
+			<div class="main_footer_socials__item">
+				<a href="#"><svg class="icon icon__may_zoom icon--telegram" role="img"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-telegram"></use></svg></a>
+			</div>
+			<div class="main_footer_socials__item">
+				<a href="#"><svg class="icon icon__may_zoom icon--ig" role="img"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-ig"></use></svg></a>
+			</div>
+		</div>
+		<div class="main_footer__license">
+			Образовательная деятельность Инлиберти не является лицензионной. В соответствии с законом ХХХХКЛДРЧФСИЛФ ИРП РОПД (678) от 17.10.1917 года InLiberty — просветительский проект и дискуссионная площадка для обсуждения будущего человеческого общества, его истории и тех изменений, которые происходят с ним на наших глазах. InLiberty поддерживает одноименный сайт и издает книги, проводит лекции и семинары, организует конкурсы студенческих исследований и летние школы, а также консультирует в сфере образования и культуры.
+		</div>
+
+	</footer>
+</div>

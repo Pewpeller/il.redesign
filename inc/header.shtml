@@ -1,0 +1,72 @@
+<!--#set var="OLD_QS" value="$query_string" -->
+<!--#include virtual="/inc/svg_icons2.shtml" -->
+<header class="main_header sticky">
+	<div class="layout">
+		<div class="main_header__body">
+			<button class="kbd_button burger changeclass" type="button" tabindex="0" data-changeclass='{
+				".main_nav": {"toggleClass": "is_active"}
+			}'>
+				<svg class="kbd_button__body icon icon--burger" tabindex="-1"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-burger"></use></svg>
+			</button>
+
+			<a href="/" class="inliberty_logo">
+				<svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#inliberty_logo"></use></svg>
+			</a>
+			<div class="main_nav">
+				<ul class="main_nav__list">
+					<li class="main_nav__item">
+						<a href="#" class="main_nav__link">
+							События
+						</a>
+					</li>
+					<li class="main_nav__item">
+						<a href="#" class="main_nav__link">
+							Курсы
+						</a>
+					</li>
+					<li class="main_nav__item">
+						<a href="#" class="main_nav__link">
+							Журнал
+						</a>
+					</li>
+					<li class="main_nav__item">
+						<a href="#" class="main_nav__link">
+							Книги
+						</a>
+					</li>
+					<li class="main_nav__item">
+						<a href="#" class="main_nav__link">
+							Пространство
+						</a>
+					</li>
+					<li class="main_nav__item hide2 hide3">
+						<button class="main_search__details_item main_search__details_item--user kbd_button is_active" tabindex="0" title="Вход">
+							<svg class="icon icon--user kbd_button__body" tabindex="-1"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-user"></use></svg>
+							<span class="icon__text">
+								Вход
+							</span>
+						</button>
+
+					</li>
+				</ul>
+			</div>
+			<div class="main_search__details is_online">
+				<button class="main_search__details_item main_search__details_item--user kbd_button is_active" tabindex="0" title="Вход">
+					<svg class="icon icon--user kbd_button__body" tabindex="-1"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-user"></use></svg>
+					<span class="icon__text">
+						Вход
+					</span>
+				</button>
+				<button class="main_search__details_item kbd_button" tabindex="0">
+					<svg class="icon icon--basket kbd_button__body" tabindex="-1"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-basket"></use></svg>
+					<sup class="icon_value">10</sup>
+				</button>
+			</div>
+			<!--#if expr="$old_qs=results" -->
+				<!--#include virtual="/inc/search_field_results.shtml" -->
+			<!--#else -->
+				<!--#include virtual="/inc/search_field.shtml" -->
+			<!--#endif -->
+		</div>
+	</div>
+</header>
