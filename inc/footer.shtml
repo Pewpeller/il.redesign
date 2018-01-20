@@ -1,8 +1,5 @@
 <div class="layout">
 	<footer class="main_footer">
-		<a href="/">
-			<svg class="inliberty_logo"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#inliberty_logo"></use></svg>
-		</a>
 		<nav class="main_footer__nav">
 			<ul class="main_footer__nav_list">
 				<li class="main_footer__item">
