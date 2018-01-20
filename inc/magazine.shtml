@@ -1,9 +1,9 @@
 <article class="magazine fit_screen">
 	<div class="layout">
-		<div class="magazine__tag">
-			<h4 class="tag"><a href="#">Журнал</a></h4>
-		</div>
 		<div class="magazine__text_frame">
+			<div class="magazine__tag">
+				<h4 class="tag"><a href="#">Журнал</a></h4>
+			</div>
 			<h1 class="magazine__name"><a href="#">Свобода сегодня</a></h1>
 			<h2 class="magazine__subheader"><a href="#">10 главных экономических идей 20 века</a></h2>
 		</div>

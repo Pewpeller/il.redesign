@@ -1,7 +1,11 @@
 .magazine {
 	position: relative;
-	margin-bottom: 37px;
 	padding: 0 22px;
+}
+.magazine--small {
+	border-bottom: 3px solid #181818;
+	padding-bottom: 4px;
+	margin-bottom: 38px;
 }
 .magazine a {
 	color: inherit;
@@ -10,6 +14,10 @@
 	font: bold 31px/32px Figgins Sans, Georgia, serif;
 	margin-bottom: 1px;
 }
+	.magazine--small .magazine__name {
+		font: bold 17px/22px Figgins Sans, Arial, sans-serif;
+	}
+
 .magazine__subheader {
 	font: 22px/27px Figgins Sans, Georgia, serif;
 	margin-bottom: 21px;
@@ -19,8 +27,14 @@
 	position: relative;
 	margin-bottom: 21px;
 	background-repeat: repeat-x;
-    background-position: 50% 100%;
+    background-position: 50% 50%;
+    background-size: cover;
 }
+	.magazine--small .magazine__photo {
+		margin-left: calc(-50vw + 50%);
+		margin-right: calc(-50vw + 50%);
+	}
+
 	.magazine__poster {
 		height: 100%;
 		width: auto;
@@ -41,13 +55,25 @@
 	font: 17px/25px Parmigiano Piccolo Light, Georgia, serif;
 	margin-bottom: 18px;
 }
+	.magazine--small .magazine__intro {
+		font: 15px/22px Parmigiano Piccolo Light, Georgia, serif;
+	}
 .magazine__author {
 	font: 14px/18px Figgins Sans, Georgia, serif;
 }
+.magazine__header,
 .magazine__text_frame {
 	max-width: 650px;
 	margin-left: auto;
 	margin-right: auto;
+}
+.magazine__text_frame {
+	padding-bottom: 32px;
+}
+.magazine--separated:not(.magazine--small) .magazine__text_frame {
+	border-bottom: 3px solid #181818;
+	margin-bottom: 40px;
+	padding-bottom: 37px;
 }
 @media only screen and (min-width: 621px) {
 	.magazine {
@@ -65,6 +91,15 @@
 		font: 28px/32px Figgins Sans, Georgia, serif;
 		margin-bottom: 21px;
 	}
+
+	.magazine--small .magazine__name {
+		font-size: 40px;
+		line-height: 42px;
+	}
+	.magazine--small .magazine__subheader {
+		font-size: 22px;
+		line-height: 27px;
+	}
 	.magazine__photo {
 		height: 210px;
 	}
@@ -72,25 +107,48 @@
 		font: 24px/32px Parmigiano Piccolo Light, Georgia, serif;
 		margin-bottom: 18px;
 	}
+	.magazine--small .magazine__intro {
+		font-size: 16px;
+	}
 	.magazine__author {
 		font: 16px/22px Figgins Sans, Georgia, serif;
 	}
 }
 @media only screen and (min-width: 1024px) {
+	.magazine--small {
+		padding-bottom: 8px;
+		margin-bottom: 0;
+	}
+
 	.magazine__tag {
 		float: left;
-		width: calc(100% / 980 * 146);
-		margin-left: 0;
+		width: 135px;
+		margin-left: -156px;
 		margin-top: 24px;
 	}
 		.magazine__tag .tag {
 			width: 100%;
 		}
+	.magazine--small .magazine__tag {
+		float: none;
+		margin-left: 0;
+	}
 	.magazine__name {
 		display: inline-block;
 	}
-	.magazine__text_frame {
+	.magazine__header {
 		margin-bottom: 27px;
+	}
+	.magazine__text_frame {
+		padding-bottom: 56px;
+	}
+	.magazine--separated:not(.magazine--small) .magazine__text_frame {
+		margin-bottom: 62px;
+		padding-bottom: 64px;
+	}
+	.magazine--small .magazine__intro {
+		font-size: 19px;
+		line-height: 28px;
 	}
 }
 @media only screen and (min-width: 1280px) {
@@ -101,5 +159,50 @@
 @media only screen and (min-width: 1600px) {
 	.magazine__photo {
 		height: 263px;
+		background-size: auto;
+	}
+}
+.magazines__list {
+	font: 0/0 a;
+	text-align: justify;
+	text-justify: distribute-all-lines;
+}
+	.magazines__list::after {
+		width: 100%;
+		display: inline-block;
+		height: 0;
+		content: '';
+	}
+	.flexbox .magazines__list {
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		text-align: left;
+	}
+	.flexbox .magazines__list::after {
+		content: none;
+	}
+
+.magazine--small {
+	display: block;
+	text-align: left;
+}
+
+@media only screen and (min-width: 694px) {
+	.magazine--small {
+		width: 306px;
+	}
+	.magazine--small .magazine__photo {
+		margin-left: 0;
+		margin-right: 0;
+	}
+}
+@media only screen and (min-width: 888px) {
+	.magazine--small {
+		width: 402px;
 	}
 }

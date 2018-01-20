@@ -46,7 +46,9 @@
 .ear_m_no_pb {
 	padding-bottom: 0;
 }
-
+.ear_m_auto {
+	height: auto;
+}
 /* tablets small */
 @media only screen and (min-width: 621px) {
 	.ear_t_flat {

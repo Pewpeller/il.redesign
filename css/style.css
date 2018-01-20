@@ -132,8 +132,8 @@ body {
 
 	.icon__may_zoom {
 		display: inline-block;
-		width: 48px;
-		height: 48px;
+		width: 44px;
+		height: 44px;
 		text-align: center;
 	}
 		.icon__may_zoom::before {
@@ -152,7 +152,8 @@ body {
 
 	}
 	.icon__may_zoom:hover > .icon {
-		transform: scale(1.2083);
+		/* transform: scale(1.2083); */
+		transform: scale(1.10);
 		opacity: 1;
 	}
 
