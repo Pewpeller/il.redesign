@@ -135,7 +135,7 @@
 
 .main_post__partners {
 	color: #fff;
-	margin-bottom: 22px;
+	margin-bottom: 36px;
 	background-color: #181818;
 	font-size: 0;
 	padding-top: 41px;
@@ -182,13 +182,20 @@
 }
 
 @media only screen and (min-width: 621px) {
+	.main_post__partners {
+		margin-bottom: 35px;
+	}
 	.main_post__partner_name {
 		margin-bottom: 16px;
 		font-size: 16px;
 		line-height: 22px;
 	}
 }
-
+@media only screen and (min-width: 1024px) {
+	.main_post__partners {
+		margin-bottom: 63px;
+	}
+}
 .main_post__lead a {
 	border-bottom: 1px solid #d8d8d8;
 }

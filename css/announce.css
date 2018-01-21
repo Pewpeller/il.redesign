@@ -36,56 +36,53 @@
 		}
 	}
 .announce_slider__nav {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 42px;
+	padding-top: 8px;
+	opacity: 1;
+	visibility: visible;
+	transition: opacity .25s ease-in-out 0s,
+				visibility 0s ease-in-out 0s;
+	will-change: opacity;
+}
+.announce_slider__prev {
+	left: 0;
+	background-image: -webkit-linear-gradient(left, rgba(255,255,255,.96), rgba(255,255,255,0));
+	background-image: linear-gradient(to right, rgba(255,255,255,.96), rgba(255,255,255,0));
+}
+.announce_slider__next {
+	right: 0;
+	background-image: -webkit-linear-gradient(left, rgba(255,255,255,0), rgba(255,255,255,.96));
+	background-image: linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,.96));
+	text-align: right;
+}
+.announce_slider__nav.slider-inactive {
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity .25s ease-in-out 0s,
+				visibility 0s ease-in-out .25s;
+}
+.announce_slider__nav .slider-link {
+	position: absolute;
+	top: 8px;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+.announce_slider__nav .slider-link .icon {
 	display: none;
 }
 @media only screen and (min-width: 621px) {
+	.announce_slider__nav .slider-link .icon{
+		display: inline-block;
+	}
 	.announce_slider__nav {
-		display: block;
-		position: absolute;
-		top: 0;
-		bottom: 0;
 		width: 102px;
-		padding-top: 8px;
-		opacity: 1;
-		visibility: visible;
-		transition: opacity .25s ease-in-out 0s,
-					visibility 0s ease-in-out 0s;
-		will-change: opacity;
-	}
-	.announce_slider__prev {
-		left: 0;
-		background-image: -webkit-linear-gradient(left, rgba(255,255,255,.96), rgba(255,255,255,0));
-		background-image: linear-gradient(to right, rgba(255,255,255,.96), rgba(255,255,255,0));
-	}
-	.announce_slider__next {
-		right: 0;
-		background-image: -webkit-linear-gradient(left, rgba(255,255,255,0), rgba(255,255,255,.96));
-		background-image: linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,.96));
-		text-align: right;
-	}
-	/*
-	.announce_slider__nav.slider-inactive {
-		background-image: none;
-		visibility: hidden;
-		opacity: 0;
-		transition: opacity .25s ease-in-out 0s,
-					visibility 0s ease-in-out .25s;
-	}
-	*/
-	.announce_slider__nav .slider-link {
-		opacity: 1;
-		visibility: visible;
-		transition: opacity .25s ease-in-out 0s,
-					visibility 0s ease-in-out 0s;
-	}
-
-	.announce_slider__nav.slider-inactive .slider-link {
-		visibility: hidden;
-		opacity: 0;
-		transition: opacity .25s ease-in-out 0s,
-					visibility 0s ease-in-out .25s;
 	}
 }
+
 @media only screen and (min-width: 1024px) {
 	.announce_slider {
 		margin-bottom: 57px;

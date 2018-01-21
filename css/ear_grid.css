@@ -49,6 +49,10 @@
 .ear_m_auto {
 	height: auto;
 }
+.ear--m_no_indent {
+	padding-left: 0;
+	padding-right: 0;
+}
 /* tablets small */
 @media only screen and (min-width: 621px) {
 	.ear_t_flat {
@@ -72,6 +76,10 @@
 	.ear_t_no_pb {
 		padding-bottom: 0;
 	}
+	.ear--t_no_indent {
+		padding-left: 0;
+		padding-right: 0;
+	}
 }
 /* tablets */
 @media only screen and (min-width: 678px) {
@@ -92,6 +100,10 @@
 	}
 	.ear_tm_no_pb {
 		padding-bottom: 0;
+	}
+	.ear--tm_no_indent {
+		padding-left: 0;
+		padding-right: 0;
 	}
 }
 /* desktop */
@@ -116,5 +128,9 @@
 	}
 	.ear_d_no_pb {
 		padding-bottom: 0;
+	}
+	.ear--d_no_indent {
+		padding-left: 0;
+		padding-right: 0;
 	}
 }

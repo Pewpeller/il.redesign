@@ -11,6 +11,7 @@
 	display: inline-block;
 	vertical-align: top;
 	width: 100%;
+	box-sizing: border-box;
 }
 @media only screen and (min-width: 621px) {
 	.grid__inner {
@@ -25,6 +26,9 @@
 	.grid_t_small {
 		width: 306px;
 	}
+	.grid_t_double_small {
+		width: 634px;
+	}
 }
 @media only screen and (min-width: 678px) {
 	.grid_tm_small {
@@ -36,6 +40,14 @@
 	}
 	.grid_tm_half {
 		width: calc(50% - 22px);
+	}
+}
+@media only screen and (min-width: 722px) {
+	.grid_tmi_small {
+		width: 306px;
+	}
+	.grid_tmi_full {
+		width: calc(100% - 22px);
 	}
 }
 @media only screen and (min-width: 1024px) {

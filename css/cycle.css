@@ -34,6 +34,9 @@
 		padding-bottom: 58px;
 		margin-bottom: 65px;
 	}
+	.cycle:last-child {
+		margin-bottom: 133px;
+	}
 	.cycle__announce,
 	.cycle__details {
 		display: inline-block;
@@ -89,12 +92,13 @@
 .cycle__text strong,
 .cycle__text i,
 .cycle__text em {
+	font-size: 19px;
 	font-family: Figgins Sans, Arial, sans-serif;
 }
 @media only screen and (min-width: 621px) {
 	.cycle__text {
-		font-size: 16px;
-		line-height: 22px;
+		font-size: 19px;
+		line-height: 28px;
 	}
 	.cycle__text p {
 		margin-bottom: 22px;
@@ -103,7 +107,7 @@
 	.cycle__text strong,
 	.cycle__text i,
 	.cycle__text em {
-		font-size: 19px;
+		font-size: 21px;
 	}
 }
 @media only screen and (min-width: 1024px) {

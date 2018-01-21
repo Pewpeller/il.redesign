@@ -3,7 +3,7 @@
 	margin-bottom: 42px;
 	padding-top: 28px;
 	text-align: center;
-	border-top: 3px solid #181818;
+	border-top: 1px solid #d8d8d8;
 	position: relative;
 	font-size: 0;
 }
@@ -23,7 +23,7 @@
 		margin-left: 0;
 		float: left;
 		margin-bottom: 42px;
-		top: 1px;
+		top: -1px;
 	}
 }
 @media only screen and (min-width: 1024px) {
@@ -67,17 +67,18 @@
 }
 .main_footer__about {
 	clear: both;
-	font: 15px/22px Parmigiano Piccolo Light, Arial, sans-serif;
+	font: 16px/22px Figgins Sans, Arial, sans-serif;
 	color: #181818;
 	margin-top: 11px;
-	text-align: left;
+	text-align: center;
 	margin-bottom: 42px;
+	padding: 0 22px;
 }
 @media only screen and (min-width: 621px) {
 	.main_footer__about {
-		font-size: 16px;
 		margin-left: 70px;
 		margin-right: 70px;
+		padding: 0;
 	}
 }
 .main_footer__subscribe {
@@ -96,6 +97,7 @@
 		vertical-align: middle;
 		margin-left: 0;
 		margin-right: 0;
+		text-align: left;
 	}
 	.main_footer__subscribe {
 		display: inline-block;
@@ -118,7 +120,7 @@
 	max-width: 100%;
 	width: 312px;
 	padding-bottom: 5px;
-	border-bottom: 1px solid #181818;
+	border-bottom: 1px solid #d8d8d8;
 	margin: 0 auto 28px auto;
 }
 	.main_footer__subscribe_input {
@@ -189,9 +191,11 @@
 .main_footer__license {
 	font: 12px/15px Figgins Sans, Arial, sans-serif;
 	text-align: center;
+	padding: 0 22px;
 }
 @media only screen and (min-width: 1024px) {
 	.main_footer__license {
 		text-align: left;
+		padding: 0;
 	}
 }

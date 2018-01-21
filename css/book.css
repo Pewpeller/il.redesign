@@ -35,7 +35,7 @@
 		margin-left: auto;
 		position: absolute;
 		bottom: 28px;
-		right: 22px;
+		right: 44px;
 		left: 22px;
 		max-height: 276px;
 		z-index: -1;
@@ -167,6 +167,12 @@
 	font: bold 14px/19px Figgins Sans, Arial, sans-serif;
 	color: #181818;
 	text-align: right;
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 678px;
+	padding-left: 22px;
+	padding-right: 22px;
+	box-sizing: border-box;
 }
 @media only screen and (min-width: 621px) {
 	.book__opinion_source {
@@ -179,6 +185,17 @@
 	margin-top: 20px;
 	padding-top: 42px;
 	border-top: 1px solid #d8d8d8;
+	text-align: center;
+	width: 678px;
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 22px;
+	padding-right: 22px;
+	box-sizing: border-box;
+}
+.book_index .grid__cell {
+	text-align: left;
 }
 
 .book_index__text {
@@ -209,10 +226,18 @@ h3.book_index__text {
 	text-align: center;
 	padding-top: 5px;
 }
-
+@media only screen and (min-width: 722px) {
+	.book_index__text {
+		max-width: 225px;
+	}
+}
 @media only screen and (min-width: 1024px) {
 	.book_index {
 		margin-top: 5px;
+		max-width: none;
+		padding-left: 0;
+		padding-right: 0;
+		width: auto;
 	}
 	.book__aside {
 		padding-top: 7px;

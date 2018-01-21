@@ -8,7 +8,7 @@
 				<div class="book_post">
 					<header class="book_post__header">
 						<div class="layout">
-							<div class="ear ear--dark ear_m_normal ear_t_small ear_d_normal ear--no_indent book_post__header_text">
+							<div class="ear ear--dark ear_m_normal ear--d_no_indent ear_t_small ear_d_normal book_post__header_text">
 								<div class="book_post__author">
 									<a href="#">Наталья Горбаневская</a>
 								</div>
@@ -76,7 +76,7 @@
 					</div>
 					<div class="grid book_index">
 						<div class="grid__inner">
-							<div class="grid__cell grid_t_full grid_tm_half grid_d_small">
+							<div class="grid__cell grid_t_full grid_tmi_small grid_d_small">
 								<div class="book_index__photo">
 									<picture>
 										<source media="(-webkit-min-device-pixel-ratio: 1.25),
@@ -93,7 +93,7 @@
 									Американский антрополог Джеймс Скотт уже долго работает над тем, чтобы сделать из анархизма исследовательскую программу. Великая Китайская стена, считает Скотт, была нужна не только китайскому государству, которое она оберегала от варваров, но и варварам, которых стена защищала от сборщиков податей.
 								</p>
 							</div>
-							<div class="grid__cell grid_t_full grid_tm_half grid_d_small">
+							<div class="grid__cell grid_t_full grid_tmi_small grid_d_small">
 								<h4 class="text_tag">
 									Оглавление
 								</h4>
@@ -113,7 +113,7 @@
 									Американский антрополог Джеймс Скотт уже долго работает над тем, чтобы сделать из анархизма исследовательскую программу. Великая Китайская стена, считает Скотт, была нужна не только китайскому государству, которое она оберегала от варваров, но и варварам, которых стена защищала от сборщиков податей.
 								</p>
 							</div>
-							<div class="grid__cell grid_t_full grid_d_small">
+							<div class="grid__cell grid_t_full grid_tm_double_small grid_tmi_full grid_d_small">
 								<p class="book_index__text">
 									ISBN 978-5-94056-033-3<br>
 									Год издания 2014<br>

@@ -1,7 +1,8 @@
 .main_header {
 	margin: 0 0 22px 0;
 	padding-bottom: 14px;
-	background-image: linear-gradient(0deg, rgba(255,255,255,.4) 0px, rgba(255,255,255,.4) 7px, rgba(255,255,255,.8) 7px, rgba(255,255,255,.8) 14px, #fff 17px);
+	background-image: linear-gradient(0deg, rgba(255,255,255,.4) 0px, rgba(255,255,255,.4) 7px, rgba(255,255,255,.8) 7px, rgba(255,255,255,.8) 14px, #fff 14px);
+	
 	z-index: 3;
 	position: relative;
 }
