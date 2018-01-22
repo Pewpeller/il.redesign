@@ -6,7 +6,7 @@
 		<!--#include virtual="/inc/header.shtml" -->
 		<div class="main" role="main">
 			<div class="layout">
-<!--
+
 				<article class="ear ear_m_normal ear--big ruche">
 					<div class="ear__content">
 						<div class="ear__photo dark_blind">
@@ -21,7 +21,7 @@
 							<a href="#">Школа</a>
 						</div>
 						<h2 class="ear__name ear__name--accent">
-							<a href="#">Очень длинная комната</a>
+							<a href="#">1Очень длинная комната</a>
 						</h2>
 						<h3 class="ear__subheader">
 							<a href="#">Десять главных мысленных экспериментов</a>
@@ -29,73 +29,22 @@
 					</div>
 				</article>
 
-
-				<article class="ear ear_m_double ear_t_double ear_tm_normal ear--free ear--dark">
+				<article class="ear ear_m_double ear_tm_normal ear--no_p">
 					<div class="ear__photo">
 						<a href="#">
-							<img class="ear__poster" src="i/eggs.jpg" alt="Десять главных мысленных экспериментов">
-						</a>
-					</div>
-					<div class="grid">
-						<div class="grid__inner">
-							<div class="grid__cell grid_tm_full_minus_small">
-								<div class="ear">
-									<div class="ear__content">
-										<div class="ear__tag">
-											<a href="#">Школа</a>
-										</div>
-										<h2 class="ear__name ear__name--accent">
-											<a href="#">Очень длинная скамейка</a>
-										</h2>
-										<h3 class="ear__subheader">
-											<a href="#">Десять красивых деревянных скамеек</a>
-										</h3>
-									</div>
-								</div>
-							</div>
-							<div class="grid__cell grid_t_small">
-								<div class="ear ruche ruche--topnleft">
-									<div class="ear__content">
-										<time class="date_bar">
-											<span class="date_bar__date">30.09</span>
-											<span class="date_bar__day">пт</span>
-											<span class="date_bar__time">21:00</span>
-										</time>
-										<div class="ear__tag">
-											<a href="#">Лекция</a>
-										</div>
-										<h2 class="ear__name">
-											<a href="#">Драматургия лжи: как нам врут в кино и по телевизору</a>
-										</h2>
-										<p class="ear__author">
-											Олег Коронный, Роман Волобуев
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</article>
-
--->
-
-
-				<article class="ear ear_m_double ear_t_extradouble ear_tm_normal ear--no_p">
-					<div class="ear__photo">
-						<a href="#">
-							<img class="ear__poster" src="i/eggs.jpg" alt="Десять главных мысленных экспериментов">
+							<img class="ear__poster" src="i/dummies/TRENING…SCOOL…Etc/ANONS_1924x780/TREN_SCHOOL_Ect_ANONS_2.jpg" alt="Десять главных мысленных экспериментов">
 						</a>
 					</div>
 					<div class="grid">
 						<div class="grid__inner">
 							<div class="grid__cell grid_t_full grid_tm_full_minus_small">
-								<div class="ear ear_m_extra_small ear_t_normal ear_tm_normal ear--dark">
+								<div class="ear ear_m_extra_small ear_tm_normal">
 									<div class="ear__content">
 										<div class="ear__tag">
-											<a href="#">Школа</a>
+											<a href="#">Цикл</a>
 										</div>
-										<h2 class="ear__name ear__name--events ear__name--accent">
-											<a href="#">Очень длинная комната</a>
+										<h2 class="ear__name ear__name--accent">
+											<a href="#">2Очень длинная комната</a>
 										</h2>
 										<h3 class="ear__subheader">
 											<a href="#">Десять главных мысленных экспериментов</a>
@@ -104,7 +53,7 @@
 								</div>
 							</div>
 							<div class="grid__cell grid_t_full grid_tm_small">
-								<div class="ear ear_m_extra_small ear_t_normal ear_tm_normal ruche ruche--topnleft ear--dark">
+								<div class="ear ear_m_extra_small ear_tm_normal ruche ruche--topnleft">
 									<div class="ear__content">
 										<time class="date_bar date_bar--small">
 											<span class="date_bar__date">30.09</span>
@@ -127,9 +76,8 @@
 					</div>
 				</article>
 
-<!--
 
-				<article class="ear ear--double ear--free ear--dark">
+				<article class="ear ear_m_double ear_t_double ear_tm_normal ear--no_p">
 					<div class="ear__photo">
 						<a href="#">
 							<img class="ear__poster" src="i/eggs.jpg" alt="Десять главных мысленных экспериментов">
@@ -137,14 +85,14 @@
 					</div>
 					<div class="grid">
 						<div class="grid__inner">
-							<div class="grid__cell grid__cell--big grid__cell--cut_small">
-								<div class="ear">
+							<div class="grid__cell grid_t_full grid_tm_full_minus_small">
+								<div class="ear ear_m_extra_small ear_t_small ear_tm_normal ear--dark">
 									<div class="ear__content">
 										<div class="ear__tag">
-											<a href="#">Школа</a>
+											<a href="#">Цикл</a>
 										</div>
 										<h2 class="ear__name ear__name--accent">
-											<a href="#">Очень длинная комната</a>
+											<a href="#">3Очень длинная комната</a>
 										</h2>
 										<h3 class="ear__subheader">
 											<a href="#">Десять главных мысленных экспериментов</a>
@@ -152,10 +100,10 @@
 									</div>
 								</div>
 							</div>
-							<div class="grid__cell grid__cell--small">
-								<div class="ear ruche ruche--topnleft">
+							<div class="grid__cell grid_t_full grid_tm_small">
+								<div class="ear ear_m_extra_small ear_t_small ear_tm_normal ruche ruche--topnleft ear--dark">
 									<div class="ear__content">
-										<time class="date_bar">
+										<time class="date_bar date_bar--small">
 											<span class="date_bar__date">30.09</span>
 											<span class="date_bar__day">пт</span>
 											<span class="date_bar__time">21:00</span>
@@ -163,53 +111,7 @@
 										<div class="ear__tag">
 											<a href="#">Лекция</a>
 										</div>
-										<h2 class="ear__name">
-											<a href="#">Драматургия лжи: как нам врут в кино и по телевизору</a>
-										</h2>
-										<p class="ear__author">
-											Олег Коронный, Роман Волобуев
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</article>
-				<article class="ear ear--double ear--free">
-					<div class="ear__photo">
-						<a href="#">
-							<img class="ear__poster" src="i/photo/osen1024.jpg" alt="Десять главных мысленных экспериментов">
-						</a>
-					</div>
-					<div class="grid">
-						<div class="grid__inner">
-							<div class="grid__cell grid__cell--big grid__cell--cut_small">
-								<div class="ear">
-									<div class="ear__content">
-										<div class="ear__tag">
-											<a href="#">Школа</a>
-										</div>
-										<h2 class="ear__name ear__name--accent">
-											<a href="#">Очень длинная комната</a>
-										</h2>
-										<h3 class="ear__subheader">
-											<a href="#">Десять главных мысленных экспериментов</a>
-										</h3>
-									</div>
-								</div>
-							</div>
-							<div class="grid__cell grid__cell--small">
-								<div class="ear ruche ruche--topnleft">
-									<div class="ear__content">
-										<time class="date_bar">
-											<span class="date_bar__date">30.09</span>
-											<span class="date_bar__day">пт</span>
-											<span class="date_bar__time">21:00</span>
-										</time>
-										<div class="ear__tag">
-											<a href="#">Лекция</a>
-										</div>
-										<h2 class="ear__name">
+										<h2 class="ear__name ear__name--events">
 											<a href="#">Драматургия лжи: как нам врут в кино и по телевизору</a>
 										</h2>
 										<p class="ear__author">
@@ -222,16 +124,18 @@
 					</div>
 				</article>
 
-				<article class="ear ear--low ear--free ruche ruche--left">
+
+
+				<article class="ear ear_m_narrow ear_t_small ear_d_narrow">
 					<div class="ear__photo">
 						<a href="#">
-							<img class="ear__poster" src="i/project1.jpg" alt="Десять главных мысленных экспериментов">
+							<img class="ear__poster" src="i/dummies/EVENT/EVENT_ANONS_1924x780/EVENT_ANONS_1924x780.jpg" alt="Десять главных мысленных экспериментов">
 						</a>
 					</div>
 					<div class="grid">
 						<div class="grid__inner">
-							<div class="grid__cell grid__cell--small">
-								<div class="ear">
+							<div class="grid__cell grid_d_small">
+								<div class="ear ear_m_auto ear--no_p">
 									<div class="ear__content">
 										<time class="date_bar">
 											<span class="date_bar__date">30.09</span>
@@ -244,14 +148,14 @@
 									</div>
 								</div>
 							</div>
-							<div class="grid__cell  grid__cell--big grid__cell--cut_small">
-								<div class="ear">
+							<div class="grid__cell grid_tm_full_minus_small">
+								<div class="ear ear_m_auto ear--no_p">
 									<div class="ear__content">
 										<h2 class="ear__name">
-											<a href="#">Казнить нельзя помиловать: поступки и ценности россиян</a>
+											<a href="#">Радиодраматургия лжи: как нам врут в кино и по телевизору</a>
 										</h2>
 										<p class="ear__author">
-											Элла Панеях
+											Олег Коронный, Роман Волобуев
 										</p>
 									</div>
 								</div>
@@ -259,139 +163,134 @@
 						</div>
 					</div>
 				</article>
-				<article class="ear ruche">
-					<div class="ear__content">
-						<div class="ear__photo dark_blind">
-							<a href="#">
-								<img class="ear__poster" src="/i/project2.jpg" alt="Лекция: Драматургия лжи: как нам врут по телевизору">
-							</a>
-						</div>
-						<time class="date_bar">
-							<span class="date_bar__date">30.09</span>
-							<span class="date_bar__day">пт</span>
-							<span class="date_bar__time">21:00</span>
-						</time>
-						<div class="ear__tag">
-							<a href="#">Лекция</a>
-						</div>
-						<h2 class="ear__name">
-							<a href="#">Драматургия лжи: как нам врут в кино и по телевизору</a>
-						</h2>
-						<p class="ear__author">
-							Олег Коронный, Роман Волобуев
-						</p>
-					</div>
-				</article>
 
-				<hr>
--->
-<!--
-	<div class="grid">
-		<div class="grid__inner">
-			<div class="grid__cell grid__cell--half">
-				<article class="ear ear--big ruche">
+				<article class="ear ear_m_normal ear--big ruche">
 					<div class="ear__content">
 						<div class="ear__photo dark_blind">
 							<a href="#">
-								<img class="ear__poster" src="/i/project1.jpg" alt="Лекция: Драматургия лжи: как нам врут по телевизору">
-							</a>
-						</div>
-						<time class="date_bar">
-							<span class="date_bar__date">30.09</span>
-							<span class="date_bar__day">пт</span>
-							<span class="date_bar__time">21:00</span>
-						</time>
-						<div class="ear__tag">
-							<a href="#">Лекция</a>
-						</div>
-						<h2 class="ear__name ear__name--accent">
-							<a href="#">Драматургия лжи: как нам врут в кино и по телевизору</a>
-						</h2>
-						<p class="ear__author">
-							Олег Коронный, Роман Волобуев
-						</p>
-					</div>
-				</article>
-			</div>
-			<div class="grid__cell grid__cell--half">
-				<article class="ear ear--big ruche">
-					<div class="grid__content">
-						<div class="ear__photo dark_blind">
-							<a href="#">
-								<img class="ear__poster" src="/i/project2.jpg" alt="Школа: Очень длинная комната">
+								<img class="ear__poster" src="i/dummies/TRENING…SCOOL…Etc/ANONS_1924x780/TREN_SCHOOL_Ect_ANONS_4.jpg" alt="Школа: Очень длинная комната">
 							</a>
 						</div>
 						<time class="date_bar">
 							<span class="date_bar__range_date">30.09-12.10</span>
 						</time>
-						<div class="text_tag project__tag">
+						<div class="ear__tag">
 							<a href="#">Школа</a>
 						</div>
-						<h2 class="ear__name">
-							<a href="#">Очень длинная комната</a>
+						<h2 class="ear__name ear__name--accent">
+							<a href="#">1Очень длинная комната</a>
 						</h2>
 						<h3 class="ear__subheader">
 							<a href="#">Десять главных мысленных экспериментов</a>
 						</h3>
 					</div>
 				</article>
-			</div>
-			<div class="grid__cell grid__cell--half">
-				<article class="ear ear--big ruche">
-					<div class="ear__content">
-						<div class="ear__photo dark_blind">
-							<a href="#">
-								<img class="ear__poster" src="/i/eggs.jpg" alt="Лекция: Драматургия лжи: как нам врут по телевизору">
-							</a>
+
+				<hr>
+				
+				<div class="grid">
+					<div class="grid__inner">
+						<div class="grid__cell grid_d_half">
+							<article class="ear ear_m_small ear_m_normal ruche">
+								<div class="ear__content">
+									<div class="ear__photo dark_blind">
+										<a href="#">
+											<img class="ear__poster" src="/i/dummies/CYLCE/ANONS_1924x780/CYCLE_ANONS_2.jpg" alt="Лекция: Драматургия лжи: как нам врут по телевизору">
+										</a>
+									</div>
+									<time class="date_bar">
+										<span class="date_bar__date">30.09</span>
+										<span class="date_bar__day">пт</span>
+										<span class="date_bar__time">21:00</span>
+									</time>
+									<div class="ear__tag">
+										<a href="#">Школа</a>
+									</div>
+									<h2 class="ear__name ear__name--accent">
+										<a href="#">Повседневная ложь</a>
+									</h2>
+									<p class="ear__author">
+										Олег Коронный, Роман Волобуев
+									</p>
+								</div>
+							</article>
 						</div>
-						<time class="date_bar">
-							<span class="date_bar__date">30.09</span>
-							<span class="date_bar__day">пт</span>
-							<span class="date_bar__time">21:00</span>
-						</time>
-						<div class="ear__tag">
-							<a href="#">Лекция</a>
+						<div class="grid__cell grid_d_half">
+							<article class="ear ear--dark ear_m_small ear_m_normal ruche">
+								<div class="grid__content">
+									<div class="ear__photo dark_blind">
+										<a href="#">
+											<img class="ear__poster" src="/i/dummies/CYLCE/ANONS_1924x780/CYCLE_ANONS_3.jpg" alt="Школа: Очень длинная комната">
+										</a>
+									</div>
+									<time class="date_bar">
+										<span class="date_bar__range_date">30.09-12.10</span>
+									</time>
+									<div class="text_tag project__tag">
+										<a href="#">Цикл</a>
+									</div>
+									<h2 class="ear__name">
+										<a href="#">Очень длинная комната</a>
+									</h2>
+									<h3 class="ear__subheader">
+										<a href="#">Десять главных мысленных экспериментов</a>
+									</h3>
+								</div>
+							</article>
 						</div>
-						<h2 class="ear__name ear__name--accent">
-							<a href="#">Драматургия лжи: как нам врут в кино и по телевизору</a>
-						</h2>
-						<p class="ear__author">
-							Олег Коронный, Роман Волобуев
-						</p>
+						<div class="grid__cell grid_d_half">
+							<article class="ear ear_m_small ear_m_normal ruche">
+								<div class="ear__content">
+									<div class="ear__photo dark_blind">
+										<a href="#">
+											<img class="ear__poster" src="/i/dummies/CYLCE/ANONS_1924x780/CYCLE_ANONS_1.jpg" alt="Лекция: Драматургия лжи: как нам врут по телевизору">
+										</a>
+									</div>
+									<time class="date_bar">
+										<span class="date_bar__date">30.09</span>
+										<span class="date_bar__day">пт</span>
+										<span class="date_bar__time">21:00</span>
+									</time>
+									<div class="ear__tag">
+										<a href="#">Школа</a>
+									</div>
+									<h2 class="ear__name ear__name--accent">
+										<a href="#">Очень длинное комната</a>
+									</h2>
+									<p class="ear__author">
+										Олег Коронный, Роман Волобуев
+									</p>
+								</div>
+							</article>
+						</div>
+						<div class="grid__cell grid_d_half">
+							<article class="ear ear_m_small ear_m_normal ruche">
+								<div class="ear__content">
+									<div class="ear__photo dark_blind">
+										<a href="#">
+											<img class="ear__poster" src="/i/dummies/CYLCE/ANONS_1924x780/CYCLE_ANONS_2.jpg" alt="Лекция: Драматургия лжи: как нам врут по телевизору">
+										</a>
+									</div>
+									<time class="date_bar">
+										<span class="date_bar__date">30.09</span>
+										<span class="date_bar__day">пт</span>
+										<span class="date_bar__time">21:00</span>
+									</time>
+									<div class="ear__tag">
+										<a href="#">Лекция</a>
+									</div>
+									<h2 class="ear__name ear__name--accent">
+										<a href="#">Драматургия лжи: как нам врут в кино и по телевизору</a>
+									</h2>
+									<p class="ear__author">
+										Олег Коронный, Роман Волобуев
+									</p>
+								</div>
+							</article>
+						</div>
+
 					</div>
-				</article>
-			</div>
-			<div class="grid__cell grid__cell--half">
-				<article class="ear ear--big ruche">
-					<div class="ear__content">
-						<div class="ear__photo dark_blind">
-							<a href="#">
-								<img class="ear__poster" src="/i/photo/osen620.jpg" alt="Лекция: Драматургия лжи: как нам врут по телевизору">
-							</a>
-						</div>
-						<time class="date_bar">
-							<span class="date_bar__date">30.09</span>
-							<span class="date_bar__day">пт</span>
-							<span class="date_bar__time">21:00</span>
-						</time>
-						<div class="ear__tag">
-							<a href="#">Лекция</a>
-						</div>
-						<h2 class="ear__name">
-							<a href="#">Драматургия лжи: как нам врут в кино и по телевизору</a>
-						</h2>
-						<p class="ear__author">
-							Олег Коронный, Роман Волобуев
-						</p>
-					</div>
-				</article>
-			</div>
-		</div>
-	</div>
--->
-
-
-
+				</div>
 			</div>
 		</div>
 		<!--#include virtual="/inc/footer.shtml" -->

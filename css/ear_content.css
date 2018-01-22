@@ -13,18 +13,33 @@
 	margin: 0;
 }
 	.ear__poster {
-		min-width: 977px;
 		position: absolute;
-		bottom: 0;
+		top: 0;
 		right: 0;
-		min-height: 100%;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		object-position: 100% 100%;
 	}
+@media only screen and (min-width: 740px) {
+	.ear__poster {
+		max-height: none;
+		max-width: 100%;
+	}
+}
+
 .ear__name {
 	font: bold 17px/22px Figgins Sans, Arial, sans-serif;
 	text-transform: uppercase;
 	margin-bottom: 4px;
 }
 .ear__name--events {
+	font-size: 16px;
+	line-height: 22px;
+}
+.ear__name--accent {
 	font-size: 22px;
 	line-height: 28px;
 }

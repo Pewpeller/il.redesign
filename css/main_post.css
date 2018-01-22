@@ -135,7 +135,6 @@
 
 .main_post__partners {
 	color: #fff;
-	margin-bottom: 36px;
 	background-color: #181818;
 	font-size: 0;
 	padding-top: 41px;
@@ -182,18 +181,10 @@
 }
 
 @media only screen and (min-width: 621px) {
-	.main_post__partners {
-		margin-bottom: 35px;
-	}
 	.main_post__partner_name {
 		margin-bottom: 16px;
 		font-size: 16px;
 		line-height: 22px;
-	}
-}
-@media only screen and (min-width: 1024px) {
-	.main_post__partners {
-		margin-bottom: 63px;
 	}
 }
 .main_post__lead a {
@@ -202,11 +193,21 @@
 .main_post__lead {
 	font: 17px/25px Parmigiano Piccolo Light, Georgia, sans-serif;
 	color: #181818;
-	margin: 0 auto;
+	margin: 36px auto 0 auto;
 	max-width: 692px;
 	box-sizing: border-box;
 	padding-left: 22px;
 	padding-right: 22px;
+}
+@media only screen and (min-width: 621px) {
+	.main_post__lead {
+		margin-top: 35px;
+	}
+}
+@media only screen and (min-width: 621px) {
+	.main_post__lead {
+		margin-top: 63px;
+	}
 }
 	.main_post__lead b,
 	.main_post__lead strong {
