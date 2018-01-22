@@ -1,0 +1,130 @@
+<!doctype html>
+<html>
+	<!--#include virtual="/inc/head.shtml" -->
+	<body>
+		<!--#include virtual="/inc/header.shtml" -->
+		<div class="main" role="main">
+			<div class="main_post fit_screen ruche ruche--separator">
+				<header class="main_post__header main_post__header--fluid">
+					<div class="layout">
+						<div id="main_post__photo" class="main_post__photo ruche fit_screen__item">
+							<!--
+							<picture>
+								<source srcset="/i/main_post_black.webp" type="image/webp">
+								<img src="/i/main_post_black.jpg" alt="" class="main_post__poster">
+							</picture>
+							-->
+						</div>
+						<script>
+							Modernizr.on('webp', function(result) {
+								if (result) {
+									var i = "url('/i/dummies/EVENT/EVENT_COVER_3200x1130/EVENT_COVER.webp')";
+								} else {
+									var i = "url('/i/dummies/EVENT/EVENT_COVER_3200x1130/EVENT_COVER.jpg')";
+								}
+								document.getElementById('main_post__photo').style.backgroundImage = i;
+							});
+						</script>
+						<noscript>
+							<style>
+								#main_post__photo {
+									background-image: url(/i/main_post_black.jpg);
+								}
+							</style>
+						</noscript>
+					</div>
+					<div class="doc_socials">
+						<div class="doc_socials__item">
+							<a href="#" class="icon__may_zoom"><svg class="icon icon--fb" role="img"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-fb"></use></svg></a>
+						</div>
+						<div class="doc_socials__item">
+							<a href="#" class="icon__may_zoom"><svg class="icon icon--vk" role="img"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-vk"></use></svg></a>
+						</div>
+					</div>
+				</header>
+				<div class="main_post__partners">
+					<div class="layout">
+						<ul class="main_post__partners_list">
+							<li class="main_post__partners_item">
+								<div class="main_post__partner_name">
+									<a href="#">Информационный партнер</a>
+								</div>
+								<div class="main_post__partner_logo">
+									<a href="#">
+										<img src="/i/partner_logo2.svg" alt="" class="main_post__partner_image">
+									</a>
+								</div>
+							</li>
+							<li class="main_post__partners_item">
+								<div class="main_post__partner_name">
+									<a href="#">Другой партнер</a>
+								</div>
+								<div class="main_post__partner_logo">
+									<a href="#">
+										<img src="/i/partner_logo2.svg" alt="" class="main_post__partner_image">
+									</a>
+								</div>
+							</li>
+							<li class="main_post__partners_item">
+								<div class="main_post__partner_name">
+									<a href="#">
+										Третий партнер
+									</a>
+								</div>
+								<div class="main_post__partner_logo">
+									<a href="#">
+										<img src="/i/partner_logo3.svg" alt="" class="main_post__partner_image">
+									</a>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="cycle">
+				<div class="layout">				
+					<div class="cycle__body">
+						<div class="cycle__announce">
+							<article class="announce">
+								<time class="date_bar">
+									<span class="date_bar__date">30.09</span>
+									<span class="date_bar__day">пт</span>
+									<span class="date_bar__time">21:00</span>
+								</time>
+								<div class="announce__tag">
+									<a href="#">Лекция</a> / <a href="#">Зомби-идеи</a>
+								</div>
+								<h2 class="announce__name"><a href="#">Бесплатный сыр: может ли государ­ственный бюджет решать моральные проблемы?</a></h2>
+								<p class="announce__author">
+									Максим Трудолюбов
+								</p>
+							</article>
+							<div class="cycle__text_small">
+								<a href="#"><svg class="icon icon--pin" role="img"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-pin"></use></svg>Площадка инлиберти</a>
+							</div>
+						</div>
+						<div class="cycle__details">
+							<div class="cycle__text">
+								<p>
+									Зомби-прокурор считает, что каждый преступник должен сидеть в тюрьме. Эта мысль кажется ему столь очевидной, что он отказывается замечать <a href="#">главный ее изъян</a>: нельзя посадить за решетку всех виноватых так, чтобы при этом не отправить туда же нескольких невиновных. <b>Даже в странах с хорошо работающей судебной системой сотни тысяч людей платят свободой за то, чтобы преступники сидели в тюрьме.</b>
+								</p>
+								<p>
+									Рэдли Балко (Radley Balko) — американский журналист, автор материалов об уголовном правосудии, борьбе с наркотиками и гражданских свободах в the Washington Post.
+								</p>
+							</div>
+							<div class="cycle__footer">
+								<button class="il_button kbd_button" tabindex="0" type="button">
+									<div class="kbd_button__body" tabindex="-1">Регистрация</div>
+								</button>
+								<div class="cycle__note">
+									Трансляция на <a href="#">afisha.ru</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--#include virtual="/inc/footer.shtml" -->
+	</body>
+</html>
