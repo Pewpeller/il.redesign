@@ -204,7 +204,7 @@
 		margin-top: 35px;
 	}
 }
-@media only screen and (min-width: 621px) {
+@media only screen and (min-width: 1024px) {
 	.main_post__lead {
 		margin-top: 63px;
 	}

@@ -4,7 +4,24 @@
 	<body>
 		<!--#include virtual="/inc/header.shtml" -->
 		<div class="main" role="main">
-			<div class="main_post fit_screen ruche ruche--separator sticky">
+			<div class="hint is_shown sticky">
+				<a href="#">
+					<div class="hint__photo ruche">
+						<img src="/i/dummies/CYLCE/ANONS_Narrow_3200x184/CYCLE_ANONS_NARROW.jpg" alt="10 разговоров о том, кому и зачем мы врем" class="hint__img">
+					</div>
+					<div class="layout">
+						<div class="hint__text">
+							<h2 class="hint__name">
+								Повседневная ложь
+							</h2>
+							<h3 class="hint__subheader">
+								10 разговоров о том, кому и зачем мы врем
+							</h3>
+						</div>
+					</div>
+				</a>
+			</div>
+			<div class="main_post fit_screen ruche ruche--separator">
 				<header class="main_post__header main_post__header--fluid">
 					<div class="layout">
 						<div class="main_post__header_text">
