@@ -118,18 +118,37 @@ body {
 	display: inline-block;
 	padding-right: 1px;
 }
+
 	.icon-shadow {
 		position: relative;
+		z-index: 1;
+		opacity: .9647058823529412;
 		display: inline-block;
+		width: 44px;
+		height: 44px;
 		transition: all .15s cubic-bezier(0.4, 0.0, 0.2, 1) 0s;
 		will-change: transform, opacity;
 		opacity: .9647058823529412;
 	}
+	.icon-shadow::after {
+		content: '';
+		box-shadow: 0 4px 4px 0 rgba(0,0,0,.1784);
+		position: absolute;
+		top: 0;
+		right: 2px;
+		bottom: 4px;
+		left: 2px;
+		border-radius: 50%;
+		z-index: -1;
+		transition: transform .15s cubic-bezier(0.4, 0.0, 0.2, 1) 0s;
+	}
+		.icon-shadow:hover::after {
+			transform: scale(1.1);
+		}
 	.icon-shadow:hover {
-		transform: scale(1.2083);
+		transform: scale(1.1);
 		opacity: 1;
 	}
-
 	.icon__may_zoom {
 		display: inline-block;
 		width: 44px;
