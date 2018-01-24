@@ -364,6 +364,9 @@ img {
 .ruche--topnleft::after {
 	background-position: 1px -5px;
 }
+.ruche--topnright::after {
+	background-position: 1px -10px;
+}
 .ruche--left::after {
 	top: auto;
 	right: auto;
@@ -378,6 +381,18 @@ img {
 		top: 0;
 		left: -10px;
 		right: auto;
+		bottom: 0;
+		width: 10px;
+		background-repeat: repeat-y;
+		height: auto;
+		background-position: -5px -9px;
+	}
+}
+@media only screen and (min-width: 678px) {
+	.ruche--topnright::after {
+		top: 0;
+		right: -22px;
+		left: auto;
 		bottom: 0;
 		width: 10px;
 		background-repeat: repeat-y;

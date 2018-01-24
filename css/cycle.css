@@ -210,6 +210,7 @@
 	font: 0/0 a;
 	text-align: center;
 	background-image: linear-gradient(0deg, rgba(255,255,255,.4) 0px, rgba(255,255,255,.4) 7px, rgba(255,255,255,.8) 7px, rgba(255,255,255,.8) 14px, #fff 14px);
+	overflow: hidden;
 }
 @media only screen and (min-width: 621px) {
 	.hint {
@@ -238,27 +239,31 @@
 		left: 0;
 		text-align: center;
 		font: 0/0 a;
+		background-position: 50% 50%;
+		background-repeat: repeat-x;
+		background-size: auto 100%;
 	}
 	.hint__img {
 		height: 100%;
-		width: 100%;
-		object-fit: cover;
 	}
 	.hint__text {
 		display: inline-block;
-		vertical-align: middle;
 		position: relative;
 		margin-top: 14px;
 		z-index: 2;
 		margin-bottom: 10px;
 	}
+	.hint__name,
+	.hint__subheader {
+		display: inline-block;
+		margin-left: 11px;
+		margin-right: 11px;
+	}
+
 	.hint__name {
 		text-transform: uppercase;
 		font: bold 16px/22px Figgins Sans, Arial, sans-serif;
-		display: inline-block;
-		margin-right: 22px;
 	}
 	.hint__subheader {
 		font: 16px/22px Figgins Sans, Arial, sans-serif;
-		display: inline-block;
 	}

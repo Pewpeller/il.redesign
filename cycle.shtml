@@ -4,10 +4,14 @@
 	<body>
 		<!--#include virtual="/inc/header.shtml" -->
 		<div class="main" role="main">
-			<div class="hint is_shown sticky">
+			<div class="hint hint--dark is_shown sticky">
 				<a href="#">
-					<div class="hint__photo ruche">
-						<img src="/i/dummies/CYLCE/ANONS_Narrow_3200x184/CYCLE_ANONS_NARROW.jpg" alt="10 разговоров о том, кому и зачем мы врем" class="hint__img">
+					<div class="hint__photo ruche" style="background-image: url(/i/dummies/CYLCE/ANONS_Narrow_3200x184/CYCLE_ANONS_NARROW_3_bg.jpg)">
+						
+						<picture>
+							<source srcset="/i/dummies/CYLCE/ANONS_Narrow_3200x184/CYCLE_ANONS_NARROW_3.jpg" type="image/webp">
+							<img src="/i/dummies/CYLCE/ANONS_Narrow_3200x184/CYCLE_ANONS_NARROW_3.jpg" alt="10 разговоров о том, кому и зачем мы врем" class="hint__img">
+						</picture>
 					</div>
 					<div class="layout">
 						<div class="hint__text">
@@ -21,7 +25,7 @@
 					</div>
 				</a>
 			</div>
-			<div class="main_post fit_screen ruche ruche--separator">
+			<div class="main_post main_post--dark fit_screen ruche ruche--separator">
 				<header class="main_post__header main_post__header--fluid">
 					<div class="layout">
 						<div class="main_post__header_text">
@@ -35,31 +39,14 @@
 								Десять разговоров о том, кому и зачем мы врем
 							</h2>
 						</div>
-						<div id="main_post__photo" class="main_post__photo ruche fit_screen__item">
-							<!--
+						<div id="main_post__photo" class="main_post__photo ruche fit_screen__item" style="background-image: url(/i/dummies/CYLCE/COVER_3200x1130/CYCLE_COVER_3_bg.jpg)">
 							<picture>
-								<source srcset="/i/main_post_black.webp" type="image/webp">
-								<img src="/i/main_post_black.jpg" alt="" class="main_post__poster">
+								<source type="image/webp" srcset="/i/dummies/CYLCE/COVER_3200x1130/CYCLE_COVER_3.webp 3200w,/i/dummies/CYLCE/COVER_3200x1130/CYCLE_COVER_3_1600.webp 1600w, /i/dummies/CYLCE/COVER_3200x1130/CYCLE_COVER_3_1280.webp 1280w,
+								/i/dummies/CYLCE/COVER_3200x1130/CYCLE_COVER_3_1024.webp 1024w,/i/dummies/CYLCE/COVER_3200x1130/CYCLE_COVER_3_620.webp 620w,
+								/i/dummies/CYLCE/COVER_3200x1130/CYCLE_COVER_3_320.webp 320w">
+								<img src="/i/dummies/CYLCE/COVER_3200x1130/CYCLE_COVER_3.jpg" alt="Десять разговоров о том, кому и зачем мы врем" class="main_post__poster">
 							</picture>
-							-->
 						</div>
-						<script>
-							Modernizr.on('webp', function(result) {
-								if (result) {
-									var i = "url('/i/main_post_black.webp')";
-								} else {
-									var i = "url('/i/main_post_black.jpg')";
-								}
-								document.getElementById('main_post__photo').style.backgroundImage = i;
-							});
-						</script>
-						<noscript>
-							<style>
-								#main_post__photo {
-									background-image: url(/i/main_post_black.jpg);
-								}
-							</style>
-						</noscript>
 					</div>
 					<div class="doc_socials">
 						<div class="doc_socials__item">

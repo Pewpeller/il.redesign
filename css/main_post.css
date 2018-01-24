@@ -17,31 +17,23 @@
 	z-index: 1;
 	background-color: #f6f6f6;
 	max-height: 565px;
+	overflow: hidden;
 }
 .main_post__photo {
 	position: absolute;
-	z-index: -1;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	background-repeat: repeat-x;
-	background-position: 50% 50%;
-	background-size: cover;
+    z-index: -1;
+    top: 0;
+    right: -3200px;
+    bottom: 0;
+    left: -3200px;
+    background-repeat: repeat-x;
+    background-position: 50% 50%;
+    background-size: auto 100%;
 }
 	.main_post__poster {
 		height: 100%;
-		width: auto;
 		display: block;
-		position: absolute;
-		right: 0;
-	}
-	.object-fit .main_post__poster {
-		width: 100%;
-		/*
-		object-fit: cover;
-		object-position: 100% 100%;
-		*/
+		margin: 0 auto;
 	}
 
 @media only screen and (min-width: 621px) {
@@ -71,9 +63,6 @@
 	}
 }
 @media only screen and (min-width: 1600px) {
-	.main_post__photo {
-		background-size: auto;
-	}
 	.main_post__header--fluid {
 		height: 565px;
 	}
