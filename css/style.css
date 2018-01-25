@@ -461,8 +461,13 @@ hr {
 	height: 1px;
 	border: 0;
 	border-top: 1px solid #181818;
-	margin: 72px 0 71px 0;
 	padding: 0;
+	margin: 42px 0 41px 0;
+}
+@media only screen and (min-width: 1024px) {
+	hr {
+		margin: 70px 0 69px 0;
+	}
 }
 .ear + hr {
 	margin-top: 0;

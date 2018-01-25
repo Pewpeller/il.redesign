@@ -7,11 +7,11 @@
 			<div class="hint hint--dark is_shown sticky">
 				<a href="#">
 					<div class="hint__photo ruche" style="background-image: url(/i/dummies/CYLCE/ANONS_Narrow_3200x184/CYCLE_ANONS_NARROW_3_bg.jpg)">
-						
 						<picture>
-							<source srcset="/i/dummies/CYLCE/ANONS_Narrow_3200x184/CYCLE_ANONS_NARROW_3.jpg" type="image/webp">
+							<source srcset="/i/dummies/CYLCE/ANONS_Narrow_3200x184/CYCLE_ANONS_NARROW_3.webp" type="image/webp">
 							<img src="/i/dummies/CYLCE/ANONS_Narrow_3200x184/CYCLE_ANONS_NARROW_3.jpg" alt="10 разговоров о том, кому и зачем мы врем" class="hint__img">
 						</picture>
+
 					</div>
 					<div class="layout">
 						<div class="hint__text">
@@ -40,12 +40,10 @@
 							</h2>
 						</div>
 						<div id="main_post__photo" class="main_post__photo ruche fit_screen__item" style="background-image: url(/i/dummies/CYLCE/COVER_3200x1130/CYCLE_COVER_3_bg.jpg)">
-							<picture>
-								<source type="image/webp" srcset="/i/dummies/CYLCE/COVER_3200x1130/CYCLE_COVER_3.webp 3200w,/i/dummies/CYLCE/COVER_3200x1130/CYCLE_COVER_3_1600.webp 1600w, /i/dummies/CYLCE/COVER_3200x1130/CYCLE_COVER_3_1280.webp 1280w,
-								/i/dummies/CYLCE/COVER_3200x1130/CYCLE_COVER_3_1024.webp 1024w,/i/dummies/CYLCE/COVER_3200x1130/CYCLE_COVER_3_620.webp 620w,
-								/i/dummies/CYLCE/COVER_3200x1130/CYCLE_COVER_3_320.webp 320w">
-								<img src="/i/dummies/CYLCE/COVER_3200x1130/CYCLE_COVER_3.jpg" alt="Десять разговоров о том, кому и зачем мы врем" class="main_post__poster">
-							</picture>
+							<!--#set var="pic_url" value="/i/dummies/CYLCE/COVER_3200x1130/CYCLE_COVER_3" -->
+							<!--#set var="pic_alt" value="Десять разговоров о том, кому и зачем мы врем" -->
+							<!--#set var="pic_class" value="main_post__poster" -->
+							<!--#include virtual="/inc/picture.shtml" -->
 						</div>
 					</div>
 					<div class="doc_socials">

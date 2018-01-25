@@ -186,7 +186,7 @@
 					</div>
 				</article>
 
-				<hr>
+				<hr class="hide_m hide_t hide_tm hide_tmi">
 				
 				<div class="grid">
 					<div class="grid__inner">

@@ -124,7 +124,7 @@
 					}
 				</style>
 			</noscript>
-			<article class="magazine fit_screen">
+			<article class="magazine magazine--separated fit_screen">
 				<div class="layout">
 					<div class="magazine__header">
 						<div class="magazine__tag">
@@ -166,26 +166,28 @@
 			</noscript>
 
 			<!-- остальной список журналов -->
-			<div class="layout magazines__list">
-				<article class="magazine magazine--small magazine--separated">
-					<div class="magazine__header">
-						<div class="magazine__tag">
-							<h4 class="tag"><a href="#">Выпуск 4</a></h4>
+			<div class="magazines__list">
+				<article class="magazine magazine--small magazine--separated fit_screen">
+					<div class="layout">
+						<div class="magazine__header">
+							<div class="magazine__tag">
+								<h4 class="tag"><a href="#">Выпуск 4</a></h4>
+							</div>
+							<h1 class="magazine__name"><a href="#">Свобода сегодня</a></h1>
+							<h2 class="magazine__subheader"><a href="#">10 главных экономических идей 20 века</a></h2>
 						</div>
-						<h1 class="magazine__name"><a href="#">Свобода сегодня</a></h1>
-						<h2 class="magazine__subheader"><a href="#">10 главных экономических идей 20 века</a></h2>
-					</div>
-					<div id="magazine_photo5" class="magazine__photo">
-					</div>
-					<div class="magazine__text_frame">
-						<p class="magazine__intro">
-							<a href="#">
-								Конец августа — эмоциональное дно украинского кризиса. Через три дня, 24-го, российские батальонно-тактические группы перейдут в контрнаступление под Иловайском.
-							</a>
-						</p>
-						<p class="magazine__author">
-							<a href="#">Максим Трудолюбов, Лев Рубинштейн, Юлий Гуголев, Алексей Цветков</a>
-						</p>
+						<div id="magazine_photo5" class="magazine__photo">
+						</div>
+						<div class="magazine__text_frame">
+							<p class="magazine__intro">
+								<a href="#">
+									Конец августа — эмоциональное дно украинского кризиса. Через три дня, 24-го, российские батальонно-тактические группы перейдут в контрнаступление под Иловайском.
+								</a>
+							</p>
+							<p class="magazine__author">
+								<a href="#">Максим Трудолюбов, Лев Рубинштейн, Юлий Гуголев, Алексей Цветков</a>
+							</p>
+						</div>
 					</div>
 					<script>
 						Modernizr.on('webp', function(result) {
@@ -205,25 +207,27 @@
 						</style>
 					</noscript>
 				</article>
-				<article class="magazine magazine--small magazine--separated">
-					<div class="magazine__header">
-						<div class="magazine__tag">
-							<h4 class="tag"><a href="#">Выпуск 4</a></h4>
+				<article class="magazine magazine--small magazine--separated fit_screen">
+					<div class="layout">
+						<div class="magazine__header">
+							<div class="magazine__tag">
+								<h4 class="tag"><a href="#">Выпуск 4</a></h4>
+							</div>
+							<h1 class="magazine__name"><a href="#">Между гегелем и конфуцием</a></h1>
+							<h2 class="magazine__subheader"><a href="#">Cмех не бывает преступным. Он бывает иногда злобным и глупым. Это да</a></h2>
 						</div>
-						<h1 class="magazine__name"><a href="#">Между гегелем и конфуцием</a></h1>
-						<h2 class="magazine__subheader"><a href="#">Cмех не бывает преступным. Он бывает иногда злобным и глупым. Это да</a></h2>
-					</div>
-					<div id="magazine_photo6" class="magazine__photo">
-					</div>
-					<div class="magazine__text_frame">
-						<p class="magazine__intro">
-							<a href="#">
-								Конец августа — эмоциональное дно украинского кризиса. Через три дня, 24-го, российские батальонно-тактические группы перейдут в контрнаступление под Иловайском.
-							</a>
-						</p>
-						<p class="magazine__author">
-							<a href="#">Максим Трудолюбов, Лев Рубинштейн, Юлий Гуголев, Алексей Цветков</a>
-						</p>
+						<div id="magazine_photo6" class="magazine__photo">
+						</div>
+						<div class="magazine__text_frame">
+							<p class="magazine__intro">
+								<a href="#">
+									Конец августа — эмоциональное дно украинского кризиса. Через три дня, 24-го, российские батальонно-тактические группы перейдут в контрнаступление под Иловайском.
+								</a>
+							</p>
+							<p class="magazine__author">
+								<a href="#">Максим Трудолюбов, Лев Рубинштейн, Юлий Гуголев, Алексей Цветков</a>
+							</p>
+						</div>
 					</div>
 					<script>
 						Modernizr.on('webp', function(result) {
@@ -238,6 +242,86 @@
 					<noscript>
 						<style>
 							#magazine_photo6 {
+								background-image: url(/i/main_post_black.jpg);
+							}
+						</style>
+					</noscript>
+				</article>
+				<article class="magazine magazine--small magazine--separated fit_screen">
+					<div class="layout">
+						<div class="magazine__header">
+							<div class="magazine__tag">
+								<h4 class="tag"><a href="#">Выпуск 4</a></h4>
+							</div>
+							<h1 class="magazine__name"><a href="#">Свобода сегодня</a></h1>
+							<h2 class="magazine__subheader"><a href="#">10 главных экономических идей 20 века</a></h2>
+						</div>
+						<div id="magazine_photo7" class="magazine__photo">
+						</div>
+						<div class="magazine__text_frame">
+							<p class="magazine__intro">
+								<a href="#">
+									Конец августа — эмоциональное дно украинского кризиса. Через три дня, 24-го, российские батальонно-тактические группы перейдут в контрнаступление под Иловайском.
+								</a>
+							</p>
+							<p class="magazine__author">
+								<a href="#">Максим Трудолюбов, Лев Рубинштейн, Юлий Гуголев, Алексей Цветков</a>
+							</p>
+						</div>
+					</div>
+					<script>
+						Modernizr.on('webp', function(result) {
+							if (result) {
+								var i = "url('/i/main_post_black.webp')";
+							} else {
+								var i = "url('/i/main_post_black.jpg')";
+							}
+							document.getElementById('magazine_photo7').style.backgroundImage = i;
+						});
+					</script>
+					<noscript>
+						<style>
+							#magazine_photo7 {
+								background-image: url(/i/main_post_black.jpg);
+							}
+						</style>
+					</noscript>
+				</article>
+				<article class="magazine magazine--small magazine--separated fit_screen">
+					<div class="layout">
+						<div class="magazine__header">
+							<div class="magazine__tag">
+								<h4 class="tag"><a href="#">Выпуск 4</a></h4>
+							</div>
+							<h1 class="magazine__name"><a href="#">Между гегелем и конфуцием</a></h1>
+							<h2 class="magazine__subheader"><a href="#">Cмех не бывает преступным. Он бывает иногда злобным и глупым. Это да</a></h2>
+						</div>
+						<div id="magazine_photo8" class="magazine__photo">
+						</div>
+						<div class="magazine__text_frame">
+							<p class="magazine__intro">
+								<a href="#">
+									Конец августа — эмоциональное дно украинского кризиса. Через три дня, 24-го, российские батальонно-тактические группы перейдут в контрнаступление под Иловайском.
+								</a>
+							</p>
+							<p class="magazine__author">
+								<a href="#">Максим Трудолюбов, Лев Рубинштейн, Юлий Гуголев, Алексей Цветков</a>
+							</p>
+						</div>
+					</div>
+					<script>
+						Modernizr.on('webp', function(result) {
+							if (result) {
+								var i = "url('/i/main_post_black.webp')";
+							} else {
+								var i = "url('/i/main_post_black.jpg')";
+							}
+							document.getElementById('magazine_photo8').style.backgroundImage = i;
+						});
+					</script>
+					<noscript>
+						<style>
+							#magazine_photo8 {
 								background-image: url(/i/main_post_black.jpg);
 							}
 						</style>
