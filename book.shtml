@@ -20,10 +20,10 @@
 								</h2>
 							</div>
 							<div class="book_post__photo">
-								<picture>
-									<source srcset="/i/Jacobs.webp" type="image/webp">
-									<img src="/i/Jacobs.jpg" alt="" class="book_post__poster">
-								</picture>
+								<!--#set var="pic_url" value="/i/dummies/BOOK_668x668/book1" -->
+								<!--#set var="pic_alt" value="Искусство быть неподвластным" -->
+								<!--#set var="pic_class" value="book_post__poster" -->
+								<!--#include virtual="/inc/picture_book.shtml" -->
 							</div>
 						</div>
 						<div class="doc_socials">
@@ -79,11 +79,12 @@
 							<div class="grid__cell grid_t_full grid_tmi_small grid_d_small">
 								<div class="book_index__photo">
 									<picture>
-										<source media="(-webkit-min-device-pixel-ratio: 1.25),
-	    								(min-resolution: 120dpi)" srcset="/i/book_index2x.webp" type="image/webp">
-										<source media="(-webkit-min-device-pixel-ratio: 1.25),(min-resolution: 120dpi)" srcset="/i/book_index2x.jpg">
-										<source srcset="/i/book_index.webp" type="image/webp">
-										<img src="/i/book_index.jpg" alt="Наталья Горбаневская">
+										<source media="(-webkit-min-device-pixel-ratio: 2),
+	    								(min-resolution: 200dpi)" srcset="/i/dummies/BOOK_AUTOR_450x/Autor_450.webp 450w" type="image/webp">
+										<source media="(-webkit-min-device-pixel-ratio: 2),(min-resolution: 200dpi)" srcset="/i/dummies/BOOK_AUTOR_450x/Autor_450.jpg 450w">
+										<source srcset="/i/dummies/BOOK_AUTOR_450x/Autor_225.webp 225w" type="image/webp">
+										<source srcset="/i/dummies/BOOK_AUTOR_450x/Autor_225.jpg 225w">
+										<img src="/i/dummies/BOOK_AUTOR_450x/Autor_225.jpg" alt="Наталья Горбаневская">
 									</picture>
 								</div>
 								<h3 class="book_index__text">

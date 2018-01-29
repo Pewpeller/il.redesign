@@ -1,0 +1,28 @@
+<picture>
+	<source media="
+		(min-width: 1024px) and (-webkit-min-device-pixel-ratio: 2),
+		(min-width: 1024px) and (min-resolution: 200dpi)" type="image/webp"
+		srcset="<!--#echo var="pic_url" -->_668.webp 668w">
+	<source media="
+		(min-width: 1024px) and (-webkit-min-device-pixel-ratio: 2),
+		(min-width: 1024px) and (min-resolution: 200dpi)"
+		srcset="<!--#echo var="pic_url" -->_668.jpg 668w">
+	<source media="
+		(min-width: 621px) and (-webkit-min-device-pixel-ratio: 2),
+		(min-width: 621px) and (min-resolution: 200dpi)" type="image/webp"
+		srcset="<!--#echo var="pic_url" -->_448.webp 448w">
+	<source media="
+		(min-width: 621px) and (-webkit-min-device-pixel-ratio: 2),
+		(min-width: 621px) and (min-resolution: 200dpi)"
+		srcset="<!--#echo var="pic_url" -->_448.jpg 448w">
+	<source media="
+		(max-width: 620.99px) and (-webkit-min-device-pixel-ratio: 2),
+		(min-width: 620.99px) and (min-resolution: 200dpi)" type="image/webp"
+		srcset="<!--#echo var="pic_url" -->_552.webp 552w">
+	<source media="
+		(max-width: 620.99px) and (-webkit-min-device-pixel-ratio: 2),
+		(min-width: 620.99px) and (min-resolution: 200dpi)"
+		srcset="<!--#echo var="pic_url" -->_552.jpg 552w">
+	<img <!--#if expr="$pic_class" -->class="<!--#echo var="pic_class" --> "<!--#endif -->srcset="<!--#echo var="pic_url" -->_224.jpg 224w,<!--#echo var="pic_url" -->_276.jpg 276w, <!--#echo var="pic_url" -->_334.jpg 334w" 
+	src="<!--#echo var="pic_url" -->_334.jpg" alt="<!--#echo var="pic_alt" -->">
+</picture>

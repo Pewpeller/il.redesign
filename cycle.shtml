@@ -18,7 +18,7 @@
 								Десять разговоров о том, кому и зачем мы врем
 							</h2>
 						</div>
-						<div id="main_post__photo" class="main_post__photo ruche fit_screen__item" style="background-image: url(/i/dummies/CYLCE/COVER_3200x1130/CYCLE_COVER_1_320.jpg)">
+						<div id="main_post__photo" class="main_post__photo ruche fit_screen__item" style="background-image: url(/i/dummies/CYLCE/COVER_3200x1130/CYCLE_COVER_1_bg.jpg)">
 							<!--#set var="pic_url" value="/i/dummies/CYLCE/COVER_3200x1130/CYCLE_COVER_1" -->
 							<!--#set var="pic_alt" value="Десять разговоров о том, кому и зачем мы врем" -->
 							<!--#set var="pic_class" value="main_post__poster" -->
