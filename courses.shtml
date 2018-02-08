@@ -1,0 +1,199 @@
+<!doctype html>
+<html>
+	<!--#include virtual="/inc/head.shtml" -->
+	<body>
+		<!--#include virtual="/inc/header.shtml" -->
+		<div class="main" role="main">
+			<div class="courses">
+				<div class="layout">
+					<div class="courses_header">
+						<h1 class="courses_header__name">
+							Что такое курсы Inliberty?
+						</h1>
+						<div class="courses_header__lead">
+							InLiberty открывает <a href="#">собственную площадку</a> в Москве и круглогодичную программу курсов для взрослых и детей, в основе которой лежат принципы Liberal Arts огодичную программу.
+						</div>
+						<ul class="courses_concept">
+							<li class="courses_concept__item">
+								<div class="courses_concept__text">
+									Картина мира<br>
+									вместо отдельных<br>
+									дисциплин
+								</div>
+							</li>
+							<li class="courses_concept__item">
+								<div class="courses_concept__text">
+									Жизненные<br>
+									навыки вместо<br>эрудиции
+								</div>
+							</li>
+							<li class="courses_concept__item">
+								<div class="courses_concept__text">
+									Эксперимент<br>
+									вместо инерции 
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="grid">
+						<div class="grid__inner">
+							<div class="grid__cell grid_d_half">
+								<article class="course">
+									<a href="#">
+										<div class="course__photo">
+											<img src="/i/dummies/COURSES/1.jpg" alt="Почему люди не должны быть нормальными">
+										</div>
+										<div class="ear ear--dark">
+											<div class="ear__content">
+												<time class="date_bar">
+													<span class="date_bar__range_date">30.09-12.10</span>
+												</time>
+												<div class="ear__tag">
+													80 часов, 8 занятий, пн, пт
+												</div>
+											</div>
+										</div>
+									</a>
+								</article>
+							</div>
+							<div class="grid__cell grid_d_half">
+								<article class="course">
+									<a href="#">
+										<div class="course__photo">
+											<img src="/i/dummies/COURSES/2.jpg" alt="Модернизация чувств, которая происходит прямо сейчас">
+										</div>
+										<div class="ear">
+											<div class="ear__content">
+												<time class="date_bar">
+													<span class="date_bar__range_date">30.09-12.10</span>
+												</time>
+												<div class="ear__tag">
+													80 часов, 8 занятий, пн, пт
+												</div>
+											</div>
+										</div>
+									</a>
+								</article>
+							</div>
+							<div class="grid__cell grid_d_half">
+								<article class="course">
+									<a href="#">
+										<div class="course__photo">
+											<img src="/i/dummies/COURSES/3.jpg" alt="Почему люди не должны быть нормальными">
+										</div>
+										<div class="ear ear--dark">
+											<div class="ear__content">
+												<time class="date_bar">
+													<span class="date_bar__range_date">30.09-12.10</span>
+												</time>
+												<div class="ear__tag">
+													80 часов, 8 занятий, пн, пт
+												</div>
+											</div>
+										</div>
+									</a>
+								</article>
+							</div>
+							<div class="grid__cell grid_d_half">
+								<article class="course">
+									<a href="#">
+										<div class="course__photo">
+											<img src="/i/dummies/COURSES/4.jpg" alt="Модернизация чувств, которая происходит прямо сейчас">
+										</div>
+										<div class="ear">
+											<div class="ear__content">
+												<time class="date_bar">
+													<span class="date_bar__range_date">30.09-12.10</span>
+												</time>
+												<div class="ear__tag">
+													80 часов, 8 занятий, пн, пт
+												</div>
+											</div>
+										</div>
+									</a>
+								</article>
+							</div>
+							<div class="grid__cell grid_d_half">
+								<article class="course">
+									<a href="#">
+										<div class="course__photo">
+											<img src="/i/dummies/COURSES/5.jpg" alt="Почему люди не должны быть нормальными">
+										</div>
+										<div class="ear ear--dark">
+											<div class="ear__content">
+												<time class="date_bar">
+													<span class="date_bar__range_date">30.09-12.10</span>
+												</time>
+												<div class="ear__tag">
+													80 часов, 8 занятий, пн, пт
+												</div>
+											</div>
+										</div>
+									</a>
+								</article>
+							</div>
+							<div class="grid__cell grid_d_half">
+								<article class="course">
+									<a href="#">
+										<div class="course__photo">
+											<img src="/i/dummies/COURSES/6.jpg" alt="Модернизация чувств, которая происходит прямо сейчас">
+										</div>
+										<div class="ear">
+											<div class="ear__content">
+												<time class="date_bar">
+													<span class="date_bar__range_date">30.09-12.10</span>
+												</time>
+												<div class="ear__tag">
+													80 часов, 8 занятий, пн, пт
+												</div>
+											</div>
+										</div>
+									</a>
+								</article>
+							</div>
+							<div class="grid__cell grid_d_half">
+								<article class="course">
+									<a href="#">
+										<div class="course__photo">
+											<img src="/i/dummies/COURSES/7.jpg" alt="Почему люди не должны быть нормальными">
+										</div>
+										<div class="ear ear--dark">
+											<div class="ear__content">
+												<time class="date_bar">
+													<span class="date_bar__range_date">30.09-12.10</span>
+												</time>
+												<div class="ear__tag">
+													80 часов, 8 занятий, пн, пт
+												</div>
+											</div>
+										</div>
+									</a>
+								</article>
+							</div>
+							<div class="grid__cell grid_d_half">
+								<article class="course">
+									<a href="#">
+										<div class="course__photo">
+											<img src="/i/dummies/COURSES/8.jpg" alt="Модернизация чувств, которая происходит прямо сейчас">
+										</div>
+										<div class="ear">
+											<div class="ear__content">
+												<time class="date_bar">
+													<span class="date_bar__range_date">30.09-12.10</span>
+												</time>
+												<div class="ear__tag">
+													80 часов, 8 занятий, пн, пт
+												</div>
+											</div>
+										</div>
+									</a>
+								</article>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--#include virtual="/inc/footer.shtml" -->
+	</body>
+</html>

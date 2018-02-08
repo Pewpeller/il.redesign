@@ -1,0 +1,110 @@
+.course {
+	font: 0/0 a;
+}
+.course {
+	margin-bottom: 42px;
+	max-width: 620px;
+	margin-left: auto;
+	margin-right: auto;
+}
+@media only screen and (min-width: 1024px) {
+	.course {
+		margin-bottom: 70px;
+	}
+}
+.course__photo {
+	display: inline-block;
+	width: 100%;
+	margin-right: -100%;
+	position: relative;
+	vertical-align: top;
+}
+	.course__photo img {
+		max-height: none;
+		max-width: 100%;
+	}
+.courses_header {
+	max-width: 576px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.courses_header__name {
+	font: bold 31px/32px Figgins Sans, Arial, sans-serif;
+	margin-bottom: 13px;
+}
+.courses_header__lead {
+	font: 17px/25px Parmigiano Piccolo Light, Arial, sans-serif;
+}
+.courses_header__lead a {
+	font: bold 19px/25px Figgins Sans, Arial, sans-serif;
+	border-bottom: 1px solid #64FFDA;
+}
+.courses_concept {
+	counter-reset: concept;
+	text-align: center;
+	margin: 0 auto;
+	font: 0/0 a;
+	margin-bottom: 8px;
+	margin-top: 11px;
+}
+	.courses_concept__item {
+		color: #181818;
+		position: relative;
+	}
+@media only screen and (min-width: 621px) {
+	.courses_concept__item {
+		display: inline-block;
+		vertical-align: top;
+		width: calc((100% - 44px) / 3);
+		box-sizing: border-box;
+		color: #181818;
+		position: relative;
+	}
+	.courses_concept__item:nth-child(2) {
+		margin-right: 22px;
+		margin-left: 22px;
+	}
+}
+@media only screen and (min-width: 1024px) {
+	.courses_header {
+		max-width: none;
+	}
+	.courses_header__name {
+		font-size: 70px;
+		line-height: 74px;
+		margin-bottom: 5px;
+	}
+	.courses_header__lead {
+		font-size: 24px;
+		line-height: 32px;
+	}
+	.courses_header__lead a {
+		font-size: 27px;
+	}
+	.courses_concept {
+		margin-top: 43px;
+	}
+}
+	.courses_concept__item::before {
+		content: counter(concept);
+		counter-increment: concept;
+		text-align: center;
+		width: 100%;
+		display: inline-block;
+		vertical-align: middle;
+		font: 170px/1 Figgins Sans, Arial, sans-serif;
+		color: #64FFDA;
+	}
+.courses_concept__text {
+	font: bold 22px/25px Figgins Sans, Arial, sans-serif;
+	display: inline-block;
+	vertical-align: top;
+	white-space: nowrap;
+	position: absolute;
+	top: 50px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.courses_concept_stuff {
+	max-width: 576px;
+}
