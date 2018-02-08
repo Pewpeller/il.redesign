@@ -18,7 +18,7 @@
 								Десять разговоров о том, кому и зачем мы врем
 							</h2>
 						</div>
-						<div id="main_post__photo" class="main_post__photo ruche fit_screen__item" style="background-image: url(/i/dummies/CYLCE/COVER_3200x1130/CYCLE_COVER_2_bg.svg);background-size: auto 102%">
+						<div id="main_post__photo" class="main_post__photo ruche fit_screen__item" style="background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgMTEzIj48ZmlsdGVyIGlkPSJiIj48ZmVHYXVzc2lhbkJsdXIgc3RkRGV2aWF0aW9uPSIxMiIgLz48L2ZpbHRlcj48cGF0aCBmaWxsPSIjNDc0MjQ3IiBkPSJNMCAwaDMyMHYxMTJIMHoiLz48ZyBmaWx0ZXI9InVybCgjYikiIHRyYW5zZm9ybT0ibWF0cml4KDEuMjUgMCAwIDEuMjUgLjYgLjYpIiBmaWxsLW9wYWNpdHk9Ii41Ij48ZWxsaXBzZSBmaWxsPSIjODk4NDg5IiBjeD0iMjMiIGN5PSI0NyIgcng9IjMyIiByeT0iMTYxIi8+PGVsbGlwc2UgZmlsbD0iIzBkMGEwZiIgY3g9IjIzMiIgY3k9Ijc0IiByeD0iMTkiIHJ5PSI0MyIvPjxlbGxpcHNlIGZpbGw9IiMyMzFmMjQiIGN4PSI5MCIgY3k9IjMyIiByeD0iMzYiIHJ5PSI0OSIvPjxlbGxpcHNlIGZpbGw9IiM3MTZjNzEiIHJ4PSIxIiByeT0iMSIgdHJhbnNmb3JtPSJtYXRyaXgoLTU0LjI2NTYgLTM2LjgzMDczIDE2LjI2MTIyIC0yMy45NTg5MiAyNTQuOCAxMC4zKSIvPjxwYXRoIGZpbGw9IiMxNzEyMTgiIGQ9Ik0yMTYgNjhsNS0zNS02Ni0yNXoiLz48cGF0aCBmaWxsPSIjNzM2ZTczIiBkPSJNMTY2LTE2bDI2IDQ5IDE4LTE0eiIvPjxwYXRoIGQ9Ik0xODYuNi04LjdsNTguOCA1MS4yLTIgMi4yLTU4LjgtNTEuMnoiLz48ZWxsaXBzZSBmaWxsPSIjMjMxZjI0IiBjeD0iMTE0IiBjeT0iNTMiIHJ4PSIyMiIgcnk9IjIyIi8+PC9nPjwvc3ZnPg==);backgrwound-size: auto 102%">
 							<!--#set var="pic_url" value="/i/dummies/CYLCE/COVER_3200x1130/CYCLE_COVER_2" -->
 							<!--#set var="pic_alt" value="Десять разговоров о том, кому и зачем мы врем" -->
 							<!--#set var="pic_class" value="main_post__poster" -->
