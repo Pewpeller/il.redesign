@@ -151,8 +151,10 @@ body {
 	}
 	.icon__may_zoom {
 		display: inline-block;
+		/*
 		width: 44px;
 		height: 44px;
+		*/
 		text-align: center;
 	}
 		.icon__may_zoom::before {

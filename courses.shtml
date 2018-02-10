@@ -34,7 +34,41 @@
 								</div>
 							</li>
 						</ul>
+						<ul class="courses_features">
+							<li class="courses_features__item">
+								<b>Курсы</b> разной продолжительности, которые легко встроить в свой график
+							</li>
+							<li class="courses_features__item">
+								<b>Форматы</b>, которые требуют вовлечения,  аналитической и проектной работы
+							</li>
+							<li class="courses_features__item">
+								<b>Темы</b>, которые позволяют увидеть жизнь общества в ее полноте и сложности
+							</li>
+							<li class="courses_features__item">
+								<b>Пространство</b>, которое дает возможности для общения и нового культурного опыта	
+							</li>
+						</ul>
+						<button class="kbd_button courses_faq_button" tabindex="0" type="button">
+							<div class="kbd_button__body" tabindex="-1">
+								<div class="icon__may_zoom">
+									<div class="courses_faq_button__shape icon">?</div>
+								</div>
+								<span class="courses_faq_button__text">FAQ</span>
+							</div>
+						</button>
+						<div class="courses_socials">
+							<div class="courses_socials__item">
+								<a href="#" class="icon-shadow icon__may_zoom"><svg class="icon icon--fb" role="img"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-fb"></use></svg></a>
+							</div>
+							<div class="courses_socials__item">
+								<a href="#" class="icon-shadow icon__may_zoom"><svg class="icon icon--vk" role="img"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-vk"></use></svg></a>
+							</div>
+							<div class="courses_socials__item">
+								<a href="#" class="icon-shadow icon__may_zoom"><svg class="icon icon--telegram" role="img"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-telegram"></use></svg></a>
+							</div>
+						</div>
 					</div>
+
 					<div class="grid">
 						<div class="grid__inner">
 							<div class="grid__cell grid_d_half">
