@@ -68,160 +68,198 @@
 							</div>
 						</div>
 					</div>
+				</div>
 
-					<div class="grid">
-						<div class="grid__inner">
-							<div class="grid__cell grid_d_half">
-								<article class="course">
-									<a href="#">
-										<div class="course__photo">
-											<img src="/i/dummies/COURSES/1.jpg" alt="Почему люди не должны быть нормальными">
-										</div>
-										<div class="ear ear--dark">
-											<div class="ear__content">
-												<time class="date_bar">
-													<span class="date_bar__range_date">30.09-12.10</span>
-												</time>
-												<div class="ear__tag">
-													80 часов, 8 занятий, пн, пт
+				<div class="courses__digest">
+					<div class="layout">
+						<h2 class="courses__section_name">Весна-лето 2018</h2>
+						<div class="grid">
+							<div class="grid__inner">
+								<div class="grid__cell grid_d_half">
+									<article class="course">
+										<a href="#">
+											<div class="course__photo">
+												<img src="/i/dummies/COURSES/1.jpg" alt="Почему люди не должны быть нормальными">
+											</div>
+											<div class="ear ear--dark">
+												<div class="ear__content">
+													<time class="date_bar">
+														<span class="date_bar__range_date">30.09-12.10</span>
+													</time>
+													<div class="ear__tag">
+														80 часов, 8 занятий, пн, пт
+													</div>
 												</div>
 											</div>
-										</div>
-									</a>
-								</article>
-							</div>
-							<div class="grid__cell grid_d_half">
-								<article class="course">
-									<a href="#">
-										<div class="course__photo">
-											<img src="/i/dummies/COURSES/2.jpg" alt="Модернизация чувств, которая происходит прямо сейчас">
-										</div>
-										<div class="ear">
-											<div class="ear__content">
-												<time class="date_bar">
-													<span class="date_bar__range_date">30.09-12.10</span>
-												</time>
-												<div class="ear__tag">
-													80 часов, 8 занятий, пн, пт
+										</a>
+										<p class="course__price">
+											17 500 руб.
+										</p>
+									</article>
+								</div>
+								<div class="grid__cell grid_d_half">
+									<article class="course">
+										<a href="#">
+											<div class="course__photo">
+												<img src="/i/dummies/COURSES/2.jpg" alt="Модернизация чувств, которая происходит прямо сейчас">
+											</div>
+											<div class="ear">
+												<div class="ear__content">
+													<time class="date_bar">
+														<span class="date_bar__range_date">30.09-12.10</span>
+													</time>
+													<div class="ear__tag">
+														80 часов, 8 занятий, пн, пт
+													</div>
 												</div>
 											</div>
-										</div>
-									</a>
-								</article>
-							</div>
-							<div class="grid__cell grid_d_half">
-								<article class="course">
-									<a href="#">
-										<div class="course__photo">
-											<img src="/i/dummies/COURSES/3.jpg" alt="Почему люди не должны быть нормальными">
-										</div>
-										<div class="ear ear--dark">
-											<div class="ear__content">
-												<time class="date_bar">
-													<span class="date_bar__range_date">30.09-12.10</span>
-												</time>
-												<div class="ear__tag">
-													80 часов, 8 занятий, пн, пт
+										</a>
+										<p class="course__price">
+											7 500 руб.
+										</p>
+									</article>
+								</div>
+								<div class="grid__cell grid_d_half">
+									<article class="course">
+										<a href="#">
+											<div class="course__photo">
+												<img src="/i/dummies/COURSES/3.jpg" alt="Почему люди не должны быть нормальными">
+											</div>
+											<div class="ear ear--dark">
+												<div class="ear__content">
+													<time class="date_bar">
+														<span class="date_bar__range_date">30.09-12.10</span>
+													</time>
+													<div class="ear__tag">
+														80 часов, 8 занятий, пн, пт
+													</div>
 												</div>
 											</div>
-										</div>
-									</a>
-								</article>
-							</div>
-							<div class="grid__cell grid_d_half">
-								<article class="course">
-									<a href="#">
-										<div class="course__photo">
-											<img src="/i/dummies/COURSES/4.jpg" alt="Модернизация чувств, которая происходит прямо сейчас">
-										</div>
-										<div class="ear">
-											<div class="ear__content">
-												<time class="date_bar">
-													<span class="date_bar__range_date">30.09-12.10</span>
-												</time>
-												<div class="ear__tag">
-													80 часов, 8 занятий, пн, пт
+										</a>
+										<p class="course__price">
+											27 950 руб.
+										</p>
+									</article>
+								</div>
+								<div class="grid__cell grid_d_half">
+									<article class="course">
+										<a href="#">
+											<div class="course__photo">
+												<img src="/i/dummies/COURSES/4.jpg" alt="Модернизация чувств, которая происходит прямо сейчас">
+											</div>
+											<div class="ear">
+												<div class="ear__content">
+													<time class="date_bar">
+														<span class="date_bar__range_date">30.09-12.10</span>
+													</time>
+													<div class="ear__tag">
+														80 часов, 8 занятий, пн, пт
+													</div>
 												</div>
 											</div>
+										</a>
+										<div class="course__banner course__banner--closed">
+											Набор закрыт
 										</div>
-									</a>
-								</article>
-							</div>
-							<div class="grid__cell grid_d_half">
-								<article class="course">
-									<a href="#">
-										<div class="course__photo">
-											<img src="/i/dummies/COURSES/5.jpg" alt="Почему люди не должны быть нормальными">
+										<div class="course__price">
+											<span class="course__price_announce">
+												<a href="#">Напишите нам</a>, если хотите, чтобы мы повторили курс
+											</span>
 										</div>
-										<div class="ear ear--dark">
-											<div class="ear__content">
-												<time class="date_bar">
-													<span class="date_bar__range_date">30.09-12.10</span>
-												</time>
-												<div class="ear__tag">
-													80 часов, 8 занятий, пн, пт
+									</article>
+								</div>
+								<div class="grid__cell grid_d_half">
+									<article class="course">
+										<a href="#">
+											<div class="course__photo">
+												<img src="/i/dummies/COURSES/5.jpg" alt="Почему люди не должны быть нормальными">
+											</div>
+											<div class="ear ear--dark">
+												<div class="ear__content">
+													<time class="date_bar">
+														<span class="date_bar__range_date">30.09-12.10</span>
+													</time>
+													<div class="ear__tag">
+														80 часов, 8 занятий, пн, пт
+													</div>
 												</div>
 											</div>
+										</a>
+										<div class="course__banner">
+											Осталось 5 мест
 										</div>
-									</a>
-								</article>
-							</div>
-							<div class="grid__cell grid_d_half">
-								<article class="course">
-									<a href="#">
-										<div class="course__photo">
-											<img src="/i/dummies/COURSES/6.jpg" alt="Модернизация чувств, которая происходит прямо сейчас">
+										<div class="course__price">
+											99 950 руб.
 										</div>
-										<div class="ear">
-											<div class="ear__content">
-												<time class="date_bar">
-													<span class="date_bar__range_date">30.09-12.10</span>
-												</time>
-												<div class="ear__tag">
-													80 часов, 8 занятий, пн, пт
+									</article>
+								</div>
+								<div class="grid__cell grid_d_half">
+									<article class="course">
+										<a href="#">
+											<div class="course__photo">
+												<img src="/i/dummies/COURSES/6.jpg" alt="Модернизация чувств, которая происходит прямо сейчас">
+											</div>
+											<div class="ear">
+												<div class="ear__content">
+													<time class="date_bar">
+														<span class="date_bar__range_date">30.09-12.10</span>
+													</time>
+													<div class="ear__tag">
+														80 часов, 8 занятий, пн, пт
+													</div>
 												</div>
 											</div>
-										</div>
-									</a>
-								</article>
-							</div>
-							<div class="grid__cell grid_d_half">
-								<article class="course">
-									<a href="#">
-										<div class="course__photo">
-											<img src="/i/dummies/COURSES/7.jpg" alt="Почему люди не должны быть нормальными">
-										</div>
-										<div class="ear ear--dark">
-											<div class="ear__content">
-												<time class="date_bar">
-													<span class="date_bar__range_date">30.09-12.10</span>
-												</time>
-												<div class="ear__tag">
-													80 часов, 8 занятий, пн, пт
+										</a>
+										<p class="course__price">
+											17 500 руб.
+										</p>
+									</article>
+								</div>
+								<h2 class="courses__section_name">Курсы для детей</h2>
+								<div class="grid__cell grid_d_half">
+									<article class="course">
+										<a href="#">
+											<div class="course__photo">
+												<img src="/i/dummies/COURSES/7.jpg" alt="Почему люди не должны быть нормальными">
+											</div>
+											<div class="ear">
+												<div class="ear__content">
+													<time class="date_bar">
+														<span class="date_bar__range_date">30.09-12.10</span>
+													</time>
+													<div class="ear__tag">
+														80 часов, 8 занятий, пн, пт
+													</div>
 												</div>
 											</div>
-										</div>
-									</a>
-								</article>
-							</div>
-							<div class="grid__cell grid_d_half">
-								<article class="course">
-									<a href="#">
-										<div class="course__photo">
-											<img src="/i/dummies/COURSES/8.jpg" alt="Модернизация чувств, которая происходит прямо сейчас">
-										</div>
-										<div class="ear">
-											<div class="ear__content">
-												<time class="date_bar">
-													<span class="date_bar__range_date">30.09-12.10</span>
-												</time>
-												<div class="ear__tag">
-													80 часов, 8 занятий, пн, пт
+										</a>
+										<p class="course__price">
+											17 500 руб.
+										</p>
+									</article>
+								</div>
+								<div class="grid__cell grid_d_half">
+									<article class="course">
+										<a href="#">
+											<div class="course__photo">
+												<img src="/i/dummies/COURSES/8.jpg" alt="Модернизация чувств, которая происходит прямо сейчас">
+											</div>
+											<div class="ear ear--dark">
+												<div class="ear__content">
+													<time class="date_bar">
+														<span class="date_bar__range_date">30.09-12.10</span>
+													</time>
+													<div class="ear__tag">
+														80 часов, 8 занятий, пн, пт
+													</div>
 												</div>
 											</div>
-										</div>
-									</a>
-								</article>
+										</a>
+										<p class="course__price">
+											12 950 руб.
+										</p>
+									</article>
+								</div>
 							</div>
 						</div>
 					</div>

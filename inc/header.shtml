@@ -39,6 +39,8 @@
 							Пространство
 						</a>
 					</li>
+					<!-- личный кабинет suspended -->
+					<!--
 					<li class="main_nav__item hide2 hide3">
 						<button class="main_search__details_item main_search__details_item--user kbd_button is_active" tabindex="0" title="Вход">
 							<svg class="icon icon--user kbd_button__body" tabindex="-1"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-user"></use></svg>
@@ -46,10 +48,12 @@
 								Вход
 							</span>
 						</button>
-
 					</li>
+					-->
 				</ul>
 			</div>
+			<!-- личный кабинет & корзина suspended -->
+			<!-- 
 			<div class="main_search__details is_online">
 				<button class="main_search__details_item main_search__details_item--user kbd_button is_active" tabindex="0" title="Вход">
 					<svg class="icon icon--user kbd_button__body" tabindex="-1"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-user"></use></svg>
@@ -62,6 +66,7 @@
 					<sup class="icon_value">10</sup>
 				</button>
 			</div>
+			-->
 			<!--#if expr="$old_qs=results" -->
 				<!--#include virtual="/inc/search_field_results.shtml" -->
 			<!--#else -->
