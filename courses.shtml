@@ -15,6 +15,9 @@
 						</div>
 						<ul class="courses_concept">
 							<li class="courses_concept__item">
+								<div class="courses_concept__value">
+									1
+								</div>
 								<div class="courses_concept__text">
 									Картина мира<br>
 									вместо отдельных<br>
@@ -22,15 +25,23 @@
 								</div>
 							</li>
 							<li class="courses_concept__item">
+								<div class="courses_concept__value">
+									2
+								</div>
 								<div class="courses_concept__text">
 									Жизненные<br>
-									навыки вместо<br>эрудиции
+									навыки вместо<br>
+									эрудиции
 								</div>
 							</li>
 							<li class="courses_concept__item">
+								<div class="courses_concept__value">
+									3
+								</div>
 								<div class="courses_concept__text">
 									Эксперимент<br>
-									вместо инерции 
+									вместо<br>
+									инерции 
 								</div>
 							</li>
 						</ul>
