@@ -58,30 +58,20 @@
 	position: relative;
 	margin-bottom: 21px;
 	background-repeat: repeat-x;
-    background-position: 50% 50%;
-    background-size: cover;
+	background-position: 50% 50%;
+	background-size: auto 100%;
+	margin-left: calc(-50vw + 50%);
+	margin-right: calc(-50vw + 50%);
 }
 	.magazine--small .magazine__photo {
 		margin-left: calc(-50vw + 50%);
 		margin-right: calc(-50vw + 50%);
 	}
-
 	.magazine__poster {
 		height: 100%;
-		width: auto;
 		display: block;
-		position: absolute;
-		left: 50%;
-		transform: translateX(-50%);
+		margin: 0 auto;
 	}
-	.object-fit .magazine__poster {
-		position: static;
-		transform: translateX(0);
-		object-fit: cover;
-		width: 100%;
-		object-position: 50% 50%;
-	}
-
 .magazine__intro {
 	font: 17px/25px Parmigiano Piccolo Light, Georgia, serif;
 	margin-bottom: 18px;
@@ -112,7 +102,7 @@
 		margin-bottom: 1px;
 	}
 	.magazine__subheader {
-		font: 28px/32px Figgins Sans, Georgia, serif;
+		font: 28px/32px Figgins Sans, Arial, sans-serif;
 		margin-bottom: 21px;
 	}
 
@@ -135,7 +125,7 @@
 		font-size: 16px;
 	}
 	.magazine__author {
-		font: 16px/22px Figgins Sans, Georgia, serif;
+		font: 16px/22px Figgins Sans, Arial, sans-serif;
 	}
 }
 @media only screen and (min-width: 1024px) {
@@ -172,7 +162,6 @@
 @media only screen and (min-width: 1600px) {
 	.magazine__photo {
 		height: 263px;
-		background-size: auto;
 	}
 }
 .magazines__list {
