@@ -8,6 +8,7 @@
 	margin-bottom: 11px;
 	text-align: center;
 	border: 1px solid currentcolor;
+	padding-top: 4px;
 }
 	.db__item {
 		position: relative;
@@ -64,7 +65,7 @@
 }
 .db__mix {
 	position: absolute;
-	top: 5px;
+	top: 1px;
 	left: 50%;
 	display: table;
 	height: 36px;
