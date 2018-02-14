@@ -86,11 +86,11 @@
 					<div class="cycle__body">
 						<div class="cycle__announce">
 							<article class="announce">
-								<time class="date_bar">
-									<span class="date_bar__date">30.09</span>
-									<span class="date_bar__day">пт</span>
-									<span class="date_bar__time">21:00</span>
-								</time>
+								<div class="db">
+									<div class="db__item">
+										<div class="db__date">20.12.17–20.01.18</div>
+									</div>
+								</div>
 								<div class="announce__tag">
 									<a href="#">Лекция</a> / <a href="#">Зомби-идеи</a>
 								</div>

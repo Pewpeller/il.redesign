@@ -14,9 +14,11 @@
 								<img class="ear__poster" src="/i/project2.jpg" alt="Школа: Очень длинная комната">
 							</a>
 						</div>
-						<time class="date_bar">
-							<span class="date_bar__range_date">30.09-12.10</span>
-						</time>
+						<div class="db">
+							<div class="db__item">
+								<div class="db__date">12.12–20.12.18</div>
+							</div>
+						</div>
 						<div class="ear__tag">
 							<a href="#">Школа</a>
 						</div>
@@ -55,11 +57,17 @@
 							<div class="grid__cell grid_t_full grid_tm_small hide_m hide_t">
 								<div class="ear ear_tm_normal">
 									<div class="ear__content">
-										<time class="date_bar date_bar--small">
-											<span class="date_bar__date">30.09</span>
-											<span class="date_bar__day">пт</span>
-											<span class="date_bar__time">21:00</span>
-										</time>
+										<div class="db">
+											<div class="db__item db__2of4">
+												<div class="db__date">20.12.18</div>
+											</div>
+											<div class="db__item db__1of4">
+												<div class="db__day">пн</div>
+											</div>
+											<div class="db__item db__1of4">
+												<div class="db__time">19:00</div>
+											</div>
+										</div>
 										<div class="ear__tag">
 											<a href="#">Лекция</a>
 										</div>
@@ -92,7 +100,7 @@
 											<a href="#">Цикл</a>
 										</div>
 										<h2 class="ear__name ear__name--accent">
-											<a href="#">3Очень длинная комната</a>
+											<a href="#">Очень длинная комната</a>
 										</h2>
 										<h3 class="ear__subheader">
 											<a href="#">Десять главных мысленных экспериментов</a>
@@ -103,11 +111,17 @@
 							<div class="grid__cell grid_t_full grid_tm_small hide_m hide_t">
 								<div class="ear ear_tm_normal ear--dark">
 									<div class="ear__content">
-										<time class="date_bar date_bar--small">
-											<span class="date_bar__date">30.09</span>
-											<span class="date_bar__day">пт</span>
-											<span class="date_bar__time">21:00</span>
-										</time>
+										<div class="db">
+											<div class="db__item db__2of4">
+												<div class="db__date">20.12.18</div>
+											</div>
+											<div class="db__item db__1of4">
+												<div class="db__day">пн</div>
+											</div>
+											<div class="db__item db__1of4">
+												<div class="db__time">19:00</div>
+											</div>
+										</div>
 										<div class="ear__tag">
 											<a href="#">Лекция</a>
 										</div>
@@ -123,9 +137,6 @@
 						</div>
 					</div>
 				</article>
-
-
-
 				<article class="ear ear_m_narrow ear_t_small ear_d_narrow ruche ruche--left">
 					<div class="ear__photo">
 						<a href="#">
@@ -137,11 +148,17 @@
 							<div class="grid__cell grid_d_small">
 								<div class="ear ear_m_auto ear--no_p">
 									<div class="ear__content">
-										<time class="date_bar">
-											<span class="date_bar__date">30.09</span>
-											<span class="date_bar__day">пт</span>
-											<span class="date_bar__time">21:00</span>
-										</time>
+										<div class="db">
+											<div class="db__item db__2of4">
+												<div class="db__date">20.12.18</div>
+											</div>
+											<div class="db__item db__1of4">
+												<div class="db__day">пн</div>
+											</div>
+											<div class="db__item db__1of4">
+												<div class="db__time">19:00</div>
+											</div>
+										</div>
 										<div class="ear__tag">
 											<a href="#">Лекция</a>
 										</div>
@@ -171,9 +188,11 @@
 								<img class="ear__poster" src="i/dummies/TRENING_SCOOL_Etc/ANONS_1924x780/TREN_SCHOOL_Ect_ANONS_4.jpg" alt="Школа: Очень длинная комната">
 							</a>
 						</div>
-						<time class="date_bar">
-							<span class="date_bar__range_date">30.09-12.10</span>
-						</time>
+						<div class="db">
+							<div class="db__item">
+								<div class="db__date">12.12–20.12.18</div>
+							</div>
+						</div>
 						<div class="ear__tag">
 							<a href="#">Школа</a>
 						</div>
@@ -198,11 +217,17 @@
 											<img class="ear__poster" src="/i/dummies/CYLCE/ANONS_1924x780/CYCLE_ANONS_2.jpg" alt="Лекция: Драматургия лжи: как нам врут по телевизору">
 										</a>
 									</div>
-									<time class="date_bar">
-										<span class="date_bar__date">30.09</span>
-										<span class="date_bar__day">пт</span>
-										<span class="date_bar__time">21:00</span>
-									</time>
+									<div class="db">
+										<div class="db__item db__2of4">
+											<div class="db__date">20.12.18</div>
+										</div>
+										<div class="db__item db__1of4">
+											<div class="db__day">пн</div>
+										</div>
+										<div class="db__item db__1of4">
+											<div class="db__time">19:00</div>
+										</div>
+									</div>
 									<div class="ear__tag">
 										<a href="#">Школа</a>
 									</div>
@@ -223,9 +248,17 @@
 											<img class="ear__poster" src="/i/dummies/CYLCE/ANONS_1924x780/CYCLE_ANONS_3.jpg" alt="Школа: Очень длинная комната">
 										</a>
 									</div>
-									<time class="date_bar">
-										<span class="date_bar__range_date">30.09-12.10</span>
-									</time>
+									<div class="db">
+										<div class="db__item db__2of4">
+											<div class="db__date">20.12.18</div>
+										</div>
+										<div class="db__item db__1of4">
+											<div class="db__day">пн</div>
+										</div>
+										<div class="db__item db__1of4">
+											<div class="db__time">19:00</div>
+										</div>
+									</div>
 									<div class="text_tag project__tag">
 										<a href="#">Цикл</a>
 									</div>
@@ -246,11 +279,17 @@
 											<img class="ear__poster" src="/i/dummies/CYLCE/ANONS_1924x780/CYCLE_ANONS_1.jpg" alt="Лекция: Драматургия лжи: как нам врут по телевизору">
 										</a>
 									</div>
-									<time class="date_bar">
-										<span class="date_bar__date">30.09</span>
-										<span class="date_bar__day">пт</span>
-										<span class="date_bar__time">21:00</span>
-									</time>
+									<div class="db">
+										<div class="db__item db__2of4">
+											<div class="db__date">20.12.18</div>
+										</div>
+										<div class="db__item db__1of4">
+											<div class="db__day">пн</div>
+										</div>
+										<div class="db__item db__1of4">
+											<div class="db__time">19:00</div>
+										</div>
+									</div>
 									<div class="ear__tag">
 										<a href="#">Школа</a>
 									</div>
@@ -271,11 +310,17 @@
 											<img class="ear__poster" src="/i/dummies/CYLCE/ANONS_1924x780/CYCLE_ANONS_2.jpg" alt="Лекция: Драматургия лжи: как нам врут по телевизору">
 										</a>
 									</div>
-									<time class="date_bar">
-										<span class="date_bar__date">30.09</span>
-										<span class="date_bar__day">пт</span>
-										<span class="date_bar__time">21:00</span>
-									</time>
+									<div class="db">
+										<div class="db__item db__2of4">
+											<div class="db__date">20.12.18</div>
+										</div>
+										<div class="db__item db__1of4">
+											<div class="db__day">пн</div>
+										</div>
+										<div class="db__item db__1of4">
+											<div class="db__time">19:00</div>
+										</div>
+									</div>
 									<div class="ear__tag">
 										<a href="#">Лекция</a>
 									</div>

@@ -31,6 +31,10 @@ body {
 	min-height: 100%;
 	color: #181818;
 	-webkit-font-smoothing: antialiased;
+	padding-top: 116px;
+}
+.csspositionsticky body {
+	padding-top: 0;
 }
 .icon {
 	display: inline-block;

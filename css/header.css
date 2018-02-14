@@ -21,14 +21,14 @@
 		line-height: 0;
 	}
 .main_header::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 17px;
-    z-index: 0;
-    background-color: #fff;
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 17px;
+	z-index: 0;
+	background-color: #fff;
 }
 @media only screen and (min-width: 621px) {
 	.main_header::after {

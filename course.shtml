@@ -40,9 +40,17 @@
 											</div>
 											<div class="ear ear--dark">
 												<div class="ear__content">
-													<time class="date_bar">
-														<span class="date_bar__range_date">30.09-12.10</span>
-													</time>
+													<div class="db">
+														<div class="db__item db__2of3">
+															<div class="db__date db__date--small">30.12.17–20.12.18</div>
+														</div>
+														<div class="db__item db__1of3">
+															<div class="db__mix">
+																<div class="db__day">пн ср вс</div>
+																<div class="db__time">19:00</div>
+															</div>
+														</div>
+													</div>
 													<div class="ear__tag">
 														80 часов, 8 занятий, пн, пт
 													</div>
@@ -62,9 +70,14 @@
 											</div>
 											<div class="ear">
 												<div class="ear__content">
-													<time class="date_bar">
-														<span class="date_bar__range_date">30.09-12.10</span>
-													</time>
+													<div class="db">
+														<div class="db__item db__2of3">
+															<div class="db__date db__date--small">30.12.17–20.12.18</div>
+														</div>
+														<div class="db__item db__1of3">
+															<div class="db__day">пн ср вс</div>
+														</div>
+													</div>
 													<div class="ear__tag">
 														80 часов, 8 занятий, пн, пт
 													</div>
@@ -84,9 +97,11 @@
 											</div>
 											<div class="ear ear--dark">
 												<div class="ear__content">
-													<time class="date_bar">
-														<span class="date_bar__range_date">30.09-12.10</span>
-													</time>
+													<div class="db">
+														<div class="db__item">
+															<div class="db__date">12.12–20.12.18</div>
+														</div>
+													</div>
 													<div class="ear__tag">
 														80 часов, 8 занятий, пн, пт
 													</div>
@@ -106,9 +121,11 @@
 											</div>
 											<div class="ear">
 												<div class="ear__content">
-													<time class="date_bar">
-														<span class="date_bar__range_date">30.09-12.10</span>
-													</time>
+													<div class="db">
+														<div class="db__item">
+															<div class="db__date">20.12.17–20.01.18</div>
+														</div>
+													</div>
 													<div class="ear__tag">
 														80 часов, 8 занятий, пн, пт
 													</div>
@@ -133,9 +150,14 @@
 											</div>
 											<div class="ear ear--dark">
 												<div class="ear__content">
-													<time class="date_bar">
-														<span class="date_bar__range_date">30.09-12.10</span>
-													</time>
+													<div class="db">
+														<div class="db__item db__2of3">
+															<div class="db__date">30.11–20.12.18</div>
+														</div>
+														<div class="db__item db__1of3">
+															<div class="db__day">пн ср вс</div>
+														</div>
+													</div>
 													<div class="ear__tag">
 														80 часов, 8 занятий, пн, пт
 													</div>
@@ -158,9 +180,14 @@
 											</div>
 											<div class="ear">
 												<div class="ear__content">
-													<time class="date_bar">
-														<span class="date_bar__range_date">30.09-12.10</span>
-													</time>
+													<div class="db">
+														<div class="db__item db__2of3">
+															<div class="db__date">30.11–20.12.18</div>
+														</div>
+														<div class="db__item db__1of3">
+															<div class="db__day">пн-пт</div>
+														</div>
+													</div>
 													<div class="ear__tag">
 														80 часов, 8 занятий, пн, пт
 													</div>

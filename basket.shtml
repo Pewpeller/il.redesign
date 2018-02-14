@@ -10,9 +10,11 @@
 				</header>
 				<section class="basket__item">
 					<div class="basket_showcase">
-						<time class="date_bar">
-							<span class="date_bar__range_date">30.09-12.10</span>
-						</time>
+						<div class="db">
+							<div class="db__item">
+								<div class="db__date">20.12.17–20.01.18</div>
+							</div>
+						</div>
 						<div class="ear__tag">
 							<a href="#">Курс, 80 часов, 8 занятий, пн, пт </a>
 						</div>
