@@ -320,3 +320,24 @@
 		text-align: left;
 	}
 }
+
+.main_header__buy .inliberty_logo {
+	left: 0;
+}
+	.main_header__buy .burger,
+	.main_header__buy .main_nav,
+	.main_header__buy .search_form {
+		display: none;
+	}
+.main_header .il_button--ahtung {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto 0;
+	display: none;
+	z-index: 1;
+}
+.main_header__buy .il_button--ahtung {
+	display: block;
+}

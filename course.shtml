@@ -2,7 +2,7 @@
 <html>
 	<!--#include virtual="/inc/head.shtml" -->
 	<body>
-		<!--#include virtual="/inc/header.shtml" -->
+		<!--#include virtual="/inc/header.shtml?buy" -->
 		<div class="main" role="main">
 				<div class="setka_content">
 
@@ -13,19 +13,36 @@
 				</div>
 				<div class="course__footer">
 					<div class="layout">
-						<div class="course_blocked">
-							<div class="course_blocked__body fit_screen__item">
-								<div class="ear ear--dark ear_m_small ear_d_extended">
-									<div class="course_blocked__name">
-										Набор закрыт
+						<div class="course_board">
+							<div class="course_board__body fit_screen__item">
+								<div class="ear ear--dark ear_m_small ear_d_normal">
+									<div class="course_board__content">
+										<div class="course_board__price">
+											17 500 руб.
+										</div>
+										<button class="il_button il_button--transparent kbd_button" tabindex="0" type="button">
+											<div class="kbd_button__body" tabindex="-1">Купить курс</div>
+										</button>
 									</div>
-									<div class="course_blocked__text">
-										Напишите нам, если хотите,<br>
-										чтобы мы повторили курс
+								</div>
+							</div>
+						</div>
+
+						<div class="course_board course_board--blocked">
+							<div class="course_board__body fit_screen__item">
+								<div class="ear ear--dark ear_m_small ear_d_normal">
+									<div class="course_board__content">
+										<div class="course_board__name">
+											Набор закрыт
+										</div>
+										<div class="course_board__text">
+											Напишите нам, если хотите,<br>
+											чтобы мы повторили курс
+										</div>
+										<button class="il_button il_button--transparent kbd_button" tabindex="0" type="button">
+											<div class="kbd_button__body" tabindex="-1">Оставить заявку</div>
+										</button>
 									</div>
-									<button class="il_button il_button--transparent kbd_button" tabindex="0" type="button">
-										<div class="kbd_button__body" tabindex="-1">Оставить заявку</div>
-									</button>
 								</div>
 							</div>
 						</div>

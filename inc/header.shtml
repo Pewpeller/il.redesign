@@ -1,6 +1,12 @@
 <!--#set var="OLD_QS" value="$query_string" -->
 <!--#include virtual="/inc/svg_icons2.shtml" -->
+
+<!-- если это курс, то добавляем класс к header'у main_header__buy -->
+<!--#if expr="$DOCUMENT_URi == /\/course\.shtml/" --> 
+<header class="main_header sticky main_header__buy">
+<!--#else -->
 <header class="main_header sticky">
+<!--#endif -->
 	<div class="layout">
 		<div class="main_header__body">
 			<button class="kbd_button burger changeclass" type="button" tabindex="0" data-changeclass='{
@@ -72,6 +78,13 @@
 			<!--#else -->
 				<!--#include virtual="/inc/search_field.shtml" -->
 			<!--#endif -->
+
+			<button class="il_button il_button--ahtung kbd_button">
+				<div class="kbd_button__body">
+					Купить курс
+				</div>
+			</button>
+
 		</div>
 	</div>
 </header>

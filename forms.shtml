@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+	<!--#include virtual="/inc/head.shtml" -->
+	<body>
+		<!--#include virtual="/inc/header.shtml" -->
+		<div class="main" role="main">
+
+			<div class="layout">
+				<div class="field">
+					<label class="field__label" for="fi">
+						Имя и фамилия
+					</label>
+					<input class="field__input" id="fi" type="text" placeholder="Имя и фамилия">
+				</div>
+				<div class="field">
+					<label class="field__label" for="email">
+						Email
+					</label>
+					<input class="field__input" id="email" type="email" placeholder="Email">
+				</div>
+				<div class="field">
+					<label class="field__label" for="telephone">
+						Телефон
+					</label>
+					<input class="field__input" id="telephone" type="tel" placeholder="Телефон" value="+7">
+				</div>
+			</div>
+		</div>
+		<!--#include virtual="/inc/footer.shtml" -->
+	</body>
+</html>

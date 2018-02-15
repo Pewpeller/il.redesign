@@ -327,41 +327,61 @@
 .course__footer {
 	overflow: hidden;
 }
-	.course_blocked {
-		text-align: center;
-		border-top: 3px solid #181818;
-		border-bottom: 3px solid #181818;
-		padding: 7px 0;
-		margin-bottom: 42px;
-	}
-		.course_blocked__body {
-			background-color: #fff3e0;
-		}
-		.course_blocked .ear {
-			margin-bottom: 0;
-		}
-		.course_blocked__name {
-			font: bold 22px/32px Figgins Sans, Arial, sans-serif;
-			text-transform: uppercase;
-			margin-top: 29px;
-		}
-		.course_blocked__text {
-			font: italic 14px/18px Figgins Sans, Arial, sans-serif;
-			margin-bottom: 24px;
-		}
-@media only screen and (min-width: 1024px) {
-		.course_blocked__name {
-			font-size: 40px;
-			line-height: 42px;
-			margin-top: 120px;
-			margin-bottom: 21px;
-		}
-		.course_blocked__text {
-			font-size: 16px;
-			line-height: 22px;
-			margin-bottom: 33px;
-		}
+
+.course_board {
+	text-align: center;
+	border-top: 3px solid #181818;
+	border-bottom: 3px solid #181818;
+	padding: 7px 0;
+	margin-bottom: 42px;
+	font: 0/0 a;
 }
+	.course_board__body {
+		background-color: #64ffda;
+	}
+	.course_board--blocked .course_board__body {
+		background-color: #fff3e0;
+	}
+	.course_board .ear {
+		margin-bottom: 0;
+		display: table;
+	}
+	.course_board__content {
+		display: table-cell;
+		padding-top: 10px;
+		vertical-align: middle;
+	}
+	.course_board__name {
+		font: bold 22px/32px Figgins Sans, Arial, sans-serif;
+		text-transform: uppercase;
+	}
+	.course_board__price {
+		font: bold 40px/42px Figgins Sans, Arial, sans-serif;
+		margin-bottom: 26px;
+	}
+	.course_board__text {
+		font: italic 14px/18px Figgins Sans, Arial, sans-serif;
+		margin-bottom: 24px;
+	}
+@media only screen and (min-width: 1024px) {
+	.course_board__content {
+		padding-top: 16px;
+	}
+	.course_board__name {
+		font-size: 40px;
+		line-height: 42px;
+		margin-bottom: 21px;
+	}
+	.course_board__price {
+		font-size: 70px;
+		line-height: 74px;
+	}
+	.course_board__text {
+		font-size: 16px;
+		line-height: 22px;
+	}
+}
+
 .courses_slider {
 	position: relative;
 	font: 0/0 a;
