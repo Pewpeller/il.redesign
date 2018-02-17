@@ -1,0 +1,19 @@
+.purchase {
+	max-width: 320px;
+	overflow: hidden;
+	margin: 0 auto;
+	outline: 1px dashed #666;
+}
+	.purchase__header {
+		height: 58px;
+	}
+@media screen and (min-width: 570px) {
+	.purchase__header {
+		height: 100px;
+	}
+}
+.purchase .icon--close {
+	width: 14px;
+	height: 14px;
+	padding: 9px;
+}

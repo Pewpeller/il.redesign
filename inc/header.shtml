@@ -2,7 +2,7 @@
 <!--#include virtual="/inc/svg_icons2.shtml" -->
 
 <!-- если это курс, то добавляем класс к header'у main_header__buy -->
-<!--#if expr="$DOCUMENT_URi == /\/course\.shtml/" --> 
+<!--#if expr="$DOCUMENT_URi == /\/course\.shtml|course_blocked\.shtml/" --> 
 <header class="main_header sticky main_header__buy">
 <!--#else -->
 <header class="main_header sticky">
@@ -79,11 +79,19 @@
 				<!--#include virtual="/inc/search_field.shtml" -->
 			<!--#endif -->
 
-			<button class="il_button il_button--ahtung kbd_button">
-				<div class="kbd_button__body">
-					Купить курс
-				</div>
-			</button>
+			<!--#if expr="$old_qs=/blocked/" -->
+				<button class="il_button il_button--ahtung il_button--blocked kbd_button">
+					<div class="kbd_button__body">
+						Оставить заявку
+					</div>
+				</button>
+			<!--#else -->
+				<button class="il_button il_button--ahtung kbd_button">
+					<div class="kbd_button__body">
+						Купить курс
+					</div>
+				</button>
+			<!--#endif -->
 
 		</div>
 	</div>

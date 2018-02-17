@@ -1,14 +1,20 @@
 
 .field {
 	position: relative;
-	max-width: 250px;
+	max-width: 370px;
 	margin-bottom: 20px;
+	font: 0/0 a;
 }
+	.field--short .field__input {
+		max-width: 241px;
+		display: inline-block;
+		margin-right: -1px;
+		padding-right: 38px;
+	}
 
 .field__label {
 	color: #999;
-	-webkit-box-sizing: border-box;
-		  box-sizing: border-box;
+	box-sizing: border-box;
 	display: block;
 	font: 12px/1 Figgins Sans, Arial, sans-serif;
 	line-height: 1;
@@ -19,6 +25,7 @@
 	position: absolute;
 	text-overflow: ellipsis;
 	top: 0;
+	max-width: 100%;
 	text-align: left;
 	-webkit-transform: translateY(3px);
 			transform: translateY(3px);
@@ -29,14 +36,34 @@
 	-ms-user-select: none;
 	user-select: none;   
 	white-space: nowrap;
-	width: 100%;
-	z-index: 1;
+	z-index: 2;
 }
-.field--not-empty .field__label {
-	-webkit-transform: none;
-			transform: none;
-	opacity: 1;
+.field--error .field__label {
+	max-width: 241px;
 }
+
+.field__name {
+	left: 0;
+}
+.field__error {
+	color: #ff6680;
+	font-style: italic;
+	right: 0;
+}
+	.field--error .field__error {
+		display: block;
+		-webkit-transform: none;
+				transform: none;
+		opacity: 1;
+	}
+	.field--short .field__error {
+		right: 160px;
+	}
+	.field--not-empty .field__name {
+		-webkit-transform: none;
+				transform: none;
+		opacity: 1;
+	}
 
 .field__input {
 	background-color: transparent;
@@ -45,10 +72,18 @@
 	-webkit-transition: all .2s ease-out;
 	transition: all .2s ease-out;
 	width: 100%;
-	padding: 14px 14px;
+	padding: 14px 14px 13px 14px;
 	font: bold 16px/1 Figgins Sans, Arial, sans-serif;
-
+	display: inline-block;
+	vertical-align: middle;
+	box-sizing: border-box;
+	position: relative;
+	z-index: 1;
 }
+.field--error .field__input {
+	border-color: #ff6680;
+}
+
 .field--not-empty .field__input {
     padding-bottom: 9px;
     padding-top: 18px;
@@ -100,4 +135,51 @@
 }
 .field__input:-moz-autofill {
 	background-color: transparent;
+}
+/* промо кнопка */
+.field__close {
+	height: 32px;
+	width: 32px;
+	display: inline-block;
+	vertical-align: middle;
+	box-sizing: border-box;
+	margin-right: 7px;
+	margin-left: -39px;
+	position: relative;
+	z-index: 2;
+}
+.field__close .icon--close {
+	width: 14px;
+	height: 14px;
+	padding: 9px;
+}
+.field__button {
+	display: inline-block;
+	width: 130px;
+	border: 1px solid #d9d9d9;
+	box-sizing: border-box;
+	font: bold 14px/48px Figgins Sans, Arial, sans-serif;
+	height: 50px;
+	vertical-align: middle;
+}
+.field__button:focus .kbd_button__body {
+	z-index: 2;
+}
+.calculator {
+	text-align: center;
+	margin-bottom: 14px;
+	width: 132px;
+	position: relative;
+	font: 0/0 a;
+}
+.calculator__value {
+	width: 52px;
+	display: inline-block;
+	vertical-align: middle;
+	font: bold 28px/1 Figgins Sans, Arial, sans-serif;
+	color: #181818;
+}
+.calculator__add,
+.calculator__minus {
+	margin-bottom: 0;
 }
