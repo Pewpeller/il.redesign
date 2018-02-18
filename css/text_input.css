@@ -1,17 +1,11 @@
 
 .field {
 	position: relative;
+	width: 100%;
 	max-width: 370px;
-	margin-bottom: 20px;
+	margin-bottom: 15px;
 	font: 0/0 a;
 }
-	.field--short .field__input {
-		max-width: 241px;
-		display: inline-block;
-		margin-right: -1px;
-		padding-right: 38px;
-	}
-
 .field__label {
 	color: #999;
 	box-sizing: border-box;
@@ -39,7 +33,7 @@
 	z-index: 2;
 }
 .field--error .field__label {
-	max-width: 241px;
+	max-width: 100%;
 }
 
 .field__name {
@@ -80,62 +74,70 @@
 	position: relative;
 	z-index: 1;
 }
-.field--error .field__input {
-	border-color: #ff6680;
-}
+	.field--short .field__input {
+		max-width: 65.13513513513514%; /* 241px */
+		display: inline-block;
+		margin-right: -1px;
+		padding-right: 38px;
+	}
 
-.field--not-empty .field__input {
-    padding-bottom: 9px;
-    padding-top: 18px;
-	-webkit-box-shadow: inset 0 0 0 25px #fff;
-			box-shadow: inset 0 0 0 25px #fff;
-}
-.field__input:hover,
-.field__input:focus {
-	background-color: #f7f7f7;
-	border-color: #181818;
-	-webkit-box-shadow: inset 0 0 0 25px #f7f7f7;
-			box-shadow: inset 0 0 0 25px #f7f7f7;
-	outline: 0;
-}
-.field__input::-webkit-input-autofill {
-	background-color: transparent;
-}
-.field__input::-webkit-input-placeholder {
-  /* Chrome/Opera/Safari */
-	color: #181818;
-	opacity: 1;
-	font-weight: normal;
-}
-.field__input::-moz-placeholder {
-  /* Firefox 19+ */
-	color: #181818;
-	opacity: 1;
-	font-weight: normal;
-}
-.field__input::-moz-autofill {
-	background-color: transparent;
-}
+	.field--error .field__input {
+		border-color: #ff6680;
+	}
 
-.field__input:-ms-input-placeholder {
-  /* IE 10+ */
-	color: #181818;
-	opacity: 1;
-	font-weight: normal;
-}
-.field__input:-ms-input-autofill {
-	background-color: transparent;
-}
+	.field--not-empty .field__input {
+		padding-bottom: 9px;
+		padding-top: 18px;
+		-webkit-box-shadow: inset 0 0 0 25px #fff;
+				box-shadow: inset 0 0 0 25px #fff;
+	}
+	.field__input:hover,
+	.field__input:focus {
+		background-color: #f7f7f7;
+		border-color: #181818;
+		-webkit-box-shadow: inset 0 0 0 25px #f7f7f7;
+				box-shadow: inset 0 0 0 25px #f7f7f7;
+		outline: 0;
+	}
+	.field__input::-webkit-input-autofill {
+		background-color: transparent;
+	}
+	.field__input::-webkit-input-placeholder {
+		/* Chrome/Opera/Safari */
+		color: #181818;
+		opacity: 1;
+		font-weight: normal;
+	}
+	.field__input::-moz-placeholder {
+		/* Firefox 19+ */
+		color: #181818;
+		opacity: 1;
+		font-weight: normal;
+	}
+	.field__input::-moz-autofill {
+		background-color: transparent;
+	}
 
-.field__input:-moz-placeholder {
-  /* Firefox 18- */
-	color: #181818;
-	opacity: 1;
-	font-weight: normal;
-}
-.field__input:-moz-autofill {
-	background-color: transparent;
-}
+	.field__input:-ms-input-placeholder {
+	  /* IE 10+ */
+		color: #181818;
+		opacity: 1;
+		font-weight: normal;
+	}
+	.field__input:-ms-input-autofill {
+		background-color: transparent;
+	}
+
+	.field__input:-moz-placeholder {
+	  /* Firefox 18- */
+		color: #181818;
+		opacity: 1;
+		font-weight: normal;
+	}
+	.field__input:-moz-autofill {
+		background-color: transparent;
+	}
+
 /* промо кнопка */
 .field__close {
 	height: 32px;
@@ -155,7 +157,7 @@
 }
 .field__button {
 	display: inline-block;
-	width: 130px;
+	width: 35.13513513513514%; /* 130px */
 	border: 1px solid #d9d9d9;
 	box-sizing: border-box;
 	font: bold 14px/48px Figgins Sans, Arial, sans-serif;
@@ -164,22 +166,4 @@
 }
 .field__button:focus .kbd_button__body {
 	z-index: 2;
-}
-.calculator {
-	text-align: center;
-	margin-bottom: 14px;
-	width: 132px;
-	position: relative;
-	font: 0/0 a;
-}
-.calculator__value {
-	width: 52px;
-	display: inline-block;
-	vertical-align: middle;
-	font: bold 28px/1 Figgins Sans, Arial, sans-serif;
-	color: #181818;
-}
-.calculator__add,
-.calculator__minus {
-	margin-bottom: 0;
 }
