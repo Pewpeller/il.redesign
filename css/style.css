@@ -503,3 +503,33 @@ hr {
 .ear + hr {
 	margin-top: 0;
 }
+/* dialog */
+.dialog {
+	display: none;
+}
+
+.dialog.opened {
+	display: block;
+}
+
+.dialog__window {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 101;
+	overflow: auto;
+	-webkit-overflow-scrolling: touch;
+}
+
+.dialog__mask {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: #fff;
+	opacity: .9;
+	z-index: 100;
+}

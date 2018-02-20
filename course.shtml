@@ -20,7 +20,7 @@
 										<div class="course_board__price">
 											17 500 руб.
 										</div>
-										<button class="il_button il_button--transparent kbd_button" tabindex="0" type="button">
+										<button class="il_button il_button--transparent kbd_button js-purchase_button" tabindex="0" type="button">
 											<div class="kbd_button__body" tabindex="-1">Купить курс</div>
 										</button>
 									</div>
@@ -213,5 +213,150 @@
 				</div> <!-- end of layout -->
 		</div> <!-- end of main -->
 		<!--#include virtual="/inc/footer.shtml" -->
+
+
+		<div class="dialog" role="dialog" aria-labelledby="purchase_label">
+			<div class="dialog__window">
+				<div class="purchase">
+					<button class="purchase__close kbd_button" tabindex="0">
+						<svg class="icon icon--close kbd_button__body" tabindex="-1"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-close"></use></svg>
+					</button>
+
+					<header class="purchase__header">
+						<h2 class="purchase__header_name" id="purchase_label">
+							Покупка билета
+						</h2>
+					</header>
+					<div class="purchase__limiter">
+						<div class="purchase__price">
+							<div class="purchase__price_text">
+								<div class="purchase__price_value">
+									166 250 руб.
+								</div>
+								<div class="purchase__price_note">
+									Осталось 10 мест
+								</div>
+							</div>
+							<!-- calculator end -->
+							<div class="calculator">
+								<button disabled class="calculator__minus il_button il_button--circle kbd_button" tabindex="0">
+									<div class="kbd_button__body" tabindex="-1">-</div>
+								</button>
+
+								<div class="calculator__value">99</div>
+
+								<button class="calculator__add il_button il_button--circle kbd_button" tabindex="0">
+									<div class="kbd_button__body" tabindex="-1">+</div>
+								</button>
+							</div>
+							<!-- calculator end -->
+							<div class="purchase__discount">
+								<div class="purchase__discount_body">
+									<div class="purchase__limiter">
+										<b>Приведите друга</b> Если вы купите больше одного билета на этот курс, cкидка — <b>5%</b>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="purchase__limiter">
+						<div class="purchase__text">
+							<p>
+								В цену билета входит восемь занятий по четыре часа два раза в неделю, кофебрейки и что-то еще. Можно что-то человечное написать на три строки
+							</p>
+						</div>
+						<form name="purchase" id="purchase" class="purchase__form">
+							
+							<div class="purchase__error_message">
+								Пожалуйста, заполните информацию о себе
+							</div>
+
+							<div class="field">
+								<label class="field__label field__name" for="fi">
+									Имя и фамилия
+								</label>
+								<div class="field__label field__error">Заполните поле</div>
+								<input class="field__input" id="fi" type="text" placeholder="Имя и фамилия">
+							</div>
+							<div class="field">
+								<label class="field__label field__name" for="email">
+									Email
+								</label>
+								<div class="field__label field__error">Неверный формат</div>
+								<input class="field__input" id="email" type="email" placeholder="Email">
+							</div>
+							<div class="field field--error">
+								<label class="field__label field__name" for="telephone">
+									Телефон
+								</label>
+								<div class="field__label field__error">Неверный формат</div>
+								<input class="field__input" id="telephone" type="tel" placeholder="Телефон" value="+7">
+							</div>
+
+							<button class="purchase__show_promocode kbd_button changeclass" tabindex="0" data-changeclass='{
+								".purchase__show_promocode": {"toggleClass": "hide"},
+								".purchase__promocode": {"toggleClass": "hide"}
+							}'>
+								<div class="kbd_button__body" tabindex="-1">
+									<svg class="icon icon--promocode"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-promocode"></use></svg>
+									<span class="purchase__promocode_text">У меня есть промокод</span>
+								</div>
+							</button>
+
+							<div class="purchase__promocode field field--short hide">
+								<label class="field__label field__name" for="promocode">
+									Промо код
+								</label>
+								<div class="field__label field__error">Неверный код</div>
+								<input class="field__input" id="promocode" type="tel" placeholder="Промо код" value="">
+								<button class="field__close kbd_button" tabindex="0">
+									<svg class="icon icon--close kbd_button__body" tabindex="-1"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-close"></use></svg>
+								</button>
+								<button class="kbd_button field__button changeclass" tabindex="0" type="button" data-changeclass='{
+									".purchase__promocode_done": {"toggleClass": "hide"},
+									".purchase__promocode": {"toggleClass": "hide"}
+								}'>
+									<div class="kbd_button__body" tabindex="-1">Применить</div>
+								</button>
+							</div>
+
+							<div class="purchase__promocode_done hide">
+								<button class="field__close kbd_button" tabindex="0">
+									<svg class="icon icon--close kbd_button__body" tabindex="-1"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-close"></use></svg>
+								</button>
+								<div class="purchase__promocode_text">
+									Промокод применен: <span class="purchase__highlight">inlibertyfriend</span>
+									(-10%)
+								</div>
+								<div class="purchase__promocode_text_note">
+									Скидки по промокоду и кол-ву билетов не суммируются
+								</div>
+							</div>
+
+							<button class="il_button kbd_button purchase__payment_button" tabindex="0" type="button">
+								<div class="kbd_button__body" tabindex="-1">Перейти к оплате</div>
+							</button>
+
+							<div class="purchase__agreed">
+								Продолжая покупку, вы принимаете <br>
+								<a href="#" target="_blank">условия предоставления услуг</a>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+			<div class="dialog__mask"></div>
+		</div>
+
+		<script src="/js/dist/inert.min.js"></script>
+		<script src="/js/dist/modal.js"></script>
+		<!--
+		<script>
+			  addEventListeners() {
+			    document.querySelector('.js-purchase_button')
+			      .addEventListener('click', openDialog);
+			  }
+		</script>
+		-->
 	</body>
 </html>
