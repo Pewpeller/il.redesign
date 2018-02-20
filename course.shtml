@@ -218,18 +218,19 @@
 		<div class="dialog" role="dialog" aria-labelledby="purchase_label">
 			<div class="dialog__window">
 				<div class="purchase">
-					<button class="purchase__close kbd_button" tabindex="0">
+					<button class="purchase__close kbd_button js-close_dialog" tabindex="0">
 						<svg class="icon icon--close kbd_button__body" tabindex="-1"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-close"></use></svg>
 					</button>
 
 					<header class="purchase__header">
-						<h2 class="purchase__header_name" id="purchase_label">
+						<h2 class="purchase__header_name">
 							Покупка билета
 						</h2>
 					</header>
 					<div class="purchase__limiter">
 						<div class="purchase__price">
 							<div class="purchase__price_text">
+								<div class="purchase__price_discount">17 500 руб. <span class="purchase__highlight">-10%</span></div>
 								<div class="purchase__price_value">
 									166 250 руб.
 								</div>
@@ -314,6 +315,7 @@
 								</button>
 								<button class="kbd_button field__button changeclass" tabindex="0" type="button" data-changeclass='{
 									".purchase__promocode_done": {"toggleClass": "hide"},
+									".purchase__price_discount": {"addClass": "is_shown"},
 									".purchase__promocode": {"toggleClass": "hide"}
 								}'>
 									<div class="kbd_button__body" tabindex="-1">Применить</div>
@@ -333,7 +335,7 @@
 								</div>
 							</div>
 
-							<button class="il_button kbd_button purchase__payment_button" tabindex="0" type="button">
+							<button class="il_button kbd_button purchase__big_button purchase__payment_button" tabindex="0" type="button">
 								<div class="kbd_button__body" tabindex="-1">Перейти к оплате</div>
 							</button>
 

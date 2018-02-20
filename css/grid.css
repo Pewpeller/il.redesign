@@ -60,7 +60,8 @@
 		width: 306px;
 	}
 	.grid_d_middle {
-		width: 402px;
+		/* width: 402px; */
+		width: 394px;
 	}
 	.grid_d_big {
 		width: 634px;
