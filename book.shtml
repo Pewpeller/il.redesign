@@ -20,7 +20,7 @@
 								</h2>
 							</div>
 							<div class="book_post__photo">
-								<!--#set var="pic_url" value="/i/dummies/BOOK_668x668/book1" -->
+								<!--#set var="pic_url" value="/i/dummies/BOOK_668x668/BOOK1" -->
 								<!--#set var="pic_alt" value="Искусство быть неподвластным" -->
 								<!--#set var="pic_class" value="book_post__poster" -->
 								<!--#include virtual="/inc/picture_book.shtml" -->
