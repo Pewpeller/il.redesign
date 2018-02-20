@@ -1,6 +1,12 @@
 <!--#set var="OLD_QS" value="$query_string" -->
 <!--#include virtual="/inc/svg_icons2.shtml" -->
+
+<!-- если это курс, то добавляем класс к header'у main_header__buy -->
+<!--#if expr="$DOCUMENT_URi == /\/course\.shtml|course_blocked\.shtml/" --> 
+<header class="main_header sticky main_header__buy">
+<!--#else -->
 <header class="main_header sticky">
+<!--#endif -->
 	<div class="layout">
 		<div class="main_header__body">
 			<button class="kbd_button burger changeclass" type="button" tabindex="0" data-changeclass='{
@@ -39,6 +45,8 @@
 							Пространство
 						</a>
 					</li>
+					<!-- личный кабинет suspended -->
+					<!--
 					<li class="main_nav__item hide2 hide3">
 						<button class="main_search__details_item main_search__details_item--user kbd_button is_active" tabindex="0" title="Вход">
 							<svg class="icon icon--user kbd_button__body" tabindex="-1"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-user"></use></svg>
@@ -46,10 +54,12 @@
 								Вход
 							</span>
 						</button>
-
 					</li>
+					-->
 				</ul>
 			</div>
+			<!-- личный кабинет & корзина suspended -->
+			<!-- 
 			<div class="main_search__details is_online">
 				<button class="main_search__details_item main_search__details_item--user kbd_button is_active" tabindex="0" title="Вход">
 					<svg class="icon icon--user kbd_button__body" tabindex="-1"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-user"></use></svg>
@@ -62,11 +72,27 @@
 					<sup class="icon_value">10</sup>
 				</button>
 			</div>
+			-->
 			<!--#if expr="$old_qs=results" -->
 				<!--#include virtual="/inc/search_field_results.shtml" -->
 			<!--#else -->
 				<!--#include virtual="/inc/search_field.shtml" -->
 			<!--#endif -->
+
+			<!--#if expr="$old_qs=/blocked/" -->
+				<button class="il_button il_button--ahtung il_button--blocked kbd_button">
+					<div class="kbd_button__body">
+						Оставить заявку
+					</div>
+				</button>
+			<!--#else -->
+				<button class="il_button il_button--ahtung kbd_button">
+					<div class="kbd_button__body">
+						Купить курс
+					</div>
+				</button>
+			<!--#endif -->
+
 		</div>
 	</div>
 </header>

@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+	<!--#include virtual="/inc/head.shtml" -->
+	<body>
+		<!--#include virtual="/inc/header.shtml" -->
+		<div class="main" role="main">
+			<div class="layout">
+				<div class="grid">
+					<div class="grid__inner">
+						<div class="grid__cell grid_t_small">
+							<h2 class="announce__name">a</h2>
+							<div class="db">
+								<div class="db__item">
+									<div class="db__date">12.12–20.12.18</div>
+								</div>
+							</div>
+							<div class="db">
+								<div class="db__item">
+									<div class="db__date">20.12.17–20.01.18</div>
+								</div>
+							</div>
+						</div>
+						<div class="grid__cell grid_t_small">
+							<h2 class="announce__name">b</h2>
+							<div class="db">
+								<div class="db__item db__2of3">
+									<div class="db__date">30.11–20.12.18</div>
+								</div>
+								<div class="db__item db__1of3">
+									<div class="db__day">пн ср вс</div>
+								</div>
+							</div>
+							<div class="db">
+								<div class="db__item db__2of3">
+									<div class="db__date">30.11–20.12.18</div>
+								</div>
+								<div class="db__item db__1of3">
+									<div class="db__day">пн-пт</div>
+								</div>
+							</div>
+							<div class="db">
+								<div class="db__item db__2of3">
+									<div class="db__date">30.11–20.12.18</div>
+								</div>
+								<div class="db__item db__1of3">
+									<div class="db__day">пт</div>
+								</div>
+							</div>
+							<div class="db">
+								<div class="db__item db__2of3">
+									<div class="db__date">20.12.18</div>
+								</div>
+								<div class="db__item db__1of3">
+									<div class="db__day">пт</div>
+								</div>
+							</div>
+							
+						</div>
+						<div class="grid__cell grid_t_small">
+							<h2 class="announce__name">c</h2>
+							<div class="db">
+								<div class="db__item db__2of4">
+									<div class="db__date">20.12.18</div>
+								</div>
+								<div class="db__item db__1of4">
+									<div class="db__day">пн</div>
+								</div>
+								<div class="db__item db__1of4">
+									<div class="db__time">19:00</div>
+								</div>
+							</div>
+						</div>
+						<div class="grid__cell grid_t_small">
+							<h2 class="announce__name">d</h2>
+							<div class="db">
+								<div class="db__item db__2of3">
+									<div class="db__date">30.11–20.12.18</div>
+								</div>
+								<div class="db__item db__1of3">
+									<div class="db__mix">
+										<div class="db__day">пн ср вс</div>
+										<div class="db__time">19:00</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="grid__cell grid_t_small">
+							<h2 class="announce__name">e</h2>
+							<div class="db">
+								<div class="db__item db__2of3">
+									<div class="db__date db__date--small">30.12.17–20.12.18</div>
+								</div>
+								<div class="db__item db__1of3">
+									<div class="db__mix">
+										<div class="db__day">пн ср вс</div>
+										<div class="db__time">19:00</div>
+									</div>
+								</div>
+							</div>
+							<div class="db">
+								<div class="db__item db__2of3">
+									<div class="db__date db__date--small">30.12.17–20.12.18</div>
+								</div>
+								<div class="db__item db__1of3">
+									<div class="db__day">пн ср вс</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--#include virtual="/inc/footer.shtml" -->
+	</body>
+</html>

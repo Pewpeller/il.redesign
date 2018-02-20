@@ -2,9 +2,7 @@
 	margin: 0 0 22px 0;
 	padding-bottom: 14px;
 	background-image: linear-gradient(0deg, rgba(255,255,255,.4) 0px, rgba(255,255,255,.4) 7px, rgba(255,255,255,.8) 7px, rgba(255,255,255,.8) 14px, #fff 14px);
-	
 	z-index: 3;
-	position: relative;
 }
 	.main_header__body {
 		position: relative;
@@ -23,14 +21,14 @@
 		line-height: 0;
 	}
 .main_header::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 17px;
-    z-index: 0;
-    background-color: #fff;
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 17px;
+	z-index: 0;
+	background-color: #fff;
 }
 @media only screen and (min-width: 621px) {
 	.main_header::after {
@@ -321,4 +319,25 @@
 		min-width: 154px;
 		text-align: left;
 	}
+}
+
+.main_header__buy .inliberty_logo {
+	left: 0;
+}
+	.main_header__buy .burger,
+	.main_header__buy .main_nav,
+	.main_header__buy .search_form {
+		display: none;
+	}
+.main_header .il_button--ahtung {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto 0;
+	display: none;
+	z-index: 1;
+}
+.main_header__buy .il_button--ahtung {
+	display: block;
 }

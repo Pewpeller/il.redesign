@@ -31,6 +31,10 @@ body {
 	min-height: 100%;
 	color: #181818;
 	-webkit-font-smoothing: antialiased;
+	padding-top: 116px;
+}
+.csspositionsticky body {
+	padding-top: 0;
 }
 .icon {
 	display: inline-block;
@@ -69,7 +73,13 @@ body {
 	width: 14px;
 	height: 20px;
 	margin-right: 15px;
-	vertical-align: baseline;
+}
+.icon--promocode {
+	width: 17px;
+	height: 17px;
+	margin-right: 10px;
+	margin-bottom: 4px;
+	vertical-align: middle;
 }
 .icon--logo {
 	width: 108px;
@@ -151,8 +161,10 @@ body {
 	}
 	.icon__may_zoom {
 		display: inline-block;
+		/*
 		width: 44px;
 		height: 44px;
+		*/
 		text-align: center;
 	}
 		.icon__may_zoom::before {

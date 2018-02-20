@@ -2,11 +2,11 @@
 	<div class="announce_slider__canvas slider-canvas">
 		<div class="announce_slider__item slider-item">
 			<article class="announce">
-				<time class="date_bar">
-					<span class="date_bar__date">30.09</span>
-					<span class="date_bar__day">пт</span>
-					<span class="date_bar__time">21:00</span>
-				</time>
+				<div class="db">
+					<div class="db__item">
+						<div class="db__date">12.12–20.12.18</div>
+					</div>
+				</div>
 				<div class="text_tag announce__tag">
 					<a href="#">Разговор</a> / <a href="#">Возвращение этики</a>
 				</div>
@@ -18,11 +18,11 @@
 		</div>
 		<div class="announce_slider__item slider-item">
 			<article class="announce">
-				<time class="date_bar">
-					<span class="date_bar__date">30.09</span>
-					<span class="date_bar__day">пт</span>
-					<span class="date_bar__time">21:00</span>
-				</time>
+				<div class="db">
+					<div class="db__item">
+						<div class="db__date">20.12.17–20.01.18</div>
+					</div>
+				</div>
 				<div class="text_tag announce__tag">
 					<a href="#">Лекция</a> / <a href="#">Зомби-идеи</a>
 				</div>
@@ -35,9 +35,14 @@
 		</div>
 		<div class="announce_slider__item slider-item">
 			<article class="announce">
-				<time class="date_bar">
-					<span class="date_bar__range_date">30.12-20.12</span>
-				</time>
+				<div class="db">
+					<div class="db__item db__2of3">
+						<div class="db__date">30.11–20.12.18</div>
+					</div>
+					<div class="db__item db__1of3">
+						<div class="db__day">пн ср вс</div>
+					</div>
+				</div>
 				<div class="text_tag announce__tag">
 					<a href="#">Тренинг</a>
 				</div>
@@ -46,9 +51,14 @@
 		</div>
 		<div class="announce_slider__item slider-item">
 			<article class="announce">
-				<time class="date_bar">
-					<span class="date_bar__range_date">30.11-2012</span>
-				</time>
+				<div class="db">
+					<div class="db__item db__2of3">
+						<div class="db__date">30.11–20.12.18</div>
+					</div>
+					<div class="db__item db__1of3">
+						<div class="db__day">пн-пт</div>
+					</div>
+				</div>
 				<div class="text_tag announce__tag">
 					<a href="#">Спиддейтин</a>
 				</div>
@@ -57,11 +67,14 @@
 		</div>
 		<div class="announce_slider__item slider-item">
 			<article class="announce">
-				<time class="date_bar">
-					<span class="date_bar__date">30.09</span>
-					<span class="date_bar__day">пт</span>
-					<span class="date_bar__time">21:00</span>
-				</time>
+				<div class="db">
+					<div class="db__item db__2of3">
+						<div class="db__date">30.11–20.12.18</div>
+					</div>
+					<div class="db__item db__1of3">
+						<div class="db__day">пт</div>
+					</div>
+				</div>
 				<div class="text_tag announce__tag">
 					<a href="#">Разговор</a> / <a href="#">Возвращение этики</a>
 				</div>
@@ -73,11 +86,14 @@
 		</div>
 		<div class="announce_slider__item slider-item">
 			<article class="announce">
-				<time class="date_bar">
-					<span class="date_bar__date">30.09</span>
-					<span class="date_bar__day">пт</span>
-					<span class="date_bar__time">21:00</span>
-				</time>
+				<div class="db">
+					<div class="db__item db__2of3">
+						<div class="db__date">20.12.18</div>
+					</div>
+					<div class="db__item db__1of3">
+						<div class="db__day">пт</div>
+					</div>
+				</div>
 				<div class="text_tag announce__tag">
 					<a href="#">Лекция</a> / <a href="#">Зомби-идеи</a>
 				</div>
@@ -90,9 +106,17 @@
 		</div>
 		<div class="announce_slider__item slider-item">
 			<article class="announce">
-				<time class="date_bar">
-					<span class="date_bar__range_date">30.12-20.12</span>
-				</time>
+				<div class="db">
+					<div class="db__item db__2of4">
+						<div class="db__date">20.12.18</div>
+					</div>
+					<div class="db__item db__1of4">
+						<div class="db__day">пн</div>
+					</div>
+					<div class="db__item db__1of4">
+						<div class="db__time">19:00</div>
+					</div>
+				</div>
 				<div class="text_tag announce__tag">
 					<a href="#">Тренинг</a>
 				</div>
@@ -101,9 +125,17 @@
 		</div>
 		<div class="announce_slider__item slider-item">
 			<article class="announce">
-				<time class="date_bar">
-					<span class="date_bar__range_date">30.11-2012</span>
-				</time>
+				<div class="db">
+					<div class="db__item db__2of3">
+						<div class="db__date">30.11–20.12.18</div>
+					</div>
+					<div class="db__item db__1of3">
+						<div class="db__mix">
+							<div class="db__day">пн ср вс</div>
+							<div class="db__time">19:00</div>
+						</div>
+					</div>
+				</div>
 				<div class="text_tag announce__tag">
 					<a href="#">Спиддейтин</a>
 				</div>
@@ -112,11 +144,17 @@
 		</div>
 		<div class="announce_slider__item slider-item">
 			<article class="announce">
-				<time class="date_bar">
-					<span class="date_bar__date">30.09</span>
-					<span class="date_bar__day">пт</span>
-					<span class="date_bar__time">21:00</span>
-				</time>
+				<div class="db">
+					<div class="db__item db__2of3">
+						<div class="db__date db__date--small">30.12.17–20.12.18</div>
+					</div>
+					<div class="db__item db__1of3">
+						<div class="db__mix">
+							<div class="db__day">пн ср вс</div>
+							<div class="db__time">19:00</div>
+						</div>
+					</div>
+				</div>
 				<div class="text_tag announce__tag">
 					<a href="#">Разговор</a> / <a href="#">Возвращение этики</a>
 				</div>
@@ -128,11 +166,14 @@
 		</div>
 		<div class="announce_slider__item slider-item">
 			<article class="announce">
-				<time class="date_bar">
-					<span class="date_bar__date">30.09</span>
-					<span class="date_bar__day">пт</span>
-					<span class="date_bar__time">21:00</span>
-				</time>
+				<div class="db">
+					<div class="db__item db__2of3">
+						<div class="db__date db__date--small">30.12.17–20.12.18</div>
+					</div>
+					<div class="db__item db__1of3">
+						<div class="db__day">пн ср вс</div>
+					</div>
+				</div>
 				<div class="text_tag announce__tag">
 					<a href="#">Лекция</a> / <a href="#">Зомби-идеи</a>
 				</div>
@@ -145,9 +186,11 @@
 		</div>
 		<div class="announce_slider__item slider-item">
 			<article class="announce">
-				<time class="date_bar">
-					<span class="date_bar__range_date">30.12-20.12</span>
-				</time>
+				<div class="db">
+					<div class="db__item">
+						<div class="db__date">12.12–20.12.18</div>
+					</div>
+				</div>
 				<div class="text_tag announce__tag">
 					<a href="#">Тренинг</a>
 				</div>
@@ -156,9 +199,14 @@
 		</div>
 		<div class="announce_slider__item slider-item">
 			<article class="announce">
-				<time class="date_bar">
-					<span class="date_bar__range_date">30.11-2012</span>
-				</time>
+				<div class="db">
+					<div class="db__item db__2of3">
+						<div class="db__date">30.11–20.12.18</div>
+					</div>
+					<div class="db__item db__1of3">
+						<div class="db__day">пн ср вс</div>
+					</div>
+				</div>
 				<div class="text_tag announce__tag">
 					<a href="#">Спиддейтин</a>
 				</div>
@@ -167,11 +215,14 @@
 		</div>
 		<div class="announce_slider__item slider-item">
 			<article class="announce">
-				<time class="date_bar">
-					<span class="date_bar__date">30.09</span>
-					<span class="date_bar__day">пт</span>
-					<span class="date_bar__time">21:00</span>
-				</time>
+				<div class="db">
+					<div class="db__item db__2of3">
+						<div class="db__date">30.11–20.12.18</div>
+					</div>
+					<div class="db__item db__1of3">
+						<div class="db__day">пн-пт</div>
+					</div>
+				</div>
 				<div class="text_tag announce__tag">
 					<a href="#">Разговор</a> / <a href="#">Возвращение этики</a>
 				</div>
@@ -183,11 +234,14 @@
 		</div>
 		<div class="announce_slider__item slider-item">
 			<article class="announce">
-				<time class="date_bar">
-					<span class="date_bar__date">30.09</span>
-					<span class="date_bar__day">пт</span>
-					<span class="date_bar__time">21:00</span>
-				</time>
+				<div class="db">
+					<div class="db__item db__2of3">
+						<div class="db__date">30.11–20.12.18</div>
+					</div>
+					<div class="db__item db__1of3">
+						<div class="db__day">пт</div>
+					</div>
+				</div>
 				<div class="text_tag announce__tag">
 					<a href="#">Лекция</a> / <a href="#">Зомби-идеи</a>
 				</div>
@@ -200,9 +254,14 @@
 		</div>
 		<div class="announce_slider__item slider-item">
 			<article class="announce">
-				<time class="date_bar">
-					<span class="date_bar__range_date">30.12-20.12</span>
-				</time>
+				<div class="db">
+					<div class="db__item db__2of3">
+						<div class="db__date">20.12.18</div>
+					</div>
+					<div class="db__item db__1of3">
+						<div class="db__day">пт</div>
+					</div>
+				</div>
 				<div class="text_tag announce__tag">
 					<a href="#">Тренинг</a>
 				</div>
@@ -211,9 +270,17 @@
 		</div>
 		<div class="announce_slider__item slider-item">
 			<article class="announce">
-				<time class="date_bar">
-					<span class="date_bar__range_date">30.11-2012</span>
-				</time>
+				<div class="db">
+					<div class="db__item db__2of4">
+						<div class="db__date">20.12.18</div>
+					</div>
+					<div class="db__item db__1of4">
+						<div class="db__day">пн</div>
+					</div>
+					<div class="db__item db__1of4">
+						<div class="db__time">19:00</div>
+					</div>
+				</div>
 				<div class="text_tag announce__tag">
 					<a href="#">Спиддейтин</a>
 				</div>

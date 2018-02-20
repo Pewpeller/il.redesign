@@ -7,7 +7,11 @@
 			<h1 class="magazine__name"><a href="#">Свобода сегодня</a></h1>
 			<h2 class="magazine__subheader"><a href="#">10 главных экономических идей 20 века</a></h2>
 		</div>
-		<div id="magazine_photo" class="magazine__photo fit_screen__item">
+		<div class="magazine__photo" style="background-image: url(/i/dummies/JOURNAL/ANONS_JOURNAL_3200x526/JOURNAL_ANONS_1_320.webp)">
+			<!--#set var="pic_url" value="/i/dummies/JOURNAL/ANONS_JOURNAL_3200x526/JOURNAL_ANONS_1" -->
+			<!--#set var="pic_alt" value="Десять разговоров о том, кому и зачем мы врем" -->
+			<!--#set var="pic_class" value="magazine__poster" -->
+			<!--#include virtual="/inc/picture.shtml" -->
 		</div>
 		<div class="magazine__text_frame">
 			<p class="magazine__intro">
@@ -21,20 +25,3 @@
 		</div>
 	</div>
 </article>
-<script>
-	Modernizr.on('webp', function(result) {
-		if (result) {
-			var i = "url('/i/main_post_black.webp')";
-		} else {
-			var i = "url('/i/main_post_black.jpg')";
-		}
-		document.getElementById('magazine_photo').style.backgroundImage = i;
-	});
-</script>
-<noscript>
-	<style>
-		#magazine_photo {
-			background-image: url(/i/main_post_black.jpg);
-		}
-	</style>
-</noscript>

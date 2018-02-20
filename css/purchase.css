@@ -1,0 +1,325 @@
+.purchase {
+	margin: 0 auto;
+	color: #181818;
+	position: relative;
+	overflow: hidden;
+	z-index: 10;
+}
+	.purchase__limiter {
+		max-width: 320px;
+		margin-left: auto;
+		margin-right: auto;
+		padding-left: 10px;
+		padding-right: 10px;
+		box-sizing: border-box;
+	}
+@media screen and (min-width: 375px) {
+	.purchase__limiter {
+		max-width: 335px;
+	}
+}
+
+	.purchase__header {
+		height: 58px;
+		border-bottom: 1px solid #d9d9d9;
+		font: 0/0 a;
+		margin-bottom: 15px;
+		position: relative;
+	}
+	.purchase__header::before {
+		content: '';
+		height: 100%;
+		display: inline-block;
+		vertical-align: middle;
+	}
+@media screen and (min-width: 570px) {
+	.purchase {
+		max-width: 470px;
+		border: 1px solid #808080;
+		overflow: visible;
+	}
+	.purchase__limiter {
+		max-width: 370px;
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.purchase__header {
+		max-width: 370px;
+		height: 100px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 31px;
+	}
+}
+.purchase__close {
+	position: absolute;
+	left: 6px;
+	top: 10px;
+}
+.purchase--request .purchase__close {
+	right: 6px;
+	left: auto;
+}
+
+.purchase .icon--close {
+	width: 14px;
+	height: 14px;
+	padding: 9px;
+}
+
+.purchase__header_name {
+	text-align: center;
+	font: bold 16px/22px Figgins Sans, Arial, sans-serif;
+	display: inline-block;
+	width: 100%;
+	vertical-align: middle;
+	margin-bottom: 4px;
+	box-sizing: border-box;
+}
+@media screen and (min-width: 570px) {
+	.purchase__header_name {
+		font-size: 40px;
+		line-height: 42px;
+		text-align: left;
+		margin-bottom: -18px;
+	}
+	.purchase__close {
+		margin: 0;
+		position: absolute;
+		right: 6px;
+		top: 6px;
+		left: auto;
+	}
+}
+.purchase__price {
+	position: relative;
+}
+.purchase__price_value {
+	font: bold 40px/42px Figgins Sans, Arial, sans-serif;
+	margin-bottom: 3px;
+}
+.purchase__price_note {
+	font-style: italic;
+	margin-bottom: 26px;
+}
+
+.calculator {
+	text-align: center;
+	margin-bottom: 4px;
+	width: 132px;
+	position: relative;
+	font: 0/0 a;
+	display: inline-block;
+	vertical-align: top;
+}
+.calculator__value {
+	width: 52px;
+	display: inline-block;
+	vertical-align: middle;
+	font: bold 28px/1 Figgins Sans, Arial, sans-serif;
+	color: #181818;
+}
+.calculator__add,
+.calculator__minus {
+	margin-bottom: 0;
+}
+@media screen and (min-width: 570px) {
+	.purchase__price {
+		text-align: justify;
+		text-justify: distribute-all-lines;
+		margin-bottom: -4px;
+	}
+		.purchase__price::after {
+			width: 100%;
+			content: '';
+			display: inline-block;
+		}
+		.purchase__price_text {
+			display: inline-block;
+			text-align: left;
+			text-justify: auto;
+			vertical-align: top;
+			margin-bottom: 7px;
+		}
+	.purchase__price_value {
+		margin-bottom: 4px;
+	}
+	.purchase__price_note,
+	.calculator {
+		margin-bottom: 0;
+	}
+
+}
+
+
+
+.purchase__text,
+.purchase__price_note,
+.purchase__agreed,
+.purchase__discount,
+.purchase__note,
+.purchase__promocode_text,
+.purchase__promocode_text_note,
+.purchase__error_message {
+	font: 14px/18px Figgins Sans, Arial, sans-serif;
+}
+
+.purchase__text {
+	margin-bottom: 23px;
+}
+.purchase__promocode_text {
+	font-weight: bold;
+}
+.purchase__error_message {
+	color: #ff6680;
+	font-style: italic;
+	margin-bottom: 13px;
+}
+
+@media screen and (min-width: 570px) {
+	.purchase__text,
+	.purchase__price_note,
+	.purchase__agreed,
+	.purchase__discount,
+	.purchase__note,
+	.purchase__promocode_text,
+	.purchase__error_message {
+		font-size: 16px;
+		line-height: 22px;
+	}
+	.purchase__text {
+		margin-bottom: 44px;
+	}
+}
+.purchase__discount {
+	position: relative;
+	margin-bottom: 21px;
+	padding-top: 10px;
+	display: inline-block;
+	width: 100%;
+	text-justify: distribute-all-lines;
+	text-align: left;
+}
+	.purchase__discount .purchase__limiter {
+		position: relative;
+	}
+	.purchase__discount .purchase__limiter::before {
+		content: '';
+		width: 0;
+		height: 0;
+		border-left: 10px solid transparent;
+		border-right: 10px solid transparent;
+		border-bottom: 10px solid #64ffda;
+		position: absolute;
+		left: 56px;
+		top: -28px;
+	}
+	.purchase__discount_body {
+		background-color: #64ffda;
+		margin-left: calc(-50vw + 50%);
+		margin-right: calc(-50vw + 50%);
+		padding-top: 18px;
+		padding-bottom: 16px;
+		box-sizing: border-box;
+	}
+@media screen and (min-width: 570px) {
+	.purchase__discount .purchase__limiter::before {
+		right: 34px;
+		left: auto;
+	}
+	.purchase__discount_body {
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 370px;
+		padding-left: 22px;
+		padding-right: 22px;
+		border-radius: 3px;
+	}
+}
+@media screen and (min-width: 1000px) {
+	.purchase__discount {
+		position: absolute;
+		margin-bottom: 0;
+		width: 268px;
+		top: 0;
+		left: 100%;
+		padding-top: 0;
+		padding-left: 10px;
+		transform: translateY(-50%);
+		margin-top: 20px;
+		margin-left: 16px;
+	}
+	.purchase__discount .purchase__limiter::before {
+		content: '';
+		width: 0;
+		height: 0;
+		border-top: 10px solid transparent;
+		border-right: 10px solid #64ffda;
+		border-bottom: 10px solid transparent;
+		border-left: 0;
+		position: absolute;
+		top: 0;
+		left: -32px;
+		bottom: 0;
+		margin: auto 0;
+	}
+}
+.purchase__show_promocode {
+	margin-top: 3px;
+	margin-bottom: 23px;
+}
+@media screen and (min-width: 1000px) {
+	.purchase__show_promocode {
+		margin-top: 9px;
+		margin-bottom: 26px;
+	}
+}
+.purchase__payment_button {
+	width: 100%;
+	margin-bottom: 32px;
+}
+.purchase__agreed {
+	font-style: italic;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 48px;
+}
+	.purchase__agreed a {
+		border-bottom: 1px solid #d8d8d8;
+	}
+.purchase__highlight {
+	color: #64ffda;
+}
+.purchase__promocode_done {
+	margin-top: 19px;
+	margin-bottom: 23px;
+}
+@media screen and (min-width: 1000px) {
+	.purchase__promocode_done {
+		margin-top: 18px;
+		margin-bottom: 23px;
+	}
+}
+.purchase__promocode_done .field__close {
+	float: right;
+	margin: -7px 0 5px -3px;
+}
+
+/* request */
+.purchase--request {
+	padding-top: 65px;
+	padding-bottom: 44px;
+}
+
+
+.dialog_overlay {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: #fff;
+	opacity: .9;
+	z-index: 5;
+}

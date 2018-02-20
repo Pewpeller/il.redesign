@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+	<!--#include virtual="/inc/head.shtml" -->
+	<body>
+		<!--#include virtual="/inc/header.shtml" -->
+		<div class="main" role="main">
+			<div class="layout">
+				<div class="field">
+					<label class="field__label field__name" for="fi">
+						Имя и фамилия
+					</label>
+					<div class="field__label field__error">Заполните поле</div>
+					<input class="field__input" id="fi" type="text" placeholder="Имя и фамилия">
+				</div>
+				<div class="field">
+					<label class="field__label field__name" for="email">
+						Email
+					</label>
+					<div class="field__label field__error">Неверный формат</div>
+					<input class="field__input" id="email" type="email" placeholder="Email">
+				</div>
+				<div class="field field--error">
+					<label class="field__label field__name" for="telephone">
+						Телефон
+					</label>
+					<div class="field__label field__error">Неверный формат</div>
+					<input class="field__input" id="telephone" type="tel" placeholder="Телефон" value="+7">
+				</div>
+				<div class="field field--short field--error">
+					<label class="field__label field__name" for="promocode">
+						Промо код
+					</label>
+					<div class="field__label field__error">Неверный код</div>
+					<input class="field__input" id="promocode" type="tel" placeholder="Промо код" value="">
+					<button class="field__close kbd_button" tabindex="0">
+						<svg class="icon icon--close kbd_button__body" tabindex="-1"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-close"></use></svg>
+					</button>
+					<button class="kbd_button field__button" tabindex="0" type="button">
+						<div class="kbd_button__body" tabindex="-1">Применить</div>
+					</button>
+				</div>
+				<div class="purchase">
+					<div class="layout">
+						<header class="purchase__header">
+							<button class="field__close kbd_button" tabindex="0">
+								<svg class="icon icon--close kbd_button__body" tabindex="-1"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-close"></use></svg>
+							</button>
+						</header>
+						<div class="calculator">
+							<button disabled class="calculator__minus il_button il_button--circle kbd_button" tabindex="0">
+								<div class="kbd_button__body" tabindex="-1">-</div>
+							</button>
+
+							<div class="calculator__value">99</div>
+
+							<button class="calculator__add il_button il_button--circle kbd_button" tabindex="0">
+								<div class="kbd_button__body" tabindex="-1">+</div>
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--#include virtual="/inc/footer.shtml" -->
+	</body>
+</html>

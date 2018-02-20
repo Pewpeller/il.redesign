@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+	<!--#include virtual="/inc/head.shtml" -->
+	<body>
+		<!--#include virtual="/inc/header.shtml" -->
+		<div class="main" role="main">
+			<div class="basket">
+				<header class="basket__header">
+					<h1 class="basket__header_name">Корзина</h1>
+				</header>
+				<section class="basket__item">
+					<div class="basket_showcase">
+						<div class="db">
+							<div class="db__item">
+								<div class="db__date">20.12.17–20.01.18</div>
+							</div>
+						</div>
+						<div class="ear__tag">
+							<a href="#">Курс, 80 часов, 8 занятий, пн, пт </a>
+						</div>
+						<h2 class="ear__name">
+							Модернизация чувств, которая происходит прямо сейчас
+						</h2>
+						<div class="cycle__text_small">
+							<svg class="icon icon--pin" role="img"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-pin"></use></svg>Площадка инлиберти
+						</div>
+					</div>
+					<div class="basket_counter">
+						<button class="basket_counter_button kbd_button" tabindex="0" type="button">
+							<div class="kbd_button__body" tabindex="-1">-</div>
+						</button>
+						<div class="basket__number">1</div>
+						<button class="basket_counter_button kbd_button" tabindex="0" type="button">
+							<div class="kbd_button__body" tabindex="-1">+</div>
+						</button>
+						<p class="basket__note">
+							Осталось 5 мест
+						</p>
+					</div>
+					<div class="basket_price">
+						<div class="basket__price_value">
+							14 000 руб.
+							<sub class="basket__price_discount">-30%</sub>
+						</div>
+						<div class="basket__old_price_value">
+							20 000 руб.
+						</div>
+
+						<p class="basket__note">
+							Осталось 5 мест
+						</p>
+					</div>
+					<div class="basket_remove">
+						<button class="basket_remove_button kbd_button" tabindex="0" type="button">
+							<div class="kbd_button__body" tabindex="-1">
+								<svg class="icon icon--pin" role="img"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-pin"></use></svg>
+								Удалить из корзины
+							</div>
+						</button>
+					</div>
+				</section>
+			</div>
+		</div>
+		<!--#include virtual="/inc/footer.shtml" -->
+	</body>
+</html>

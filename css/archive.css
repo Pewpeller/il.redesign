@@ -1,0 +1,18 @@
+.archive {
+	position: relative;
+	background-color: #fff3e0;
+}
+	.archive::after {
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		height: 0;
+		width: 0;
+		border: 30px solid #faebd2;
+		border-right-color: #fff;
+		border-bottom-color: #fff;
+		content: '';
+	}
+.archive__name {
+	font: bold 28px/32px Figgins Sans, Arial, sans-serif;
+}

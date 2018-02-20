@@ -5,7 +5,68 @@
 		<!--#include virtual="/inc/header.shtml" -->
 		<div class="main" role="main">
 			<!--#include virtual="/inc/announce.shtml" -->
+			<!--#include virtual="/inc/courses_announce.shtml" -->
 			<!--#include virtual="/inc/magazine.shtml" -->
+
+
+			<div class="layout">
+				<div class="grid">
+					<div class="grid__inner">
+						<div class="grid__cell grid_t_full grid_d_small">
+							<article class="archive ear ear--dark ear_m_extra_small ear_d_normal">
+								<div class="ear__content">
+									<div class="ear__tag">
+										<a href="#">Архив</a>
+									</div>
+									<h2 class="archive__name">
+										<a href="#">«Прощай, прощай  и помни обо мне»</a>
+									</h2>
+									<p class="text_small library__subheader">
+										<a href="#">Должна ли терпимость распространяться  на практику нетерпимости?</a>
+									</p>
+									<p class="ear__author">
+										Григорий Ревзин
+									</p>
+								</div>
+							</article>
+						</div>
+						<div class="grid__cell grid_d_big">
+							<article class="ear ear_m_small ear_m_normal ruche">
+								<div class="ear__content">
+									<div class="ear__photo dark_blind">
+										<a href="#">
+											<img class="ear__poster" src="/i/project2.jpg" alt="Школа: Очень длинная комната">
+										</a>
+									</div>
+									<div class="db">
+										<div class="db__item db__2of3">
+											<div class="db__date">30.11–20.12.18</div>
+										</div>
+										<div class="db__item db__1of3">
+											<div class="db__mix">
+												<div class="db__day">пн ср вс</div>
+												<div class="db__time">19:00</div>
+											</div>
+										</div>
+									</div>
+									<div class="ear__tag">
+										<a href="#">Школа</a>
+									</div>
+									<h2 class="ear__name ear__name--accent">
+										<a href="#">Очень длинная комната</a>
+									</h2>
+									<h3 class="ear__subheader">
+										<a href="#">Десять главных мысленных экспериментов</a>
+									</h3>
+								</div>
+							</article>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+
 			<!--#include virtual="/inc/project.shtml" -->
 			<!--#include virtual="/inc/library.shtml" -->
 			<!--#include virtual="/inc/blogs.shtml" -->

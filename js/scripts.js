@@ -468,6 +468,17 @@ $(function () {
 		});
 	})();
 
+	(function () {
+		$('.field__input').on('input', function() {
+			var $field = $(this).closest('.field');
+			if (this.value) {
+				$field.addClass('field--not-empty');
+				$field.removeClass('field--error');
+			} else {
+				$field.removeClass('field--not-empty');
+			}
+		});
+	})();
 
 	// init
 	(function () {

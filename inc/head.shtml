@@ -27,8 +27,9 @@
 		<link rel="stylesheet" href="/css/search_field.css">
 		<link rel="stylesheet" href="/css/header.css">
 		<link rel="stylesheet" href="/css/grid.css">
+		<link rel="stylesheet" href="/css/db.css">
 		<link rel="stylesheet" href="/css/announce.css">
-		<link rel="stylesheet" href="/css/date_bar.css">
+		<!-- <link rel="stylesheet" href="/css/date_bar.css"> -->
 		<link rel="stylesheet" href="/css/tag.css">
 		<link rel="stylesheet" href="/css/magazine.css">
 		<link rel="stylesheet" href="/css/ear_grid.css">
@@ -45,4 +46,8 @@
 		<link rel="stylesheet" href="/css/book.css">
 		<link rel="stylesheet" href="/css/footer.css">
 		<link rel="stylesheet" href="/css/search.css">
+		<link rel="stylesheet" href="/css/courses.css">
+		<link rel="stylesheet" href="/css/archive.css">
+		<link rel="stylesheet" href="/css/text_input.css">
+		<link rel="stylesheet" href="/css/purchase.css">
 	</head>

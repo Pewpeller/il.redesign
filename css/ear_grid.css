@@ -25,14 +25,17 @@
 .ear_m_flat {
 	height: 140px;
 }
+.ear_m_extra_small {
+	height: 268px;	
+}
 .ear_m_narrow {
 	height: 270px;
 }
 .ear_m_small {
 	height: 280px;
 }
-.ear_m_extra_small {
-	height: 268px;	
+.ear_m_small_over {
+	height: 344px;
 }
 .ear_m_normal {
 	height: 390px;
@@ -122,6 +125,9 @@
 	}
 	.ear_d_flat {
 		height: 210px;
+	}
+	.ear_d_big {
+		height: 550px;
 	}
 	.ear_d_no_pt {
 		padding-top: 0;

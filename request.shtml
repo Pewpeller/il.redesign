@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+	<!--#include virtual="/inc/head.shtml" -->
+	<body>
+		<!--#include virtual="/inc/header.shtml" -->
+		<div class="main" role="main">
+
+			<div class="purchase purchase--request">
+				<div class="purchase__limiter">
+
+					<button class="purchase__close kbd_button" tabindex="0">
+						<svg class="icon icon--close kbd_button__body" tabindex="-1"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-close"></use></svg>
+					</button>
+
+					<form name="purchase" id="purchase" class="purchase__form">
+						
+						<div class="purchase__error_message">
+							Пожалуйста, заполните информацию о себе
+						</div>
+
+						<div class="field">
+							<label class="field__label field__name" for="fi">
+								Имя и фамилия
+							</label>
+							<div class="field__label field__error">Заполните поле</div>
+							<input class="field__input" id="fi" type="text" placeholder="Имя и фамилия">
+						</div>
+						<div class="field">
+							<label class="field__label field__name" for="email">
+								Email
+							</label>
+							<div class="field__label field__error">Неверный формат</div>
+							<input class="field__input" id="email" type="email" placeholder="Email">
+						</div>
+
+						<button class="il_button kbd_button purchase__payment_button" tabindex="0" type="button">
+							<div class="kbd_button__body" tabindex="-1">Я хочу участвовать</div>
+						</button>
+
+					</form>
+				</div>
+			</div>
+
+		</div>
+		<!--#include virtual="/inc/footer.shtml" -->
+	</body>
+</html>
