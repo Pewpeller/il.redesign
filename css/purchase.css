@@ -4,6 +4,7 @@
 	position: relative;
 	overflow: hidden;
 	z-index: 10;
+	background-color: #fff;
 }
 	.purchase__limiter {
 		max-width: 320px;
@@ -151,8 +152,6 @@
 
 }
 
-
-
 .purchase__text,
 .purchase__price_note,
 .purchase__agreed,
@@ -267,11 +266,12 @@
 .purchase__show_promocode {
 	margin-top: 3px;
 	margin-bottom: 23px;
+	font-weight: bold;
 }
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 570px) {
 	.purchase__show_promocode {
-		margin-top: 9px;
-		margin-bottom: 26px;
+		margin-top: 12px;
+		margin-bottom: 31px;
 	}
 }
 .purchase__payment_button {
@@ -289,7 +289,7 @@
 		border-bottom: 1px solid #d8d8d8;
 	}
 .purchase__highlight {
-	color: #64ffda;
+	color: #1cc79a;
 }
 .purchase__promocode_done {
 	margin-top: 19px;
