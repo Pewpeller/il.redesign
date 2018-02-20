@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+	<!--#include virtual="/inc/head.shtml" -->
+	<body>
+		<!--#include virtual="/inc/header.shtml" -->
+		<div class="main" role="main">
+
+			<div class="faq">
+				<div class="layout">
+					<header class="popup_header">
+						<button class="purchase__close kbd_button js-close_dialog" tabindex="0">
+							<svg class="icon icon--close kbd_button__body" tabindex="-1"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-close"></use></svg>
+						</button>
+						<a href="/" class="inliberty_logo">
+							<svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#inliberty_logo"></use></svg>
+						</a>
+					</header>
+					<h2 class="faq__name">FAQ</h2>
+					<div class="grid">
+						<div class="grid__inner">
+							<div class="grid__cell grid_t_full grid_d_middle">
+								<p class="faq__question">
+									— Что надеть?
+								</p>
+								<p class="faq__answer">
+									 — Что хотите.
+								</p>
+
+								<p class="faq__question">
+									— С собакой можно? 
+								</p>
+								<p class="faq__answer">
+									— Только с бордер-колли.
+								</p>
+								<p class="faq__question">
+									— Если я заболею?  
+								</p>
+								<p class="faq__answer">
+									— Лечитесь! За два с лишним века истории США в Белом Доме побывало немало президентов, далеких от нравственного и гражданского идеала — в конце концов, кандидатов выбирают из числа нашего брата (и сестры), а не импортируют со снежных вершин Гималаев.
+								</p>
+								<p class="faq__question">
+									— Есть ли жизнь на Марсе? 
+								</p>
+								<p class="faq__answer">
+									— Нет! Но есть, как говорится, нюанс. Вот как характеризует нынешнего обитателя Овального кабинета Джек Голдсмит в статье, опубликованной в последнем номере журнала Atlantic: «Трамп — чудовище Франкенштейна, сочетание худших атрибутов президентов прошлого: бешенс...
+								</p>
+							</div>
+							<div class="grid__cell grid_t_full grid_d_middle">
+								<p class="faq__question">
+									— С собакой можно? 
+								</p>
+								<p class="faq__answer">
+									— Только с бордер-колли.
+								</p>
+								<p class="faq__question">
+									— Если я заболею?  
+								</p>
+								<p class="faq__answer">
+									— Лечитесь! За два с лишним века истории США в Белом Доме побывало немало президентов, далеких от нравственного и гражданского идеала — в конце концов, кандидатов выбирают из числа нашего брата (и сестры), а не импортируют со снежных вершин Гималаев.
+								</p>
+								<p class="faq__question">
+									— Есть ли жизнь на Марсе? 
+								</p>
+								<p class="faq__answer">
+									— Нет! Но есть, как говорится, нюанс. Вот как характеризует нынешнего обитателя Овального кабинета Джек Голдсмит в статье, опубликованной в последнем номере журнала Atlantic: «Трамп — чудовище Франкенштейна, сочетание худших атрибутов президентов прошлого: бешенс...
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<!--#include virtual="/inc/footer.shtml" -->
+
+		<!-- <div class="dialog_overlay"></div> -->
+
+	</body>
+</html>

@@ -1,0 +1,78 @@
+.faq__question {
+	font: bold 14px/18px Figgins Sans, Arial, sans-serif;
+	
+}
+.faq__answer {
+	font: 14px/18px Figgins Sans, Arial, sans-serif;
+	margin-bottom: 20px;
+}
+.faq__question {
+	font-weight: bold;
+}
+.faq__name {
+	font: bold 31px/32px Figgins Sans, Arial, sans-serif;
+	margin-bottom: 29px;
+}
+.popup_header {
+	position: relative;
+	height: 50px;
+	margin-bottom: 39px;
+}
+@media only screen and (min-width: 1024px) {
+	.popup_header {
+		margin-bottom: 62px;
+	}
+}
+	.popup_header .inliberty_logo {
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		margin: auto;
+		width: 144px;
+	}
+	.popup_header .purchase__close {
+		position: absolute;
+		left: 0;
+		top: 0;
+		bottom: 0;
+		margin: auto;
+	}
+@media only screen and (min-width: 620px) {
+	.popup_header .inliberty_logo {
+		right: auto;
+	}
+	.popup_header .purchase__close {
+		left: auto;
+		right: 0;
+	}
+
+	.faq__question {
+		font-size: 22px;
+		line-height: 28px;
+	}
+	.faq__answer {
+		font: 19px/28px Parmigiano Piccolo Light, Arial, serif;
+	}
+	.faq__name {
+		font-size: 70px;
+		line-height: 74px;
+		margin-bottom: 48px;
+	}
+}
+@media only screen and (min-width: 1024px) {
+	.faq .grid__inner {
+		text-align: justify;
+		text-justify: distribute-all-lines;
+	}
+		.faq .grid__inner::after {
+			width: 100%;
+			content: '';
+			display: inline-block;
+		}
+		.faq .grid__inner > * {
+			text-align: left;
+			text-justify: auto;
+		}
+}
