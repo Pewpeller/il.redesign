@@ -199,6 +199,11 @@ body {
 	height: 18px;
 	padding: 7px 5px;
 }
+.icon--error {
+	width: 76px;
+	height: 94px;
+}
+
 img {
 	vertical-align: top;
 }
@@ -514,13 +519,15 @@ hr {
 
 .dialog__window {
 	position: fixed;
-	top: 0;
+	top: 50%;
 	left: 0;
-	width: 100%;
-	height: 100%;
+	right: 0;
+	max-width: 100%;
+	max-height: calc(100vh - 56px);
 	z-index: 101;
 	overflow: auto;
 	-webkit-overflow-scrolling: touch;
+	transform: translateY(-50%);
 }
 
 .dialog__mask {

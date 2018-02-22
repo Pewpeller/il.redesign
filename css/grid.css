@@ -76,6 +76,9 @@
 		width: calc(100% - 350px);
 		min-width: 354px;
 	}
+	.grid_d_narrow {
+		width: calc(100% / 3 - 22px);
+	}
 }
 @media only screen and (max-width: 620.99px) {
 	.hide_m {

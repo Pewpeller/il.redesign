@@ -10,19 +10,12 @@
 	z-index: 10;
 }
 .faq__question {
-	font: bold 14px/18px Figgins Sans, Arial, sans-serif;
+	font: bold 14px/17px Figgins Sans, Arial, sans-serif;
 	
 }
 .faq__answer {
-	font: 14px/18px Figgins Sans, Arial, sans-serif;
+	font: 14px/17px Figgins Sans, Arial, sans-serif;
 	margin-bottom: 20px;
-}
-.faq__question {
-	font-weight: bold;
-}
-.faq__name {
-	font: bold 31px/32px Figgins Sans, Arial, sans-serif;
-	margin-bottom: 29px;
 }
 .popup_header {
 	position: relative;
@@ -51,39 +44,14 @@
 		margin: auto;
 	}
 @media only screen and (min-width: 620px) {
-	.popup_header .inliberty_logo {
-		right: auto;
-	}
 	.popup_header .purchase__close {
 		left: auto;
 		right: 0;
 	}
 
-	.faq__question {
-		font-size: 22px;
-		line-height: 28px;
-	}
+	.faq__question,
 	.faq__answer {
-		font: 19px/28px Parmigiano Piccolo Light, Arial, serif;
+		font-size: 16px;
+		line-height: 22px;
 	}
-	.faq__name {
-		font-size: 70px;
-		line-height: 74px;
-		margin-bottom: 48px;
-	}
-}
-@media only screen and (min-width: 1024px) {
-	.faq .grid__inner {
-		text-align: justify;
-		text-justify: distribute-all-lines;
-	}
-		.faq .grid__inner::after {
-			width: 100%;
-			content: '';
-			display: inline-block;
-		}
-		.faq .grid__inner > * {
-			text-align: left;
-			text-justify: auto;
-		}
 }
