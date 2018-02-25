@@ -11,10 +11,10 @@
 		white-space: nowrap;
 	}
 	.announce_slider__item {
-		width: 255px;
+		width: 230px;
 		display: inline-block;
 		vertical-align: top;
-		margin-right: -254px;
+		margin-right: -230px;
 		white-space: normal;
 	}
 		.announce_slider__item:last-child {
@@ -23,16 +23,6 @@
 	@media only screen and (min-width: 621px) {
 		.announce_slider {
 			margin: 0 22px 32px 22px;
-		}
-		.announce_slider__item {
-			width: 278px;
-			margin-right: -278px;
-		}
-	}
-	@media only screen and (min-width: 1024px) {
-		.announce_slider__item {
-			width: 229px;
-			margin-right: -230px;
 		}
 	}
 .announce_slider__nav {

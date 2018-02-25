@@ -212,7 +212,7 @@
 			</div> <!-- end of layout -->
 		</div> <!-- end of main -->
 
-		<div class="dialog opened" role="dialog" aria-labelledby="purchase_label">
+		<div class="dialog is_opened" role="dialog" aria-labelledby="purchase_label">
 			<div class="dialog__window">
 				<div class="layout">
 					<div class="purchase purchase--request purchase--error">

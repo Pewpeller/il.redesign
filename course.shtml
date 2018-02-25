@@ -4,224 +4,224 @@
 	<body>
 		<!--#include virtual="/inc/header.shtml?buy" -->
 		<div class="main" role="main">
-				<div class="setka_content">
-
-						<div class="courses__section_name" style="color:red;text-align: center;">
-							setka.io
-						</div>
-
+			<div class="setka_content">
+				<div class="courses__section_name" style="color:red;text-align: center;">
+					setka.io
 				</div>
-				<div class="course__footer">
-					<div class="layout">
-						<div class="course_board">
-							<div class="course_board__body fit_screen__item">
-								<div class="ear ear--dark ear_m_small ear_d_normal">
-									<div class="course_board__content">
-										<div class="course_board__price">
-											17 500 руб.
-										</div>
-										<button class="il_button il_button--transparent kbd_button js-purchase_button" tabindex="0" type="button">
-											<div class="kbd_button__body" tabindex="-1">Купить курс</div>
-										</button>
+			</div>
+			<div class="course__footer">
+				<div class="layout">
+					<div class="course_board">
+						<div class="course_board__body fit_screen__item">
+							<div class="ear ear--dark ear_m_small ear_d_normal">
+								<div class="course_board__content">
+									<div class="course_board__price">
+										17 500 руб.
 									</div>
+									<button class="il_button il_button--transparent kbd_button js-purchase_button changeclass" tabindex="0" data-changeclass='{
+										".dialog": {"addClass": "is_opened"}
+									}' type="button">
+										<div class="kbd_button__body" tabindex="-1">Купить курс</div>
+									</button>
 								</div>
 							</div>
 						</div>
+					</div>
 
-						<div class="courses_slider slider slider-simple">
-							<div class="slider-canvas courses_slider__canvas">
-								<div class="slider-item courses_slider__item">
-									<article class="course">
-										<a href="#">
-											<div class="course__photo">
-												<img src="/i/dummies/COURSES/1.jpg" alt="Почему люди не должны быть нормальными">
-											</div>
-											<div class="ear ear--dark">
-												<div class="ear__content">
-													<div class="db">
-														<div class="db__item db__2of3">
-															<div class="db__date db__date--small">30.12.17–20.12.18</div>
-														</div>
-														<div class="db__item db__1of3">
-															<div class="db__mix">
-																<div class="db__day">пн ср вс</div>
-																<div class="db__time">19:00</div>
-															</div>
-														</div>
+					<div class="courses_slider slider slider-simple">
+						<div class="slider-canvas courses_slider__canvas">
+							<div class="slider-item courses_slider__item">
+								<article class="course">
+									<a href="#">
+										<div class="course__photo">
+											<img src="/i/dummies/COURSES/1.jpg" alt="Почему люди не должны быть нормальными">
+										</div>
+										<div class="ear ear--dark">
+											<div class="ear__content">
+												<div class="db">
+													<div class="db__item db__2of3">
+														<div class="db__date db__date--small">30.12.17–20.12.18</div>
 													</div>
-													<div class="ear__tag">
-														80 часов, 8 занятий, пн, пт
-													</div>
-												</div>
-											</div>
-										</a>
-										<p class="course__price">
-											17 500 руб.
-										</p>
-									</article>
-								</div>
-								<div class="slider-item courses_slider__item">
-									<article class="course">
-										<a href="#">
-											<div class="course__photo">
-												<img src="/i/dummies/COURSES/2.jpg" alt="Модернизация чувств, которая происходит прямо сейчас">
-											</div>
-											<div class="ear">
-												<div class="ear__content">
-													<div class="db">
-														<div class="db__item db__2of3">
-															<div class="db__date db__date--small">30.12.17–20.12.18</div>
-														</div>
-														<div class="db__item db__1of3">
+													<div class="db__item db__1of3">
+														<div class="db__mix">
 															<div class="db__day">пн ср вс</div>
+															<div class="db__time">19:00</div>
 														</div>
 													</div>
-													<div class="ear__tag">
-														80 часов, 8 занятий, пн, пт
-													</div>
+												</div>
+												<div class="ear__tag">
+													80 часов, 8 занятий, пн, пт
 												</div>
 											</div>
-										</a>
-										<p class="course__price">
-											7 500 руб.
-										</p>
-									</article>
-								</div>
-								<div class="slider-item courses_slider__item">
-									<article class="course">
-										<a href="#">
-											<div class="course__photo">
-												<img src="/i/dummies/COURSES/3.jpg" alt="Почему люди не должны быть нормальными">
-											</div>
-											<div class="ear ear--dark">
-												<div class="ear__content">
-													<div class="db">
-														<div class="db__item">
-															<div class="db__date">12.12–20.12.18</div>
-														</div>
-													</div>
-													<div class="ear__tag">
-														80 часов, 8 занятий, пн, пт
-													</div>
-												</div>
-											</div>
-										</a>
-										<p class="course__price">
-											27 950 руб.
-										</p>
-									</article>
-								</div>
-								<div class="slider-item courses_slider__item">
-									<article class="course">
-										<a href="#">
-											<div class="course__photo">
-												<img src="/i/dummies/COURSES/4.jpg" alt="Модернизация чувств, которая происходит прямо сейчас">
-											</div>
-											<div class="ear">
-												<div class="ear__content">
-													<div class="db">
-														<div class="db__item">
-															<div class="db__date">20.12.17–20.01.18</div>
-														</div>
-													</div>
-													<div class="ear__tag">
-														80 часов, 8 занятий, пн, пт
-													</div>
-												</div>
-											</div>
-										</a>
-										<div class="course__banner course__banner--closed">
-											Набор закрыт
 										</div>
-										<div class="course__price">
-											<span class="course__price_announce">
-												<a href="#">Напишите нам</a>, если хотите, чтобы мы повторили курс
-											</span>
-										</div>
-									</article>
-								</div>
-								<div class="slider-item courses_slider__item">
-									<article class="course">
-										<a href="#">
-											<div class="course__photo">
-												<img src="/i/dummies/COURSES/5.jpg" alt="Почему люди не должны быть нормальными">
-											</div>
-											<div class="ear ear--dark">
-												<div class="ear__content">
-													<div class="db">
-														<div class="db__item db__2of3">
-															<div class="db__date">30.11–20.12.18</div>
-														</div>
-														<div class="db__item db__1of3">
-															<div class="db__day">пн ср вс</div>
-														</div>
-													</div>
-													<div class="ear__tag">
-														80 часов, 8 занятий, пн, пт
-													</div>
-												</div>
-											</div>
-										</a>
-										<div class="course__banner">
-											Осталось 5 мест
-										</div>
-										<div class="course__price">
-											99 950 руб.
-										</div>
-									</article>
-								</div>
-								<div class="slider-item courses_slider__item">
-									<article class="course">
-										<a href="#">
-											<div class="course__photo">
-												<img src="/i/dummies/COURSES/6.jpg" alt="Модернизация чувств, которая происходит прямо сейчас">
-											</div>
-											<div class="ear">
-												<div class="ear__content">
-													<div class="db">
-														<div class="db__item db__2of3">
-															<div class="db__date">30.11–20.12.18</div>
-														</div>
-														<div class="db__item db__1of3">
-															<div class="db__day">пн-пт</div>
-														</div>
-													</div>
-													<div class="ear__tag">
-														80 часов, 8 занятий, пн, пт
-													</div>
-												</div>
-											</div>
-										</a>
-										<p class="course__price">
-											17 500 руб.
-										</p>
-									</article>
-								</div>
+									</a>
+									<p class="course__price">
+										17 500 руб.
+									</p>
+								</article>
 							</div>
-							<div class="announce_slider__nav announce_slider__prev slider-prev">
-								<a href="#" class="slider-link">
-									<svg class="icon icon--arrow icon--arrow_left" role="img"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-arrow"></use></svg>
-								</a>
+							<div class="slider-item courses_slider__item">
+								<article class="course">
+									<a href="#">
+										<div class="course__photo">
+											<img src="/i/dummies/COURSES/2.jpg" alt="Модернизация чувств, которая происходит прямо сейчас">
+										</div>
+										<div class="ear">
+											<div class="ear__content">
+												<div class="db">
+													<div class="db__item db__2of3">
+														<div class="db__date db__date--small">30.12.17–20.12.18</div>
+													</div>
+													<div class="db__item db__1of3">
+														<div class="db__day">пн ср вс</div>
+													</div>
+												</div>
+												<div class="ear__tag">
+													80 часов, 8 занятий, пн, пт
+												</div>
+											</div>
+										</div>
+									</a>
+									<p class="course__price">
+										7 500 руб.
+									</p>
+								</article>
 							</div>
-							<div class="announce_slider__nav announce_slider__next slider-next">
-								<a href="#" class="slider-link">
-									<svg class="icon icon--arrow" role="img"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-arrow"></use></svg>
-								</a>
+							<div class="slider-item courses_slider__item">
+								<article class="course">
+									<a href="#">
+										<div class="course__photo">
+											<img src="/i/dummies/COURSES/3.jpg" alt="Почему люди не должны быть нормальными">
+										</div>
+										<div class="ear ear--dark">
+											<div class="ear__content">
+												<div class="db">
+													<div class="db__item">
+														<div class="db__date">12.12–20.12.18</div>
+													</div>
+												</div>
+												<div class="ear__tag">
+													80 часов, 8 занятий, пн, пт
+												</div>
+											</div>
+										</div>
+									</a>
+									<p class="course__price">
+										27 950 руб.
+									</p>
+								</article>
 							</div>
-						</div> <!-- end of slider canvas -->
-					</div> <!-- end of slider -->
-				</div> <!-- end of layout -->
+							<div class="slider-item courses_slider__item">
+								<article class="course">
+									<a href="#">
+										<div class="course__photo">
+											<img src="/i/dummies/COURSES/4.jpg" alt="Модернизация чувств, которая происходит прямо сейчас">
+										</div>
+										<div class="ear">
+											<div class="ear__content">
+												<div class="db">
+													<div class="db__item">
+														<div class="db__date">20.12.17–20.01.18</div>
+													</div>
+												</div>
+												<div class="ear__tag">
+													80 часов, 8 занятий, пн, пт
+												</div>
+											</div>
+										</div>
+									</a>
+									<div class="course__banner course__banner--closed">
+										Набор закрыт
+									</div>
+									<div class="course__price">
+										<span class="course__price_announce">
+											<a href="#">Напишите нам</a>, если хотите, чтобы мы повторили курс
+										</span>
+									</div>
+								</article>
+							</div>
+							<div class="slider-item courses_slider__item">
+								<article class="course">
+									<a href="#">
+										<div class="course__photo">
+											<img src="/i/dummies/COURSES/5.jpg" alt="Почему люди не должны быть нормальными">
+										</div>
+										<div class="ear ear--dark">
+											<div class="ear__content">
+												<div class="db">
+													<div class="db__item db__2of3">
+														<div class="db__date">30.11–20.12.18</div>
+													</div>
+													<div class="db__item db__1of3">
+														<div class="db__day">пн ср вс</div>
+													</div>
+												</div>
+												<div class="ear__tag">
+													80 часов, 8 занятий, пн, пт
+												</div>
+											</div>
+										</div>
+									</a>
+									<div class="course__banner">
+										Осталось 5 мест
+									</div>
+									<div class="course__price">
+										99 950 руб.
+									</div>
+								</article>
+							</div>
+							<div class="slider-item courses_slider__item">
+								<article class="course">
+									<a href="#">
+										<div class="course__photo">
+											<img src="/i/dummies/COURSES/6.jpg" alt="Модернизация чувств, которая происходит прямо сейчас">
+										</div>
+										<div class="ear">
+											<div class="ear__content">
+												<div class="db">
+													<div class="db__item db__2of3">
+														<div class="db__date">30.11–20.12.18</div>
+													</div>
+													<div class="db__item db__1of3">
+														<div class="db__day">пн-пт</div>
+													</div>
+												</div>
+												<div class="ear__tag">
+													80 часов, 8 занятий, пн, пт
+												</div>
+											</div>
+										</div>
+									</a>
+									<p class="course__price">
+										17 500 руб.
+									</p>
+								</article>
+							</div>
+						</div>
+						<div class="announce_slider__nav announce_slider__prev slider-prev">
+							<a href="#" class="slider-link">
+								<svg class="icon icon--arrow icon--arrow_left" role="img"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-arrow"></use></svg>
+							</a>
+						</div>
+						<div class="announce_slider__nav announce_slider__next slider-next">
+							<a href="#" class="slider-link">
+								<svg class="icon icon--arrow" role="img"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-arrow"></use></svg>
+							</a>
+						</div>
+					</div> <!-- end of slider canvas -->
+				</div> <!-- end of slider -->
+			</div> <!-- end of layout -->
 		</div> <!-- end of main -->
 		<!--#include virtual="/inc/footer.shtml" -->
-
 
 		<div class="dialog" role="dialog" aria-labelledby="purchase_label">
 			<div class="dialog__window">
 				<div class="purchase">
-					<button class="purchase__close kbd_button js-close_dialog" tabindex="0">
+					<button class="purchase__close kbd_button js-close_dialog changeclass" tabindex="0" data-changeclass='{
+						".dialog": {"removeClass": "is_opened"}
+					}'>
 						<svg class="icon icon--close kbd_button__body" tabindex="-1"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-close"></use></svg>
 					</button>
-
 					<header class="purchase__header">
 						<h2 class="purchase__header_name">
 							Покупка билета
@@ -321,7 +321,6 @@
 									<div class="kbd_button__body" tabindex="-1">Применить</div>
 								</button>
 							</div>
-
 							<div class="purchase__promocode_done hide">
 								<button class="field__close kbd_button" tabindex="0">
 									<svg class="icon icon--close kbd_button__body" tabindex="-1"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-close"></use></svg>
@@ -334,11 +333,9 @@
 									Скидки по промокоду и кол-ву билетов не суммируются
 								</div>
 							</div>
-
 							<button class="il_button kbd_button purchase__big_button purchase__payment_button" tabindex="0" type="button">
 								<div class="kbd_button__body" tabindex="-1">Перейти к оплате</div>
 							</button>
-
 							<div class="purchase__agreed">
 								Продолжая покупку, вы принимаете <br>
 								<a href="#" target="_blank">условия предоставления услуг</a>
@@ -350,15 +347,5 @@
 			<div class="dialog__mask"></div>
 		</div>
 
-		<script src="/js/dist/inert.min.js"></script>
-		<script src="/js/dist/modal.js"></script>
-		<!--
-		<script>
-			  addEventListeners() {
-			    document.querySelector('.js-purchase_button')
-			      .addEventListener('click', openDialog);
-			  }
-		</script>
-		-->
 	</body>
 </html>

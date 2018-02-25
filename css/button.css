@@ -70,7 +70,6 @@
 	max-height: 100%;
 	line-height: 38px;
 	font-size: 12px;
-	overflow: hidden;
 	padding-top: 2px;
 }
 @media only screen and (min-width: 620px) {

@@ -4,6 +4,7 @@
 	position: relative;
 	z-index: 10;
 	background-color: #fff;
+	overflow: hidden;
 }
 	.purchase__limiter {
 		max-width: 320px;
@@ -16,11 +17,6 @@
 		width: 100%;
 		max-width: 100%;
 	}
-.purchase__header {
-	position: sticky;
-	top: 0;
-	background-color: #fff;
-}
 @media screen and (min-width: 375px) {
 	.purchase__limiter {
 		max-width: 335px;
@@ -371,6 +367,10 @@
 	padding-top: 65px;
 	padding-bottom: 44px;
 }
+	.purchase__request_button {
+		margin-top: 15px;
+		width: 100%;
+	}
 .purchase--error {
 	padding-top: 74px;
 	padding-bottom: 32px;
@@ -382,13 +382,6 @@
 	margin-bottom: 26px;
 }
 
-.dialog_overlay {
-	position: fixed;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	background-color: #fff;
-	opacity: .9;
-	z-index: 5;
+.purchase__payment_button {
+
 }

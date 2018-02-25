@@ -2,10 +2,10 @@
 <!--#include virtual="/inc/svg_icons2.shtml" -->
 
 <!-- если это курс, то добавляем класс к header'у main_header__buy -->
-<!--#if expr="$DOCUMENT_URi == /\/course\.shtml|course_blocked\.shtml/" --> 
-<header class="main_header sticky main_header__buy">
+<!--#if expr="$DOCUMENT_URI == /\/course\.shtml|course_blocked\.shtml/" --> 
+<header class="main_header sticky main_header__buy<!--#if expr="$DOCUMENT_URI==/\/index\.shtml/" --> is_compact<!--#endif -->">
 <!--#else -->
-<header class="main_header sticky">
+<header class="main_header sticky<!--#if expr="$DOCUMENT_URI==/\/index\.shtml/" --> is_compact<!--#endif -->">
 <!--#endif -->
 	<div class="layout">
 		<div class="main_header__body">
@@ -79,15 +79,17 @@
 				<!--#include virtual="/inc/search_field.shtml" -->
 			<!--#endif -->
 
+			<!-- Если курс окончен, то ставим другую кнопку -->
 			<!--#if expr="$old_qs=/blocked/" -->
-				<button class="il_button il_button--ahtung il_button--blocked kbd_button">
-					<div class="kbd_button__body">
+				<button class="il_button il_button--ahtung il_button--blocked kbd_button" tabindex="0" type="button">
+					<div class="kbd_button__body" tabindex="-1">
 						Оставить заявку
 					</div>
 				</button>
 			<!--#else -->
-				<button class="il_button il_button--ahtung kbd_button">
-					<div class="kbd_button__body">
+				<!-- а если нет, то обычную "купить" -->
+				<button class="il_button il_button--ahtung kbd_button" tabindex="0" type="button">
+					<div class="kbd_button__body" tabindex="-1">
 						Купить курс
 					</div>
 				</button>

@@ -513,30 +513,30 @@ hr {
 	display: none;
 }
 
-.dialog.opened {
-	display: block;
-}
+	.dialog.is_opened {
+		display: block;
+	}
 
-.dialog__window {
-	position: fixed;
-	top: 50%;
-	left: 0;
-	right: 0;
-	max-width: 100%;
-	max-height: calc(100vh - 56px);
-	z-index: 101;
-	overflow: auto;
-	-webkit-overflow-scrolling: touch;
-	transform: translateY(-50%);
-}
+	.dialog__window {
+		position: fixed;
+		top: 50%;
+		left: 0;
+		right: 0;
+		max-width: 100%;
+		max-height: calc(100vh - 56px);
+		z-index: 10;
+		overflow: auto;
+		-webkit-overflow-scrolling: touch;
+		transform: translateY(-50%);
+	}
 
-.dialog__mask {
-	position: fixed;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	background: #fff;
-	opacity: .9;
-	z-index: 100;
-}
+	.dialog__mask {
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background: #fff;
+		opacity: .9;
+		z-index: 9;
+	}

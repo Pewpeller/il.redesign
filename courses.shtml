@@ -59,7 +59,9 @@
 								<b>Пространство</b>, которое дает возможности для общения и нового культурного опыта	
 							</li>
 						</ul>
-						<button class="kbd_button courses_faq_button" tabindex="0" type="button">
+						<button class="kbd_button courses_faq_button js-faq_button changeclass" tabindex="0" type="button" data-changeclass='{
+							".dialog": {"addClass": "is_opened"}
+						}'>
 							<div class="kbd_button__body" tabindex="-1">
 								<div class="icon__may_zoom">
 									<div class="courses_faq_button__shape icon">?</div>
@@ -333,133 +335,94 @@
 
 		<div class="dialog" role="dialog" aria-labelledby="puchase_dialog_label">
 			<div class="dialog__window">
-				<div class="purchase">
-					<button class="purchase__close kbd_button" tabindex="0">
-						<svg class="icon icon--close kbd_button__body" tabindex="-1"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-close"></use></svg>
-					</button>
-
-					<header class="purchase__header">
-						<h2 class="purchase__header_name" id="puchase_dialog_label">
-							Покупка билета
-						</h2>
-					</header>
-					<div class="purchase__limiter">
-						<div class="purchase__price">
-							<div class="purchase__price_text">
-								<div class="purchase__price_value">
-									166 250 руб.
-								</div>
-								<div class="purchase__price_note">
-									Осталось 10 мест
-								</div>
-							</div>
-							<!-- calculator end -->
-							<div class="calculator">
-								<button disabled class="calculator__minus il_button il_button--circle kbd_button" tabindex="0">
-									<div class="kbd_button__body" tabindex="-1">-</div>
-								</button>
-
-								<div class="calculator__value">99</div>
-
-								<button class="calculator__add il_button il_button--circle kbd_button" tabindex="0">
-									<div class="kbd_button__body" tabindex="-1">+</div>
-								</button>
-							</div>
-							<!-- calculator end -->
-							<div class="purchase__discount">
-								<div class="purchase__discount_body">
-									<div class="purchase__limiter">
-										<b>Приведите друга</b> Если вы купите больше одного билета на этот курс, cкидка — <b>5%</b>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="purchase__limiter">
-						<div class="purchase__text">
-							<p>
-								В цену билета входит восемь занятий по четыре часа два раза в неделю, кофебрейки и что-то еще. Можно что-то человечное написать на три строки
-							</p>
-						</div>
-						<form name="purchase" id="purchase" class="purchase__form">
-							
-							<div class="purchase__error_message">
-								Пожалуйста, заполните информацию о себе
-							</div>
-
-							<div class="field">
-								<label class="field__label field__name" for="fi">
-									Имя и фамилия
-								</label>
-								<div class="field__label field__error">Заполните поле</div>
-								<input class="field__input" id="fi" type="text" placeholder="Имя и фамилия">
-							</div>
-							<div class="field">
-								<label class="field__label field__name" for="email">
-									Email
-								</label>
-								<div class="field__label field__error">Неверный формат</div>
-								<input class="field__input" id="email" type="email" placeholder="Email">
-							</div>
-							<div class="field field--error">
-								<label class="field__label field__name" for="telephone">
-									Телефон
-								</label>
-								<div class="field__label field__error">Неверный формат</div>
-								<input class="field__input" id="telephone" type="tel" placeholder="Телефон" value="+7">
-							</div>
-
-							<button class="purchase__show_promocode kbd_button changeclass" tabindex="0" data-changeclass='{
-								".purchase__show_promocode": {"toggleClass": "hide"},
-								".purchase__promocode": {"toggleClass": "hide"}
+				<div class="layout">
+					<div class="purchase purchase--faq">
+						<header class="purchase__header">
+							<h2 class="purchase__header_name">
+								FAQ
+							</h2>
+							<button class="purchase__close kbd_button js-close_dialog changeclass" tabindex="0" data-changeclass='{
+								".dialog": {"removeClass": "is_opened"}
 							}'>
-								<div class="kbd_button__body" tabindex="-1">
-									<svg class="icon icon--promocode"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-promocode"></use></svg>
-									У меня есть промокод
-								</div>
+								<svg class="icon icon--close kbd_button__body" tabindex="-1"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-close"></use></svg>
 							</button>
 
-							<div class="purchase__promocode field field--short hide">
-								<label class="field__label field__name" for="promocode">
-									Промо код
-								</label>
-								<div class="field__label field__error">Неверный код</div>
-								<input class="field__input" id="promocode" type="tel" placeholder="Промо код" value="">
-								<button class="field__close kbd_button" tabindex="0">
-									<svg class="icon icon--close kbd_button__body" tabindex="-1"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-close"></use></svg>
-								</button>
-								<button class="kbd_button field__button changeclass" tabindex="0" type="button" data-changeclass='{
-									".purchase__promocode_done": {"toggleClass": "hide"},
-									".purchase__promocode": {"toggleClass": "hide"}
-								}'>
-									<div class="kbd_button__body" tabindex="-1">Применить</div>
-								</button>
-							</div>
+						</header>
+						<div class="purchase__body">
+							<div class="purchase__limiter">
+								<p class="faq__question">
+									— Что надеть?
+								</p>
+								<p class="faq__answer">
+									 — Что хотите.
+								</p>
 
-							<div class="purchase__promocode_done hide">
-								<button class="field__close kbd_button" tabindex="0">
-									<svg class="icon icon--close kbd_button__body" tabindex="-1"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-close"></use></svg>
-								</button>
-								<div class="purchase__promocode_text">
-									Промокод применен: <span class="purchase__highlight">inlibertyfriend</span>
-									(-10%)
-								</div>
-								<div class="purchase__promocode_text_note">
-									Скидки по промокоду и кол-ву билетов не суммируются
-								</div>
-							</div>
+								<p class="faq__question">
+									— С собакой можно? 
+								</p>
+								<p class="faq__answer">
+									— Только с бордер-колли.
+								</p>
+								<p class="faq__question">
+									— Если я заболею?  
+								</p>
+								<p class="faq__answer">
+									— Лечитесь! За два с лишним века истории США в Белом Доме побывало немало президентов, далеких от нравственного и гражданского идеала — в конце концов, кандидатов выбирают из числа нашего брата (и сестры), а не импортируют со снежных вершин Гималаев.
+								</p>
+								<p class="faq__question">
+									— Есть ли жизнь на Марсе? 
+								</p>
+								<p class="faq__answer">
+									— Нет! Но есть, как говорится, нюанс. Вот как характеризует нынешнего обитателя Овального кабинета Джек Голдсмит в статье, опубликованной в последнем номере журнала Atlantic: «Трамп — чудовище Франкенштейна, сочетание худших атрибутов президентов прошлого: бешенс...
+								</p>
+								<p class="faq__question">
+									— С собакой можно? 
+								</p>
+								<p class="faq__answer">
+									— Только с бордер-колли.
+								</p>
+								<p class="faq__question">
+									— Если я заболею?  
+								</p>
+								<p class="faq__answer">
+									— Лечитесь! За два с лишним века истории США в Белом Доме побывало немало президентов, далеких от нравственного и гражданского идеала — в конце концов, кандидатов выбирают из числа нашего брата (и сестры), а не импортируют со снежных вершин Гималаев.
+								</p>
+								<p class="faq__question">
+									— Есть ли жизнь на Марсе? 
+								</p>
+								<p class="faq__answer">
+									— Нет! Но есть, как говорится, нюанс. Вот как характеризует нынешнего обитателя Овального кабинета Джек Голдсмит в статье, опубликованной в последнем номере журнала Atlantic: «Трамп — чудовище Франкенштейна, сочетание худших атрибутов президентов прошлого: бешенс...
+								</p>
+								<p class="faq__question">
+									— Что надеть?
+								</p>
+								<p class="faq__answer">
+									 — Что хотите.
+								</p>
 
-							<button class="il_button kbd_button purchase__payment_button" tabindex="0" type="button">
-								<div class="kbd_button__body" tabindex="-1">Перейти к оплате</div>
-							</button>
-
-							<div class="purchase__agreed">
-								Продолжая покупку, вы принимаете <br>
-								<a href="#" target="_blank">условия предоставления услуг</a>
+								<p class="faq__question">
+									— С собакой можно? 
+								</p>
+								<p class="faq__answer">
+									— Только с бордер-колли.
+								</p>
+								<p class="faq__question">
+									— Если я заболею?  
+								</p>
+								<p class="faq__answer">
+									— Лечитесь! За два с лишним века истории США в Белом Доме побывало немало президентов, далеких от нравственного и гражданского идеала — в конце концов, кандидатов выбирают из числа нашего брата (и сестры), а не импортируют со снежных вершин Гималаев.
+								</p>
+								<p class="faq__question">
+									— Есть ли жизнь на Марсе? 
+								</p>
+								<p class="faq__answer">
+									— Нет! Но есть, как говорится, нюанс. Вот как характеризует нынешнего обитателя Овального кабинета Джек Голдсмит в статье, опубликованной в последнем номере журнала Atlantic: «Трамп — чудовище Франкенштейна, сочетание худших атрибутов президентов прошлого: бешенс...
+								</p>
 							</div>
-						</form>
+						</div>
 					</div>
 				</div>
+
 			</div>
 			<div class="dialog__mask"></div>
 		</div>

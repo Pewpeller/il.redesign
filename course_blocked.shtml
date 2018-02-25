@@ -5,11 +5,9 @@
 		<!--#include virtual="/inc/header.shtml?blocked" -->
 		<div class="main" role="main">
 				<div class="setka_content">
-
-						<div class="courses__section_name" style="color:red;text-align: center;">
-							setka.io
-						</div>
-
+					<div class="courses__section_name" style="color:red;text-align: center;">
+						setka.io
+					</div>
 				</div>
 				<div class="course__footer">
 					<div class="layout">
@@ -24,14 +22,15 @@
 											Напишите нам, если хотите,<br>
 											чтобы мы повторили курс
 										</div>
-										<button class="il_button il_button--transparent kbd_button" tabindex="0" type="button">
+										<button class="il_button il_button--transparent kbd_button js-request_button changeclass" tabindex="0" data-changeclass='{
+											".dialog": {"addClass": "is_opened"}
+										}' type="button">
 											<div class="kbd_button__body" tabindex="-1">Оставить заявку</div>
 										</button>
 									</div>
 								</div>
 							</div>
 						</div>
-
 						<div class="courses_slider slider slider-simple">
 							<div class="slider-canvas courses_slider__canvas">
 								<div class="slider-item courses_slider__item">
@@ -217,5 +216,44 @@
 				</div> <!-- end of layout -->
 		</div> <!-- end of main -->
 		<!--#include virtual="/inc/footer.shtml" -->
+
+		<div class="dialog" role="dialog" aria-labelledby="purchase_label">
+			<div class="dialog__window">
+				<div class="purchase purchase--request">
+					<div class="purchase__limiter">
+						<button class="purchase__close kbd_button js-close_dialog changeclass" tabindex="0" data-changeclass='{
+							".dialog": {"removeClass": "is_opened"}
+						}'>
+							<svg class="icon icon--close kbd_button__body" tabindex="-1"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-close"></use></svg>
+						</button>
+						<form name="request" id="request" class="purchase__form">
+							<div class="purchase__error_message">
+								Пожалуйста, заполните информацию о себе
+							</div>
+							<div class="field">
+								<label class="field__label field__name" for="fi">
+									Имя и фамилия
+								</label>
+								<div class="field__label field__error">Заполните поле</div>
+								<input class="field__input" id="fi" type="text" placeholder="Имя и фамилия">
+							</div>
+							<div class="field">
+								<label class="field__label field__name" for="email">
+									Email
+								</label>
+								<div class="field__label field__error">Неверный формат</div>
+								<input class="field__input" id="email" type="email" placeholder="Email">
+							</div>
+
+							<button class="il_button kbd_button purchase__request_button" tabindex="0" type="button">
+								<div class="kbd_button__body" tabindex="-1">Я хочу участвовать</div>
+							</button>
+						</form>
+					</div>
+				</div>
+			</div>
+			<div class="dialog__mask"></div>
+		</div>
+
 	</body>
 </html>
