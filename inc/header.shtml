@@ -2,23 +2,21 @@
 <!--#include virtual="/inc/svg_icons2.shtml" -->
 
 <!-- если это курс, то добавляем класс к header'у main_header__buy -->
-<!--#if expr="$DOCUMENT_URI == /\/course\.shtml|course_blocked\.shtml/" --> 
+<!--#if expr="$DOCUMENT_URI == /\/course\.shtml|course_blocked\.shtml/" -->
 <header class="main_header sticky main_header__buy<!--#if expr="$DOCUMENT_URI==/\/index\.shtml/" --> is_compact<!--#endif -->">
 <!--#else -->
 <header class="main_header sticky<!--#if expr="$DOCUMENT_URI==/\/index\.shtml/" --> is_compact<!--#endif -->">
 <!--#endif -->
 	<div class="layout">
 		<div class="main_header__body">
-			<button class="kbd_button burger changeclass" type="button" tabindex="0" data-changeclass='{
-				".main_nav": {"toggleClass": "is_active"}
-			}'>
+			<button class="kbd_button burger js-burger" type="button" tabindex="0">
 				<svg class="kbd_button__body icon icon--burger" tabindex="-1"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-burger"></use></svg>
 			</button>
 
 			<a href="/" class="inliberty_logo">
 				<svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#inliberty_logo"></use></svg>
 			</a>
-			<div class="main_nav">
+			<div class="main_nav js-menu">
 				<ul class="main_nav__list">
 					<li class="main_nav__item">
 						<a href="#" class="main_nav__link">
@@ -59,7 +57,7 @@
 				</ul>
 			</div>
 			<!-- личный кабинет & корзина suspended -->
-			<!-- 
+			<!--
 			<div class="main_search__details is_online">
 				<button class="main_search__details_item main_search__details_item--user kbd_button is_active" tabindex="0" title="Вход">
 					<svg class="icon icon--user kbd_button__body" tabindex="-1"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-user"></use></svg>
