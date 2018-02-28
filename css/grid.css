@@ -82,26 +82,26 @@
 }
 @media only screen and (max-width: 620.99px) {
 	.hide_m {
-		display: none;
+		display: none !important;
 	}
 }
 @media only screen and (min-width: 621px) and (max-width: 677.99px) {
 	.hide_t {
-		display: none;
+		display: none !important;
 	}
 }
 @media only screen and (min-width: 678px) and (max-width: 721.99px) {
 	.hide_tm {
-		display: none;
+		display: none !important;
 	}
 }
 @media only screen and (min-width: 722px) and (max-width: 1023.99px) {
 	.hide_tmi {
-		display: none;
+		display: none !important;
 	}
 }
 @media only screen and (min-width: 1024px) {
 	.hide_d {
-		display: none;
+		display: none !important;
 	}
 }
