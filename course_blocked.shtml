@@ -217,17 +217,17 @@
 		</div> <!-- end of main -->
 		<!--#include virtual="/inc/footer.shtml" -->
 
-		<div class="dialog" role="dialog" aria-labelledby="purchase_label">
+		<div class="dialog" role="dialog" aria-labelledby="message_label">
 			<div class="dialog__window">
-				<div class="purchase purchase--request">
-					<div class="purchase__limiter">
-						<button class="purchase__close kbd_button js-close_dialog changeclass" tabindex="0" data-changeclass='{
+				<div class="message message--request">
+					<div class="message__limiter">
+						<button class="message__close kbd_button js-close_dialog changeclass" tabindex="0" data-changeclass='{
 							".dialog": {"removeClass": "is_opened"}
 						}'>
 							<svg class="icon icon--close kbd_button__body" tabindex="-1"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-close"></use></svg>
 						</button>
-						<form name="request" id="request" class="purchase__form">
-							<div class="purchase__error_message">
+						<form name="request" id="request" class="message__form">
+							<div class="message__error_message">
 								Пожалуйста, заполните информацию о себе
 							</div>
 							<div class="field">
@@ -245,7 +245,7 @@
 								<input class="field__input" id="email" type="email" placeholder="Email">
 							</div>
 
-							<button class="il_button kbd_button purchase__request_button" tabindex="0" type="button">
+							<button class="il_button kbd_button message__request_button" tabindex="0" type="button">
 								<div class="kbd_button__body" tabindex="-1">Я хочу участвовать</div>
 							</button>
 						</form>

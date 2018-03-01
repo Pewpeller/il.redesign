@@ -19,7 +19,7 @@
 									<div class="course_board__price">
 										17 500 руб.
 									</div>
-									<button class="il_button il_button--transparent kbd_button js-purchase_button" tabindex="0" type="button">
+									<button class="il_button il_button--transparent kbd_button js-message_button" tabindex="0" type="button">
 										<div class="kbd_button__body" tabindex="-1">Купить курс</div>
 									</button>
 								</div>
@@ -212,29 +212,33 @@
 			</div> <!-- end of layout -->
 		</div> <!-- end of main -->
 
-		<div class="dialog is_opened" role="dialog" aria-labelledby="purchase_label">
+		<div class="dialog is_opened" role="dialog" aria-labelledby="message_label">
 			<div class="dialog__window">
 				<div class="layout">
-					<div class="purchase purchase--request purchase--error">
-						<div class="purchase__limiter">
+					<div class="message message--request message--error">
+						<div class="message__limiter">
 
-							<button class="purchase__close kbd_button" tabindex="0">
+							<button class="message__close kbd_button js-close_dialog changeclass" tabindex="0" data-changeclass='{
+								".dialog": {"removeClass": "is_opened"}
+							}'>
 								<svg class="icon icon--close kbd_button__body" tabindex="-1"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-close"></use></svg>
 							</button>
 
-							<form name="purchase" id="purchase" class="purchase__form">
+							<form name="message" id="message" class="message__form">
 
-								<svg class="icon icon--error purchase__icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-error"></use></svg>
+								<svg class="icon icon--error message__icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-error"></use></svg>
 
-								<h2 class="purchase__header_name" id="purchase_label">
+								<h2 class="message__header_name" id="message_label">
 									Что-то пошло не так
 								</h2>
-								<div class="purchase__text">
+								<div class="message__text">
 									Произошла ошибка — сервис временно недоступен.<br>
 									Приносим извинения за предоставленные неудобства
 								</div>
 
-								<button class="il_button purchase__big_button kbd_button" tabindex="0" type="button">
+								<button class="il_button message__big_button kbd_button changeclass" tabindex="0" type="button" data-changeclass='{
+									".dialog": {"removeClass": "is_opened"}
+								}'>
 									<div class="kbd_button__body" tabindex="-1">Закрыть окно</div>
 								</button>
 

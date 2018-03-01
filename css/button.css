@@ -64,13 +64,17 @@
 .il_button--ahtung {
 	width: calc(100% - 118px);
 	max-width: 145px;
-	background-color: #64FFDA;
+	background-color: rgba(100, 255, 218, 1);
 	border: 0;
 	height: 38px;
 	max-height: 100%;
 	line-height: 38px;
 	font-size: 12px;
 	padding-top: 2px;
+}
+.il_button--ahtung:hover,
+.il_button--ahtung:focus {
+	background-color: rgba(100, 255, 218, .8);
 }
 @media only screen and (min-width: 620px) {
 	.il_button--ahtung {
@@ -87,6 +91,10 @@
 }
 .il_button--blocked {
 	background-color: #fff3e0;
+}
+.il_button--blocked:hover,
+.il_button--blocked:focus {
+	background-color: hsla(37, 100%, 92%, 1);
 }
 
 .il_button--circle {

@@ -73,16 +73,14 @@
 .purchase .ear__content {
 	max-width: none;
 }
-.purchase__price {
-	position: relative;
-	border-top: 1px solid #d9d9d9;
-	margin-top: 20px;
-	padding-top: 24px;
+.purchase .ear__name {
+	margin-top: 22px;
 }
-.purchase__price_value {
-	font: bold 40px/42px Figgins Sans, Arial, sans-serif;
-	margin-bottom: 3px;
+.purchase__ear_tag {
+	font-size: 16px;
+	line-height: 22px;
 }
+
 .calculator {
 	text-align: center;
 	margin-bottom: 4px;
@@ -104,16 +102,46 @@
 	margin-bottom: 0;
 }
 
+
 .purchase__price {
+	position: relative;
+	border-top: 1px solid #d9d9d9;
+	margin-top: 20px;
+	padding-top: 24px;
 	text-align: justify;
 	text-justify: distribute-all-lines;
 	margin-bottom: -4px;
+}
+@media screen and (min-width: 1024px) {
+	.purchase__price {
+		margin-top: 0;
+		padding-top: 0;
+		border-top: 0;
+	}
 }
 	.purchase__price::after {
 		width: 100%;
 		content: '';
 		display: inline-block;
 	}
+.purchase__price_value {
+	font: bold 31px/32px Figgins Sans, Arial, sans-serif;
+	margin-bottom: 4px;
+}
+@media screen and (min-width: 621px) {
+	.purchase__price_value {
+		font-size: 40px;
+		line-height: 42px;
+	}
+}
+.purchase__price_note {
+	font: italic 16px/22px Figgins Sans, Arial, sans-serif;
+}
+@media screen and (min-width: 1024px) {
+	.purchase__price_note {
+		margin-bottom: 18px;
+	}
+}
 	.purchase__price_text {
 		display: inline-block;
 		text-align: left;
@@ -121,18 +149,34 @@
 		vertical-align: top;
 		margin-bottom: 7px;
 	}
-	.purchase__price_value {
-		font: bold 31px/32px Figgins Sans, Arial, sans-serif;
-		margin-bottom: 4px;
+.purchase__price_discount {
+	font: italic 16px/22px Figgins Sans, Arial, sans-serif;	
+	position: absolute;
+	margin-top: -17px;
+	text-decoration: line-through;
+	opacity: 0;
+	transform: translateY(50%);
+	visibility: hidden;
+	transition: transform .2s cubic-bezier(.05, .69, .14, 1) 0s,
+				opacity .2s cubic-bezier(.05, .69, .14, 1) 0s,
+				visibility 0s cubic-bezier(.05, .69, .14, 1) .2s;
+}
+	.purchase__price_discount.is_shown {
+		transition-delay: 0s, 0s, 0s;
+		transform: translateY(0);
+		visibility: visible;
+		opacity: 1;
 	}
+
+
 
 /* скидка */
 .purchase__discount {
 	position: relative;
-	margin-bottom: 21px;
+	margin-bottom: 23px;
 	padding-top: 10px;
 	display: inline-block;
-	text-justify: distribute-all-lines;
+	text-justify: auto;
 	text-align: left;
 	width: 100%;
 }
@@ -149,9 +193,9 @@
 	}
 	.purchase__discount_body {
 		background-color: #64ffda;
-		padding-top: 18px;
-		padding-bottom: 16px;
+		padding: 18px 22px 16px 22px;
 		border-radius: 3px;
+		font: 16px/22px Figgins Sans, Arial, sans-serif;
 	}
 
 @media screen and (min-width: 1024px) {
@@ -161,7 +205,7 @@
 		width: 400px;
 		top: 100%;
 		right: 0;
-		transform: translateY(-50%);
+		margin-top: -33px;
 	}
 	.purchase__discount::before {
 		border-left: 10px solid transparent;
@@ -172,4 +216,92 @@
 		right: 100px;
 		top: 100%;
 	}
+}
+.purchase__text {
+	font: 16px/22px Figgins Sans, Arial, sans-serif;
+	margin-bottom: 24px;
+}
+.purchase__text p:not(:last-child) {
+	margin-bottom: 20px;
+}
+.purchase__promocode_text {
+	font: bold 16px/22px Figgins Sans, Arial, sans-serif;
+}
+.purchase__promocode_text_note {
+	font: italic 14px/17px Figgins Sans, Arial, sans-serif;
+}
+
+.purchase__show_promocode {
+	margin-top: 12px;
+	margin-bottom: 31px;
+}
+.purchase__big_button {
+	width: 100%;
+	margin-bottom: 32px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.purchase__highlight {
+	color: #1cc79a;
+	font-style: normal;
+}
+	.purchase__highlight a {
+		font-style: italic;
+		text-decoration: underline;
+	}
+.purchase__promocode_done {
+	margin-top: 19px;
+	margin-bottom: 22px;
+}
+@media screen and (min-width: 1000px) {
+	.purchase__promocode_done {
+		margin-top: 18px;
+		margin-bottom: 23px;
+	}
+}
+.purchase__promocode_done .field__close {
+	float: right;
+	margin: -7px 0 5px -3px;
+}
+
+.purchase__agreed {
+	font: 16px/22px Figgins Sans, Arial, sans-serif;
+	font-style: italic;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 48px;
+}
+	.purchase__agreed a {
+		border-bottom: 1px solid #d8d8d8;
+	}
+.purchase__venue {
+	border-top: 1px solid #d9d9d9;
+	margin-top: 20px;
+	padding-top: 24px;
+	font: 0/0 a;
+	text-align: justify;
+	text-justify: distribute-all-lines;
+}
+	.purchase__venue::after {
+		width: 100%;
+		content: '';
+		display: inline-block;
+	}
+
+.purchase__venue_date {
+	width: 150px;
+	display: inline-block;
+	vertical-align: top;
+	box-sizing: border-box;
+	text-align: left;
+	text-justify: auto;
+}
+.purchase__venue_address {
+	width: calc(100% - 172px);
+	display: inline-block;
+	vertical-align: top;
+	box-sizing: border-box;
+	text-align: left;
+	text-justify: auto;
 }

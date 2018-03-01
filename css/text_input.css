@@ -73,6 +73,9 @@
 	position: relative;
 	z-index: 1;
 }
+.field--short {
+	white-space: nowrap;
+}
 	.field--short .field__input {
 		max-width: 65.13513513513514%; /* 241px */
 		display: inline-block;
@@ -162,6 +165,7 @@
 	font: bold 14px/48px Figgins Sans, Arial, sans-serif;
 	height: 50px;
 	vertical-align: middle;
+	text-transform: uppercase;
 }
 .field__button:focus .kbd_button__body {
 	z-index: 2;

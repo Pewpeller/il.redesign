@@ -38,7 +38,7 @@
 														<div class="db__date">12.12–20.12.18</div>
 													</div>
 												</div>
-												<div class="ear__tag">
+												<div class="ear__tag purchase__ear_tag">
 													80 часов, 8 занятий, пн, пт
 												</div>
 												<h2 class="ear__name hide_d">
@@ -57,11 +57,11 @@
 											<div class="purchase__price_value">
 												166 250 руб.
 											</div>
-											<!-- 
-											<div class="purchase__price_note hide">
+
+											<div class="purchase__price_note">
 												Осталось 10 мест
 											</div>
-											-->
+
 										</div>
 										<!-- calculator end -->
 										<div class="calculator">
@@ -78,7 +78,7 @@
 										<div class="purchase__discount hide_d">
 											<div class="purchase__limiter">
 												<div class="purchase__discount_body">
-													<b>Приведите друга</b> Если вы купите больше одного билета на этот курс, cкидка — <b>5%</b>
+													<b>Приведите друга!</b> Если вы купите больше одного билета на этот курс, cкидка — <b>5%</b>
 												</div>
 											</div>
 										</div>
@@ -144,7 +144,12 @@
 											</button>
 										</div>
 										<div class="purchase__promocode_done hide">
-											<button class="field__close kbd_button" tabindex="0">
+											<button class="field__close kbd_button changeclass" tabindex="0" type="button" data-changeclass='{
+												".purchase__promocode_done": {"addClass": "hide"},
+												".purchase__price_discount": {"removeClass": "is_shown"},
+												".purchase__promocode": {"addClass": "hide"},
+												".purchase__show_promocode": {"removeClass": "hide"}
+											}'>
 												<svg class="icon icon--close kbd_button__body" tabindex="-1"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-close"></use></svg>
 											</button>
 											<div class="purchase__promocode_text">

@@ -96,7 +96,7 @@ $(function () {
 		});
 	})();
 
-	/* Чё за хрень?
+
 	(function () {
 		$('.field__input').on('input', function() {
 			var $field = $(this).closest('.field');
@@ -108,7 +108,7 @@ $(function () {
 			}
 		});
 	})();
-	*/
+
 
 	// init
 	(function () {
