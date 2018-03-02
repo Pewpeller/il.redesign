@@ -72,6 +72,8 @@
 	box-sizing: border-box;
 	position: relative;
 	z-index: 1;
+	-webkit-appearance: none;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 .field--short {
 	white-space: nowrap;
