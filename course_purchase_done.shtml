@@ -9,7 +9,7 @@
 					<div class="purchase__limiter">
 						<header class="purchase__header">
 							<h2 class="purchase__header_name">
-								Поздравляем с покупкой!
+								Поздравляем!
 							</h2>
 						</header>
 					</div>
@@ -44,11 +44,15 @@
 								<div class="purchase__limiter purchase__form">
 									<div class="purchase__text">
 										<p>
-											Ниже в этом письме — ссылки на ваши электронные билеты.
+											Вы только что купили билет на курс InLiberty!
 										</p>
 										<p>
-											Билеты подтверждают ваше право участвовать в мероприятии. Будьте готовы предъявить их организаторам в электронном и/или бумажном виде.
+											В ближайшее время мы отправим вам письмо со всеми необходимыми подробностями.
 										</p>
+										<p>
+											До встречи!
+										</p>
+										<!--
 										<p>
 											<b>Номер вашего билета:</b><br>
 											<span class="purchase__price_value">										6607 8890
@@ -57,6 +61,7 @@
 										<p>
 											<span class="purchase__highlight"><a href="#">распечатать</a></span>
 										</p>
+										-->
 									</div>
 									<div class="purchase__venue">
 										<div class="purchase__venue_date">

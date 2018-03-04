@@ -94,21 +94,21 @@
 											Пожалуйста, заполните информацию о себе
 										</div>
 
-										<div class="field">
+										<div class="field"><!-- добавляем класс field--error, если поле не валидно -->
 											<label class="field__label field__name" for="fi">
 												Имя и фамилия
 											</label>
 											<div class="field__label field__error">Заполните поле</div>
 											<input class="field__input" id="fi" type="text" placeholder="Имя и фамилия">
 										</div>
-										<div class="field">
+										<div class="field"><!-- добавляем класс field--error, если поле не валидно -->
 											<label class="field__label field__name" for="email">
 												Email
 											</label>
 											<div class="field__label field__error">Неверный формат</div>
 											<input class="field__input" id="email" type="email" placeholder="Email">
 										</div>
-										<div class="field field--error">
+										<div class="field"><!-- добавляем класс field--error, если поле не валидно -->
 											<label class="field__label field__name" for="telephone">
 												Телефон
 											</label>

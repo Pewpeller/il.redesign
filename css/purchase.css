@@ -18,11 +18,10 @@
 	@media only screen and (min-width: 1024px) {
 		.purchase__header {
 			padding-top: 54px;
-			margin-bottom: 70px;
+			margin-bottom: 48px;
 			padding-bottom: 14px;
 		}
 	}
-
 
 	.purchase__header_name {
 		font: bold 31px/32px Figgins Sans, Arial, sans-serif;
@@ -54,8 +53,12 @@
 	.purchase__limiter {
 		width: 100%;
 	}
+	.purchase__course {
+		padding-top: 22px;
+	}
 	.purchase__form {
 		width: 380px;
+		padding-top: 22px;
 	}
 }
 @media only screen and (max-width: 1023.99px) {
@@ -205,7 +208,7 @@
 		width: 400px;
 		top: 100%;
 		right: 0;
-		margin-top: -33px;
+		margin-top: -45px;
 	}
 	.purchase__discount::before {
 		border-left: 10px solid transparent;
