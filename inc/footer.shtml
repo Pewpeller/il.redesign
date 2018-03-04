@@ -27,7 +27,7 @@
 		<form class="main_footer__subscribe" name="subscribe" id="subscribe">
 			<p class="main_footer__note">Подпишитесь, чтобы быть в курсе последних статей</p>
 			<div class="main_footer__subscribe_field">
-				<input type="email" name="subscribe_email" class="main_footer__subscribe_input" placeholder="E-Mail">
+				<input type="email" name="subscribe_email" class="main_footer__subscribe_input" placeholder="e-mail">
 			</div>
 			<button class="il_button" type="submit">
 				Подписаться
