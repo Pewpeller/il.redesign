@@ -291,29 +291,35 @@ img {
 
 /* font-family: "Figgins Sans Italic" */
 @font-face {
-	font-family: "Figgins Sans";
-	src: url("/fonts/figgins-webfont.woff2") format("woff2"),
-		 url("/fonts/figgins-webfont.woff") format("woff");
-	font-style: normal;
-	font-weight: normal;
-	font-display: swap;
+    font-family: 'Figgins Sans';
+    src: local('☞FigginsSans-Regular'), local('FigginsSans-Regular'),
+        url('/fonts/FigginsSans-Regular.woff2') format('woff2'),
+        url('/fonts/FigginsSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+   	font-display: swap;
 }
+
 @font-face {
-	font-family: "Figgins Sans";
-	src: url("/fonts/figginssans_italic-webfont.woff2") format("woff2"),
-		 url("/fonts/figginssans_italic-webfont.woff") format("woff");
-	font-style: italic;
-	font-weight: normal;
-	font-display: swap;
+    font-family: 'Figgins Sans';
+    src: local('☞FigginsSans-Bold'), local('FigginsSans-Bold'),
+        url('/fonts/FigginsSans-Bold.woff2') format('woff2'),
+        url('/fonts/FigginsSans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
 }
+
 @font-face {
-	font-family: "Figgins Sans";
-	src: url("/fonts/figgins_bold-webfont.woff2") format("woff2"),
-		 url("/fonts/figgins_bold-webfont.woff") format("woff");
-	font-style: normal;
-	font-weight: bold;
-	font-display: swap;
+    font-family: 'Figgins Sans';
+    src: local('☞FigginsSans-Italic'), local('FigginsSans-Italic'),
+        url('/fonts/FigginsSans-Italic.woff2') format('woff2'),
+        url('/fonts/FigginsSans-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
 }
+
 /* font-family: "Parmigiano Piccolo Light" */
 /*
 @font-face {
