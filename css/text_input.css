@@ -79,7 +79,7 @@
 	white-space: nowrap;
 }
 	.field--short .field__input {
-		max-width: 65.13513513513514%; /* 241px */
+		max-width: 65.26315789473684%; /* 248px */
 		display: inline-block;
 		margin-right: -1px;
 		padding-right: 38px;
@@ -161,7 +161,7 @@
 }
 .field__button {
 	display: inline-block;
-	width: 35.13513513513514%; /* 130px */
+	width: 34.73684210526316%; /* 132px */
 	border: 1px solid #d9d9d9;
 	box-sizing: border-box;
 	font: bold 14px/48px Figgins Sans, Arial, sans-serif;
