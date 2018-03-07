@@ -163,7 +163,7 @@
 		}
 
 		.main_nav__item .main_nav__link::after {
-			bottom: -16px;
+			bottom: -15px;
 			left: -10px;
 			right: -10px;
 			height: 6px;
