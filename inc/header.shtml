@@ -23,7 +23,7 @@
 							События
 						</a>
 					</li>
-					<li class="main_nav__item">
+					<li class="main_nav__item is_current">
 						<a href="#" class="main_nav__link">
 							Курсы
 						</a>
