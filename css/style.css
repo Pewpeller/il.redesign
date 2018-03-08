@@ -224,6 +224,7 @@ img {
 	right: 0;
 }
 .csspositionsticky .sticky {
+	position: -webkit-sticky;
 	position: sticky;
 }
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
