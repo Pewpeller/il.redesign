@@ -139,6 +139,14 @@
 		.main_nav__item.is_current .main_nav__link::after {
 			background-color: #181818;
 		}
+	.main_nav__link {
+		transition: opacity .15s ease-in-out 0s;
+	}
+		.main_nav__item:not(.is_current) .main_nav__link:hover,
+		.main_nav__item:not(.is_current) .main_nav__link:focus {
+			opacity: .8;
+		}
+
 	@media only screen and (min-width: 621px) {
 		.main_nav {
 			display: inline;
@@ -153,8 +161,8 @@
 			.main_nav__item::after {
 				position: absolute;
 				bottom: -15px;
-				left: -5px;
-				right: -5px;
+				left: -10px;
+				right: -10px;
 				content: '';
 				height: 10px;
 			}
@@ -163,15 +171,11 @@
 		}
 
 		.main_nav__item .main_nav__link::after {
-			bottom: -15px;
+			bottom: -16px;
 			left: -10px;
 			right: -10px;
 			height: 6px;
 		}
-		.main_nav__item:not(.is_current) .main_nav__link:hover {
-			opacity: .8;
-		}
-
 		.main_nav__item.is_current .main_nav__link::after {
 			bottom: -16px;
 			background-color: #fff;
@@ -190,9 +194,22 @@
 		.main_nav__item {
 			font-size: 16px;
 		}
-			.main_nav__item.is_current .main_nav__link::after {
-				bottom: -16px;
+			.main_nav__item::after {
+				bottom: -29px;
 			}
+			.main_nav__item .main_nav__link::after {
+				bottom: -29px;
+			}
+			.main_nav__item.is_current .main_nav__link::after {
+				bottom: -29px;
+			}
+			.is_compact .main_nav__item::after {
+				bottom: -15px;
+			}
+			.is_compact .main_nav__item.is_current .main_nav__link::after {
+				bottom: -15px;
+			}
+
 		.main_nav__item:not(:last-child) {
 			margin-right: 15px;
 		}

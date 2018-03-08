@@ -321,7 +321,7 @@ img {
 }
 
 /* font-family: "Parmigiano Piccolo Light" */
-/*
+
 @font-face {
 	font-family: "Parmigiano Piccolo Light";
 	src: url("/fonts/ParmigianoPiccoloPro-Light.woff2") format("woff2"),
@@ -330,7 +330,6 @@ img {
 	font-weight: normal;
 	font-display: swap;
 }
-*/
 
 @media only screen and (max-width: 620.99px) {
 	.hide1 {
