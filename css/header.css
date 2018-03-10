@@ -133,7 +133,7 @@
 		content: '';
 		margin-left: auto;
 		margin-right: auto;
-		max-width: 110px;
+		max-width: 134px;
 		transition: background-color .15s ease-in-out 0s;
 	}
 		.main_nav__item.is_current .main_nav__link::after {
@@ -144,7 +144,7 @@
 	}
 		.main_nav__item:not(.is_current) .main_nav__link:hover,
 		.main_nav__item:not(.is_current) .main_nav__link:focus {
-			opacity: .8;
+			opacity: .96;
 		}
 
 	@media only screen and (min-width: 621px) {
@@ -161,8 +161,8 @@
 			.main_nav__item::after {
 				position: absolute;
 				bottom: -15px;
-				left: -10px;
-				right: -10px;
+				left: -15px;
+				right: -15px;
 				content: '';
 				height: 10px;
 			}
@@ -172,8 +172,8 @@
 
 		.main_nav__item .main_nav__link::after {
 			bottom: -16px;
-			left: -10px;
-			right: -10px;
+			left: -15px;
+			right: -15px;
 			height: 6px;
 		}
 		.main_nav__item.is_current .main_nav__link::after {
@@ -183,7 +183,7 @@
 		}
 			.main_nav__item:not(.is_current) .main_nav__link:hover::after,
 			.main_nav__item:not(.is_current) .main_nav__link:focus::after {
-				background-color: #fff;
+				background-color: rgba(255,255,255,.96);
 			}
 	}
 	@media only screen and (min-width: 1024px) {
@@ -199,6 +199,9 @@
 			}
 			.main_nav__item .main_nav__link::after {
 				bottom: -29px;
+			}
+			.is_compact .main_nav__link::after {
+				bottom: -15px;
 			}
 			.main_nav__item.is_current .main_nav__link::after {
 				bottom: -29px;
