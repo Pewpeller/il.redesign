@@ -3,7 +3,7 @@
 	margin-bottom: 42px;
 	padding-top: 28px;
 	text-align: center;
-	border-top: 1px solid #d8d8d8;
+	border-top: 3px solid #181818;
 	position: relative;
 	font-size: 0;
 }
@@ -185,7 +185,6 @@
 	.main_footer_socials__item {
 		margin-left: 33px;
 		margin-right: 33px;
-		// margin-bottom: 0;
 	}
 }
 .main_footer__license {

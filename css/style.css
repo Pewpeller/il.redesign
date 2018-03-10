@@ -150,10 +150,12 @@ body {
 		transition: transform .15s cubic-bezier(0.4, 0.0, 0.2, 1) 0s;
 	}
 		.icon-shadow:hover::after {
-			transform: scale(1.1);
+			/* transform: scale(1.1); */
+			transform: translateY(-2px);
 		}
 	.icon-shadow:hover {
-		transform: scale(1.1);
+		/* transform: scale(1.1); */
+		transform: translateY(-2px);
 		opacity: 1;
 	}
 	.icon__may_zoom {
@@ -181,7 +183,8 @@ body {
 	}
 	.icon__may_zoom:hover > .icon {
 		/* transform: scale(1.2083); */
-		transform: scale(1.10);
+		/* transform: scale(1.10); */
+		transform: translateY(-2px);
 		opacity: 1;
 	}
 
