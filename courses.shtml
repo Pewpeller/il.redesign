@@ -339,7 +339,7 @@
 							<h2 class="purchase__header_name">
 								FAQ
 							</h2>
-							<button class="purchase__close kbd_button js-dialog-close" tabindex="0">
+							<button class="purchase__close kbd_button js-dialog-close" tabindex="-1">
 								<svg class="icon icon--close kbd_button__body" tabindex="-1"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-close"></use></svg>
 							</button>
 						</header>

@@ -218,7 +218,7 @@
 					<div class="message message--request message--error js-dialog-window">
 						<div class="message__limiter">
 
-							<button class="message__close kbd_button js-dialog-close" tabindex="0">
+							<button class="message__close kbd_button js-dialog-close" tabindex="-1">
 								<svg class="icon icon--close kbd_button__body" tabindex="-1"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-close"></use></svg>
 							</button>
 
@@ -234,7 +234,7 @@
 									Приносим извинения за предоставленные неудобства
 								</div>
 
-								<button class="il_button message__big_button kbd_button js-dialog-autofocus js-dialog-close" tabindex="0" type="button">
+								<button class="il_button message__big_button kbd_button js-dialog-close" tabindex="0" type="button">
 									<div class="kbd_button__body" tabindex="-1">Закрыть окно</div>
 								</button>
 
