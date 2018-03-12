@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="ru-RU">
 	<!--#include virtual="/inc/head.shtml" -->
-	<body style="overflow:hidden">
+	<body>
 		<!--#include virtual="/inc/header.shtml" -->
 		<div class="main" role="main">
 			<div class="setka_content">
@@ -212,7 +212,7 @@
 			</div> <!-- end of layout -->
 		</div> <!-- end of main -->
 
-		<div class="dialog is_opened" role="dialog" aria-labelledby="message_label">
+		<div class="dialog" data-dialog-autoopen="1" role="dialog" aria-labelledby="message_label">
 			<div class="dialog__window">
 				<div class="layout">
 					<div class="message message--request message--error">
