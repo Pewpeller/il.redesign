@@ -80,5 +80,5 @@
 		display: table-cell;
 		height: 50%;
 		padding-top: 2px;
-		border-top: 1px solid #181818;
+		border-top: 1px solid currentcolor;
 	}
