@@ -231,7 +231,7 @@
 									Имя и фамилия
 								</label>
 								<div class="field__label field__error">Заполните поле</div>
-								<input class="field__input" id="fi" type="text" placeholder="Имя и фамилия">
+								<input class="field__input js-dialog-autofocus" id="fi" type="text" placeholder="Имя и фамилия">
 							</div>
 							<div class="field">
 								<label class="field__label field__name" for="email">

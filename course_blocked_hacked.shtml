@@ -304,7 +304,7 @@
 																	<label for="nf-field-7" class="">Имя и фамилия <span class="ninja-forms-req-symbol">*</span> </label>
 																</div>
 																<div class="nf-field-element">
-																	<input type="text" value="" class="ninja-forms-field field__input nf-element" id="nf-field-7" name="nf-field-7-firstname" autocomplete="given-name" placeholder="Имя и фамилия" aria-invalid="false" aria-describedby="nf-error-7">
+																	<input type="text" value="" class="js-dialog-autofocus ninja-forms-field field__input nf-element" id="nf-field-7" name="nf-field-7-firstname" autocomplete="given-name" placeholder="Имя и фамилия" aria-invalid="false" aria-describedby="nf-error-7">
 																</div>
 															</div>
 														</div>
