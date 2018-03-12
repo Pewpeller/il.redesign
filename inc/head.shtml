@@ -49,6 +49,9 @@
 		<link rel="stylesheet" href="/css/faq.css">
 		<link rel="stylesheet" href="/css/message.css">
 		<link rel="stylesheet" href="/css/slider.css">
+		<!-- some css hacks for outside forms :( -->
+			<link rel="stylesheet" href="/css/hacks.css">
+		<!-- some css hacks for outside forms end -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<script src="/js/jquery.slider.min.js" charset="utf-8"></script>
 		<script src="/js/thirdparty.js" charset="utf-8"></script>
