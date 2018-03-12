@@ -113,10 +113,15 @@
 .courses_header__lead {
 	font: 17px/25px Parmigiano Piccolo Light, Arial, sans-serif;
 }
+
 .courses_header__lead a {
+	color: #64ffda;
 	font: bold 19px/25px Figgins Sans, Arial, sans-serif;
-	border-bottom: 1px solid #64FFDA;
+	/*
+	border-bottom: 1px solid #64ffda;
+	*/
 }
+
 .courses_concept {
 	text-align: center;
 	margin: 0 auto;
