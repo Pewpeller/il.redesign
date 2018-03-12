@@ -213,9 +213,9 @@
 		</div> <!-- end of main -->
 
 		<div class="dialog js-dialog is_opened" role="dialog" aria-labelledby="message_label">
-			<div class="dialog__window js-dialog-window">
+			<div class="dialog__window">
 				<div class="layout">
-					<div class="message message--request message--error">
+					<div class="message message--request message--error js-dialog-window">
 						<div class="message__limiter">
 
 							<button class="message__close kbd_button js-dialog-close" tabindex="0">

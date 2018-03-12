@@ -216,8 +216,8 @@
 		<!--#include virtual="/inc/footer.shtml" -->
 
 		<div id="dialog-purchase" class="dialog js-dialog" role="dialog" aria-labelledby="message_label">
-			<div class="dialog__window js-dialog-window">
-				<div class="message message--request">
+			<div class="dialog__window">
+				<div class="message message--request js-dialog-window">
 					<div class="message__limiter">
 						<button class="message__close kbd_button js-dialog-close" tabindex="0">
 							<svg class="icon icon--close kbd_button__body" tabindex="-1"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-close"></use></svg>

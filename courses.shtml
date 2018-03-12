@@ -332,9 +332,9 @@
 		<!--#include virtual="/inc/footer.shtml" -->
 
 		<div id="dialog-purchase" class="dialog js-dialog" role="dialog" aria-labelledby="puchase_dialog_label">
-			<div class="dialog__window js-dialog-window">
+			<div class="dialog__window">
 				<div class="layout">
-					<div class="purchase purchase--faq">
+					<div class="purchase purchase--faq js-dialog-window">
 						<header class="purchase__header">
 							<h2 class="purchase__header_name">
 								FAQ
