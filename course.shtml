@@ -18,9 +18,7 @@
 									<div class="course_board__price">
 										17 500 руб.
 									</div>
-									<button class="il_button il_button--transparent kbd_button js-purchase_button changeclass" tabindex="0" data-changeclass='{
-										".dialog": {"addClass": "is_opened"}
-									}' type="button">
+									<button class="il_button il_button--transparent kbd_button js-dialog-open" tabindex="0" type="button" data-dialog="#dialog-purchase">
 										<div class="kbd_button__body" tabindex="-1">Купить курс</div>
 									</button>
 								</div>

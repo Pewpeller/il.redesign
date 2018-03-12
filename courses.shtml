@@ -56,12 +56,10 @@
 								<b>Темы</b>, которые позволяют увидеть жизнь общества в ее полноте и сложности
 							</li>
 							<li class="courses_features__item">
-								<b>Пространство</b>, которое дает возможности для общения и нового культурного опыта	
+								<b>Пространство</b>, которое дает возможности для общения и нового культурного опыта
 							</li>
 						</ul>
-						<button class="kbd_button courses_faq_button js-faq_button changeclass" tabindex="0" type="button" data-changeclass='{
-							".dialog": {"addClass": "is_opened"}
-						}'>
+						<button class="kbd_button courses_faq_button js-dialog-open" tabindex="0" type="button" data-dialog="#dialog-purchase">
 							<div class="kbd_button__body" tabindex="-1">
 								<div class="icon__may_zoom">
 									<div class="courses_faq_button__shape icon">?</div>
@@ -333,20 +331,17 @@
 		</div>
 		<!--#include virtual="/inc/footer.shtml" -->
 
-		<div class="dialog" role="dialog" aria-labelledby="puchase_dialog_label">
-			<div class="dialog__window">
+		<div id="dialog-purchase" class="dialog js-dialog" role="dialog" aria-labelledby="puchase_dialog_label">
+			<div class="dialog__window js-dialog-window">
 				<div class="layout">
 					<div class="purchase purchase--faq">
 						<header class="purchase__header">
 							<h2 class="purchase__header_name">
 								FAQ
 							</h2>
-							<button class="purchase__close kbd_button js-close_dialog changeclass" tabindex="0" data-changeclass='{
-								".dialog": {"removeClass": "is_opened"}
-							}'>
+							<button class="purchase__close kbd_button js-dialog-close" tabindex="0">
 								<svg class="icon icon--close kbd_button__body" tabindex="-1"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-close"></use></svg>
 							</button>
-
 						</header>
 						<div class="purchase__body">
 							<div class="purchase__limiter">
@@ -356,7 +351,6 @@
 								<p class="faq__answer">
 									 — Что хотите.
 								</p>
-
 								<p class="faq__question">
 									— С собакой можно? 
 								</p>
@@ -399,7 +393,6 @@
 								<p class="faq__answer">
 									 — Что хотите.
 								</p>
-
 								<p class="faq__question">
 									— С собакой можно? 
 								</p>

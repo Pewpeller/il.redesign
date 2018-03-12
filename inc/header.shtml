@@ -79,7 +79,7 @@
 
 			<!-- Если курс окончен, то ставим другую кнопку -->
 			<!--#if expr="$old_qs=/blocked/" -->
-				<button class="il_button il_button--ahtung il_button--blocked kbd_button" tabindex="0" type="button">
+				<button class="il_button il_button--ahtung il_button--blocked kbd_button js-dialog-open" tabindex="0" type="button" data-dialog="#dialog-purchase">
 					<div class="kbd_button__body" tabindex="-1">
 						Оставить заявку
 					</div>

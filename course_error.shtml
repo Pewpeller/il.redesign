@@ -19,7 +19,7 @@
 									<div class="course_board__price">
 										17 500 руб.
 									</div>
-									<button class="il_button il_button--transparent kbd_button js-message_button" tabindex="0" type="button">
+									<button class="il_button il_button--transparent kbd_button" tabindex="0" type="button">
 										<div class="kbd_button__body" tabindex="-1">Купить курс</div>
 									</button>
 								</div>
@@ -212,15 +212,13 @@
 			</div> <!-- end of layout -->
 		</div> <!-- end of main -->
 
-		<div class="dialog is_opened" role="dialog" aria-labelledby="message_label">
-			<div class="dialog__window">
+		<div class="dialog js-dialog is_opened" role="dialog" aria-labelledby="message_label">
+			<div class="dialog__window js-dialog-window">
 				<div class="layout">
 					<div class="message message--request message--error">
 						<div class="message__limiter">
 
-							<button class="message__close kbd_button js-close_dialog changeclass" tabindex="0" data-changeclass='{
-								".dialog": {"removeClass": "is_opened"}
-							}'>
+							<button class="message__close kbd_button js-dialog-close" tabindex="0">
 								<svg class="icon icon--close kbd_button__body" tabindex="-1"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-close"></use></svg>
 							</button>
 
@@ -236,9 +234,7 @@
 									Приносим извинения за предоставленные неудобства
 								</div>
 
-								<button class="il_button message__big_button kbd_button changeclass" tabindex="0" type="button" data-changeclass='{
-									".dialog": {"removeClass": "is_opened"}
-								}'>
+								<button class="il_button message__big_button kbd_button js-dialog-close" tabindex="0" type="button">
 									<div class="kbd_button__body" tabindex="-1">Закрыть окно</div>
 								</button>
 
