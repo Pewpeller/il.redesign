@@ -14,33 +14,39 @@
 		</div>
 		<ul class="courses_announce_concept">
 			<li class="courses_announce_concept__item">
-				<div class="courses_concept__value">
-					12
-				</div>
-				<div class="courses_concept__text">
-					Новых курсов<br>
-					для взрослых<br>
-					 и школьников
-				</div>
+				<a href="courses.shtml">
+					<div class="courses_concept__value">
+						12
+					</div>
+					<div class="courses_concept__text">
+						Новых курсов<br>
+						для взрослых<br>
+						 и школьников
+					</div>
+				</a>
 			</li>
 			<li class="courses_announce_concept__item">
-				<div class="courses_concept__value">
-					150
-				</div>
-				<div class="courses_concept__text">
-					Академических <br>
-					часов
-				</div>
+				<a href="courses.shtml">
+					<div class="courses_concept__value">
+						150
+					</div>
+					<div class="courses_concept__text">
+						Академических <br>
+						часов
+					</div>
+				</a>
 			</li>
 			<li class="courses_announce_concept__item">
-				<div class="courses_concept__value">
-					50
-				</div>
-				<div class="courses_concept__text">
-					Лекторов,<br>
-					кураторов <br>
-					и тренеров
-				</div>
+				<a href="courses.shtml">
+					<div class="courses_concept__value">
+						50
+					</div>
+					<div class="courses_concept__text">
+						Лекторов,<br>
+						кураторов <br>
+						и тренеров
+					</div>
+				</a>
 			</li>
 		</ul>
 	</div>
