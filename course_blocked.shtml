@@ -217,15 +217,15 @@
 
 		<div id="dialog-purchase" class="dialog js-dialog" role="dialog" aria-labelledby="message_label">
 			<div class="dialog__window">
-				<div class="message message--request js-dialog-window">
+				<div class="message message--request message--error js-dialog-window">
 					<div class="message__limiter">
 						<button class="message__close kbd_button js-dialog-close" tabindex="-1">
 							<svg class="icon icon--close kbd_button__body" tabindex="-1"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-close"></use></svg>
 						</button>
 						<form name="request" id="request" class="message__form">
-							<div class="message__error_message">
-								Пожалуйста, заполните информацию о себе
-							</div>
+							<h2 class="message__header_name" id="message_label">
+								Заявка на курс
+							</h2>
 							<div class="field">
 								<label class="field__label field__name" for="fi">
 									Имя и фамилия
