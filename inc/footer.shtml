@@ -21,11 +21,11 @@
 		</nav>
 		<div class="main_footer__about">
 			<p>
-				Что такое InLiberty? Мы уже 10&nbsp;лет рассказываем об&nbsp;устройстве свободы, общества и&nbsp;экономики, придумываем новые формы для образования и&nbsp;просвещения, организуем школы и&nbsp;конкурсы для студентов, проводим корпоративные тренинги и&nbsp;публичные лекции, издаем книги и&nbsp;занимаемся консалтингом.
+				Что такое InLiberty? Мы рассказываем об&nbsp;устройстве свободы, общества и&nbsp;экономики, придумываем новые формы для образования и&nbsp;просвещения, организуем школы и&nbsp;конкурсы для студентов, проводим корпоративные тренинги и&nbsp;публичные лекции, издаем книги и&nbsp;занимаемся консалтингом.
 			</p>
 		</div>
 		<form class="main_footer__subscribe" name="subscribe" id="subscribe">
-			<p class="main_footer__note">Подпишитесь, чтобы быть в курсе последних статей</p>
+			<p class="main_footer__note">Подпишитесь, чтобы быть в курсе наших статей</p>
 			<div class="main_footer__subscribe_field">
 				<input type="email" name="subscribe_email" class="main_footer__subscribe_input" placeholder="e-mail">
 			</div>
