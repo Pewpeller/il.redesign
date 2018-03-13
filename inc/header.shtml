@@ -16,7 +16,7 @@
 			<a href="/" class="inliberty_logo">
 				<svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#inliberty_logo"></use></svg>
 			</a>
-			<div class="main_nav js-menu">
+			<div class="main_nav js-menu js-animated">
 				<ul class="main_nav__list">
 					<li class="main_nav__item">
 						<a href="#" class="main_nav__link">
