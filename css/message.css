@@ -105,6 +105,9 @@
 		font-size: 40px;
 		line-height: 42px;
 	}
+	.message--request .message__header_name {
+		text-align: center;
+	}
 @media screen and (min-width: 570px) {
 	.message__header_name {
 		font-size: 40px;
@@ -112,6 +115,9 @@
 		text-align: left;
 		margin-bottom: -18px;
 	}
+		.message--request .message__header_name {
+			margin-bottom: 43px;
+		}
 		.message--error .message__header_name {
 			margin-bottom: 19px;
 		}
@@ -122,6 +128,14 @@
 		top: 6px;
 		left: auto;
 	}
+}
+
+.message__big_button {
+	width: 100%;
+	margin-bottom: 32px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
 }
 
 .message__text,
@@ -145,13 +159,6 @@
 	.message__text {
 		margin-bottom: 44px;
 	}
-}
-
-.message__big_button {
-	width: 100%;
-	margin-bottom: 32px;
-	margin-left: auto;
-	margin-right: auto;
 }
 
 /* request */

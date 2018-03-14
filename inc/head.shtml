@@ -49,7 +49,8 @@
 		<link rel="stylesheet" href="/css/faq.css">
 		<link rel="stylesheet" href="/css/message.css">
 		<link rel="stylesheet" href="/css/slider.css">
-		<link rel="stylesheet" href="/css/rubinshtain.css">
+		<link rel="stylesheet" href="/css/person.css">
+		<link rel="stylesheet" href="/css/article_header.css">
 		<!-- some css hacks for outside forms :( -->
 			<link rel="stylesheet" href="/css/hacks.css">
 		<!-- some css hacks for outside forms end -->

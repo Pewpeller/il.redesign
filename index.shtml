@@ -68,9 +68,9 @@
 				<div class="grid">
 					<div class="grid__inner">
 						<div class="grid__cell grid_t_full grid_d_small">
-							<article class="rubinshtain ear ear--dark ear_m_extra_small ear_d_normal">
+							<article class="person ear ear--dark ear_m_extra_small ear_d_normal">
 								<div class="ear__content">
-									<h2 class="rubinshtain__name">
+									<h2 class="person__name">
 										<a href="#">
 											Блог<br>
 											Льва<br>
