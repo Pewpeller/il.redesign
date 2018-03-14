@@ -36,19 +36,19 @@
 		</form>
 		<div class="main_footer_socials">
 			<div class="main_footer_socials__item">
-				<a href="#" class="icon-shadow icon__may_zoom"><svg class="icon icon--fb" role="img"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-fb"></use></svg></a>
+				<a href="https://www.facebook.com/inliberty/?hc_ref=ARQKf-XpveoKjaSeJ176_dPyFR-kZDkyeiC6YsF60H9FivxsS8uiPkWA-psvBs4u-WY" class="icon-shadow icon__may_zoom"><svg class="icon icon--fb" role="img"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-fb"></use></svg></a>
 			</div>
 			<div class="main_footer_socials__item">
-				<a href="#" class="icon-shadow icon__may_zoom"><svg class="icon icon--vk" role="img"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-vk"></use></svg></a>
+				<a href="https://vk.com/inliberty" class="icon-shadow icon__may_zoom"><svg class="icon icon--vk" role="img"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-vk"></use></svg></a>
 			</div>
 			<div class="main_footer_socials__item">
-				<a href="#" class="icon-shadow icon__may_zoom"><svg class="icon icon--youtube" role="img"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-youtube"></use></svg></a>
+				<a href="https://www.youtube.com/user/inlibertyru" class="icon-shadow icon__may_zoom"><svg class="icon icon--youtube" role="img"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-youtube"></use></svg></a>
 			</div>
 			<div class="main_footer_socials__item">
-				<a href="#" class="icon-shadow icon__may_zoom"><svg class="icon icon--telegram" role="img"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-telegram"></use></svg></a>
+				<a href="https://telegram.me/inliberty" class="icon-shadow icon__may_zoom"><svg class="icon icon--telegram" role="img"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-telegram"></use></svg></a>
 			</div>
 			<div class="main_footer_socials__item">
-				<a href="#" class="icon-shadow icon__may_zoom"><svg class="icon icon--ig" role="img"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-ig"></use></svg></a>
+				<a href="https://www.instagram.com/inliberty.ru/" class="icon-shadow icon__may_zoom"><svg class="icon icon--ig" role="img"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-ig"></use></svg></a>
 			</div>
 		</div>
 		<div class="main_footer__license">

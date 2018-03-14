@@ -94,10 +94,11 @@
 		width: 50%;
 		padding-right: 11px;
 		box-sizing: border-box;
-		vertical-align: middle;
+		vertical-align: top;
 		margin-left: 0;
 		margin-right: 0;
 		text-align: left;
+		margin-top: 0;
 	}
 	.main_footer__subscribe {
 		display: inline-block;
