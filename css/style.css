@@ -538,6 +538,7 @@ hr {
 		-webkit-overflow-scrolling: touch;
 		transform: translateY(-50%);
 		padding-top: 28px;
+		padding-bottom: 28px;
 		box-sizing: border-box;
 	}
 

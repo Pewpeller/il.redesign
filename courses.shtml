@@ -59,7 +59,7 @@
 								<b>Пространство</b>, которое дает возможности для общения и нового культурного опыта
 							</li>
 						</ul>
-						<button class="kbd_button courses_faq_button js-dialog-open" tabindex="0" type="button" data-dialog="#dialog-purchase">
+						<button class="kbd_button courses_faq_button js-dialog-open" tabindex="0" type="button" data-dialog="#dialog-faq">
 							<div class="kbd_button__body" tabindex="-1">
 								<div class="icon__may_zoom">
 									<div class="courses_faq_button__shape icon">?</div>
@@ -331,90 +331,8 @@
 		</div>
 		<!--#include virtual="/inc/footer.shtml" -->
 
-		<div id="dialog-purchase" class="dialog js-dialog" role="dialog" aria-labelledby="puchase_dialog_label">
-			<div class="dialog__window">
-				<div class="layout">
-					<div class="purchase purchase--faq js-dialog-window">
-						<header class="purchase__header">
-							<h2 class="purchase__header_name">
-								FAQ
-							</h2>
-							<button class="purchase__close kbd_button js-dialog-close" tabindex="-1">
-								<svg class="icon icon--close kbd_button__body" tabindex="-1"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-close"></use></svg>
-							</button>
-						</header>
-						<div class="purchase__body">
-							<div class="purchase__limiter">
-								<p class="faq__question">
-									— Можно ли оставить автомобиль рядом с&nbsp;площадкой?
-								</p>
-								<p class="faq__answer">
-									 — Можно. Но&nbsp;стихийно — вы можете припарковать машину вокруг территории завода «Рассвет».
-								</p>
-								<p class="faq__question">
-									— Нужно ли иметь с&nbsp;собой паспорт?
-								</p>
-								<p class="faq__answer">
-									— Не обязательно. На проходной вам нужно сказать, что вы идете в&nbsp;InLiberty, а&nbsp;наши администраторы спросят лишь ваше имя.
-								</p>
-								<p class="faq__question">
-									— Не умру ли я от&nbsp;жажды? 
-								</p>
-								<p class="faq__answer">
-									— Точно не на нашей площадке. Вода, чай и&nbsp;кофе входят в&nbsp;стоимость билетов и&nbsp;оплаты коворкинга.
-								</p>
-								<p class="faq__question">
-									— Получу ли я сертификат о&nbsp;прохождении курса?
-								</p>
-								<p class="faq__answer">
-									— Нет. InLiberty не&nbsp;является образовательной институцией и&nbsp;не&nbsp;реализует образовательных программ, предусмотренных Постановлением Правительства РФ от&nbsp;28.10.2013 №&nbsp;966 «О&nbsp;лицензировании образовательной деятельности». По&nbsp;окончании оказания услуг дипломы и&nbsp;сертификаты не&nbsp;выдаются.
-								</p>
-								<p class="faq__question">
-									— Есть ли ограничения по возрасту?
-								</p>
-								<p class="faq__answer">
-									— Нет.
-								</p>
-								<p class="faq__question">
-									— Могу ли я вернуть билет?
-								</p>
-								<p class="faq__answer">
-									— Да. Если вы по&nbsp;каким-то причинам не&nbsp;можете или передумали участвовать в&nbsp;проекте, вы можете вернуть деньги за&nbsp;вычетом комиссии Яндекс.Кассы. Для этого вам необходимо написать на&nbsp;<a href="mailto:info@inliberty.ru">info@inliberty.ru</a> за&nbsp;7&nbsp;дней до&nbsp;начала мероприятия (в&nbsp;случае курса — за&nbsp;неделю до&nbsp;первого занятия курса). 
-								</p>
-								<p class="faq__question">
-									— Хочу попасть на&nbsp;ваше мероприятие, но не&nbsp;могу участвовать в&nbsp;указанные даты, что делать?
-								</p>
-								<p class="faq__answer">
-									— Оставить заявку. После окончания набора на&nbsp;мероприятие начнется повторный набор, вы сможете оставить свои контакты, а&nbsp;мы с&nbsp;вами свяжемся.
-								</p>
-								<p class="faq__question">
-									— Хочу купить билеты на&nbsp;несколько курсов
-								</p>
-								<p class="faq__answer">
-									 — И это круто. После первой покупки вы получите промокод со&nbsp;скидкой на&nbsp;следующий.
-								</p>
-								<p class="faq__question">
-									— Кому писать про&nbsp;партнерство?
-								</p>
-								<p class="faq__answer">
-									— Пишите на&nbsp;<a href="mailto:info@inliberty.ru">info@inliberty.ru</a>.
-								</p>
-								<p class="faq__question">
-									— Кому писать про&nbsp;аренду?
-								</p>
-								<p class="faq__answer">
-									— Пишите на&nbsp;<a href="mailto:arenda@inliberty.ru">arenda@inliberty.ru</a>.
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
-
-			</div>
-			<div class="dialog__mask"></div>
-		</div>
-
-
+		<!-- faq dialog (static) -->
+		<!--#include virtual="/inc/faq.shtml" -->
 
 	</body>
 </html>
