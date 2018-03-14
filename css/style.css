@@ -532,11 +532,13 @@ hr {
 		left: 0;
 		right: 0;
 		max-width: 100%;
-		max-height: calc(100vh - 56px);
+		max-height: 100vh;
 		z-index: 10;
 		overflow: auto;
 		-webkit-overflow-scrolling: touch;
 		transform: translateY(-50%);
+		padding-top: 28px;
+		box-sizing: border-box;
 	}
 
 	.dialog__mask {
@@ -546,6 +548,6 @@ hr {
 		right: 0;
 		bottom: 0;
 		background: #fff;
-		opacity: .9;
+		opacity: .96;
 		z-index: 9;
 	}

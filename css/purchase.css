@@ -22,6 +22,11 @@
 			padding-bottom: 14px;
 		}
 	}
+	.purchase__close {
+		position: absolute;
+		top: 13px;
+		right: 13px;
+	}
 
 	.purchase__header_name {
 		font: bold 31px/32px Figgins Sans, Arial, sans-serif;
