@@ -1,5 +1,5 @@
 <div class="layout">
-	<footer class="person_footer">
+	<footer class="person_footer"><!-- person_footer--no_cap ставим у футера с колбасой -->
 		<div class="person_footer__text">
 			При поддержке
 		</div>

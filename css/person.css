@@ -68,6 +68,11 @@
 	position: relative;
 	font-size: 0;
 }
+.person_footer--no_cap {
+	border-top: 0;
+	margin-top: -42px;
+}
+
 .person_footer__text {
 	font: italic 16px/1 Figgins Sans, Arial, sans-serif;
 	display: inline-block;
@@ -104,5 +109,8 @@
 	.person_column {
 		margin-top: 70px;
 		margin-bottom: 70px;
+	}
+	.person_footer--no_cap {
+		margin-top: -70px;
 	}
 }
