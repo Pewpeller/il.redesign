@@ -1,0 +1,65 @@
+<!-- если цвет текста темный, то добавляем класс is_dark -->
+<div class="article_menu" style="background-color: rgba(2, 15, 83, 1);">
+	<div class="layout">
+		<div class="grid">
+			<ul class="grid__inner">
+				<li class="article_menu__item">
+					<a href="#">
+						1<br>
+						<b>Битва за&nbsp;норму</b><br>
+						Элла Панеях <em>Социолог</em>
+					</a>
+				</li>
+				<li class="article_menu__item">
+					<a href="#">
+						2<br>
+						<b>Битва за&nbsp;норму</b><br>
+						Элла Панеях <em>Социолог</em>
+					</a>
+				</li>
+				<li class="article_menu__item">
+					<a href="#">
+						3<br>
+						<b>Битва за&nbsp;норму</b><br>
+						Элла Панеях <em>Социолог</em>
+					</a>
+				</li>
+				<li class="article_menu__item">
+					<a href="#">
+						4<br>
+						<b>Битва за&nbsp;норму</b><br>
+						Элла Панеях <em>Социолог</em>
+					</a>
+				</li>
+				<li class="article_menu__item">
+					<a href="#">
+						5<br>
+						<b>Битва за&nbsp;норму</b><br>
+						Элла Панеях <em>Социолог</em>
+					</a>
+				</li>
+				<li class="article_menu__item">
+					<a href="#">
+						6<br>
+						<b>Битва за&nbsp;норму</b><br>
+						Элла Панеях <em>Социолог</em>
+					</a>
+				</li>
+				<li class="article_menu__item">
+					<a href="#">
+						7<br>
+						<b>Битва за&nbsp;норму</b><br>
+						Элла Панеях <em>Социолог</em>
+					</a>
+				</li>
+				<li class="article_menu__item">
+					<a href="#">
+						8<br>
+						<b>Битва за&nbsp;норму</b><br>
+						Элла Панеях <em>Социолог</em>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,10 @@
+<div class="layout">
+	<footer class="person_footer">
+		<div class="person_footer__text">
+			При поддержке
+		</div>
+		<a href="/" class="inliberty_logo">
+			<svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#inliberty_logo"></use></svg>
+		</a>
+	</footer>
+</div>
