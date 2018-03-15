@@ -17,7 +17,7 @@
 	text-decoration: none;
 	cursor: pointer;
 	user-select: none;
-	-moz-appearance: none;
+	/* -moz-appearance: none; */
 	position: relative;
 	margin-bottom: 22px;
 	border-radius: 0;
@@ -54,10 +54,12 @@
 	content: '';
 	transition: .1s transform ease-in-out 0s;
 }
-.il_button:hover::before {
+.il_button:hover::before,
+.il_button:focus::before {
 	transform: translateX(2px);
 }
-.il_button:hover::after {
+.il_button:hover::after,
+.il_button:focus::after {
 	transform: translateY(2px);
 }
 
