@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="ru-RU">
+	<!--#include virtual="/inc/head.shtml" -->
+	<body>
+		<!--#include virtual="/inc/header.shtml" -->
+		<div class="main" role="main">
+			<div class="layout">
+				<div></div>
+				<div class="courses__section_name" style="text-align: center;">
+					Шаринг текущей страницы
+				</div>
+				<div class="main_footer_socials">
+					<div class="main_footer_socials__item">
+						<a href="#" class="icon-shadow icon__may_zoom js-share-link" data-share-network="fb"><svg class="icon icon--fb" role="img"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-fb"></use></svg></a>
+					</div>
+					<div class="main_footer_socials__item">
+						<a href="#" class="icon-shadow icon__may_zoom js-share-link" data-share-network="vk"><svg class="icon icon--vk" role="img"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-vk"></use></svg></a>
+					</div>
+					<div class="main_footer_socials__item">
+						<a href="#" class="icon-shadow icon__may_zoom js-share-link" data-share-network="tg"><svg class="icon icon--telegram" role="img"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-telegram"></use></svg></a>
+					</div>
+				</div>
+				<div class="courses__section_name" style="text-align: center;">
+					Шаринг статьи в колбасе
+				</div>
+				<div class="js-article" data-share-url="http://dev.inliberty.ru/article">
+					<div class="main_footer_socials">
+						<div class="main_footer_socials__item">
+							<a href="#" class="icon-shadow icon__may_zoom js-share-link" data-share-network="fb"><svg class="icon icon--fb" role="img"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-fb"></use></svg></a>
+						</div>
+						<div class="main_footer_socials__item">
+							<a href="#" class="icon-shadow icon__may_zoom js-share-link" data-share-network="vk"><svg class="icon icon--vk" role="img"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-vk"></use></svg></a>
+						</div>
+						<div class="main_footer_socials__item">
+							<a href="#" class="icon-shadow icon__may_zoom js-share-link" data-share-network="tg"><svg class="icon icon--telegram" role="img"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-telegram"></use></svg></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div> <!-- end of main -->
+		<!--#include virtual="/inc/footer.shtml" -->
+
+	</body>
+</html>
