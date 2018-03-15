@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="ru-RU">
+	<!--#include virtual="/inc/head.shtml" -->
+	<body>
+		<!--#include virtual="/inc/person_header.shtml" -->
+		<div class="main" role="main">
+			<div class="setka_content">
+				<div class="courses__section_name" style="color:red;text-align: center;">
+					setka.io
+				</div>
+			</div>
+		</div>
+		<!--#include virtual="/inc/person_footer_columns.shtml" -->
+		<!--#include virtual="/inc/kolbasa_footer.shtml" -->
+	</body>
+</html>
