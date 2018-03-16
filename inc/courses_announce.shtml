@@ -1,20 +1,20 @@
-<div class="courses_announce">
-	<div class="layout">
-		<div class="grid">
-			<div class="grid__inner">
-				<div class="grid__cell grid_t_full grid_d_big">
-					<h2 class="courses_announce_concept__name">
-						<a href="/courses.shtml">InLiberty открывает новую площадку  в&nbsp;Москве</a>
-					</h2>
-				</div>
-				<div class="grid__cell grid_d_small hide_m hide_t hide_tm hide_tmi">
-					<h2 class="courses_announce_concept__section_name"><a href="/courses.shtml">Весна-лето 2018</a></h2>
+<a href="/courses.shtml">
+	<div class="courses_announce">
+		<div class="layout">
+			<div class="grid">
+				<div class="grid__inner">
+					<div class="grid__cell grid_t_full grid_d_big">
+						<h2 class="courses_announce_concept__name">
+							InLiberty открывает новую площадку  в&nbsp;Москве
+						</h2>
+					</div>
+					<div class="grid__cell grid_d_small hide_m hide_t hide_tm hide_tmi">
+						<h2 class="courses_announce_concept__section_name">Весна-лето 2018</h2>
+					</div>
 				</div>
 			</div>
-		</div>
-		<ul class="courses_announce_concept">
-			<li class="courses_announce_concept__item">
-				<a href="courses.shtml">
+			<ul class="courses_announce_concept">
+				<li class="courses_announce_concept__item">
 					<div class="courses_concept__value">
 						11
 					</div>
@@ -23,10 +23,8 @@
 						для взрослых<br>
 						 и школьников
 					</div>
-				</a>
-			</li>
-			<li class="courses_announce_concept__item">
-				<a href="courses.shtml">
+				</li>
+				<li class="courses_announce_concept__item">
 					<div class="courses_concept__value">
 						230
 					</div>
@@ -34,10 +32,8 @@
 						Академических <br>
 						часов
 					</div>
-				</a>
-			</li>
-			<li class="courses_announce_concept__item">
-				<a href="courses.shtml">
+				</li>
+				<li class="courses_announce_concept__item">
 					<div class="courses_concept__value">
 						40
 					</div>
@@ -46,8 +42,8 @@
 						кураторов <br>
 						и тренеров
 					</div>
-				</a>
-			</li>
-		</ul>
+				</li>
+			</ul>
+		</div>
 	</div>
-</div>
+</a>
