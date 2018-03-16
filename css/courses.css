@@ -356,7 +356,8 @@
 		padding-top: 10px;
 		vertical-align: middle;
 	}
-	.course_board__name {
+	.course_board__name,
+	.course_board__message {
 		font: bold 22px/32px Figgins Sans, Arial, sans-serif;
 		text-transform: uppercase;
 	}
@@ -368,11 +369,20 @@
 		font: italic 14px/18px Figgins Sans, Arial, sans-serif;
 		margin-bottom: 24px;
 	}
+	.course_board__text {
+		font: italic 14px/18px Figgins Sans, Arial, sans-serif;
+		margin-bottom: 24px;
+	}
+	.course_board__message {
+		text-transform: none;
+		margin-bottom: 29px;
+	}
 @media only screen and (min-width: 1024px) {
 	.course_board__content {
 		padding-top: 16px;
 	}
-	.course_board__name {
+	.course_board__name,
+	.course_board__message {
 		font-size: 40px;
 		line-height: 42px;
 		margin-bottom: 21px;

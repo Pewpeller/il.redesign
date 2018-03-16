@@ -1,9 +1,11 @@
 <!-- для колбасы -->
 <div class="layout">
-	<div class="person person_column">
-		<div class="person_column__text">
-			Архив колонок<br>
-			<a href="//old.inliberty.ru">old.inliberty.ru</a>
+	<a href="//old.inliberty.ru">
+		<div class="person person_column">
+			<div class="person_column__text">
+				Архив колонок<br>
+				old.inliberty.ru
+			</div>
 		</div>
-	</div>
+	</a>
 </div>
