@@ -1,10 +1,10 @@
-<div class="article_header" style="background-image: url(http://inliberty.dev.ikitlab.co/wp-content/uploads/shapka2.jpg)">
+<div class="article_header" style="background-image: url(//www.inliberty.ru/wp-content/uploads/shapka2.jpg)">
 	<div class="layout">
 		<h1 class="article_header__name">
-			Свобода сегодня
+			Заголовок
 		</h1>
 		<h2 class="article_header__subheader">
-			Подзагловок журнала много слов
+			Подзагловок
 		</h2>
 	</div>
 </div>

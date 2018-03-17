@@ -1,62 +1,137 @@
 <!-- если цвет текста темный, то добавляем класс is_dark -->
-<div class="article_menu" style="background-color: rgba(2, 15, 83, 1);">
+<div class="article_menu" style="background-color: rgba(0, 0, 0, 1);">
 	<div class="layout">
 		<div class="grid">
 			<ul class="grid__inner">
 				<li class="article_menu__item">
 					<a href="#">
-						1<br>
-						<b>Битва за&nbsp;норму</b><br>
-						Элла Панеях <em>Социолог</em>
+						<p class="article_menu__number">
+							1
+						</p>
+						<p class="article_menu__author">
+							Кирил Рогов
+						</p>
+						<h4 class="article_menu__name">
+							Пятый срок
+						</h4>
+						<h3 class="article_menu__subheader">
+							Три вызова и три опоры
+						</h3>
 					</a>
 				</li>
 				<li class="article_menu__item">
 					<a href="#">
-						2<br>
-						<b>Битва за&nbsp;норму</b><br>
-						Элла Панеях <em>Социолог</em>
+						<p class="article_menu__number">
+							2
+						</p>
+						<p class="article_menu__author">
+							Сергей Алексашенко
+						</p>
+						<h4 class="article_menu__name">
+							Экономика
+						</h4>
+						<h3 class="article_menu__subheader">
+							Слабая, но устойчивая
+						</h3>
 					</a>
 				</li>
 				<li class="article_menu__item">
 					<a href="#">
-						3<br>
-						<b>Битва за&nbsp;норму</b><br>
-						Элла Панеях <em>Социолог</em>
+						<p class="article_menu__number">
+							3
+						</p>
+						<p class="article_menu__author">
+							Иван Крастев
+						</p>
+						<h4 class="article_menu__name">
+							Россия и Запад
+						</h4>
+						<h3 class="article_menu__subheader">
+							Зеркала непониманий
+						</h3>
 					</a>
 				</li>
 				<li class="article_menu__item">
 					<a href="#">
-						4<br>
-						<b>Битва за&nbsp;норму</b><br>
-						Элла Панеях <em>Социолог</em>
+						<p class="article_menu__number">
+							4
+						</p>
+						<p class="article_menu__author">
+							Екатерина Шульман
+						</p>
+						<h4 class="article_menu__name">
+							Политический режим
+						</h4>
+						<h3 class="article_menu__subheader">
+							Коллективная бюрократия,<br>
+							трансфер власти и&nbsp;новые ренты
+						</h3>
 					</a>
 				</li>
 				<li class="article_menu__item">
 					<a href="#">
-						5<br>
-						<b>Битва за&nbsp;норму</b><br>
-						Элла Панеях <em>Социолог</em>
+						<p class="article_menu__number">
+							5
+						</p>
+						<p class="article_menu__author">
+							Николай Петров
+						</p>
+						<h4 class="article_menu__name">
+							Регионы
+						</h4>
+						<h3 class="article_menu__subheader">
+							Внешнее управление и&nbsp;маятник децентрализации
+						</h3>
 					</a>
 				</li>
 				<li class="article_menu__item">
 					<a href="#">
-						6<br>
-						<b>Битва за&nbsp;норму</b><br>
-						Элла Панеях <em>Социолог</em>
+						<p class="article_menu__number">
+							6
+						</p>
+						<p class="article_menu__author">
+							Григорий Голосов
+						</p>
+						<h4 class="article_menu__name">
+							Оппозиция
+						</h4>
+						<h3 class="article_menu__subheader">
+							Демократия, национализм и&nbsp;справедливость
+						</h3>
 					</a>
 				</li>
 				<li class="article_menu__item">
 					<a href="#">
-						7<br>
-						<b>Битва за&nbsp;норму</b><br>
-						Элла Панеях <em>Социолог</em>
+						<p class="article_menu__number">
+							7
+						</p>
+						<p class="article_menu__author">
+							Сергей Пархоменко
+						</p>
+						<h4 class="article_menu__name">
+							Гражданское общество
+						</h4>
+						<h3 class="article_menu__subheader">
+							Распределенные сети<br>
+							и&nbsp;локальные повестки
+						</h3>
 					</a>
 				</li>
 				<li class="article_menu__item">
 					<a href="#">
-						8<br>
-						<b>Битва за&nbsp;норму</b><br>
-						Элла Панеях <em>Социолог</em>
+						<p class="article_menu__number">
+							7
+						</p>
+						<p class="article_menu__author">
+							Андрей Солдатов
+						</p>
+						<h4 class="article_menu__name">
+							Коммуникации и технологии
+						</h4>
+						<h3 class="article_menu__subheader">
+							Оптика угроз и&nbsp;национализация<br>
+							образованного класса
+						</h3>
 					</a>
 				</li>
 			</ul>
