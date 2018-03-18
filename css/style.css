@@ -464,7 +464,9 @@ img {
 		margin-left: calc(-50vw + 50%);
 		margin-right: calc(-50vw + 50%);
 	}
-
+a:focus {
+	outline-color: #64ffda;
+}
 .kbd_button {
 	background-color: transparent;
 	border: 0;
@@ -490,7 +492,7 @@ img {
 }
 
 :not(.il_button):focus > .kbd_button__body {
-	box-shadow: 0 0 1px 2px rgb(9, 133, 206);
+	box-shadow: 0 0 1px 2px #64ffda;
 }
 
 /* Removing the focus ring styles specifically for button in Firefox */
