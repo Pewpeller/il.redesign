@@ -4,125 +4,126 @@
 	<body>
 		<!--#include virtual="/inc/header.shtml" -->
 		<div class="main" role="main">
-			<article class="magazine magazine--separated fit_screen">
-				<div class="layout">
-					<div class="magazine__header">
-						<div class="magazine__tag">
-							<h4 class="tag"><a href="#">Выпуск 1</a></h4>
+			<div class="magazines_list">
+				<article class="magazine magazine--separated fit_screen">
+					<div class="layout">
+						<div class="magazine__header">
+							<div class="magazine__tag">
+								<h4 class="tag"><a href="#">Выпуск 1</a></h4>
+							</div>
+							<h1 class="magazine__name"><a href="#">Свобода сегодня</a></h1>
+							<h2 class="magazine__subheader"><a href="#">10 главных экономических идей 20 века</a></h2>
 						</div>
-						<h1 class="magazine__name"><a href="#">Свобода сегодня</a></h1>
-						<h2 class="magazine__subheader"><a href="#">10 главных экономических идей 20 века</a></h2>
-					</div>
-					<a href="#">
-						<div class="magazine__photo" style="background-image: url(/i/dummies/JOURNAL/ANONS_JOURNAL_3200x526/JOURNAL_ANONS_1_320.webp)">
-							<!--#set var="pic_url" value="/i/dummies/JOURNAL/ANONS_JOURNAL_3200x526/JOURNAL_ANONS_1" -->
-							<!--#set var="pic_alt" value="Десять разговоров о том, кому и зачем мы врем" -->
-							<!--#set var="pic_class" value="magazine__poster" -->
-							<!--#include virtual="/inc/picture.shtml" -->
+						<a href="#">
+							<div class="magazine__photo" style="background-image: url(/i/dummies/JOURNAL/ANONS_JOURNAL_3200x526/JOURNAL_ANONS_1_320.webp)">
+								<!--#set var="pic_url" value="/i/dummies/JOURNAL/ANONS_JOURNAL_3200x526/JOURNAL_ANONS_1" -->
+								<!--#set var="pic_alt" value="Десять разговоров о том, кому и зачем мы врем" -->
+								<!--#set var="pic_class" value="magazine__poster" -->
+								<!--#include virtual="/inc/picture.shtml" -->
+							</div>
+						</a>
+						<div class="magazine__text_frame">
+							<p class="magazine__intro">
+								<a href="#">
+									Конец августа — эмоциональное дно украинского кризиса. Через три дня, 24-го, российские батальонно-тактические группы перейдут в контрнаступление под Иловайском.
+								</a>
+							</p>
+							<p class="magazine__author">
+								<a href="#">Максим Трудолюбов, Лев Рубинштейн, Юлий Гуголев, Алексей Цветков</a>
+							</p>
 						</div>
-					</a>
-					<div class="magazine__text_frame">
-						<p class="magazine__intro">
-							<a href="#">
-								Конец августа — эмоциональное дно украинского кризиса. Через три дня, 24-го, российские батальонно-тактические группы перейдут в контрнаступление под Иловайском.
-							</a>
-						</p>
-						<p class="magazine__author">
-							<a href="#">Максим Трудолюбов, Лев Рубинштейн, Юлий Гуголев, Алексей Цветков</a>
-						</p>
 					</div>
-				</div>
-			</article>
-			<article class="magazine magazine--separated fit_screen">
-				<div class="layout">
-					<div class="magazine__header">
-						<div class="magazine__tag">
-							<h4 class="tag"><a href="#">Выпуск 2</a></h4>
+				</article>
+				<article class="magazine magazine--separated fit_screen">
+					<div class="layout">
+						<div class="magazine__header">
+							<div class="magazine__tag">
+								<h4 class="tag"><a href="#">Выпуск 2</a></h4>
+							</div>
+							<h1 class="magazine__name"><a href="#">Демократия</a></h1>
+							<h2 class="magazine__subheader"><a href="#">10 главных экономических идей 20 века</a></h2>
 						</div>
-						<h1 class="magazine__name"><a href="#">Демократия</a></h1>
-						<h2 class="magazine__subheader"><a href="#">10 главных экономических идей 20 века</a></h2>
-					</div>
-					<a href="#">
-						<div class="magazine__photo" style="background-image: url(/i/dummies/JOURNAL/ANONS_JOURNAL_3200x526/JOURNAL_ANONS_2_320.webp)">
-							<!--#set var="pic_url" value="/i/dummies/JOURNAL/ANONS_JOURNAL_3200x526/JOURNAL_ANONS_2" -->
-							<!--#set var="pic_alt" value="Десять разговоров о том, кому и зачем мы врем" -->
-							<!--#set var="pic_class" value="magazine__poster" -->
-							<!--#include virtual="/inc/picture.shtml" -->
+						<a href="#">
+							<div class="magazine__photo" style="background-image: url(/i/dummies/JOURNAL/ANONS_JOURNAL_3200x526/JOURNAL_ANONS_2_320.webp)">
+								<!--#set var="pic_url" value="/i/dummies/JOURNAL/ANONS_JOURNAL_3200x526/JOURNAL_ANONS_2" -->
+								<!--#set var="pic_alt" value="Десять разговоров о том, кому и зачем мы врем" -->
+								<!--#set var="pic_class" value="magazine__poster" -->
+								<!--#include virtual="/inc/picture.shtml" -->
+							</div>
+						</a>
+						<div class="magazine__text_frame">
+							<p class="magazine__intro">
+								<a href="#">
+									Конец августа — эмоциональное дно украинского кризиса. Через три дня, 24-го, российские батальонно-тактические группы перейдут в контрнаступление под Иловайском.
+								</a>
+							</p>
+							<p class="magazine__author">
+								<a href="#">Максим Трудолюбов, Лев Рубинштейн, Юлий Гуголев, Алексей Цветков</a>
+							</p>
 						</div>
-					</a>
-					<div class="magazine__text_frame">
-						<p class="magazine__intro">
-							<a href="#">
-								Конец августа — эмоциональное дно украинского кризиса. Через три дня, 24-го, российские батальонно-тактические группы перейдут в контрнаступление под Иловайском.
-							</a>
-						</p>
-						<p class="magazine__author">
-							<a href="#">Максим Трудолюбов, Лев Рубинштейн, Юлий Гуголев, Алексей Цветков</a>
-						</p>
 					</div>
-				</div>
-			</article>
-			<article class="magazine magazine--separated fit_screen">
-				<div class="layout">
-					<div class="magazine__header">
-						<div class="magazine__tag">
-							<h4 class="tag"><a href="#">Выпуск 3</a></h4>
+				</article>
+				<article class="magazine magazine--separated fit_screen">
+					<div class="layout">
+						<div class="magazine__header">
+							<div class="magazine__tag">
+								<h4 class="tag"><a href="#">Выпуск 3</a></h4>
+							</div>
+							<h1 class="magazine__name"><a href="#">Пять</a></h1>
+							<h2 class="magazine__subheader"><a href="#">10 главных экономических идей 20 века</a></h2>
 						</div>
-						<h1 class="magazine__name"><a href="#">Пять</a></h1>
-						<h2 class="magazine__subheader"><a href="#">10 главных экономических идей 20 века</a></h2>
-					</div>
-					<a href="#">
-						<div class="magazine__photo" style="background-image: url(/i/dummies/JOURNAL/ANONS_JOURNAL_3200x526/JOURNAL_ANONS_3_320.webp)">
-							<!--#set var="pic_url" value="/i/dummies/JOURNAL/ANONS_JOURNAL_3200x526/JOURNAL_ANONS_3" -->
-							<!--#set var="pic_alt" value="Десять разговоров о том, кому и зачем мы врем" -->
-							<!--#set var="pic_class" value="magazine__poster" -->
-							<!--#include virtual="/inc/picture.shtml" -->
+						<a href="#">
+							<div class="magazine__photo" style="background-image: url(/i/dummies/JOURNAL/ANONS_JOURNAL_3200x526/JOURNAL_ANONS_3_320.webp)">
+								<!--#set var="pic_url" value="/i/dummies/JOURNAL/ANONS_JOURNAL_3200x526/JOURNAL_ANONS_3" -->
+								<!--#set var="pic_alt" value="Десять разговоров о том, кому и зачем мы врем" -->
+								<!--#set var="pic_class" value="magazine__poster" -->
+								<!--#include virtual="/inc/picture.shtml" -->
+							</div>
+						</a>
+						<div class="magazine__text_frame">
+							<p class="magazine__intro">
+								<a href="#">
+									Конец августа — эмоциональное дно украинского кризиса. Через три дня, 24-го, российские батальонно-тактические группы перейдут в контрнаступление под Иловайском.
+								</a>
+							</p>
+							<p class="magazine__author">
+								<a href="#">Максим Трудолюбов, Лев Рубинштейн, Юлий Гуголев, Алексей Цветков</a>
+							</p>
 						</div>
-					</a>
-					<div class="magazine__text_frame">
-						<p class="magazine__intro">
-							<a href="#">
-								Конец августа — эмоциональное дно украинского кризиса. Через три дня, 24-го, российские батальонно-тактические группы перейдут в контрнаступление под Иловайском.
-							</a>
-						</p>
-						<p class="magazine__author">
-							<a href="#">Максим Трудолюбов, Лев Рубинштейн, Юлий Гуголев, Алексей Цветков</a>
-						</p>
 					</div>
-				</div>
-			</article>
-			<article class="magazine magazine--separated fit_screen">
-				<div class="layout">
-					<div class="magazine__header">
-						<div class="magazine__tag">
-							<h4 class="tag"><a href="#">Выпуск 4</a></h4>
+				</article>
+				<article class="magazine magazine--separated fit_screen">
+					<div class="layout">
+						<div class="magazine__header">
+							<div class="magazine__tag">
+								<h4 class="tag"><a href="#">Выпуск 4</a></h4>
+							</div>
+							<h1 class="magazine__name"><a href="#">Свобода сегодня</a></h1>
+							<h2 class="magazine__subheader"><a href="#">10 главных экономических идей 20 века</a></h2>
 						</div>
-						<h1 class="magazine__name"><a href="#">Свобода сегодня</a></h1>
-						<h2 class="magazine__subheader"><a href="#">10 главных экономических идей 20 века</a></h2>
-					</div>
-					<a href="#">
-						<div class="magazine__photo" style="background-image: url(/i/dummies/JOURNAL/ANONS_JOURNAL_3200x526/JOURNAL_ANONS_4_320.webp)">
-							<!--#set var="pic_url" value="/i/dummies/JOURNAL/ANONS_JOURNAL_3200x526/JOURNAL_ANONS_4" -->
-							<!--#set var="pic_alt" value="Десять разговоров о том, кому и зачем мы врем" -->
-							<!--#set var="pic_class" value="magazine__poster" -->
-							<!--#include virtual="/inc/picture.shtml" -->
+						<a href="#">
+							<div class="magazine__photo" style="background-image: url(/i/dummies/JOURNAL/ANONS_JOURNAL_3200x526/JOURNAL_ANONS_4_320.webp)">
+								<!--#set var="pic_url" value="/i/dummies/JOURNAL/ANONS_JOURNAL_3200x526/JOURNAL_ANONS_4" -->
+								<!--#set var="pic_alt" value="Десять разговоров о том, кому и зачем мы врем" -->
+								<!--#set var="pic_class" value="magazine__poster" -->
+								<!--#include virtual="/inc/picture.shtml" -->
+							</div>
+						</a>
+						<div class="magazine__text_frame">
+							<p class="magazine__intro">
+								<a href="#">
+									Конец августа — эмоциональное дно украинского кризиса. Через три дня, 24-го, российские батальонно-тактические группы перейдут в контрнаступление под Иловайском.
+								</a>
+							</p>
+							<p class="magazine__author">
+								<a href="#">Максим Трудолюбов, Лев Рубинштейн, Юлий Гуголев, Алексей Цветков</a>
+							</p>
 						</div>
-					</a>
-					<div class="magazine__text_frame">
-						<p class="magazine__intro">
-							<a href="#">
-								Конец августа — эмоциональное дно украинского кризиса. Через три дня, 24-го, российские батальонно-тактические группы перейдут в контрнаступление под Иловайском.
-							</a>
-						</p>
-						<p class="magazine__author">
-							<a href="#">Максим Трудолюбов, Лев Рубинштейн, Юлий Гуголев, Алексей Цветков</a>
-						</p>
 					</div>
-				</div>
-			</article>
-
+				</article>
+			</div>
 			<!-- остальной список журналов -->
-			<div class="magazines__list">
+			<div class="magazines_rest">
 				<article class="magazine magazine--small magazine--separated fit_screen">
 					<div class="layout">
 						<div class="magazine__header">
