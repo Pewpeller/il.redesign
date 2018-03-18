@@ -1,15 +1,11 @@
-			<form name="search_form" class="search_form" id="search_form">
-				<button class="search_form__button kbd_button changeclass" tabindex="0" data-changeclass='{
-						"#search_form": {"addClass": "is_expanded"}
-					}'>
-					<svg class="icon icon--search kbd_button__body" tabindex="-1"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-search"></use></svg>
+			<form action="/search.shtml" class="search_form js-search-form">
+				<button type="submit" class="search_form__button kbd_button" tabindex="-1">
+					<svg class="icon icon--search kbd_button__body"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-search"></use></svg>
 				</button>
-				<span class="kbd_button search_form__field" tabindex="0">
-					<input class="kbd_button__body search_form__input" type="text" name="search" placeholder="Поиск" tabindex="-1">
+				<span class="kbd_button search_form__field">
+					<input class="kbd_button__body search_form__input js-search-input" type="search" name="search" value="" placeholder="Поиск">
 				</span>
-				<button class="search_form__close kbd_button changeclass" tabindex="0" data-changeclass='{
-						"#search_form": {"removeClass": "is_expanded"}
-					}'>
-					<svg class="icon icon--close kbd_button__body" tabindex="-1"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-close"></use></svg>
+				<button type="button" class="search_form__close kbd_button js-search-close" tabindex="-1">
+					<svg class="icon icon--close kbd_button__body"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-close"></use></svg>
 				</button>
 			</form>

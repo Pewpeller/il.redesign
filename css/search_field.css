@@ -79,6 +79,12 @@
 	padding: 0 0 0 31px;
 	font: 22px/1 Figgins Sans, Arial, sans-serif;
 }
+.search_form__input::-webkit-search-decoration,
+.search_form__input::-webkit-search-cancel-button,
+.search_form__input::-webkit-search-results-button,
+.search_form__input::-webkit-search-results-decoration {
+	display: none;
+}
 @media only screen and (min-width: 621px) {
 	.search_form.is_expanded .search_form__field {
 		height: 100%;
