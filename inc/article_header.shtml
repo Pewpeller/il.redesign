@@ -1,10 +1,12 @@
-<div class="article_header" style="background-image: url(//www.inliberty.ru/wp-content/uploads/shapka2.jpg)">
-	<div class="layout">
-		<h1 class="article_header__name">
-			Заголовок
-		</h1>
-		<h2 class="article_header__subheader">
-			Подзагловок
-		</h2>
+<a href="#">
+	<div class="article_header" style="background-image: url(//www.inliberty.ru/wp-content/uploads/Mag_Cov_Single_1600x280.jpg)">
+		<div class="layout">
+			<h1 class="article_header__name">
+				Заголовок
+			</h1>
+			<h2 class="article_header__subheader">
+				Подзагловок
+			</h2>
+		</div>
 	</div>
-</div>
+</a>

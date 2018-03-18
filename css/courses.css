@@ -115,7 +115,7 @@
 }
 
 .courses_header__lead a {
-	color: #64ffda;
+	color: #1de9b6;
 	font: bold 19px/25px Figgins Sans, Arial, sans-serif;
 	/*
 	border-bottom: 1px solid #64ffda;
@@ -261,6 +261,7 @@
 .courses_faq_button__text {
 	font: bold 14px/22px Figgins Sans, Arial, sans-serif;
 	color: #181818;
+	margin-top: 21px;
 }
 @media only screen and (min-width: 1024px) {
 	.courses_faq_button {

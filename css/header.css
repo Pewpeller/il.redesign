@@ -158,28 +158,18 @@
 			display: inline-block;
 			position: relative;
 		}
-			.main_nav__item::after {
-				position: absolute;
-				bottom: -15px;
-				left: -15px;
-				right: -15px;
-				content: '';
-				height: 10px;
-			}
 		.main_nav__item:not(:last-child) {
 			margin-right: 10px;
 		}
 
 		.main_nav__item .main_nav__link::after {
-			bottom: -16px;
+			bottom: -18px;
 			left: -15px;
 			right: -15px;
-			height: 6px;
+			height: 10px;
 		}
 		.main_nav__item.is_current .main_nav__link::after {
-			bottom: -16px;
 			background-color: #fff;
-			height: 6px;
 		}
 			.main_nav__item:not(.is_current) .main_nav__link:hover::after,
 			.main_nav__item:not(.is_current) .main_nav__link:focus::after {
@@ -194,23 +184,13 @@
 		.main_nav__item {
 			font-size: 16px;
 		}
-			.main_nav__item::after {
-				bottom: -29px;
-			}
-			.main_nav__item .main_nav__link::after {
-				bottom: -29px;
-			}
-			.is_compact .main_nav__link::after {
-				bottom: -15px;
-			}
+			.main_nav__item .main_nav__link::after,
 			.main_nav__item.is_current .main_nav__link::after {
-				bottom: -29px;
+				bottom: -30px;
 			}
-			.is_compact .main_nav__item::after {
-				bottom: -15px;
-			}
+			.is_compact .main_nav__link::after,
 			.is_compact .main_nav__item.is_current .main_nav__link::after {
-				bottom: -15px;
+				bottom: -17px;
 			}
 
 		.main_nav__item:not(:last-child) {

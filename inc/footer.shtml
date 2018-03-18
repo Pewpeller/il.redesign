@@ -30,8 +30,10 @@
 			<div class="main_footer__subscribe_field">
 				<input type="email" name="subscribe_email" class="main_footer__subscribe_input" placeholder="e-mail">
 			</div>
-			<button class="il_button" type="submit">
-				Подписаться
+			<button class="il_button kbd_button" type="submit" tabindex="0">
+				<div class="kbd_button__body" tabindex="-1">
+					Подписаться
+				</div>
 			</button>
 		</form>
 		<div class="main_footer_socials">

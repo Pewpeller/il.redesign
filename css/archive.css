@@ -15,4 +15,5 @@
 	}
 .archive__name {
 	font: bold 28px/32px Figgins Sans, Arial, sans-serif;
+	text-transform: uppercase;
 }

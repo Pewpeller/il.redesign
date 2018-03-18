@@ -1,9 +1,9 @@
 <!-- для колбасы -->
 <div class="layout">
-	<a href="//old.inliberty.ru">
+	<a href="//old.inliberty.ru/blog#!/blogs/author/89" target="_blank">
 		<div class="person person_column">
 			<div class="person_column__text">
-				Архив колонок<br>
+				Архив блога<br>
 				<b>Льва Рубинштейна</b>
 			</div>
 		</div>

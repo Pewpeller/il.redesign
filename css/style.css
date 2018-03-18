@@ -206,7 +206,10 @@ body {
 	width: 76px;
 	height: 94px;
 }
-
+.icon--faq {
+	width: 54px;
+	height: 54px;
+}
 img {
 	vertical-align: top;
 }

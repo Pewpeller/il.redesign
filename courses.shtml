@@ -61,10 +61,10 @@
 						</ul>
 						<button class="kbd_button courses_faq_button js-dialog-open" tabindex="0" type="button" data-dialog="#dialog-faq">
 							<div class="kbd_button__body" tabindex="-1">
-								<div class="icon__may_zoom">
-									<div class="courses_faq_button__shape icon">?</div>
-								</div>
-								<span class="courses_faq_button__text">FAQ</span>
+								<span class="icon__may_zoom">
+									<svg class="icon icon--faq" role="img"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-faq"></use></svg>
+								</span>
+								<div class="courses_faq_button__text">FAQ</div>
 							</div>
 						</button>
 						<div class="courses_socials">
