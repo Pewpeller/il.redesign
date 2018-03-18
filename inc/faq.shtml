@@ -6,7 +6,7 @@
 							<h2 class="purchase__header_name" id="faq_dialog_label">
 								FAQ
 							</h2>
-							<button class="purchase__close kbd_button js-dialog-close" tabindex="0">
+							<button class="purchase__close kbd_button js-dialog-close" tabindex="-1">
 								<svg class="icon icon--close kbd_button__body" tabindex="-1"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-close"></use></svg>
 							</button>
 						</header>
@@ -46,7 +46,7 @@
 									Могу ли я вернуть билет?
 								</p>
 								<p class="faq__answer">
-									Да. Если вы по каким-то причинам не можете или передумали участвовать, мы вернем вам деньги за билет за вычетом комиссии Яндекс.Кассы. Для этого вам необходимо написать на&nbsp;<a href="mailto:info@inliberty.ru">info@inliberty.ru</a> за 7 дней до начала мероприятия (в случае курса — за неделю до первого занятия) 
+									Да. Если вы по каким-то причинам не можете или передумали участвовать, мы вернем вам деньги за билет за вычетом комиссии Яндекс.Кассы. Для этого вам необходимо написать на&nbsp;<a href="mailto:info@inliberty.ru">info@inliberty.ru</a> за 7 дней до начала мероприятия (в случае курса — за неделю до первого занятия)
 								</p>
 								<p class="faq__question">
 									Хочу попасть на ваше мероприятие, но не могу участвовать в указанные даты. Что делать?
