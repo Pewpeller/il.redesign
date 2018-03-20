@@ -123,12 +123,13 @@
 	}
 .magazine__intro {
 	font: 17px/25px Parmigiano Piccolo Light, Georgia, serif;
-	margin-bottom: 18px;
+	/* margin-bottom: 18px;*/
 }
 	.magazine--small .magazine__intro {
 		font: 15px/22px Parmigiano Piccolo Light, Georgia, serif;
 	}
 .magazine__author {
+	margin-top: 18px;
 	font: 14px/18px Figgins Sans, Georgia, serif;
 }
 .magazine__header,
@@ -168,7 +169,7 @@
 	}
 	.magazine__intro {
 		font: 24px/32px Parmigiano Piccolo Light, Georgia, serif;
-		margin-bottom: 18px;
+		/* margin-bottom: 18px; */
 	}
 	.magazine--small .magazine__intro {
 		font-size: 16px;
