@@ -24,12 +24,12 @@
 										</div>
 										<div class="ear ear--dark purchase__ear">
 											<div class="ear__content">
-												<div class="db">
+												<div class="db hide_t hide_tm hide_tmi">
 													<div class="db__item">
 														<div class="db__date">12.12–20.12.18</div>
 													</div>
 												</div>
-												<div class="ear__tag purchase__ear_tag">
+												<div class="ear__tag purchase__ear_tag hide_t hide_tm hide_tmi">
 													80 часов, 8 занятий, пн, пт
 												</div>
 												<h2 class="ear__name hide_d">
@@ -44,14 +44,16 @@
 								<div class="purchase__limiter purchase__form">
 									<div class="purchase__text">
 										<p>
-											Вы только что купили билет на курс InLiberty!
+											Вы только что купили билет на курс InLiberty.
 										</p>
 										<p>
 											В ближайшее время мы отправим вам письмо со всеми необходимыми подробностями.
 										</p>
+										<!--
 										<p>
 											До встречи!
 										</p>
+										-->
 										<!--
 										<p>
 											<b>Номер вашего билета:</b><br>
