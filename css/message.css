@@ -71,6 +71,15 @@
 		max-width: calc(100% - 144px);
 	}
 }
+
+.message--request {
+	max-width: 920px;
+}
+.message--request .layout {
+	max-width: 830px;
+}
+
+
 .message--faq {
 	max-width: 100%;
 	width: 620px;
@@ -101,12 +110,16 @@
 	margin-bottom: 4px;
 	box-sizing: border-box;
 }
-	.message--error .message__header_name {
+	.message--error .message__header_name,
+	.message--request .message__header_name {
 		font-size: 40px;
 		line-height: 42px;
 	}
 	.message--request .message__header_name {
-		text-align: center;
+		border-bottom: 1px solid #d9d9d9;
+		padding-bottom: 22px;
+		text-align: left;
+		margin-bottom: 23px;
 	}
 @media screen and (min-width: 570px) {
 	.message__header_name {
@@ -116,7 +129,7 @@
 		margin-bottom: -18px;
 	}
 		.message--request .message__header_name {
-			margin-bottom: 43px;
+			margin-bottom: 32px;
 		}
 		.message--error .message__header_name {
 			margin-bottom: 19px;
@@ -157,8 +170,12 @@
 		line-height: 22px;
 	}
 	.message__text {
+		margin-bottom: 28px;
+	}
+	.message__error .message__text {
 		margin-bottom: 44px;
 	}
+
 }
 
 /* request */
@@ -168,7 +185,13 @@
 }
 	.message__request_button {
 		margin-top: 15px;
-		width: 100%;
+		width: 280px;
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+	}
+	.message--request .message__text {
+		max-width: 570px;
 	}
 .message--error {
 	padding-top: 74px;

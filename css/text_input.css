@@ -173,3 +173,10 @@
 .field__button:focus .kbd_button__body {
 	z-index: 2;
 }
+
+.field__input--area {
+	min-height: 50px;
+	height: 194px;
+	line-height: 22px;
+	font-weight: normal;
+}
