@@ -31,6 +31,9 @@
 	.purchase__header_name {
 		font: bold 31px/32px Figgins Sans, Arial, sans-serif;
 	}
+	.purchase__header_name--done {
+		margin-bottom: 28px;
+	}
 	@media only screen and (min-width: 621px) {
 		.purchase__header_name {
 			font-size: 40px;
@@ -38,6 +41,9 @@
 		}
 	}
 	@media only screen and (min-width: 1024px) {
+		.purchase__header_name--done {
+			margin-bottom: 60px;
+		}
 		.purchase__header_name {
 			font-size: 70px;
 			line-height: 74px;
@@ -258,6 +264,11 @@
 		font-style: italic;
 		text-decoration: underline;
 	}
+.purchase__venue_address_highlight {
+	color: #00eab5;
+	font-weight: bold;
+}
+
 .purchase__promocode_done {
 	margin-top: 19px;
 	margin-bottom: 22px;
@@ -289,8 +300,10 @@
 	margin-top: 20px;
 	padding-top: 24px;
 	font: 0/0 a;
+	/*
 	text-align: justify;
 	text-justify: distribute-all-lines;
+	*/
 }
 	.purchase__venue::after {
 		width: 100%;
@@ -298,6 +311,7 @@
 		display: inline-block;
 	}
 
+/*
 .purchase__venue_date {
 	width: 150px;
 	display: inline-block;
@@ -314,3 +328,12 @@
 	text-align: left;
 	text-justify: auto;
 }
+*/
+.purchase__venue_date {
+	padding-bottom: 28px;
+	margin-bottom: 23px;
+	border-bottom: 1px solid #d9d9d9;
+}
+	.purchase__venue_date .purchase__text:last-child {
+		margin-bottom: 0;
+	}
