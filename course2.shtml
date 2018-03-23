@@ -25,7 +25,7 @@
 										</div>
 									</div>
 									<button class="il_button il_button--transparent kbd_button js-dialog-open" tabindex="0" type="button" data-dialog="#dialog-purchase">
-										<div class="kbd_button__body" tabindex="-1">Купить курс</div>
+										<div class="kbd_button__body" tabindex="-1">Подать заявку</div>
 									</button>
 								</div>
 							</div>
