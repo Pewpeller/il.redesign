@@ -389,6 +389,10 @@
 		margin-right: auto;
 		max-width: 962px;
 	}
+		.course_board__anketa_text b {
+			font-size: 19px;
+			font-family: Figgins Sans, Arial, sans-serif;
+		}
 @media only screen and (min-width: 1024px) {
 	.course_board__content {
 		padding-top: 16px;
@@ -411,6 +415,9 @@
 		font: 24px/33px Parmigiano Piccolo Light, Arial, serif;
 		margin-bottom: 47px;
 	}
+		.course_board__anketa_text b {
+			font-size: 28px;
+		}
 }
 
 .courses_slider {
