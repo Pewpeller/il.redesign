@@ -2,7 +2,9 @@
 <html lang="ru-RU">
 	<!--#include virtual="/inc/head.shtml" -->
 	<body>
+
 		<!--#include virtual="/inc/person_header.shtml" -->
+
 		<div class="main" role="main">
 			<div class="setka_content">
 				<div class="courses__section_name" style="color:red;text-align: center;">
@@ -10,6 +12,7 @@
 				</div>
 			</div>
 		</div>
+		<!--#include virtual="/inc/pager.shtml" -->
 		<!--#include virtual="/inc/person_footer.shtml" -->
 	</body>
 </html>

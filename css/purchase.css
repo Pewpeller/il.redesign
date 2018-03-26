@@ -1,6 +1,6 @@
 .purchase {
 	position: relative;
-	margin: 0 auto;
+	margin: 8px auto 0 auto;
 }
 	.purchase__header {
 		position: relative;
@@ -16,6 +16,9 @@
 		}
 	}
 	@media only screen and (min-width: 1024px) {
+		.purchase {
+			margin-top: 56px;
+		}
 		.purchase__header {
 			padding-top: 54px;
 			margin-bottom: 48px;
@@ -42,7 +45,7 @@
 	}
 	@media only screen and (min-width: 1024px) {
 		.purchase__header_name--done {
-			margin-bottom: 60px;
+			margin-bottom: 53px;
 		}
 		.purchase__header_name {
 			font-size: 70px;
@@ -65,11 +68,11 @@
 		width: 100%;
 	}
 	.purchase__course {
-		padding-top: 22px;
+		/* padding-top: 22px; */
 	}
 	.purchase__form {
 		width: 380px;
-		padding-top: 22px;
+		/* padding-top: 22px; */
 	}
 }
 @media only screen and (max-width: 1023.99px) {
@@ -88,8 +91,8 @@
 	max-width: none;
 }
 .purchase .ear__name {
-	margin-top: 0;
-	margin-bottom: 22px;
+	margin-top: 22px;
+	margin-bottom: 0;
 }
 .purchase__ear_tag {
 	font-size: 16px;
@@ -175,6 +178,7 @@
 	transition: transform .2s cubic-bezier(.05, .69, .14, 1) 0s,
 				opacity .2s cubic-bezier(.05, .69, .14, 1) 0s,
 				visibility 0s cubic-bezier(.05, .69, .14, 1) .2s;
+	will-change: opacity, visibility, transform;
 }
 	.purchase__price_discount.is_shown {
 		transition-delay: 0s, 0s, 0s;
@@ -236,6 +240,10 @@
 	font: 16px/22px Figgins Sans, Arial, sans-serif;
 	margin-bottom: 24px;
 }
+.purchase__text_done {
+	font: 18px/25px Figgins Sans, Arial, sans-serif;
+	margin-bottom: 22px;
+}
 .purchase__text p:not(:last-child) {
 	margin-bottom: 20px;
 }
@@ -259,6 +267,7 @@
 .purchase__highlight {
 	color: #1cc79a;
 	font-style: normal;
+	vertical-align: middle;
 }
 	.purchase__highlight a {
 		font-style: italic;
@@ -310,7 +319,12 @@
 		content: '';
 		display: inline-block;
 	}
-
+.purchase__venue .icon--pin {
+	vertical-align: middle;
+}
+.purchase__venue .purchase__text {
+	margin-bottom: 0;
+}
 /*
 .purchase__venue_date {
 	width: 150px;

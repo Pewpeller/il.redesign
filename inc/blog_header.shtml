@@ -1,0 +1,10 @@
+<div class="blog_panel">
+	<div class="layout">
+		<div class="blog_panel__photo">
+			<img src="http://www.inliberty.ru/wp-content/uploads/ls_smile_small.jpg" alt="Лев Рубинштейн">
+		</div>
+		<div class="blog_panel__text">
+			<h3 class="blog_panel__name">Блог Льва Рубинштейна</h3>
+		</div>
+	</div>
+</div>

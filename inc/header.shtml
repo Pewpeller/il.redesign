@@ -3,9 +3,9 @@
 
 <!-- если это курс, то добавляем класс к header'у main_header__buy -->
 <!--#if expr="$DOCUMENT_URI == /\/course_purchase\.shtml|\/course\.shtml|course_blocked\.shtml/" -->
-<header class="main_header sticky main_header__buy<!--#if expr="$DOCUMENT_URI==/\/index\.shtml/" --> is_compact<!--#endif -->">
+<header class="main_header sticky main_header__buy<!--#if expr="$DOCUMENT_URI==/\/(cycle.*?|index)\.shtml/" --> is_compact<!--#endif -->">
 <!--#else -->
-<header class="main_header sticky<!--#if expr="$DOCUMENT_URI==/\/index\.shtml/" --> is_compact<!--#endif -->">
+<header class="main_header sticky<!--#if expr="$DOCUMENT_URI==/\/(cycle.*?|index)\.shtml/" --> is_compact<!--#endif -->">
 <!--#endif -->
 	<div class="layout">
 		<div class="main_header__body">

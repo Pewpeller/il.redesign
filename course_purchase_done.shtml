@@ -15,11 +15,12 @@
 										Спасибо!
 									</h2>
 
-									<div class="purchase__text">
+									<div class="purchase__text_done">
 										<p>
 											Вы только что купили билет на курс InLiberty.<br>
 											В ближайшее время мы отправим вам письмо со всеми необходимыми подробностями.
 										</p>
+
 										<!--
 										<p>
 											До встречи!
@@ -39,16 +40,21 @@
 									<div class="purchase__venue">
 										<div class="purchase__venue_address">
 											<div class="purchase__text">
+												<!--
 												<p>
 													<b>Место проведения:</b><br>
 													Хохловский пер., 7/9 стр. 2<br>
 												</p>
+												-->
 												<p>
 													<svg class="icon icon--pin" role="img"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-pin"></use></svg><span class="purchase__venue_address_highlight"><a href="#">Столярный переулок, дом 3, корпус 1, 2 эт.</a></span>
 												</p>
 											</div>
 										</div>
 									</div>
+									<h2 class="ear__name hide_d">
+										Модернизация чувств, которая происходит прямо сейчас
+									</h2>
 								</div>
 							</div>
 							<div class="grid__cell grid_t_full grid_d_half">
@@ -67,9 +73,6 @@
 												<div class="ear__tag purchase__ear_tag hide_m hide_t hide_tm hide_tmi">
 													80 часов, 8 занятий, пн, пт
 												</div>
-												<h2 class="ear__name hide_d">
-													Модернизация чувств, которая происходит прямо сейчас
-												</h2>
 											</div>
 										</div>
 									</article>
