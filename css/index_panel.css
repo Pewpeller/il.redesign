@@ -110,9 +110,6 @@
 	overflow: auto;
 	color: currentcolor;
 }
-.index_panel .article_header {
-	display: none;
-}
 @media only screen and (min-width: 1024px) {
 	.index_panel.is_open .index_panel__menu {
 		max-height: calc(100vh - 184px);
