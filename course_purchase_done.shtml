@@ -15,7 +15,7 @@
 										Спасибо!
 									</h2>
 
-									<div class="purchase__text_done">
+									<div class="purchase__text_done purchase_separator">
 										<p>
 											Вы только что купили билет на курс InLiberty.<br>
 											В ближайшее время мы отправим вам письмо со всеми необходимыми подробностями.
@@ -37,9 +37,6 @@
 										</p>
 										-->
 									</div>
-									<h2 class="ear__name hide_d purchase_separator">
-										Модернизация чувств, которая происходит прямо сейчас
-									</h2>
 									<div class="db hide_d">
 										<div class="db__item">
 											<div class="db__date">12.12–20.12.18</div>
@@ -48,6 +45,9 @@
 									<div class="ear__tag purchase__ear_tag hide_d">
 										80 часов, 8 занятий, пн, пт
 									</div>
+									<h2 class="ear__name hide_d">
+										Модернизация чувств, которая происходит прямо сейчас
+									</h2>
 									<div class="purchase__venue">
 										<div class="purchase__venue_date">
 											<div class="purchase__text">
@@ -69,6 +69,7 @@
 												</p>
 												-->
 												<p>
+													<b>Место проведения:</b><br>
 													<svg class="icon icon--pin" role="img"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-pin"></use></svg><span class="purchase__venue_address_highlight"><a href="#">Столярный переулок, дом 3, корпус 1, 2 эт.</a></span>
 												</p>
 											</div>
