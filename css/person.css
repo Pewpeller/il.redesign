@@ -39,6 +39,8 @@
 	transform: translateY(-100%);
 	opacity: 0;
 	visibility: hidden;
+	padding-bottom: 14px;
+	background-image: linear-gradient(to top, rgba(255,255,255,0) 0px, rgba(255,255,255,0) 8px, rgba(255,255,255,.8) 8px, #fff 8px);
 }
 	.person_header.is_visible {
 		transition-delay: 0s, 0s, 0s;
