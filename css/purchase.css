@@ -92,7 +92,7 @@
 }
 .purchase .ear__name {
 	margin-top: 22px;
-	margin-bottom: 0;
+	margin-bottom: 22px;
 }
 .purchase__ear_tag {
 	font-size: 16px;
@@ -241,8 +241,14 @@
 	margin-bottom: 24px;
 }
 .purchase__text_done {
-	font: 18px/25px Figgins Sans, Arial, sans-serif;
+	font: 16px/22px Figgins Sans, Arial, sans-serif;
 	margin-bottom: 22px;
+}
+@media screen and (min-width: 1024px) {
+	.purchase__text_done {
+		font-size: 18px;
+		line-height: 25px;
+	}
 }
 .purchase__text p:not(:last-child) {
 	margin-bottom: 20px;
@@ -351,3 +357,10 @@
 	.purchase__venue_date .purchase__text:last-child {
 		margin-bottom: 0;
 	}
+@media screen and (max-width: 1023.99px) {
+	.purchase_separator {
+		border-top: 1px solid #d9d9d9;
+		margin-top: 20px;
+		padding-top: 24px;
+	}
+}

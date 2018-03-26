@@ -37,7 +37,29 @@
 										</p>
 										-->
 									</div>
+									<h2 class="ear__name hide_d purchase_separator">
+										Модернизация чувств, которая происходит прямо сейчас
+									</h2>
+									<div class="db hide_d">
+										<div class="db__item">
+											<div class="db__date">12.12–20.12.18</div>
+										</div>
+									</div>
+									<div class="ear__tag purchase__ear_tag hide_d">
+										80 часов, 8 занятий, пн, пт
+									</div>
 									<div class="purchase__venue">
+										<div class="purchase__venue_date">
+											<div class="purchase__text">
+												<b>Даты проведения:</b><br>
+												31 марта, пн, 19:00<br>
+												4 апреля, чт, 19:00<br>
+												8 апреля, ср, 19:00<br>
+												11 апреля, сб, 19:00<br>
+												14 апреля, чт, 19:00<br>
+												18 апреля, пн, 19:00<br>
+											</div>
+										</div>
 										<div class="purchase__venue_address">
 											<div class="purchase__text">
 												<!--
@@ -52,9 +74,6 @@
 											</div>
 										</div>
 									</div>
-									<h2 class="ear__name hide_d">
-										Модернизация чувств, которая происходит прямо сейчас
-									</h2>
 								</div>
 							</div>
 							<div class="grid__cell grid_t_full grid_d_half">
