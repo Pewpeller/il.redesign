@@ -95,29 +95,19 @@
 	visibility: visible;
 	transform: translateY(0);
 	transition-delay: 0s, 0s, 0s, 0s, .5s;
-	max-height: calc(100vh - 162px);
+	max-height: calc(100vh - 177px);
 	/* overflow: auto; */
 }
-	@media screen and (min-width: 621px) {
-		.index_panel.is_open .index_panel__menu {
-			max-height: calc(100vh - 127px);
-		}
-	}
 .index_panel .article_menu {
-    padding-top: 0;
+    padding-top: 7px;
    	margin-bottom: 0;
-   	max-height: calc(100vh - 149px);
 	overflow: auto;
 	color: currentcolor;
+	box-sizing: border-box;
+	max-height: calc(100vh - 177px);
 }
 @media only screen and (min-width: 1024px) {
-	.index_panel.is_open .index_panel__menu {
-		max-height: calc(100vh - 184px);
-	}
 	.index_panel .article_header {
 		display: block;
-	}
-	.index_panel .article_menu {
-		max-height: calc(100vh - 206px);
 	}
 }
