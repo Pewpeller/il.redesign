@@ -64,23 +64,21 @@
 }
 
 .il_button--ahtung {
-	width: calc(100% - 118px);
-	max-width: 145px;
+	width: auto;
 	background-color: rgba(100, 255, 218, 1);
 	border: 0;
 	height: 38px;
 	max-height: 100%;
 	line-height: 38px;
 	font-size: 12px;
-	padding-top: 2px;
+	padding: 2px 22px 0 22px;
 }
 .il_button--ahtung:hover,
 .il_button--ahtung:focus {
 	background-color: rgba(100, 255, 218, .8);
 }
-@media only screen and (min-width: 620px) {
+@media only screen and (min-width: 621px) {
 	.il_button--ahtung {
-		width: 145px;
 		height: 47px;
 		line-height: 47px;
 	}
