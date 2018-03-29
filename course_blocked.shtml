@@ -218,7 +218,7 @@
 		<div id="dialog-purchase" class="dialog js-dialog" role="dialog" aria-labelledby="message_label">
 			<div class="dialog__window">
 				<div class="message message--request js-dialog-window">
-					<div class="message__limiter">
+					<div class="layout">
 						<button class="message__close kbd_button js-dialog-close" tabindex="-1">
 							<svg class="icon icon--close kbd_button__body" tabindex="-1"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-close"></use></svg>
 						</button>
@@ -226,6 +226,9 @@
 							<h2 class="message__header_name" id="message_label">
 								Заявка на курс
 							</h2>
+							<div class="message__text">
+								Заполните анкету до 20 апреля; к 1 мая мы отберем кандидатов, которые получат приглашение по электронной почте и после оплаты смогут принять участие в работе мастерской. Стоимость участия — <b>15 000 рублей</b>.
+							</div>
 							<div class="field">
 								<label class="field__label field__name" for="fi">
 									Имя и фамилия
@@ -240,6 +243,21 @@
 								<div class="field__label field__error">Неверный формат</div>
 								<input class="field__input" id="email" type="email" placeholder="Email">
 							</div>
+							<div class="field">
+								<label class="field__label field__name" for="tel">
+									Телефон
+								</label>
+								<div class="field__label field__error">Неверный формат</div>
+								<input class="field__input" id="tel" type="tel" placeholder="Телефон">
+							</div>
+
+							<div class="field">
+								<label class="field__label field__name" for="idea">
+									Ваша идея
+								</label>
+								<textarea class="field__input field__input--area" name="idea" id="idea" placeholder="Ваша идея (расскажите, о чем вы хотели бы написать или думаете написать — и для чего вам участие в мастерской)"></textarea>
+							</div>
+							
 							<button class="il_button kbd_button message__request_button" tabindex="0" type="button">
 								<div class="kbd_button__body" tabindex="-1">Я хочу участвовать</div>
 							</button>

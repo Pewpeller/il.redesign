@@ -1,0 +1,18 @@
+<div class="layout">
+	<nav class="pager">
+		<ul class="pager__list">
+			<a href="#" class="pager__nav pager__prev">
+				<svg class="icon icon--arrow icon--arrow_left" role="img"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-arrow"></use></svg>
+			</a>
+			<li class="pager__item"><a href="#">1</a></li>
+			<li class="pager__item"><a href="#">2</a></li>
+			<li class="pager__item"><a href="#">3</a></li>
+			<li class="pager__item"><a href="#">4</a></li>
+			<li class="pager__item"><a href="#">...</a></li>
+			<li class="pager__item"><a href="#">15</a></li>
+			<a href="#" class="pager__nav pager__next">
+				<svg class="icon icon--arrow" role="img"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-arrow"></use></svg>
+			</a>
+		</ul>
+	</nav>
+</div>

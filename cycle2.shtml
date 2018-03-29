@@ -80,27 +80,9 @@
 					</div>
 				</div>
 			</div>
-			<div class="hint hint--dark is_shown sticky">
-				<a href="#">
-					<div class="hint__photo ruche" style="background-image: url(/i/dummies/CYLCE/ANONS_Narrow_3200x184/CYCLE_ANONS_NARROW_3_bg.jpg)">
-						<picture>
-							<source srcset="/i/dummies/CYLCE/ANONS_Narrow_3200x184/CYCLE_ANONS_NARROW_3.webp" type="image/webp">
-							<img src="/i/dummies/CYLCE/ANONS_Narrow_3200x184/CYCLE_ANONS_NARROW_3.jpg" alt="10 разговоров о том, кому и зачем мы врем" class="hint__img">
-						</picture>
 
-					</div>
-					<div class="layout">
-						<div class="hint__text">
-							<h2 class="hint__name">
-								Повседневная ложь
-							</h2>
-							<h3 class="hint__subheader">
-								10 разговоров о том, кому и зачем мы врем
-							</h3>
-						</div>
-					</div>
-				</a>
-			</div>
+			<!--#include virtual="/inc/index_panel.shtml" -->
+
 			<div class="cycle ruche ruche--separator">
 				<div class="layout">				
 					<div class="cycle__body">

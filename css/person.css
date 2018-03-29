@@ -28,33 +28,52 @@
 
 /* person header */
 .person_header {
-	margin-top: 48px;
-	width: 326px;
-	max-width: 100%;
 	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 58px;
+	margin-top: 22px;
+	margin-bottom: 78px;
+	transition: transform .25s cubic-bezier(.05, .69, .14, 1) 0s,
+				opacity .25s cubic-bezier(.05, .69, .14, 1) 0s,
+				visibility 0s cubic-bezier(.05, .69, .14, 1) .25s;
+	will-change: opacity, visibility, transform;
+	background-color: #fff;
+	transform: translateY(-100%);
+	opacity: 0;
+	visibility: hidden;
+	padding-bottom: 14px;
+	background-image: linear-gradient(to top, rgba(255,255,255,0) 0px, rgba(255,255,255,0) 8px, rgba(255,255,255,.8) 8px, #fff 8px);
 }
-@media only screen and (min-width: 621px) {
+	.person_header.is_visible {
+		transition-delay: 0s, 0s, 0s;
+		transform: translateY(0);
+		visibility: visible;
+		opacity: 1;
+	}
+@media only screen and (min-width: 1024px) {
 	.person_header {
-		width: 350px;
+		margin-bottom: 106px;
 	}
 }
 .person_header__photo {
-	display: inline-block;
-	width: 100%;
+	display: none;
+	width: 306px;
+	padding-bottom: 3px;
+	border-bottom: 3px solid #181818;
+	max-width: 100%;
 }
+	@media only screen and (min-width: 1024px) {
+		.person_header__photo {
+			display: inline-block;
+		}
+	}
 	.person_header__img {
 		max-width: 100%;
+		max-height: 118px;
 	}
 .person_header__name {
-	border-top: 3px solid #181818;
-	margin-top: 3px;
-	padding-top: 1em;
-	font: 28px/1 Figgins Sans, Arial, sans-serif;
-	display: inline-block;
-	min-width: 100%;
+	font: 16px/22px Figgins Sans, Arial, sans-serif;
+	padding-top: 20px;
+	padding-bottom: 21px;
+	border-bottom: 1px solid #d8d8d8;
 }
 /* person header end */
 

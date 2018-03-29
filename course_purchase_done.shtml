@@ -6,49 +6,21 @@
 		<div class="main" role="main">
 			<div class="layout">
 				<div class="purchase">
-					<div class="purchase__limiter">
-						<header class="purchase__header">
-							<h2 class="purchase__header_name">
-								Поздравляем!
-							</h2>
-						</header>
-					</div>
-
 					<div class="grid">
 						<div class="grid__inner">
 							<div class="grid__cell grid_t_full grid_d_half">
-								<div class="purchase__limiter purchase__course">
-									<article class="course">
-										<div class="course__photo hide_m hide_t hide_tm hide_tmi">
-											<img src="/i/dummies/COURSES/1.jpg" alt="Почему люди не должны быть нормальными">
-										</div>
-										<div class="ear ear--dark purchase__ear">
-											<div class="ear__content">
-												<div class="db hide_t hide_tm hide_tmi">
-													<div class="db__item">
-														<div class="db__date">12.12–20.12.18</div>
-													</div>
-												</div>
-												<div class="ear__tag purchase__ear_tag hide_t hide_tm hide_tmi">
-													80 часов, 8 занятий, пн, пт
-												</div>
-												<h2 class="ear__name hide_d">
-													Модернизация чувств, которая происходит прямо сейчас
-												</h2>
-											</div>
-										</div>
-									</article>
-								</div>
-							</div>
-							<div class="grid__cell grid_t_full grid_d_half">
 								<div class="purchase__limiter purchase__form">
-									<div class="purchase__text">
+
+									<h2 class="purchase__header_name purchase__header_name--done">
+										Спасибо!
+									</h2>
+
+									<div class="purchase__text_done purchase_separator">
 										<p>
-											Вы только что купили билет на курс InLiberty.
-										</p>
-										<p>
+											Вы только что купили билет на курс InLiberty.<br>
 											В ближайшее время мы отправим вам письмо со всеми необходимыми подробностями.
 										</p>
+
 										<!--
 										<p>
 											До встречи!
@@ -65,6 +37,17 @@
 										</p>
 										-->
 									</div>
+									<div class="db hide_d">
+										<div class="db__item">
+											<div class="db__date">12.12–20.12.18</div>
+										</div>
+									</div>
+									<div class="ear__tag purchase__ear_tag hide_d">
+										80 часов, 8 занятий, пн, пт
+									</div>
+									<h2 class="ear__name hide_d">
+										Модернизация чувств, которая происходит прямо сейчас
+									</h2>
 									<div class="purchase__venue">
 										<div class="purchase__venue_date">
 											<div class="purchase__text">
@@ -73,20 +56,46 @@
 												4 апреля, чт, 19:00<br>
 												8 апреля, ср, 19:00<br>
 												11 апреля, сб, 19:00<br>
+												14 апреля, чт, 19:00<br>
+												18 апреля, пн, 19:00<br>
 											</div>
 										</div>
 										<div class="purchase__venue_address">
 											<div class="purchase__text">
+												<!--
 												<p>
 													<b>Место проведения:</b><br>
 													Хохловский пер., 7/9 стр. 2<br>
 												</p>
+												-->
 												<p>
-													<span class="purchase__highlight"><a href="#">Яндекс карты</a></span>
+													<b>Место проведения:</b><br>
+													<svg class="icon icon--pin" role="img"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-pin"></use></svg><span class="purchase__venue_address_highlight"><a href="#">Столярный переулок, дом 3, корпус 1, 2 эт.</a></span>
 												</p>
 											</div>
 										</div>
 									</div>
+								</div>
+							</div>
+							<div class="grid__cell grid_t_full grid_d_half">
+								<div class="purchase__limiter purchase__course">
+									<article class="course">
+										<div class="course__photo hide_m hide_t hide_tm hide_tmi">
+											<img src="/i/dummies/COURSES/1.jpg" alt="Почему люди не должны быть нормальными">
+										</div>
+										<div class="ear ear--dark purchase__ear">
+											<div class="ear__content">
+												<div class="db hide_m hide_t hide_tm hide_tmi">
+													<div class="db__item">
+														<div class="db__date">12.12–20.12.18</div>
+													</div>
+												</div>
+												<div class="ear__tag purchase__ear_tag hide_m hide_t hide_tm hide_tmi">
+													80 часов, 8 занятий, пн, пт
+												</div>
+											</div>
+										</div>
+									</article>
 								</div>
 							</div>
 						</div>

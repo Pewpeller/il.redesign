@@ -51,6 +51,8 @@
 		<link rel="stylesheet" href="/css/slider.css">
 		<link rel="stylesheet" href="/css/person.css">
 		<link rel="stylesheet" href="/css/article_header.css">
+		<link rel="stylesheet" href="/css/index_panel.css">
+		<link rel="stylesheet" href="/css/pager.css">
 		<!-- some css hacks for outside forms :( -->
 			<link rel="stylesheet" href="/css/hacks.css">
 		<!-- some css hacks for outside forms end -->

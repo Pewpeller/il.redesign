@@ -1,5 +1,6 @@
 <!-- если цвет текста темный, то добавляем класс is_dark -->
-<div class="article_menu" style="background-color: rgba(0, 0, 0, 1);">
+<!-- цвет подлоки из админки берем -->
+<div class="article_menu" style="background-color: rgba(0, 0, 0, .95);">
 	<div class="layout">
 		<div class="grid">
 			<ul class="grid__inner">

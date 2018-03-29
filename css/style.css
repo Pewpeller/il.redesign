@@ -494,6 +494,9 @@ a:focus {
 :not(.il_button):focus > .kbd_button__body {
 	box-shadow: 0 0 1px 2px #64ffda;
 }
+:not(.il_button) > .kbd_button__body {
+	font: 0/0 a;
+}
 
 /* Removing the focus ring styles specifically for button in Firefox */
 button:not(:-moz-focusring):focus > .kbd_button__body {
@@ -557,3 +560,6 @@ hr {
 		opacity: .96;
 		z-index: 9;
 	}
+.ov-h {
+	overflow: hidden;
+}

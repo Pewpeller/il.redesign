@@ -1,11 +1,13 @@
 <!--#include virtual="/inc/svg_icons2.shtml" -->
-<div class="person_header">
+<div class="person_header is_visible sticky">
 	<div class="layout">
-		<div class="person_header__photo">
-			<img src="http://inliberty.dev.ikitlab.co/wp-content/uploads/ls_pre5-1.jpg" alt="Лев Рубинштейн" class="person_header__img">
-		</div>
-		<h1 class="person_header__name">
-			Блог Льва Рубинштейна
-		</h1>
+		<a href="#">
+			<div class="person_header__photo">
+				<img src="http://www.inliberty.ru/wp-content/uploads/ls_smile_small.jpg" alt="Лев Рубинштейн" class="person_header__img">
+			</div>
+			<h1 class="person_header__name">
+				Блог Льва Рубинштейна
+			</h1>
+		</a>
 	</div>
 </div>

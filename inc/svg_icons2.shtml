@@ -64,10 +64,10 @@
 			</g>
 		</symbol>
 		<symbol id="icon-burger" viewBox="0 0 22 18">
-			<path d="M0 16h22v2H0zM0 0h22v2H0zm0 8h22v2H0z" fill="#181818" fill-rule="evenodd"/>
+			<path d="M0 16h22v2H0zM0 0h22v2H0zm0 8h22v2H0z" fill-rule="evenodd"/>
 		</symbol>
 		<symbol id="icon-close" viewBox="0 0 17 17">
-			<g fill="#181818" fill-rule="evenodd">
+			<g fill-rule="evenodd">
 				<path d="M1.414 0l15.557 15.556-1.415 1.414L0 1.414z"/>
 				<path d="M0 15.556L15.556 0l1.414 1.414L1.414 16.971z"/>
 			</g>
