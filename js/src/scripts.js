@@ -66,7 +66,14 @@ $(function () {
 
 	// jQuery.scrollTo defaults
 	if (typeof $.scrollTo !== 'undefined') {
-		$.extend($.scrollTo.defaults, {axis: 'y', duration: 500, interrupt: true});
+		$.extend($.scrollTo.defaults, {
+			axis: 'y',
+			duration: 500,
+			interrupt: true,
+			fail: function (animation) {
+				$window.scrollTop(animation.props.scrollTop);
+			}
+		});
 	}
 
 	// Кнопки class="changeclass" при нажатии вызывают addClass/removeClass/toggleClass для определённых селекторов
@@ -424,7 +431,7 @@ $(function () {
 			}
 			$window.stop().scrollTo($current, {
 				margin: true,
-				offset: -$header.offset().top - $header.height(),
+				offset: -$header.offset().top - $header.outerHeight(),
 				duration: 1000,
 				onAfter: function () {
 					init();
