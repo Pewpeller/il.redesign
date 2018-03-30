@@ -1,4 +1,4 @@
-<div class="index_panel is_visible js-index_menu" style="background-color: rgba(0, 0, 0, .9);">
+<div class="index_panel is_visible js-index_menu js-float-panel" style="background-color: rgba(0, 0, 0, .9);">
 	<a href="#">
 		<div class="article_header" style="background-image: url(//www.inliberty.ru/wp-content/uploads/Mag_Cov_Single_1600x280.jpg)">
 			<div class="layout">
