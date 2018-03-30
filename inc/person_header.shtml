@@ -1,5 +1,5 @@
 <!--#include virtual="/inc/svg_icons2.shtml" -->
-<div class="person_header js-float-panel is_visible sticky">
+<div class="person_header sticky js-float-panel">
 	<div class="layout">
 		<a href="#">
 			<div class="person_header__photo">

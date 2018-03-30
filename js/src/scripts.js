@@ -125,6 +125,75 @@ $(function () {
 		});
 	})();
 
+	// float
+	(function () {
+		var scrollTopOld = 0;
+		var isPanelVisible = true;
+		var classIsVisible = 'is_visible';
+		var classIsActive = 'is_open';
+		var $panel = $('.js-float-panel');
+		var $trigger = $('.js-float-trigger');
+		if ($panel.length !== 1 || $trigger.length !== 1) {
+			return;
+		}
+		var $burger = $('.js-float-burger');
+		var isActive = $panel.hasClass(classIsActive);
+		var check = function (isClosed) {
+			if (isActive) {
+				return;
+			}
+			var scrollTop = $window.scrollTop();
+			var triggerTop = $trigger.offset().top;
+			var delta = scrollTop - scrollTopOld;
+			var isPassedTrigger = scrollTop >= triggerTop;
+			var isScrollingUp = delta < 0;
+			if (isPassedTrigger && (isScrollingUp || isClosed)) {
+				if (!isPanelVisible) {
+					$panel.addClass(classIsVisible);
+					isPanelVisible = true;
+				}
+			} else {
+				if (isPanelVisible) {
+					$panel.removeClass(classIsVisible);
+					isPanelVisible = false;
+				}
+			}
+			scrollTopOld = scrollTop;
+		};
+		var toggle = function (newActive) {
+			$panel.toggleClass(classIsActive, newActive);
+			isActive = $panel.hasClass(classIsActive);
+			check(true);
+		};
+		$burger.on('click', function (event) {
+			event.preventDefault();
+			toggle();
+		});
+		$panel.on('click', 'a[href]', function (event) {
+			toggle(false);
+		});
+		$document.on('keydown', function (event) {
+			if (isActive && event.keyCode === 27 && !event.ctrlKey && !event.altKey && !event.shiftKey && !event.metaKey) {
+				event.stopImmediatePropagation();
+				toggle(false);
+			}
+		});
+		$document.on('mousedown touchstart', function (event) {
+			if (isActive) {
+				toggle(false);
+			}
+		});
+		$panel.on('mousedown touchstart', function (event) {
+			if (isActive) {
+				event.stopPropagation();
+			}
+		});
+		$window.on('resize scroll', function (event) {
+			check();
+		});
+		check();
+	})();
+
 	// Бургер-меню
 	(function () {
 		var isActive = $('.js-menu').hasClass('is_active');
@@ -153,7 +222,9 @@ $(function () {
 			}
 		});
 		$('.js-burger, .js-menu').on('mousedown touchstart', function (event) {
-			event.stopPropagation();
+			if (isActive) {
+				event.stopPropagation();
+			}
 		});
 	})();
 
@@ -426,12 +497,9 @@ $(function () {
 		var $current = $('.' + classCurrent).first();
 		if ($current.length === 1) {
 			var $header = $('.js-header');
-			if ($header.length !== 1) {
-				return;
-			}
 			$window.stop().scrollTo($current, {
 				margin: true,
-				offset: -$header.offset().top - $header.outerHeight(),
+				offset: $header.length === 1 ? -$header.offset().top - $header.outerHeight() : 0,
 				duration: 1000,
 				onAfter: function () {
 					init();

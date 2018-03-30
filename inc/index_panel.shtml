@@ -1,4 +1,4 @@
-<div class="index_panel is_visible js-index_menu js-float-panel" style="background-color: rgba(0, 0, 0, .9);">
+<div class="index_panel js-float-panel" style="background-color: rgba(0, 0, 0, .9);">
 	<a href="#">
 		<div class="article_header" style="background-image: url(//www.inliberty.ru/wp-content/uploads/Mag_Cov_Single_1600x280.jpg)">
 			<div class="layout">
@@ -14,9 +14,7 @@
 	<div class="layout">
 		<header class="index_panel__header">
 			<h2 class="index_panel__name" id="index_panel_label">Содержание журнала</h2>
-			<button class="index_panel__burger kbd_button changeclass" type="button" tabindex="0" data-changeclass='{
-				".index_panel": {"toggleClass": "is_open"}
-			}'>
+			<button class="index_panel__burger kbd_button js-float-burger" type="button" tabindex="0">
 				<div class="kbd_button__body" tabindex="-1">
 					<svg class="icon icon--burger">
 						<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-burger"></use>
