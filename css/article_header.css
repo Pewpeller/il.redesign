@@ -6,6 +6,7 @@
 	background-size: cover;
 	color: #fff;
 	font: 0/0 a;
+	text-align: center;
 }
 	.article_header--is_dark {
 		color: #181818;
@@ -13,7 +14,7 @@
 
 	.article_header::before {
 		content: '';
-		height: 60px;
+		height: 80px;
 		display: inline-block;
 		vertical-align: middle;
 	}
@@ -33,9 +34,18 @@
 		line-height: 29px;
 	}
 }
+@media only screen and (min-width: 1024px) {
+	.article_header::before {
+		height: 60px;
+	}
+}
 .article_header > .layout {
 	display: inline-block;
 	vertical-align: middle;
+	width: 100%;
+	text-align: left;
+	position: relative;
+	top: 1px;
 }
 
 .article_menu {
