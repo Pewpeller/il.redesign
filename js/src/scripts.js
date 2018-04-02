@@ -497,6 +497,7 @@ $(function () {
 		var $current = $('.' + classCurrent).first();
 		if ($current.length === 1) {
 			var $header = $('.js-header');
+			/*
 			$window.stop().scrollTo($current, {
 				margin: true,
 				offset: $header.length === 1 ? -$header.offset().top - $header.outerHeight() : 0,
@@ -509,6 +510,9 @@ $(function () {
 					init();
 				}
 			});
+			*/
+			$window.scrollTop($current.offset().top - (parseInt($current.css('marginTop'), 10) || 0) + ($header.length === 1 ? -$header.offset().top - $header.outerHeight() : 0));
+			init();
 		} else {
 			init();
 		}
