@@ -31,9 +31,9 @@
 	text-align: center;
 	padding-top: 22px;
 	/* margin-bottom: 78px; */
-	transition: transform .25s cubic-bezier(.05, .69, .14, 1) 0s,
-				opacity .25s cubic-bezier(.05, .69, .14, 1) 0s,
-				visibility 0s cubic-bezier(.05, .69, .14, 1) .25s;
+	transition: transform .25s ease-in-out 0s,
+				opacity .25s ease-in-out 0s,
+				visibility 0s linear .25s;
 	will-change: opacity, visibility, transform;
 	background-color: #fff;
 	transform: translateY(-100%);
@@ -45,8 +45,10 @@
 	position: fixed;
 	left: 0;
 	right: 0;
+	top: 0;
 }
 	.person_header.is_visible {
+		transition-timing-function: cubic-bezier(.05, .69, .14, 1), cubic-bezier(.05, .69, .14, 1), linear;
 		transition-delay: 0s, 0s, 0s;
 		transform: translateY(0);
 		visibility: visible;

@@ -310,6 +310,11 @@
 		margin-top: 0;
 		margin-bottom: 36px;
 	}
+.related_courses .courses__section_name {
+	text-transform: none;
+	margin-top: 13px;
+	margin-bottom: 37px;
+}
 @media only screen and (min-width: 1024px) {
 	.courses__digest {
 		padding-top: 66px;
@@ -326,6 +331,10 @@
 		line-height: 32px;
 		margin-bottom: 71px;
 		margin-top: -4px;
+	}
+	.related_courses .courses__section_name {
+		margin-top: 39px;
+		margin-bottom: 63px;
 	}
 }
 
