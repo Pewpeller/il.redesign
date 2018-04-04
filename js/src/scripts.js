@@ -127,8 +127,12 @@ $(function () {
 
 	// float
 	(function () {
+		var delay = 5000;
+		var timer;
 		var scrollTopOld = 0;
-		var isPanelVisible = true;
+		var isChecked = false;
+		var isDelayed = false;
+		var isPanelVisible = false;
 		var classIsVisible = 'is_visible';
 		var classIsActive = 'is_open';
 		var $panel = $('.js-float-panel');
@@ -147,7 +151,14 @@ $(function () {
 			var delta = scrollTop - scrollTopOld;
 			var isPassedTrigger = scrollTop >= triggerTop;
 			var isScrollingUp = delta < 0;
-			if (isPassedTrigger && (isScrollingUp || isClosed)) {
+			if (!isChecked) {
+				isChecked = true;
+				isDelayed = true;
+				timer = setTimeout(function () {
+					isDelayed = false;
+				}, delay);
+			}
+			if (isPassedTrigger && (isScrollingUp || isDelayed || isClosed)) {
 				if (!isPanelVisible) {
 					$panel.addClass(classIsVisible);
 					isPanelVisible = true;
@@ -156,6 +167,10 @@ $(function () {
 				if (isPanelVisible) {
 					$panel.removeClass(classIsVisible);
 					isPanelVisible = false;
+					if (isDelayed) {
+						isDelayed = false;
+						clearTimeout(timer);
+					}
 				}
 			}
 			scrollTopOld = scrollTop;
