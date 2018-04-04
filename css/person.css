@@ -31,21 +31,42 @@
 	text-align: center;
 	margin-top: 22px;
 	margin-bottom: 78px;
+	-webkit-transition: opacity .25s cubic-bezier(.05, .69, .14, 1) 0s,
+				visibility 0s cubic-bezier(.05, .69, .14, 1) .25s,
+				-webkit-transform .25s cubic-bezier(.05, .69, .14, 1) 0s;
+	transition: opacity .25s cubic-bezier(.05, .69, .14, 1) 0s,
+				visibility 0s cubic-bezier(.05, .69, .14, 1) .25s,
+				-webkit-transform .25s cubic-bezier(.05, .69, .14, 1) 0s;
+	-o-transition: transform .25s cubic-bezier(.05, .69, .14, 1) 0s,
+				opacity .25s cubic-bezier(.05, .69, .14, 1) 0s,
+				visibility 0s cubic-bezier(.05, .69, .14, 1) .25s;
 	transition: transform .25s cubic-bezier(.05, .69, .14, 1) 0s,
 				opacity .25s cubic-bezier(.05, .69, .14, 1) 0s,
 				visibility 0s cubic-bezier(.05, .69, .14, 1) .25s;
+	transition: transform .25s cubic-bezier(.05, .69, .14, 1) 0s,
+				opacity .25s cubic-bezier(.05, .69, .14, 1) 0s,
+				visibility 0s cubic-bezier(.05, .69, .14, 1) .25s,
+				-webkit-transform .25s cubic-bezier(.05, .69, .14, 1) 0s;
 	will-change: opacity, visibility, transform;
 	background-color: #fff;
-	transform: translateY(-100%);
+	-webkit-transform: translateY(-100%);
+	    -ms-transform: translateY(-100%);
+	        transform: translateY(-100%);
 	opacity: 0;
 	visibility: hidden;
 	padding-bottom: 14px;
+	background-image: -webkit-linear-gradient(bottom, rgba(255,255,255,0) 0px, rgba(255,255,255,0) 8px, rgba(255,255,255,.8) 8px, #fff 8px);
+	background-image: -o-linear-gradient(bottom, rgba(255,255,255,0) 0px, rgba(255,255,255,0) 8px, rgba(255,255,255,.8) 8px, #fff 8px);
 	background-image: linear-gradient(to top, rgba(255,255,255,0) 0px, rgba(255,255,255,0) 8px, rgba(255,255,255,.8) 8px, #fff 8px);
 	z-index: 2;
 }
 	.person_header.is_visible {
-		transition-delay: 0s, 0s, 0s;
-		transform: translateY(0);
+		-webkit-transition-delay: 0s, 0s, 0s;
+		     -o-transition-delay: 0s, 0s, 0s;
+		        transition-delay: 0s, 0s, 0s;
+		-webkit-transform: translateY(0);
+		    -ms-transform: translateY(0);
+		        transform: translateY(0);
 		visibility: visible;
 		opacity: 1;
 	}
