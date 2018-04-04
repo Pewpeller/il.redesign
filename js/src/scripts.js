@@ -173,7 +173,8 @@ $(function () {
 					$panel.addClass(classIsVisible);
 					isPanelVisible = true;
 				}
-			} else if (isScrollingDown) {
+			}
+			if (!isPassedTrigger || isScrollingDown && !isDelayed && !isClosed) {
 				if (isPanelVisible) {
 					$panel.removeClass(classIsVisible);
 					isPanelVisible = false;
