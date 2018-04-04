@@ -168,20 +168,16 @@ $(function () {
 					isDelayed = false;
 				}, delay);
 			}
-			if (isPassedTrigger && (isScrollingUp || isDelayed || isClosed)) {
-				if (!isPanelVisible) {
-					$panel.addClass(classIsVisible);
-					isPanelVisible = true;
-				}
+			if (isPassedTrigger && (isScrollingUp || isDelayed || isClosed) && !isPanelVisible) {
+				$panel.addClass(classIsVisible);
+				isPanelVisible = true;
 			}
-			if (!isPassedTrigger || isScrollingDown && !isDelayed && !isClosed) {
-				if (isPanelVisible) {
-					$panel.removeClass(classIsVisible);
-					isPanelVisible = false;
-					if (isDelayed) {
-						isDelayed = false;
-						clearTimeout(timer);
-					}
+			if ((!isPassedTrigger || isScrollingDown && !isDelayed && !isClosed) && isPanelVisible) {
+				$panel.removeClass(classIsVisible);
+				isPanelVisible = false;
+				if (isDelayed) {
+					isDelayed = false;
+					clearTimeout(timer);
 				}
 			}
 		};
