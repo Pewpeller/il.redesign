@@ -128,8 +128,10 @@ $(function () {
 	// float
 	(function () {
 		var delay = 5000;
+		var threshold = 50;
 		var timer;
 		var scrollTopOld = 0;
+		var cumulativeDelta = 0;
 		var isChecked = false;
 		var isDelayed = false;
 		var isPanelVisible = false;
@@ -149,8 +151,16 @@ $(function () {
 			var scrollTop = $window.scrollTop();
 			var triggerTop = $trigger.offset().top;
 			var delta = scrollTop - scrollTopOld;
+			scrollTopOld = scrollTop;
+			cumulativeDelta += delta;
+			if (cumulativeDelta < -threshold) {
+				cumulativeDelta = -threshold;
+			} else if (cumulativeDelta > threshold) {
+				cumulativeDelta = threshold;
+			}
 			var isPassedTrigger = scrollTop >= triggerTop;
-			var isScrollingUp = delta < 0;
+			var isScrollingUp = cumulativeDelta === -threshold;
+			var isScrollingDown = cumulativeDelta === threshold;
 			if (!isChecked) {
 				isChecked = true;
 				isDelayed = true;
@@ -163,7 +173,7 @@ $(function () {
 					$panel.addClass(classIsVisible);
 					isPanelVisible = true;
 				}
-			} else {
+			} else if (isScrollingDown) {
 				if (isPanelVisible) {
 					$panel.removeClass(classIsVisible);
 					isPanelVisible = false;
@@ -173,7 +183,6 @@ $(function () {
 					}
 				}
 			}
-			scrollTopOld = scrollTop;
 		};
 		var toggle = function (newActive) {
 			$panel.toggleClass(classIsActive, newActive);
