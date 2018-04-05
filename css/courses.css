@@ -315,6 +315,7 @@
 	margin-top: 17px;
 	margin-bottom: 37px;
 	border-top: 3px solid #181818;
+	padding-top: 38px;
 }
 @media only screen and (min-width: 1024px) {
 	.courses__digest {

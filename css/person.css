@@ -31,32 +31,16 @@
 	text-align: center;
 	padding-top: 22px;
 	/* margin-bottom: 78px; */
-	-webkit-transition: opacity .25s ease-in-out 0s,
-				visibility 0s linear .25s,
-				-webkit-transform .25s ease-in-out 0s;
-	transition: opacity .25s ease-in-out 0s,
-				visibility 0s linear .25s,
-				-webkit-transform .25s ease-in-out 0s;
-	-o-transition: transform .25s ease-in-out 0s,
-				opacity .25s ease-in-out 0s,
-				visibility 0s linear .25s;
-	transition: transform .25s ease-in-out 0s,
-				opacity .25s ease-in-out 0s,
-				visibility 0s linear .25s;
-	transition: transform .25s ease-in-out 0s,
-				opacity .25s ease-in-out 0s,
-				visibility 0s linear .25s,
-				-webkit-transform .25s ease-in-out 0s;
+	/* Acceleration curve animation (прячем) */
+	transition: transform .3s cubic-bezier(0.4, 0.0, 1, 1) 0s,
+				opacity .3s cubic-bezier(0.4, 0.0, 1, 1) 0s,
+				visibility 0s linear .3s;
 	will-change: opacity, visibility, transform;
 	background-color: #fff;
-	-webkit-transform: translateY(-100%);
-	    -ms-transform: translateY(-100%);
-	        transform: translateY(-100%);
+	transform: translateY(-100%);
 	opacity: 0;
 	visibility: hidden;
 	padding-bottom: 14px;
-	background-image: -webkit-linear-gradient(bottom, rgba(255,255,255,0) 0px, rgba(255,255,255,0) 8px, rgba(255,255,255,.8) 8px, #fff 8px);
-	background-image: -o-linear-gradient(bottom, rgba(255,255,255,0) 0px, rgba(255,255,255,0) 8px, rgba(255,255,255,.8) 8px, #fff 8px);
 	background-image: linear-gradient(to top, rgba(255,255,255,0) 0px, rgba(255,255,255,0) 8px, rgba(255,255,255,.8) 8px, #fff 8px);
 	z-index: 2;
 	position: fixed;
@@ -65,15 +49,10 @@
 	top: 0;
 }
 	.person_header.is_visible {
-		-webkit-transition-timing-function: cubic-bezier(.05, .69, .14, 1), cubic-bezier(.05, .69, .14, 1), linear;
-		     -o-transition-timing-function: cubic-bezier(.05, .69, .14, 1), cubic-bezier(.05, .69, .14, 1), linear;
-		        transition-timing-function: cubic-bezier(.05, .69, .14, 1), cubic-bezier(.05, .69, .14, 1), linear;
-		-webkit-transition-delay: 0s, 0s, 0s;
-		     -o-transition-delay: 0s, 0s, 0s;
-		        transition-delay: 0s, 0s, 0s;
-		-webkit-transform: translateY(0);
-		    -ms-transform: translateY(0);
-		        transform: translateY(0);
+		/* Deceleration curve animation (показываем) */
+		transition-timing-function: cubic-bezier(0.0, 0.0, 0.2, 1), cubic-bezier(0.0, 0.0, 0.2, 1), linear;
+		transition-delay: 0s, 0s, 0s;
+		transform: translateY(0);
 		visibility: visible;
 		opacity: 1;
 	}

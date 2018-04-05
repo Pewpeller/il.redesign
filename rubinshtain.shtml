@@ -55,7 +55,206 @@
 				</div>
 			</div>
 		</div>
-		<!--#include virtual="/inc/pager.shtml" -->
+		<!--include virtual="/inc/pager.shtml" -->
+
+
+
+<div class="course__footer">
+                            <div class="layout related_courses">
+								
+    <h2 class="courses__section_name">Курсы InLiberty</h2>
+
+    <div class="courses_slider slider slider-simple">
+        <div class="slider-canvas courses_slider__canvas">
+
+			                <div class="slider-item courses_slider__item">
+					<article class="course">
+	<a href="https://www.inliberty.ru/courses/leviathan/">        <div class="course__photo">
+			<img src="//www.inliberty.ru/wp-content/uploads/LEVIAFAN_2-892x1024.jpg" class="attachment-large size-large wp-post-image" alt="" srcset="//www.inliberty.ru/wp-content/uploads/LEVIAFAN_2-892x1024.jpg 892w, //www.inliberty.ru/wp-content/uploads/LEVIAFAN_2-261x300.jpg 261w, //www.inliberty.ru/wp-content/uploads/LEVIAFAN_2-768x882.jpg 768w, //www.inliberty.ru/wp-content/uploads/LEVIAFAN_2-600x689.jpg 600w, //www.inliberty.ru/wp-content/uploads/LEVIAFAN_2.jpg 958w" sizes="(max-width: 892px) 100vw, 892px" />        </div>
+		    <div class="ear ">
+        <div class="ear__content">
+            <div class="db">
+                <div class="db__item db__2of3">
+					    <div class="db__date ">
+		16.04&ndash;27.04    </div>
+	                </div>
+                <div class="db__item db__1of3">
+                    <div class="db__mix">
+                        <div class="db__day">пн ср пт</div>
+                        <div class="db__time">19:00</div>
+                    </div>
+                </div>
+            </div>
+			                <div class="ear__tag">
+					                </div>
+			        </div>
+															    </div>
+	</a></article>                </div>
+			                <div class="slider-item courses_slider__item">
+					<article class="course">
+	<a href="https://www.inliberty.ru/courses/docufiction/">        <div class="course__photo">
+			<img src="//www.inliberty.ru/wp-content/uploads/DOKUFICCTION_COV-1-892x1024.jpg" class="attachment-large size-large wp-post-image" alt="" srcset="//www.inliberty.ru/wp-content/uploads/DOKUFICCTION_COV-1-892x1024.jpg 892w, //www.inliberty.ru/wp-content/uploads/DOKUFICCTION_COV-1-261x300.jpg 261w, //www.inliberty.ru/wp-content/uploads/DOKUFICCTION_COV-1-768x882.jpg 768w, //www.inliberty.ru/wp-content/uploads/DOKUFICCTION_COV-1-600x689.jpg 600w, //www.inliberty.ru/wp-content/uploads/DOKUFICCTION_COV-1.jpg 958w" sizes="(max-width: 892px) 100vw, 892px" />        </div>
+		    <div class="ear  ear--dark">
+        <div class="ear__content">
+            <div class="db">
+                <div class="db__item db__2of3">
+					    <div class="db__date ">
+		13.05&ndash;01.07    </div>
+	                </div>
+                <div class="db__item db__1of3">
+                    <div class="db__mix">
+                        <div class="db__day">вс</div>
+                        <div class="db__time">18:00</div>
+                    </div>
+                </div>
+            </div>
+			                <div class="ear__tag">
+					                </div>
+			        </div>
+															    </div>
+	</a></article>                </div>
+			                <div class="slider-item courses_slider__item">
+					<article class="course">
+	<a href="https://www.inliberty.ru/courses/death/">        <div class="course__photo">
+			<img src="//www.inliberty.ru/wp-content/uploads/DEATH_COV-892x1024.jpg" class="attachment-large size-large wp-post-image" alt="" srcset="//www.inliberty.ru/wp-content/uploads/DEATH_COV-892x1024.jpg 892w, //www.inliberty.ru/wp-content/uploads/DEATH_COV-261x300.jpg 261w, //www.inliberty.ru/wp-content/uploads/DEATH_COV-768x882.jpg 768w, //www.inliberty.ru/wp-content/uploads/DEATH_COV-600x689.jpg 600w, //www.inliberty.ru/wp-content/uploads/DEATH_COV.jpg 958w" sizes="(max-width: 892px) 100vw, 892px" />        </div>
+		    <div class="ear ">
+        <div class="ear__content">
+            <div class="db">
+                <div class="db__item db__2of3">
+					    <div class="db__date ">
+		14.05&ndash;18.06    </div>
+	                </div>
+                <div class="db__item db__1of3">
+                    <div class="db__mix">
+                        <div class="db__day">пн</div>
+                        <div class="db__time">19:00</div>
+                    </div>
+                </div>
+            </div>
+			                <div class="ear__tag">
+					                </div>
+			        </div>
+															    </div>
+	</a></article>                </div>
+			                <div class="slider-item courses_slider__item">
+					<article class="course">
+	<a href="https://www.inliberty.ru/courses/ethics/">        <div class="course__photo">
+			<img src="//www.inliberty.ru/wp-content/uploads/ETICS_COV-2-892x1024.jpg" class="attachment-large size-large wp-post-image" alt="" srcset="//www.inliberty.ru/wp-content/uploads/ETICS_COV-2-892x1024.jpg 892w, //www.inliberty.ru/wp-content/uploads/ETICS_COV-2-261x300.jpg 261w, //www.inliberty.ru/wp-content/uploads/ETICS_COV-2-768x882.jpg 768w, //www.inliberty.ru/wp-content/uploads/ETICS_COV-2-600x689.jpg 600w, //www.inliberty.ru/wp-content/uploads/ETICS_COV-2.jpg 958w" sizes="(max-width: 892px) 100vw, 892px" />        </div>
+		    <div class="ear  ear--dark">
+        <div class="ear__content">
+            <div class="db">
+                <div class="db__item db__2of3">
+					    <div class="db__date ">
+		15.05&ndash;03.07    </div>
+	                </div>
+                <div class="db__item db__1of3">
+                    <div class="db__mix">
+                        <div class="db__day">вт</div>
+                        <div class="db__time">19:00</div>
+                    </div>
+                </div>
+            </div>
+			                <div class="ear__tag">
+					                </div>
+			        </div>
+															    </div>
+	</a></article>                </div>
+			                <div class="slider-item courses_slider__item">
+					<article class="course">
+	<a href="https://www.inliberty.ru/courses/music/">        <div class="course__photo">
+			<img src="//www.inliberty.ru/wp-content/uploads/MUSIC_COVER_2-892x1024.jpg" class="attachment-large size-large wp-post-image" alt="" srcset="//www.inliberty.ru/wp-content/uploads/MUSIC_COVER_2-892x1024.jpg 892w, //www.inliberty.ru/wp-content/uploads/MUSIC_COVER_2-261x300.jpg 261w, //www.inliberty.ru/wp-content/uploads/MUSIC_COVER_2-768x882.jpg 768w, //www.inliberty.ru/wp-content/uploads/MUSIC_COVER_2-600x689.jpg 600w, //www.inliberty.ru/wp-content/uploads/MUSIC_COVER_2.jpg 958w" sizes="(max-width: 892px) 100vw, 892px" />        </div>
+		    <div class="ear  ear--dark">
+        <div class="ear__content">
+            <div class="db">
+                <div class="db__item db__2of3">
+					    <div class="db__date ">
+		16.05&ndash;13.06    </div>
+	                </div>
+                <div class="db__item db__1of3">
+                    <div class="db__mix">
+                        <div class="db__day">ср</div>
+                        <div class="db__time">19:00</div>
+                    </div>
+                </div>
+            </div>
+			                <div class="ear__tag">
+					                </div>
+			        </div>
+															    </div>
+	</a></article>                </div>
+			                <div class="slider-item courses_slider__item">
+					<article class="course">
+	<a href="https://www.inliberty.ru/courses/economics/">        <div class="course__photo">
+			<img src="//www.inliberty.ru/wp-content/uploads/ECONOMICS_COV-892x1024.jpg" class="attachment-large size-large wp-post-image" alt="" srcset="//www.inliberty.ru/wp-content/uploads/ECONOMICS_COV-892x1024.jpg 892w, //www.inliberty.ru/wp-content/uploads/ECONOMICS_COV-261x300.jpg 261w, //www.inliberty.ru/wp-content/uploads/ECONOMICS_COV-768x882.jpg 768w, //www.inliberty.ru/wp-content/uploads/ECONOMICS_COV-600x689.jpg 600w, //www.inliberty.ru/wp-content/uploads/ECONOMICS_COV.jpg 958w" sizes="(max-width: 892px) 100vw, 892px" />        </div>
+		    <div class="ear ">
+        <div class="ear__content">
+            <div class="db">
+                <div class="db__item db__2of3">
+					    <div class="db__date ">
+		18.05&ndash;20.06    </div>
+	                </div>
+                <div class="db__item db__1of3">
+                    <div class="db__mix">
+                        <div class="db__day">ср чт</div>
+                        <div class="db__time">19:00</div>
+                    </div>
+                </div>
+            </div>
+			                <div class="ear__tag">
+					                </div>
+			        </div>
+															    </div>
+	</a></article>                </div>
+			                <div class="slider-item courses_slider__item">
+					<article class="course">
+	        <div class="course__photo">
+			<img src="//www.inliberty.ru/wp-content/uploads/СHO_DELAT-892x1024.jpg" class="attachment-large size-large wp-post-image" alt="" srcset="//www.inliberty.ru/wp-content/uploads/СHO_DELAT-892x1024.jpg 892w, //www.inliberty.ru/wp-content/uploads/СHO_DELAT-261x300.jpg 261w, //www.inliberty.ru/wp-content/uploads/СHO_DELAT-768x882.jpg 768w, //www.inliberty.ru/wp-content/uploads/СHO_DELAT-600x689.jpg 600w, //www.inliberty.ru/wp-content/uploads/СHO_DELAT.jpg 958w" sizes="(max-width: 892px) 100vw, 892px" />        </div>
+		</article>                </div>
+			                <div class="slider-item courses_slider__item">
+					<article class="course">
+	        <div class="course__photo">
+			<img src="//www.inliberty.ru/wp-content/uploads/CHUJAYA_VLAST-892x1024.jpg" class="attachment-large size-large wp-post-image" alt="" srcset="//www.inliberty.ru/wp-content/uploads/CHUJAYA_VLAST-892x1024.jpg 892w, //www.inliberty.ru/wp-content/uploads/CHUJAYA_VLAST-261x300.jpg 261w, //www.inliberty.ru/wp-content/uploads/CHUJAYA_VLAST-768x882.jpg 768w, //www.inliberty.ru/wp-content/uploads/CHUJAYA_VLAST-600x689.jpg 600w, //www.inliberty.ru/wp-content/uploads/CHUJAYA_VLAST.jpg 958w" sizes="(max-width: 892px) 100vw, 892px" />        </div>
+		</article>                </div>
+			                <div class="slider-item courses_slider__item">
+					<article class="course">
+	        <div class="course__photo">
+			<img src="//www.inliberty.ru/wp-content/uploads/LUBOV_VOINA-892x1024.jpg" class="attachment-large size-large wp-post-image" alt="" srcset="//www.inliberty.ru/wp-content/uploads/LUBOV_VOINA-892x1024.jpg 892w, //www.inliberty.ru/wp-content/uploads/LUBOV_VOINA-261x300.jpg 261w, //www.inliberty.ru/wp-content/uploads/LUBOV_VOINA-768x882.jpg 768w, //www.inliberty.ru/wp-content/uploads/LUBOV_VOINA-600x689.jpg 600w, //www.inliberty.ru/wp-content/uploads/LUBOV_VOINA.jpg 958w" sizes="(max-width: 892px) 100vw, 892px" />        </div>
+		</article>                </div>
+			                <div class="slider-item courses_slider__item">
+					<article class="course">
+	        <div class="course__photo">
+			<img src="//www.inliberty.ru/wp-content/uploads/ULTIMATUM-2-892x1024.jpg" class="attachment-large size-large wp-post-image" alt="" srcset="//www.inliberty.ru/wp-content/uploads/ULTIMATUM-2-892x1024.jpg 892w, //www.inliberty.ru/wp-content/uploads/ULTIMATUM-2-261x300.jpg 261w, //www.inliberty.ru/wp-content/uploads/ULTIMATUM-2-768x882.jpg 768w, //www.inliberty.ru/wp-content/uploads/ULTIMATUM-2-600x689.jpg 600w, //www.inliberty.ru/wp-content/uploads/ULTIMATUM-2.jpg 958w" sizes="(max-width: 892px) 100vw, 892px" />        </div>
+		</article>                </div>
+			                <div class="slider-item courses_slider__item">
+					<article class="course">
+	        <div class="course__photo">
+			<img src="//www.inliberty.ru/wp-content/uploads/ZOMBIE-3-892x1024.jpg" class="attachment-large size-large wp-post-image" alt="" srcset="//www.inliberty.ru/wp-content/uploads/ZOMBIE-3-892x1024.jpg 892w, //www.inliberty.ru/wp-content/uploads/ZOMBIE-3-261x300.jpg 261w, //www.inliberty.ru/wp-content/uploads/ZOMBIE-3-768x882.jpg 768w, //www.inliberty.ru/wp-content/uploads/ZOMBIE-3-600x689.jpg 600w, //www.inliberty.ru/wp-content/uploads/ZOMBIE-3.jpg 958w" sizes="(max-width: 892px) 100vw, 892px" />        </div>
+		</article>                </div>
+			
+        </div>
+        <div class="announce_slider__nav announce_slider__prev slider-prev">
+            <a href="#" class="slider-link">
+                <svg class="icon icon--arrow icon--arrow_left" role="img">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-arrow"></use>
+                </svg>
+            </a>
+        </div>
+        <div class="announce_slider__nav announce_slider__next slider-next">
+            <a href="#" class="slider-link">
+                <svg class="icon icon--arrow" role="img">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-arrow"></use>
+                </svg>
+            </a>
+        </div>
+    </div>
+
+                            </div>
+                        </div>
+						
+			
+		    </div>
+
+
 		<!--#include virtual="/inc/person_footer.shtml" -->
 	</body>
 </html>
