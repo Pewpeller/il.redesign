@@ -11,20 +11,24 @@
 			</div>
 		</div>
 	</a>
-	<div class="layout">
-		<header class="index_panel__header">
-			<h2 class="index_panel__name" id="index_panel_label">Содержание журнала</h2>
-			<button class="index_panel__burger kbd_button js-float-burger" type="button" tabindex="0">
-				<div class="kbd_button__body" tabindex="-1">
-					<svg class="icon icon--burger">
-						<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-burger"></use>
-					</svg>
-					<svg class="icon icon--close">
-						<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-close"></use>
-					</svg>
+	<header class="index_panel__header">
+		<button class="index_panel__label kbd_button js-float-burger" type="button" tabindex="0" area-labeledby="index_panel__name">
+			<div class="kbd_button__body" tabindex="-1">
+				<div class="layout">
+					<h2 class="index_panel__name" id="index_panel__name">Содержание журнала</h2>
+					<div class="index_panel__burger">
+						<svg class="icon icon--burger">
+							<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-burger"></use>
+						</svg>
+						<svg class="icon icon--close">
+							<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-close"></use>
+						</svg>
+					</div>
 				</div>
-			</button>
-		</header>
+			</div>
+		</button>
+	</header>
+	<div class="layout">
 		<div class="index_panel__menu">
 			<div class="article_menu">
 				<div class="grid">

@@ -32,6 +32,14 @@
 		top: 57px;
 	}
 }
+	.index_panel__label {
+		width: 100%;
+		text-align: left;
+	}
+		.index_panel__label .layout	{
+			position: relative;
+		}
+
 	.index_panel--is_dark {
 		color: #181818;
 	}
@@ -54,7 +62,7 @@
 		visibility: visible;
 		opacity: 1;
 	}
-	.index_panel__header::before {
+	.index_panel__label .kbd_button__body .layout::before {
 		display: inline-block;
 		height: 70px;
 		vertical-align: middle;
