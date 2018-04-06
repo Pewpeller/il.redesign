@@ -17,7 +17,8 @@ html {
 .hide {
 	display: none !important;
 }
-.noanimation {
+.noanimation,
+.noanimation * {
 	transition: none !important;
 	animation: none !important;
 }

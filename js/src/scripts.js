@@ -65,7 +65,7 @@ $(function () {
 	};
 
 	// jQuery.scrollTo defaults
-	if (typeof $.scrollTo !== 'undefined') {
+	if (typeof $.scrollTo !== STR_UNDEFINED) {
 		$.extend($.scrollTo.defaults, {
 			axis: 'y',
 			duration: 500,
@@ -116,7 +116,7 @@ $(function () {
 
 	// noanimation
 	(function () {
-		var classStopAnimation = "noanimation";
+		var classStopAnimation = 'noanimation';
 		$window.on('resize', function (event) {
 			var $isAnimated = $('.js-animated');
 			$isAnimated.addClass(classStopAnimation);
@@ -481,26 +481,37 @@ $(function () {
 			var i;
 			var closest;
 			var newDistance;
+			/*
 			var minNegative;
 			var minPositive;
+			*/
+			var minDistance;
 			var windowScrollTop = $window.scrollTop();
 			for (i = 0; i < canonicalItems.length; i++) {
 				newDistance = canonicalItems[i].offset - windowScrollTop - triggerOffset;
+				/*
 				if (newDistance <= 0) {
-					if (typeof minNegative === 'undefined' || minNegative < newDistance) {
+					if (typeof minNegative === STR_UNDEFINED || minNegative < newDistance) {
 						minNegative = newDistance;
 						closest = i;
 					}
 				} else {
-					if (typeof minPositive === 'undefined' || minPositive > newDistance) {
+					if (typeof minPositive === STR_UNDEFINED || minPositive > newDistance) {
 						minPositive = newDistance;
-						if (typeof closest === 'undefined') {
+						if (typeof closest === STR_UNDEFINED) {
 							closest = i;
 						}
 					}
 				}
+				*/
+				if (newDistance < 0) {
+					if (typeof minDistance === STR_UNDEFINED || newDistance > minDistance) {
+						minDistance = newDistance;
+						closest = i;
+					}
+				}
 			}
-			if (closest === lastItem) {
+			if (typeof closest === STR_UNDEFINED || closest === lastItem) {
 				return;
 			}
 			$('.' + classCurrent).removeClass(classCurrent);
@@ -517,11 +528,22 @@ $(function () {
 		};
 		var $current = $('.' + classCurrent).first();
 		if ($current.length === 1) {
-			var $header = $('.js-header');
+			var $header = $('.js-float-panel');
+			var headerOffset = 0;
+			if ($header.length === 1) {
+				$header.addClass('is_visible noanimation');
+				$header.offset();
+				$header.removeClass('noanimation');
+			} else {
+				$header = $('.js-header');
+			}
+			if ($header.length === 1) {
+				headerOffset = $header.position().top + $header.outerHeight();
+			}
 			/*
 			$window.stop().scrollTo($current, {
 				margin: true,
-				offset: $header.length === 1 ? -$header.offset().top - $header.outerHeight() : 0,
+				offset: -headerOffset,
 				duration: 1000,
 				onAfter: function () {
 					init();
@@ -532,7 +554,7 @@ $(function () {
 				}
 			});
 			*/
-			$window.scrollTop($current.offset().top - (parseInt($current.css('marginTop'), 10) || 0) + ($header.length === 1 ? -$header.offset().top - $header.outerHeight() : 0));
+			$window.scrollTop($current.offset().top - (parseInt($current.css('marginTop'), 10) || 0) - headerOffset);
 			init();
 		} else {
 			init();
