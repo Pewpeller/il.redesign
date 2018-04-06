@@ -511,6 +511,9 @@ $(function () {
 					}
 				}
 			}
+			if (typeof closest === STR_UNDEFINED && typeof lastItem !== STR_UNDEFINED) {
+				closest = 0;
+			}
 			if (typeof closest === STR_UNDEFINED || closest === lastItem) {
 				return;
 			}
