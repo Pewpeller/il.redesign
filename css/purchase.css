@@ -257,6 +257,7 @@
 }
 .purchase__promocode_text {
 	font: bold 16px/22px Figgins Sans, Arial, sans-serif;
+	vertical-align: middle;
 }
 .purchase__promocode_text_note {
 	font: italic 14px/17px Figgins Sans, Arial, sans-serif;
