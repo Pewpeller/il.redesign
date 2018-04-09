@@ -77,6 +77,10 @@
 	-webkit-tap-highlight-color: rgba(0,0,0,0);
 	height: 50px;
 }
+.field__input::-webkit-input-placeholder {
+	transform: translate3d(0,2px,0)
+}
+
 .field--short {
 	white-space: nowrap;
 }
