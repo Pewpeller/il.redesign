@@ -217,14 +217,19 @@ $(function () {
 
 	// Бургер-меню
 	(function () {
-		var isActive = $('.js-menu').hasClass('is_active');
+		var $burger = $('.js-burger');
+		var $menu = $('.js-menu');
+		var isActive = $menu.hasClass('is_active');
 		var toggle = function (newActive) {
-			$('.js-menu').toggleClass('is_active', newActive);
-			isActive = $('.js-menu').hasClass('is_active');
+			$menu.toggleClass('is_active', newActive);
+			isActive = $menu.hasClass('is_active');
 		};
-		$('.js-burger').on('click', function (event) {
+		$burger.on('click', function (event) {
 			event.preventDefault();
 			toggle();
+		});
+		$menu.on('click', 'a[href], label', function (event) {
+			toggle(false);
 		});
 		$window.on('resize', function (event) {
 			if (isActive) {
@@ -242,7 +247,7 @@ $(function () {
 				toggle(false);
 			}
 		});
-		$('.js-burger, .js-menu').on('mousedown touchstart', function (event) {
+		$burger.add($menu).on('mousedown touchstart', function (event) {
 			if (isActive) {
 				event.stopPropagation();
 			}
