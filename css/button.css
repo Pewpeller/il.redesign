@@ -26,7 +26,8 @@
 	.il_button--transparent {
 		background-color: transparent;
 	}
-	.il_button > .kbd_button__body {
+	.il_button > .kbd_button__body,
+	.field__button > .kbd_button__body {
 		width: 100%;
 		height: 100%;
 		display: inline-block;

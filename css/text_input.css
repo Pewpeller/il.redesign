@@ -174,7 +174,7 @@
 	vertical-align: middle;
 	text-transform: uppercase;
 }
-.field__button .kbd_button__body {
+.field__button > .kbd_button__body {
 	font: bold 14px/48px Figgins Sans, Arial, sans-serif;
 }
 .field__button:focus .kbd_button__body {

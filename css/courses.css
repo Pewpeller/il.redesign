@@ -35,7 +35,7 @@
 	vertical-align: bottom;
 	text-transform: uppercase;
 	position: relative;
-	margin-bottom: 13px;
+	/* margin-bottom: 13px; */
 }
 .course__banner--closed {
 	background-color: hsla(37, 100%, 94%, .8);
