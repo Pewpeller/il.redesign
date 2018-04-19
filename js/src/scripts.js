@@ -1,4 +1,5 @@
 $(function () {
+	alert(1);
 	var $window = $(window);
 	var $document = $(document);
 	var $head = $(document.head);
