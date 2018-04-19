@@ -221,6 +221,7 @@ $(function () {
 		var $menu = $('.js-menu');
 		var isActive = $menu.hasClass('is_active');
 		var toggle = function (newActive) {
+			$burger.toggleClass('is_open', newActive);
 			$menu.toggleClass('is_active', newActive);
 			isActive = $menu.hasClass('is_active');
 		};
