@@ -72,6 +72,8 @@ body {
 .icon--search {
 	width: 20px;
 	height: 22px;
+	padding: 5px 6px;
+	vertical-align: middle;
 }
 .icon--pin {
 	width: 14px;
@@ -494,9 +496,6 @@ a:focus {
 
 :not(.il_button):focus > .kbd_button__body {
 	box-shadow: 0 0 1px 2px #64ffda;
-}
-:not(.il_button) > .kbd_button__body {
-	font: 0/0 a;
 }
 
 /* Removing the focus ring styles specifically for button in Firefox */

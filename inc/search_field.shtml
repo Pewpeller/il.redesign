@@ -3,7 +3,7 @@
 					<svg class="icon icon--search kbd_button__body" tabindex="-1"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-search"></use></svg>
 				</button>
 				<span class="kbd_button search_form__field">
-					<input class="kbd_button__body search_form__input js-search-input" type="search" name="search" value="" placeholder="Поиск">
+					<input class="kbd_button__body search_form__input js-search-input" type="search" name="search" id="search" value="" placeholder="Поиск">
 				</span>
 				<button type="button" class="search_form__close kbd_button js-search-close" tabindex="-1">
 					<svg class="icon icon--close kbd_button__body" tabindex="-1"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-close"></use></svg>

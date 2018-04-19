@@ -3,19 +3,26 @@
 
 <!-- если это курс, то добавляем класс к header'у main_header__buy -->
 <!--#if expr="$DOCUMENT_URI == /\/course_purchase\.shtml|\/course\.shtml|course_blocked\.shtml/" -->
-<header class="main_header sticky main_header__buy js-header<!--#if expr="$DOCUMENT_URI==/\/(cycle.*?|canonical.*?|index)\.shtml/" --> is_compact<!--#endif -->">
+<header class="main_header main_header__buy js-header">
 <!--#else -->
-<header class="main_header sticky js-header<!--#if expr="$DOCUMENT_URI==/\/(cycle.*?|canonical.*?|index)\.shtml/" --> is_compact<!--#endif -->">
+<header class="main_header js-header">
 <!--#endif -->
 	<div class="layout">
 		<div class="main_header__body">
 			<button class="kbd_button burger js-burger" type="button" tabindex="0">
-				<svg class="kbd_button__body icon icon--burger" tabindex="-1"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-burger"></use></svg>
+				<div class="kbd_button__body" tabindex="-1">
+					<svg class="icon icon--burger">
+						<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-burger"></use>
+					</svg>
+					<svg class="icon icon--close">
+						<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-close"></use>
+					</svg>
+				</div>
 			</button>
 			<a href="/" class="inliberty_logo js-logo">
 				<svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#inliberty_logo"></use></svg>
 			</a>
-			<div class="main_nav js-menu js-animated">
+			<nav class="main_nav js-menu js-animated is_visible">
 				<ul class="main_nav__list">
 					<li class="main_nav__item">
 						<a href="#" class="main_nav__link">
@@ -42,54 +49,37 @@
 							Пространство
 						</a>
 					</li>
-					<!-- личный кабинет suspended -->
-					<!--
-					<li class="main_nav__item hide2 hide3">
-						<button class="main_search__details_item main_search__details_item--user kbd_button is_active" tabindex="0" title="Вход">
-							<svg class="icon icon--user kbd_button__body" tabindex="-1"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-user"></use></svg>
-							<span class="icon__text">
-								Вход
-							</span>
-						</button>
+					<li class="main_nav__item hide_d hide_tmi hide_tm hide_t">
+						<label for="search" class="kbd_button main_nav__link" tabindex="0" style="font: inherit;">
+							<div for="search" tabindex="-1" class="kbd_button__body" style="font: inherit;">
+								<svg class="icon icon--search"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-search"></use></svg>
+								Поиск
+							</div>
+						</label>
 					</li>
-					-->
 				</ul>
-			</div>
-			<!-- личный кабинет & корзина suspended -->
-			<!--
-			<div class="main_search__details is_online">
-				<button class="main_search__details_item main_search__details_item--user kbd_button is_active" tabindex="0" title="Вход">
-					<svg class="icon icon--user kbd_button__body" tabindex="-1"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-user"></use></svg>
-					<span class="icon__text">
-						Вход
-					</span>
-				</button>
-				<button class="main_search__details_item kbd_button" tabindex="0">
-					<svg class="icon icon--basket kbd_button__body" tabindex="-1"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-basket"></use></svg>
-					<sup class="icon_value">10</sup>
-				</button>
-			</div>
-			-->
-			<!--#if expr="$old_qs=results" -->
-				<!--#include virtual="/inc/search_field_results.shtml" -->
-			<!--#else -->
-				<!--#include virtual="/inc/search_field.shtml" -->
-			<!--#endif -->
+			</nav>
 
 			<!-- Если курс окончен, то ставим другую кнопку -->
 			<!--#if expr="$old_qs=/blocked/" -->
 				<button class="il_button il_button--ahtung il_button--blocked kbd_button js-dialog-open" tabindex="0" type="button" data-dialog="#dialog-purchase">
 					<div class="kbd_button__body" tabindex="-1">
-						Оставить заявку
+						Подать заявку
 					</div>
 				</button>
 			<!--#else -->
 				<!-- а если нет, то обычную "купить" -->
 				<button class="il_button il_button--ahtung kbd_button" tabindex="0" type="button">
 					<div class="kbd_button__body" tabindex="-1">
-						Купить курс
+						Подать заявку
 					</div>
 				</button>
+			<!--#endif -->
+
+			<!--#if expr="$old_qs=results" -->
+				<!--#include virtual="/inc/search_field_results.shtml" -->
+			<!--#else -->
+				<!--#include virtual="/inc/search_field.shtml" -->
 			<!--#endif -->
 
 		</div>
