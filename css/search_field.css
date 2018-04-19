@@ -64,6 +64,11 @@
 		margin-bottom: 0;
 	}
 }
+@media only screen and (min-width: 742px) {
+	.search_form.is_expanded {
+		width: calc(100% - 123px);
+	}
+}
 .search_form__field {
 	display: inline-block;
 	width: 100%;

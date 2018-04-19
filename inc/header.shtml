@@ -50,8 +50,8 @@
 						</a>
 					</li>
 					<li class="main_nav__item main_nav__item_search">
-						<label for="search" class="kbd_button main_nav__link" tabindex="0" style="font: inherit;">
-							<div for="search" tabindex="-1" class="kbd_button__body" style="font: inherit;">
+						<label for="search" class="kbd_button main_nav__link" tabindex="0">
+							<div for="search" tabindex="-1" class="kbd_button__body">
 								<svg class="icon icon--search"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-search"></use></svg>
 								Поиск
 							</div>
