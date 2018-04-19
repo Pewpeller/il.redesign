@@ -1,5 +1,4 @@
 $(function () {
-	alert(1);
 	var $window = $(window);
 	var $document = $(document);
 	var $head = $(document.head);
@@ -220,11 +219,27 @@ $(function () {
 	(function () {
 		var $burger = $('.js-burger');
 		var $menu = $('.js-menu');
+		var $focusElements = $menu.find('a[href], label');
+		var $focusFirstElement = $focusElements.first();
+		var $focusLastElement = $focusElements.last();
 		var isActive = $menu.hasClass('is_active');
 		var toggle = function (newActive) {
 			$burger.toggleClass('is_open', newActive);
 			$menu.toggleClass('is_active', newActive);
 			isActive = $menu.hasClass('is_active');
+			if (isActive) {
+				$body.find('a, :input, [tabindex]').not($menu.find('a, :input, [tabindex]')).each(function () {
+					var $ele = $(this);
+					setTabindex($ele, '-1');
+					$ele.addClass('js-inert');
+				});
+			} else {
+				$('.js-inert').each(function () {
+					var $ele = $(this);
+					restoreTabindex($ele);
+					$ele.removeClass('js-inert');
+				});
+			}
 		};
 		$burger.on('click', function (event) {
 			event.preventDefault();
@@ -242,6 +257,16 @@ $(function () {
 			if (isActive && event.keyCode === 27 && !event.ctrlKey && !event.altKey && !event.shiftKey && !event.metaKey) {
 				event.stopImmediatePropagation();
 				toggle(false);
+			}
+			if (event.keyCode === 9 && !event.ctrlKey && !event.altKey && !event.metaKey) {
+				if (!event.shiftKey && $focusLastElement.is(event.target)) {
+					event.preventDefault();
+					$focusFirstElement.focus();
+				}
+				if (event.shiftKey && $focusFirstElement.is(event.target)) {
+					event.preventDefault();
+					$focusLastElement.focus();
+				}
 			}
 		});
 		$document.on('mousedown touchstart', function (event) {
@@ -262,7 +287,7 @@ $(function () {
 		var $input = $form.find('.js-search-input');
 		var $close = $form.find('.js-search-close');
 		var $burger = $('.js-burger');
-		var $menu = $('.js-menu');
+		var $menuList = $('.js-menu-list');
 		var $logo = $('.js-logo');
 		var classOpen = 'is_expanded';
 		var isOpen = false;
@@ -277,7 +302,7 @@ $(function () {
 			if (!isOpen) {
 				setTabindex($burger, -1);
 				setTabindex($logo, -1);
-				$menu.toggleClass('hide', true);
+				$menuList.toggleClass('hide', true);
 				$form.toggleClass(classOpen, true);
 				$document.on('keydown', handlerKeydown);
 				isOpen = true;
@@ -289,10 +314,13 @@ $(function () {
 				$document.off('keydown', handlerKeydown);
 				restoreTabindex($burger);
 				restoreTabindex($logo);
-				$menu.toggleClass('hide', false);
+				$menuList.toggleClass('hide', false);
 				isOpen = false;
 			}
 		};
+		if ($menuList.length !== 1) {
+			return;
+		}
 		$input.on('focus', function (event) {
 			if (!isOpen) {
 				open();
@@ -383,7 +411,7 @@ $(function () {
 			$body.find('a, :input, [tabindex]').not($dialogElements).each(function () {
 				var $ele = $(this);
 				setTabindex($ele, '-1');
-				$ele.addClass('js-dialog-inert');
+				$ele.addClass('js-inert');
 			});
 			$autofocus.focus().select();
 			isOpen = true;
@@ -403,10 +431,10 @@ $(function () {
 				width: '',
 				height: ''
 			});
-			$('.js-dialog-inert').each(function () {
+			$('.js-inert').each(function () {
 				var $ele = $(this);
 				restoreTabindex($ele);
-				$ele.removeClass('js-dialog-inert');
+				$ele.removeClass('js-inert');
 			});
 			isOpen = false;
 			refresh();
@@ -592,6 +620,7 @@ $(function () {
 			var dataPicture = $data.data('share-picture');
 			var dataTitle = $data.data('share-title');
 			var dataDescription = $data.data('share-description');
+			/*
 			var truncate = function (s, n) {
 				if (typeof s === 'string' && s.length > n) {
 					s = s.slice(0, n) + '...';
@@ -604,6 +633,10 @@ $(function () {
 			var truncateDescription = function (s) {
 				return truncate(s, 450);
 			};
+			var getFullTitle = function () {
+				return [dataTitle || metaTitle, dataDescription || metaDescription].join(' / ');
+			};
+			*/
 			var getQuery = function (params) {
 				var parts = [];
 				for (var i in params) {
@@ -612,9 +645,6 @@ $(function () {
 					}
 				}
 				return parts.join('&');
-			};
-			var getFullTitle = function () {
-				return [dataTitle || metaTitle, dataDescription || metaDescription].join(' / ');
 			};
 			if (dataNetwork === '' && event) {
 				$('.js-share-link').each(function () {
