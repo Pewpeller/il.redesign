@@ -2,7 +2,7 @@
 <!--#include virtual="/inc/svg_icons2.shtml" -->
 
 <!-- если это курс, то добавляем класс к header'у main_header__buy -->
-<!--#if expr="$DOCUMENT_URI == /\/course_purchase\.shtml|\/course\.shtml|course_blocked\.shtml/" -->
+<!--#if expr="$DOCUMENT_URI == /\/course_purchase\.shtml|\/course.*?\.shtml|course_blocked\.shtml/" -->
 <header class="main_header main_header__buy js-header">
 <!--#else -->
 <header class="main_header js-header">
