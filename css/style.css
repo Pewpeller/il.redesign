@@ -563,3 +563,7 @@ hr {
 .ov-h {
 	overflow: hidden;
 }
+.no_margin.no_margin {
+	margin-top: 0;
+	margin-bottom: 0;
+}

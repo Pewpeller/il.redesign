@@ -1,7 +1,7 @@
 <div class="layout">
 	<div class="blogs blogs--announce">
 		<a href="#">
-			<article class="blog">
+			<article class="blog no_margin">
 				<time class="tag blog__date"><!-- 52px/66px -->
 					03.09.17
 				</time>

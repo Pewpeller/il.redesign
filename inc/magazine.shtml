@@ -1,4 +1,4 @@
-<article class="magazine fit_screen">
+<article class="magazine fit_screen no_margin">
 	<div class="layout">
 		<div class="magazine__text_frame">
 			<div class="magazine__tag">

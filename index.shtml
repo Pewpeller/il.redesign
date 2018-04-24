@@ -14,7 +14,7 @@
 					<div class="grid__inner">
 						<div class="grid__cell grid_t_full grid_d_small">
 							<a href="//old.inliberty.ru" target="_blank">
-								<article class="archive ear ear--dark ear_m_extra_small ear_d_normal">
+								<article class="archive ear ear--dark ear_m_extra_small ear_d_normal no_margin">
 									<div class="ear__content">
 										<div class="ear__tag">
 											Архив
@@ -31,7 +31,7 @@
 						</div>
 						<div class="grid__cell grid_d_big">
 							<a href="#">
-								<article class="ear ear_m_small ear_m_normal ruche">
+								<article class="ear ear_m_small ear_m_normal ruche no_margin">
 									<div class="ear__content">
 										<div class="ear__photo dark_blind">
 											<img class="ear__poster" src="/i/project2.jpg" alt="Школа: Очень длинная комната">
