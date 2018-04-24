@@ -505,9 +505,10 @@ $(function () {
 			triggerOffset = $window.height() * triggerHook;
 			canonicalItems = [];
 			$('.' + classCanonical).each(function () {
+				var $element = $(this);
 				canonicalItems.push({
 					element: this,
-					offset: $(this).offset().top
+					offset: $element.offset().top - (parseInt($element.css('marginTop'), 10) || 0)
 				});
 			});
 			if (!canonicalItems.length) {
@@ -564,10 +565,37 @@ $(function () {
 			});
 			lastItem = closest;
 		};
+		$document.on('click', 'a[href^="#"]', function (event) {
+			var $a = $(this);
+			var href = $a.attr('href');
+			if (href.length <= 1 || href.indexOf('#') !== 0) {
+				return;
+			}
+			event.preventDefault();
+			$(href).each(function () {
+				var $target = $(this);
+				var $canonical = $target.closest('.js-canonical');
+				var canonical = $canonical.get(0);
+				var i;
+				for (i = 0; i < canonicalItems.length; i++) {
+					if (canonical === canonicalItems[i].element) {
+						var headerOffset = 0;
+						var $header = $('.js-header');
+						if ($header.length === 1) {
+							headerOffset = $header.position().top + $header.outerHeight();
+						}
+						$window.scrollTop(0);
+						$window.trigger('scroll');
+						$window.scrollTop(canonicalItems[i].offset - headerOffset);
+						break;
+					}
+				}
+			});
+		});
 		var $current = $('.' + classCurrent).first();
 		if ($current.length === 1) {
-			var $header = $('.js-float-panel');
 			var headerOffset = 0;
+			var $header = $('.js-float-panel');
 			if ($header.length === 1) {
 				$header.addClass('is_visible noanimation');
 				$header.offset();

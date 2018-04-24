@@ -34,7 +34,7 @@
 				<div class="grid">
 					<ul class="grid__inner">
 						<li class="article_menu__item">
-							<a href="#">
+							<a href="#course_blocked">
 								<p class="article_menu__number">
 									1
 								</p>
@@ -50,7 +50,7 @@
 							</a>
 						</li>
 						<li class="article_menu__item">
-							<a href="#">
+							<a href="#course_blocked_hacked">
 								<p class="article_menu__number">
 									2
 								</p>
@@ -66,7 +66,7 @@
 							</a>
 						</li>
 						<li class="article_menu__item">
-							<a href="#">
+							<a href="#course_blocked_2">
 								<p class="article_menu__number">
 									3
 								</p>
@@ -82,7 +82,7 @@
 							</a>
 						</li>
 						<li class="article_menu__item">
-							<a href="#">
+							<a href="#cycle_2">
 								<p class="article_menu__number">
 									4
 								</p>
@@ -99,7 +99,7 @@
 							</a>
 						</li>
 						<li class="article_menu__item">
-							<a href="#">
+							<a href="#undefined">
 								<p class="article_menu__number">
 									5
 								</p>
