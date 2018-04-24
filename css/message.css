@@ -72,13 +72,12 @@
 	}
 }
 
-.message--request {
+.message--request_large {
 	max-width: 920px;
 }
-.message--request .layout {
-	max-width: 830px;
-}
-
+	.message--request_large .layout {
+		max-width: 830px;
+	}
 
 .message--faq {
 	max-width: 100%;
