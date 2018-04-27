@@ -1,10 +1,11 @@
 $(function () {
+	var STR_UNDEFINED = 'undefined';
+	var STR_TABINDEX = 'tabindex';
 	var $window = $(window);
 	var $document = $(document);
 	var $head = $(document.head);
 	var $body = $(document.body);
-	var STR_UNDEFINED = 'undefined';
-	var STR_TABINDEX = 'tabindex';
+	var scrollThreshold = 50;
 	var zloInit = function () {
 		// nanoscroller
 		(function () {
@@ -128,7 +129,6 @@ $(function () {
 	// float
 	(function () {
 		var delay = 5000;
-		var threshold = 50;
 		var timer;
 		var scrollTopOld = 0;
 		var cumulativeDelta = 0;
@@ -153,14 +153,14 @@ $(function () {
 			var delta = scrollTop - scrollTopOld;
 			scrollTopOld = scrollTop;
 			cumulativeDelta += delta;
-			if (cumulativeDelta < -threshold) {
-				cumulativeDelta = -threshold;
-			} else if (cumulativeDelta > threshold) {
-				cumulativeDelta = threshold;
+			if (cumulativeDelta < -scrollThreshold) {
+				cumulativeDelta = -scrollThreshold;
+			} else if (cumulativeDelta > scrollThreshold) {
+				cumulativeDelta = scrollThreshold;
 			}
 			var isPassedTrigger = scrollTop >= triggerTop;
-			var isScrollingUp = cumulativeDelta === -threshold;
-			var isScrollingDown = cumulativeDelta === threshold;
+			var isScrollingUp = cumulativeDelta === -scrollThreshold;
+			var isScrollingDown = cumulativeDelta === scrollThreshold;
 			if (!isChecked) {
 				isChecked = true;
 				isDelayed = true;
@@ -568,10 +568,14 @@ $(function () {
 		$document.on('click', 'a[href^="#"]', function (event) {
 			var $a = $(this);
 			var href = $a.attr('href');
-			if (href.length <= 1 || href.indexOf('#') !== 0) {
+			if (href.indexOf('#') !== 0) {
 				return;
 			}
 			event.preventDefault();
+			if (href === '#') {
+				$window.scrollTop(0);
+				return;
+			}
 			$(href).each(function () {
 				var $target = $(this);
 				var $canonical = $target.closest('.js-canonical');
@@ -580,13 +584,15 @@ $(function () {
 				for (i = 0; i < canonicalItems.length; i++) {
 					if (canonical === canonicalItems[i].element) {
 						var headerOffset = 0;
+						var scrollTop;
 						var $header = $('.js-header');
 						if ($header.length === 1) {
 							headerOffset = $header.position().top + $header.outerHeight();
 						}
-						$window.scrollTop(0);
+						scrollTop = canonicalItems[i].offset - headerOffset;
+						$window.scrollTop(scrollTop - scrollThreshold * 2);
 						$window.trigger('scroll');
-						$window.scrollTop(canonicalItems[i].offset - headerOffset);
+						$window.scrollTop(scrollTop);
 						break;
 					}
 				}
