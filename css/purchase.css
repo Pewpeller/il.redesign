@@ -170,7 +170,7 @@
 		margin-bottom: 7px;
 	}
 .purchase__price_discount {
-	font: italic 16px/22px Figgins Sans, Arial, sans-serif;	
+	font: italic 16px/22px Figgins Sans, Arial, sans-serif;
 	position: absolute;
 	margin-top: -17px;
 	text-decoration: line-through;

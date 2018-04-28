@@ -9,7 +9,7 @@
 		bottom: -3px;
 		right: -3px;
 		content: '';
-		border-top: 63px solid #181818; 
+		border-top: 63px solid #181818;
 		border-right: 63px solid #fff;
 	}
 	.person::after {
