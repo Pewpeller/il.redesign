@@ -188,6 +188,10 @@ $(function () {
 		};
 		$burger.on('click', function (event) {
 			event.preventDefault();
+			if (isDelayed) {
+				isDelayed = false;
+				clearTimeout(timer);
+			}
 			toggle();
 		});
 		$panel.on('click', 'a[href]', function (event) {
@@ -487,6 +491,7 @@ $(function () {
 
 	// Подмена URI, <title> и соцкнопок при прокрутке мимо .js-canonical
 	(function () {
+		var delay = 133;
 		var classCanonical = 'js-canonical';
 		var classCurrent = 'js-canonical-current';
 		var triggerHook = 0.5;
@@ -612,22 +617,15 @@ $(function () {
 			if ($header.length === 1) {
 				headerOffset = $header.position().top + $header.outerHeight();
 			}
-			/*
-			$window.stop().scrollTo($current, {
-				margin: true,
-				offset: -headerOffset,
-				duration: 1000,
-				onAfter: function () {
-					init();
-				},
-				fail: function (animation) {
-					$window.scrollTop(animation.props.scrollTop);
-					init();
-				}
+			var scrollTo = function (event) {
+				$window.scrollTop($current.offset().top - (parseInt($current.css('marginTop'), 10) || 0) - headerOffset);
+			};
+			scrollTo();
+			var timer = setInterval(scrollTo, delay);
+			$window.one('wheel keydown mousedown touchstart', function (event) {
+				clearInterval(timer);
+				init();
 			});
-			*/
-			$window.scrollTop($current.offset().top - (parseInt($current.css('marginTop'), 10) || 0) - headerOffset);
-			init();
 		} else {
 			init();
 		}
