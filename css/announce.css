@@ -36,6 +36,7 @@
 	transition: opacity .25s ease-in-out 0s,
 				visibility 0s ease-in-out 0s;
 	will-change: opacity;
+	display: none;
 }
 .announce_slider__prev {
 	left: 0;
@@ -70,6 +71,7 @@
 	}
 	.announce_slider__nav {
 		width: 102px;
+		display: block;
 	}
 }
 
