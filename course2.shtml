@@ -32,7 +32,7 @@
 						</div>
 					</div>
 
-					<div class="courses_slider slider slider-simple">
+					<div class="courses_slider slider slider-simple" data-slider-start="2">
 						<div class="slider-canvas courses_slider__canvas">
 							<div class="slider-item courses_slider__item">
 								<article class="course">
@@ -260,7 +260,7 @@
 								</label>
 								<textarea class="field__input field__input--area" name="idea" id="idea" placeholder="Ваша идея (расскажите, о чем вы хотели бы написать или думаете написать — и для чего вам участие в мастерской)"></textarea>
 							</div>
-							
+
 							<button class="il_button kbd_button message__request_button" tabindex="0" type="button">
 								<div class="kbd_button__body" tabindex="-1">Я хочу участвовать</div>
 							</button>
