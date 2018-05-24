@@ -27,6 +27,10 @@ $(function () {
 					'margin': 22,
 					'align': 0,
 				};
+				var param;
+				if (typeof (param = $slider.data('slider-start')) !== 'undefined') {
+					options['start'] = param;
+				}
 				$slider.slider(options);
 			});
 		})();
