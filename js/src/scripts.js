@@ -25,7 +25,7 @@ $(function () {
 					'isKeyboard': true,
 					'isFit': true,
 					'margin': 22,
-					'align': 0,
+					'align': 0
 				};
 				var param;
 				if (typeof (param = $slider.data('slider-start')) !== 'undefined') {
