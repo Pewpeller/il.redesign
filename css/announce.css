@@ -63,12 +63,14 @@
 	left: 0;
 	background-image: -webkit-linear-gradient(left, rgba(255,255,255,.96), rgba(255,255,255,0));
 	background-image: linear-gradient(to right, rgba(255,255,255,.96), rgba(255,255,255,0));
+	z-index: 1;
 }
 .announce_slider__next {
 	right: 0;
 	background-image: -webkit-linear-gradient(left, rgba(255,255,255,0), rgba(255,255,255,.96));
 	background-image: linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,.96));
 	text-align: right;
+	z-index: 1;
 }
 @media only screen and (min-width: 621px) {
 	.announce_slider__canvas {
