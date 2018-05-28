@@ -5,6 +5,7 @@
 	z-index: 1;
 }
 	.announce_slider__canvas {
+		box-sizing: border-box;
 		width: 100%;
 		overflow: hidden;
 		font: 0/0 a;
@@ -72,6 +73,7 @@
 	text-align: right;
 	z-index: 1;
 }
+
 @media only screen and (min-width: 621px) {
 	.announce_slider__canvas {
 		padding: 0 22px;
@@ -92,6 +94,9 @@
 @media only screen and (min-width: 1024px) {
 	.announce_slider {
 		margin-bottom: 57px;
+	}
+	.announce_slider__canvas {
+		padding: 0 calc(100% / 2 - 481px);
 	}
 }
 .announce {
