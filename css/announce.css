@@ -95,9 +95,6 @@
 	.announce_slider {
 		margin-bottom: 57px;
 	}
-	.announce_slider__canvas {
-		padding: 0 calc(100% / 2 - 481px);
-	}
 }
 .announce {
 	display: inline-block;
