@@ -12,7 +12,7 @@
 			<div class="course__footer">
 				<div class="layout">
 					<div class="course_board">
-						<div class="course_board__body  course_board--anketa_body fit_screen__item">
+						<div class="course_board__body  course_board--anketa_body fit_screen__item" style="background-image: url(https://www.inliberty.ru/wp-content/uploads/2018/05/EU6.jpg) !important;">
 							<div class="ear ear--dark">
 								<div class="course_board__content">
 									<div class="course_board__message">
@@ -24,9 +24,39 @@
 											Заполните анкету до 20 апреля; к 1 мая мы отберем кандидатов, которые получат приглашение по электронной почте и после оплаты смогут принять участие в работе мастерской. Стоимость участия — <b>15&nbsp;000&nbsp;рублей</b>.
 										</div>
 									</div>
+									<!--
 									<button class="il_button il_button--transparent kbd_button js-dialog-open" tabindex="0" type="button" data-dialog="#dialog-purchase">
 										<div class="kbd_button__body" tabindex="-1">Подать заявку</div>
 									</button>
+									-->
+<script type="text/javascript" async="async" defer="defer" charset="UTF-8" src="https://timepad.ru/js/tpwf/loader/min/loader.js" data-timepad-customized="5018" data-timepad-widget-v2="event_register">
+	(function(){
+		return {
+			"loadCSS": [
+        		"http://dev2.toxa.ru/css/timepad_big_button.css"
+      		],
+			"event":{"id":"731362"},
+			"hidePreloading":true,
+			"initialRoute":"button",
+			"buttonSettings":{"text":"Регистрация"}
+			};
+		})();
+</script>
+<br>
+<script type="text/javascript" async="async" defer="defer" charset="UTF-8" src="https://timepad.ru/js/tpwf/loader/min/loader.js" data-timepad-customized="5018" data-timepad-widget-v2="event_register">
+	(function(){
+		return {
+			"loadCSS": [
+        		"http://dev2.toxa.ru/css/timepad_small_button.css"
+      		],
+			"event":{"id":"731362"},
+			"hidePreloading":true,
+			"initialRoute":"button",
+			"buttonSettings":{"text":"Регистрация"}
+			};
+		})();
+</script>
+
 								</div>
 							</div>
 						</div>
