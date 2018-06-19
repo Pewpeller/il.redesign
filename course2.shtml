@@ -33,8 +33,8 @@
 	(function(){
 		return {
 			"loadCSS": [
-        		"http://dev2.toxa.ru/css/timepad_big_button.css"
-      		],
+				"http://dev2.toxa.ru/css/timepad_big_button.css"
+			],
 			"event":{"id":"731362"},
 			"hidePreloading":true,
 			"initialRoute":"button",
@@ -47,8 +47,8 @@
 	(function(){
 		return {
 			"loadCSS": [
-        		"http://dev2.toxa.ru/css/timepad_small_button.css"
-      		],
+				"http://dev2.toxa.ru/css/timepad_small_button.css"
+			],
 			"event":{"id":"731362"},
 			"hidePreloading":true,
 			"initialRoute":"button",
