@@ -1,0 +1,68 @@
+.blog_dig {
+	height: 160px;
+	position: relative;
+	border: 3px solid #181818;
+	box-sizing: border-box;
+}
+	/* уголок */
+	.blog_dig::before {
+		position: absolute;
+		bottom: -3px;
+		right: -3px;
+		content: '';
+		border-top: 43px solid #181818;
+		border-right: 43px solid #fff;
+		z-index: 1;
+	}
+	.blog_dig::after {
+		position: absolute;
+		bottom: 4px;
+		right: 4px;
+		content: '';
+		border-top: 33px solid #fff;
+		border-right: 33px solid transparent;
+		z-index: 1;
+	}
+	/* уголок end */
+	.blog_dig__body {
+		box-sizing: border-box;
+		padding: 17px 22px;
+		background-color: #fff;
+	}
+@media screen and (min-width: 768px) {
+	.blog_dig {
+		height: 0;
+		padding-bottom: 127.1241830065359%;
+	}
+	.blog_dig__body {
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+	}
+	.blog_dig::before {
+		border-top-width: 63px;
+		border-right-width: 63px;
+	}
+	.blog_dig::after {
+		border-top-width: 53px;
+		border-right-width: 53px;
+	}
+}
+
+.blog_dig__name {
+	font: 28px/1.0714285714 Figgins Sans, Arial, sans-serif;
+}
+.blog_dig__content {
+	width: 180px;
+}
+@media screen and (min-width: 992px) {
+	.blog_dig__name {
+		font-size: 40px;
+		line-height: 1.05;
+	}
+	.blog_dig__content {
+		width: 258px;
+	}
+}

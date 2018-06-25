@@ -10,9 +10,9 @@
 	height: 0;
 	width: 0;
 }
-/* sm - 767 */
-/* md - 768 */
-/* big - 992 */
+/* sm - 767 (747 - content): 767 - 20px(paddings) */
+/* md - 768 (724 - content): 768 - 44px(paddings) */
+/* big - 992 (948 - content): 992 - 44px(paddings) */
 @media screen and (min-width: 768px) {
 	
 }

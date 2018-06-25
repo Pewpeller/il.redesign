@@ -56,6 +56,14 @@
 		<!-- some css hacks for outside forms :( -->
 			<link rel="stylesheet" href="/css/hacks.css">
 		<!-- some css hacks for outside forms end -->
+
+
+		<link rel="stylesheet" href="/new/css/setka.css">
+		<link rel="stylesheet" href="/new/css/text.css">
+		<link rel="stylesheet" href="/new/css/blog_dig.css">
+		<link rel="stylesheet" href="/new/css/event_dig.css">
+		<link rel="stylesheet" href="/new/css/bookmate_dig.css">
+
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<script src="/js/jquery.slider.min.js" charset="utf-8"></script>
 		<script src="/js/thirdparty.js" charset="utf-8"></script>
