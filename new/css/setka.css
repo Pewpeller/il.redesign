@@ -1,0 +1,40 @@
+.setka_row {
+	font: 0/0 a;
+	text-align: justify;
+	text-justify: distribute-all-lines;
+}
+	.setka_row::after {
+		width: 100%;
+		content: '';
+		display: inline-block;
+	}
+.setka_col {
+	display: inline-block;
+	vertical-align: top;
+	text-align: left;
+	text-justify: auto;
+}
+
+@media screen and (max-width: 767.99px) {
+	.setka_col {
+		width: 100%;
+		display: inline-block;
+		vertical-align: top;
+		margin-bottom: 48px;
+	}
+}
+@media screen and (min-width: 768px) {
+	.setka_col:not(:last-child) {
+		margin-right: 22px;
+		margin-bottom: 70px;
+	}
+	.setka_col_small {
+		width: calc(33.33333333% - 14.66666666666667px);
+	}
+	.setka_col_middle {
+		width: calc(66.66666666% - 14.66666666666667px);
+	}
+}
+.dark.dark {
+	color: #181818;
+}

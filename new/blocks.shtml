@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="ru-RU">
+	<!--#include virtual="/inc/head.shtml" -->
+	<body>
+		<!--#include virtual="/inc/header.shtml" -->
+		<div class="layout">
+			<div class="setka_row">
+				<div class="setka_col setka_col_small">
+					<div class="blog_dig">
+						<div class="blog_dig__content">
+							<div class="blog_dig__body">
+								<p class="blog_dig__name">
+									Блог<br>
+									Льва<br>
+									Рубинштейна
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="setka_col setka_col_middle">
+					<div class="event_dig ruche" style="background-image:url(/new/i/trening.jpg);">
+						<div class="event_dig__body">
+							<div class="event_dig__content">
+								<div class="db">
+									<div class="db__item db__2of3">
+										<div class="db__date">30.11–20.12.18</div>
+									</div>
+									<div class="db__item db__1of3">
+										<div class="db__mix">
+											<div class="db__day">пн ср вс</div>
+											<div class="db__time">19:00</div>
+										</div>
+									</div>
+								</div>
+								<p class="event_dig__rubric">
+									Тренинг
+								</p>
+								<h2 class="event_dig__name">
+									Драматургия лжи
+								</h2>
+								<h1 class="event_dig__subheader">
+									Как нам врут в&nbsp;кино и&nbsp;по&nbsp;телевизору
+								</h1>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="setka_row">
+				<div class="setka_col setka_col_small">
+					<div class="bookmate_dig dark" style="background-image:url(/new/i/bookmate.jpg);">
+						<div class="bookmate_dig__body">
+							<div class="bookmate_dig__content">
+								<p class="bookmate_dig__name">
+									Библиотека  свободы
+								</p>
+								<div class="bookmate_dig__rubric">
+									Полка InLiberty<br>
+									 на&nbsp;Bookmate
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<!--#include virtual="/inc/footer.shtml" -->
+	</body>
+</html>
