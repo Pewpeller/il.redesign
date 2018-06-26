@@ -1,0 +1,61 @@
+.archive_dig {
+	position: relative;
+	color: #fff;
+	height: 160px;
+	background-color: #fff3e0;
+}
+	/* уголок */
+	.archive_dig::before {
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		content: '';
+		border-top: 44px solid #faebd2;
+    	border-right: 44px solid #fff;
+	}
+	.archive_dig__body {
+		padding: 25px 22px;
+	}
+	.archive_dig__content {
+		max-width: 258px;
+	}
+@media screen and (min-width: 768px) {
+	.archive_dig {
+		height: 0;
+		padding-bottom: 127.1241830065359%;
+	}
+	.archive_dig__body {
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+	}
+}
+
+.archive_dig__name,
+.archive_dig__subheader {
+	text-transform: uppercase;
+	font: 18px/1.2222222222 Figgins Sans, Arial, sans-serif;
+}
+.archive_dig__name {
+	font-weight: bold;
+}
+@media screen and (min-width: 768px) {
+	.archive_dig__name,
+	.archive_dig__subheader {
+		font-size: 22px;
+		line-height: 1.181818181818182;
+	}
+}
+@media screen and (min-width: 992px) {
+	.archive_dig__name,
+	.archive_dig__subheader {
+		font-size: 28px;
+		line-height: 1.142857142857143;
+	}
+}
+.archive_dig__rubric {
+	margin-bottom: 1px;
+	font: italic 14px/1.4285714286 Figgins Sans, Arial, sans-serif;
+}
