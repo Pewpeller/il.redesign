@@ -6,66 +6,124 @@
 		<div class="layout">
 			<div class="setka_row">
 				<div class="setka_col setka_col_small">
-					<div class="blog_dig">
-						<div class="blog_dig__content">
+					<a href="#" class="ear_link">
+						<div class="blog_dig">
 							<div class="blog_dig__body">
-								<p class="blog_dig__name">
-									Блог<br>
-									Льва<br>
-									Рубинштейна
-								</p>
+								<div class="blog_dig__content">
+									<p class="blog_dig__name">
+										Блог<br>
+										Льва<br>
+										Рубинштейна
+									</p>
+								</div>
 							</div>
 						</div>
-					</div>
+					</a>
 				</div>
 				<div class="setka_col setka_col_middle">
-					<div class="event_dig ruche" style="background-image:url(/new/i/trening.jpg);">
-						<div class="event_dig__body">
-							<div class="event_dig__content">
-								<div class="db">
-									<div class="db__item db__2of3">
-										<div class="db__date">30.11–20.12.18</div>
-									</div>
-									<div class="db__item db__1of3">
-										<div class="db__mix">
-											<div class="db__day">пн ср вс</div>
-											<div class="db__time">19:00</div>
+					<a href="#">
+						<div class="event_dig ruche" style="background-image:url(/new/i/trening.jpg);">
+							<div class="event_dig__body">
+								<div class="event_dig__content">
+									<div class="db">
+										<div class="db__item db__2of3">
+											<div class="db__date">30.11–20.12.18</div>
+										</div>
+										<div class="db__item db__1of3">
+											<div class="db__mix">
+												<div class="db__day">пн ср вс</div>
+												<div class="db__time">19:00</div>
+											</div>
 										</div>
 									</div>
+									<p class="event_dig__rubric">
+										Тренинг
+									</p>
+									<h3 class="event_dig__name">
+										Драматургия лжи
+									</h3>
+									<h2 class="event_dig__subheader">
+										Как нам врут в&nbsp;кино и&nbsp;по&nbsp;телевизору
+									</h2>
 								</div>
-								<p class="event_dig__rubric">
-									Тренинг
-								</p>
-								<h2 class="event_dig__name">
-									Драматургия лжи
-								</h2>
-								<h1 class="event_dig__subheader">
-									Как нам врут в&nbsp;кино и&nbsp;по&nbsp;телевизору
-								</h1>
 							</div>
 						</div>
-					</div>
+					</a>
 				</div>
 			</div>
 			<div class="setka_row">
 				<div class="setka_col setka_col_small">
-					<div class="bookmate_dig dark" style="background-image:url(/new/i/bookmate.jpg);">
-						<div class="bookmate_dig__body">
-							<div class="bookmate_dig__content">
-								<p class="bookmate_dig__name">
-									Библиотека  свободы
-								</p>
-								<div class="bookmate_dig__rubric">
-									Полка InLiberty<br>
-									 на&nbsp;Bookmate
+					<a href="#">
+						<div class="bookmate_dig dark" style="background-image:url(/new/i/bookmate.jpg);">
+							<div class="bookmate_dig__body">
+								<div class="bookmate_dig__content">
+									<h2 class="bookmate_dig__name">
+										Библиотека  свободы
+									</h2>
+									<p class="bookmate_dig__rubric">
+										Полка InLiberty<br>
+										 на&nbsp;Bookmate
+									</p>
 								</div>
 							</div>
 						</div>
-					</div>
-
+					</a>
+				</div>
+				<div class="setka_col setka_col_small">
+					<a href="#">
+						<div class="archive_dig dark">
+							<div class="archive_dig__body">
+								<div class="archive_dig__content">
+									<div class="archive_dig__rubric">
+										Архив
+									</div>
+									<h2 class="archive_dig__name">
+										Inliberty
+									</h2>
+									<h3 class="archive_dig__subheader">
+										2008–2018
+									</h3>
+								</div>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="setka_col setka_col_small">
+					<a href="#">
+						<div class="podcast_dig">
+							<div class="podcast_dig__body">
+								<div class="podcast_dig__content">
+									<h2 class="podcast_dig__name">
+										Подкасты<br>
+										Inliberty
+									</h2>
+									<p class="podcast_dig__rubric">
+										на Soundcloud
+									</p>
+								</div>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="setka_row">
+				<div class="setka_col setka_col_small">
+					<a href="#">
+						<div class="seven_dates_dig ruche" style="background-image:url(/new/i/7dat_fon.jpg);">
+							<div class="seven_dates_dig__body">
+								<div class="seven_dates_dig__content">
+									<img src="/new/i/7dates_logo.svg" alt="Семьдат. История России по-другому">
+									<h2 class="seven_dates_dig__name visuallyhidden">
+										Семьдат. История России по-другому
+									</h2>
+								</div>
+							</div>
+						</div>
+					</a>
 				</div>
 			</div>
 		</div>
+
 		<!--#include virtual="/inc/footer.shtml" -->
 	</body>
 </html>

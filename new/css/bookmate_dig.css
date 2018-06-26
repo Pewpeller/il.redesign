@@ -6,6 +6,15 @@
 	color: #fff;
 	height: 340px;
 }
+	/* уголок */
+	.bookmate_dig::before {
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		content: '';
+		border-top: 44px solid #dcd0a7;
+    	border-right: 44px solid #fff;
+	}
 	.bookmate_dig__body {
 		padding: 25px 22px;
 	}
@@ -13,6 +22,10 @@
 		max-width: 258px;
 	}
 @media screen and (min-width: 768px) {
+	.bookmate_dig {
+		height: 0;
+		padding-bottom: 127.1241830065359%;
+	}
 	.bookmate_dig__body {
 		position: absolute;
 		top: 0;

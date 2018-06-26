@@ -63,6 +63,9 @@
 		<link rel="stylesheet" href="/new/css/blog_dig.css">
 		<link rel="stylesheet" href="/new/css/event_dig.css">
 		<link rel="stylesheet" href="/new/css/bookmate_dig.css">
+		<link rel="stylesheet" href="/new/css/archive_dig.css">
+		<link rel="stylesheet" href="/new/css/podcast_dig.css">
+		<link rel="stylesheet" href="/new/css/seven_dates_dig.css">
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<script src="/js/jquery.slider.min.js" charset="utf-8"></script>

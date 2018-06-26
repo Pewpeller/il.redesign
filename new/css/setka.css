@@ -20,13 +20,11 @@
 		width: 100%;
 		display: inline-block;
 		vertical-align: top;
-		margin-bottom: 48px;
 	}
 }
 @media screen and (min-width: 768px) {
 	.setka_col:not(:last-child) {
 		margin-right: 22px;
-		margin-bottom: 70px;
 	}
 	.setka_col_small {
 		width: calc(33.33333333% - 14.66666666666667px);
@@ -35,6 +33,24 @@
 		width: calc(66.66666666% - 14.66666666666667px);
 	}
 }
+.setka_col {
+	margin-bottom: 48px;
+}
+@media screen and (min-width: 992px) {
+	.setka_col {
+		margin-bottom: 70px;
+	}
+}
 .dark.dark {
 	color: #181818;
+}
+.visuallyhidden {
+	border: 0;
+	clip: rect(0 0 0 0);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
 }
