@@ -1,0 +1,47 @@
+.book_dig {
+	position: relative;
+	background-position: 100% 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #fff;
+	height: 0;
+	padding-bottom: 114.343163538874%;
+}
+	.book_dig__body {
+		padding: 25px 22px;
+	}
+	.book_dig__content {
+		max-width: 258px;
+	}
+@media screen and (min-width: 768px) {
+	.book_dig {
+		padding-bottom: 127.1241830065359%;
+	}
+	.book_dig__body {
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+	}
+}
+.book_dig__author {
+	font: 14px/1.5714285714 Figgins Sans, Arial, sans-serif;
+	margin-bottom: 3px;
+}
+
+.book_dig__name,
+.book_dig__subheader {
+	text-transform: uppercase;
+	font: 18px/1.2222222222 Figgins Sans, Arial, sans-serif;
+}
+.book_dig__name {
+	font-weight: bold;
+}
+@media screen and (min-width: 768px) {
+	.book_dig__name,
+	.book_dig__subheader {
+		font-size: 14px;
+		line-height: 1.142857142857143;
+	}
+}

@@ -103,7 +103,7 @@
 
 /* middle */
 .fr_22x26 {
-	font: 22px/1.181818181818182 Figgins Sans, Arial, sans-serif;	
+	font: 22px/1.181818181818182 Figgins Sans, Arial, sans-serif;
 }
 	.fr_22x26.font_offset::before {
 		margin-bottom: -.1818181818em;
@@ -214,3 +214,5 @@
 	}
 	
 /* вводка журнала end */
+
+

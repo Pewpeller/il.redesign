@@ -1,13 +1,14 @@
 .setka_row {
 	font: 0/0 a;
-	text-align: justify;
-	text-justify: distribute-all-lines;
+	/*text-align: justify;
+	text-justify: distribute-all-lines;*/
 }
-	.setka_row::after {
+	/*.setka_row::after {
 		width: 100%;
 		content: '';
 		display: inline-block;
 	}
+	*/
 .setka_col {
 	display: inline-block;
 	vertical-align: top;
@@ -30,7 +31,11 @@
 		width: calc(33.33333333% - 14.66666666666667px);
 	}
 	.setka_col_middle {
-		width: calc(66.66666666% - 14.66666666666667px);
+		width: calc(66.66666666% - 7.4px);
+	}
+	.setka_col_full {
+		width: 100%;
+		margin-right: 0;
 	}
 }
 .setka_col {
@@ -41,6 +46,7 @@
 		margin-bottom: 70px;
 	}
 }
+
 .dark.dark {
 	color: #181818;
 }

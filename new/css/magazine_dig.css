@@ -1,0 +1,100 @@
+.magazine_dig {
+	position: relative;
+	color: #181818;
+	text-align: center;
+}
+.magazine_dig__content {
+	max-width: 700px;
+	display: inline-block;
+	text-align: left;
+}
+@media screen and (min-width: 768px) {
+	.magazine_dig__content {
+		max-width: 480px;
+		padding-left: 122px;
+		padding-right: 122px;
+	}
+}
+@media screen and (min-width: 992px) {
+	.magazine_dig__content {
+		max-width: 638px;
+		padding-left: 162px;
+		padding-right: 162px;
+	}
+}
+.magazine_dig__rubric {
+	font: italic 14px/1.4285714286 Figgins Sans, Arial, sans-serif;
+	margin-bottom: 19px;
+	padding-bottom: 8px;
+	width: 100px;
+	border-bottom: 3px solid #181818;
+}
+@media screen and (min-width: 768px) {
+	.magazine_dig__rubric {
+		text-align: center;
+		float: left;
+		margin-left: -122px;
+		margin-top: 25px;
+	}
+}
+
+@media screen and (min-width: 992px) {
+	.magazine_dig__rubric {
+		float: left;
+		margin-left: -162px;
+		width: 140px;
+	}
+}
+.magazine_dig__name {
+	font: bold 36px/1 Figgins Sans, Arial, sans-serif;
+	margin-bottom: 10px;
+}
+.magazine_dig__subheader {
+	font: 24px/1.166666666666667 Figgins Sans, Arial, sans-serif;
+	margin-bottom: 17px;
+}
+.magazine_dig__lead {
+	font: 19px/1.473684210526316 Parmigiano Piccolo Light, Serif, serif;
+}
+	.magazine_dig__lead::after {
+		content: '';
+		display: block;
+		margin-top: -7px;
+	}
+@media screen and (min-width: 768px) {
+	.magazine_dig__name {
+		font-size: 70px;
+		line-height: .9714285714285714;
+		margin-bottom: 25px;
+		margin-top: -9px;
+	}
+	.magazine_dig__subheader {
+		font-size: 40px;
+		line-height: 1.05;
+		margin-bottom: 42px;
+	}
+	.magazine_dig__lead {
+		font-size: 24px;
+		line-height: 1.333333333333333;
+	}
+}
+.magazine__photo {
+	height: 160px;
+	position: relative;
+	margin-bottom: 21px;
+	background-repeat: repeat-x;
+	background-position: 50% 50%;
+	background-size: auto 100%;
+	margin-left: calc(-50vw + 50%);
+	margin-right: calc(-50vw + 50%);
+	margin-bottom: 17px;
+}
+@media screen and (min-width: 768px) {
+	.magazine__photo {
+		height: 210px;
+		margin-bottom: 39px;
+	}
+}
+html {
+	overflow-x: hidden;
+}

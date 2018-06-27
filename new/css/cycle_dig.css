@@ -1,0 +1,43 @@
+.cycle_dig {
+	position: relative;
+	background-position: 100% 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #fff;
+	height: 340px;
+}
+	.cycle_dig__body {
+		padding: 25px 22px;
+	}
+@media screen and (min-width: 768px) {
+	.cycle_dig {
+		height: 160px;
+	}
+}
+.cycle_dig__rubric {
+	font: italic 14px/1.4285714286 Figgins Sans, Arial, sans-serif;
+	margin-bottom: 15px;
+}
+
+.cycle_dig__name,
+.cycle_dig__subheader {
+	text-transform: uppercase;
+	font: 18px/1.2222222222 Figgins Sans, Arial, sans-serif;
+}
+.cycle_dig__name {
+	font-weight: bold;
+}
+@media screen and (min-width: 768px) {
+	.cycle_dig__name,
+	.cycle_dig__subheader {
+		font-size: 22px;
+		line-height: 1.181818181818182;
+	}
+}
+@media screen and (min-width: 992px) {
+	.cycle_dig__name,
+	.cycle_dig__subheader {
+		font-size: 28px;
+		line-height: 1.142857142857143;
+	}
+}
