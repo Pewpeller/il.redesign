@@ -109,7 +109,7 @@
 			<div class="setka_row">
 				<div class="setka_col setka_col_small">
 					<a href="#">
-						<div class="seven_dates_dig ruche" style="background-image: url(/new/i/7dat_fon.jpg);">
+						<div class="seven_dates_dig" style="background-image: url(/new/i/7dat_fon.jpg);">
 							<div class="seven_dates_dig__body">
 								<div class="seven_dates_dig__content">
 									<img src="/new/i/7dates_logo.svg" alt="Семьдат. История России по-другому">
@@ -144,7 +144,7 @@
 			<div class="setka_row">
 				<div class="setka_col setka_col_full">
 					<a href="#">
-						<div class="cycle_dig ruche ruche--topnright" style="background-image: url(/new/i/cycle.png);">
+						<div class="cycle_dig ruche ruche--right" style="background-image: url(/new/i/cycle.png);">
 							<div class="cycle_dig__body">
 								<div class="cycle_dig__content">
 									<p class="cycle_dig__rubric">
@@ -164,26 +164,106 @@
 			</div>
 			<div class="setka_row">
 				<div class="setka_col setka_col_full">
-						<div class="magazine_dig">
-							<a href="#">
-							<div class="magazine_dig__content">
-								<p class="magazine_dig__rubric">
-									Журнал
-								</p>
-								<h3 class="magazine_dig__name">
-									Анатомия триумфа вторая строка
-								</h3>
-								<h2 class="magazine_dig__subheader">
-									Как устроены президентские выборы в России
-								</h2>
-								<div class="magazine__photo" style="background-image: url(/new/i/magazine.jpg);">
-								</div>
-								<p class="magazine_dig__lead">
-									Конец августа — эмоциональное дно украинского кризиса. Через три дня, 24-го, российские батальонно-тактические группы перейдут в под Илорвайском.
-								</p>
+					<div class="magazine_dig">
+						<a href="#">
+						<div class="magazine_dig__content">
+							<p class="magazine_dig__rubric">
+								Журнал
+							</p>
+							<h3 class="magazine_dig__name">
+								Анатомия триумфа вторая строка
+							</h3>
+							<h2 class="magazine_dig__subheader">
+								Как устроены президентские выборы в России
+							</h2>
+							<div class="magazine__photo" style="background-image: url(/new/i/magazine.jpg);">
 							</div>
-							</a>
+							<p class="magazine_dig__lead">
+								Конец августа — эмоциональное дно украинского кризиса. Через три дня, 24-го, российские батальонно-тактические группы перейдут в под Илорвайском.
+							</p>
 						</div>
+						</a>
+					</div>
+				</div>
+			</div>
+			<hr>
+			<div class="setka_row">
+				<div class="setka_col setka_col_full">
+					<a href="#">
+						<div class="event_dig ruche" style="background-image: url(/new/i/trening.jpg);">
+							<div class="event_dig__body">
+								<div class="event_dig__content">
+									<div class="db">
+										<div class="db__item db__2of3">
+											<div class="db__date">30.11–20.12.18</div>
+										</div>
+										<div class="db__item db__1of3">
+											<div class="db__mix">
+												<div class="db__day">пн ср вс</div>
+												<div class="db__time">19:00</div>
+											</div>
+										</div>
+									</div>
+									<p class="event_dig__rubric">
+										Тренинг
+									</p>
+									<h3 class="event_dig__name">
+										Драматургия лжи
+									</h3>
+									<h2 class="event_dig__subheader">
+										Как нам врут в&nbsp;кино и&nbsp;по&nbsp;телевизору
+									</h2>
+								</div>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="setka_row">
+				<div class="setka_col setka_col_full">
+					<a href="#">
+						<div class="ticket_dig cycle_dig--ticket" style="background-image: url(/new/i/cycle.png);">
+							<div class="ticket_dig__body">
+								<div class="ticket_dig__content">
+									<p class="ticket_dig__rubric">
+										Цикл
+									</p>
+									<h3 class="ticket_dig__name">
+										Драматургия лжи
+									</h3>
+									<h2 class="ticket_dig__subheader">
+										Как нам врут в кино и по телевизору
+									</h2>
+								</div>
+							</div>
+							<div class="ticket_dig__ticket ruche ruche--topnleft">
+								<div class="ticket_dig__body">
+									<div class="ticket_dig__content">
+										<div class="db">
+											<div class="db__item db__2of3">
+												<div class="db__date">30.11–20.12.18</div>
+											</div>
+											<div class="db__item db__1of3">
+												<div class="db__mix">
+													<div class="db__day">пн ср вс</div>
+													<div class="db__time">19:00</div>
+												</div>
+											</div>
+										</div>
+										<p class="ticket_dig__rubric">
+											Лекция
+										</p>
+										<h3 class="ticket_dig__name">
+											Как Китай стал капиталисическим
+										</h3>
+										<h2 class="ticket_dig__subheader">
+											 Подзаголовок книги, если есть, может быть длинным
+										</h2>
+									</div>
+								</div>
+							</div>
+						</div>
+					</a>
 				</div>
 			</div>
 		</div>
