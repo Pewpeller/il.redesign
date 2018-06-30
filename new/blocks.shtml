@@ -54,7 +54,7 @@
 			<div class="setka_row">
 				<div class="setka_col setka_col_small">
 					<a href="#">
-						<div class="bookmate_dig dark" style="background-image: url(/new/i/bookmate.jpg);">
+						<div class="bookmate_dig dark" style="background-image: url(/new/i/bookmate2х.jpg);">
 							<div class="bookmate_dig__body">
 								<div class="bookmate_dig__content">
 									<h2 class="bookmate_dig__name">
@@ -112,7 +112,7 @@
 						<div class="seven_dates_dig" style="background-image: url(/new/i/7dat_fon.jpg);">
 							<div class="seven_dates_dig__body">
 								<div class="seven_dates_dig__content">
-									<img src="/new/i/7dates_logo.svg" alt="Семьдат. История России по-другому">
+									<img src="/new/i/7dat_Logo.svg" alt="Семь дат. История России по-другому">
 									<h2 class="seven_dates_dig__name visuallyhidden">
 										Семьдат. История России по-другому
 									</h2>
