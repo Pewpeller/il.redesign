@@ -6,7 +6,8 @@
 		<div class="layout">
 			<div class="setka_row">
 				<div class="setka_col setka_col_small">
-					<a href="#" class="ear_link">
+					<!-- блог -->
+					<a href="#">
 						<div class="blog_dig">
 							<div class="blog_dig__body">
 								<div class="blog_dig__content">
@@ -19,8 +20,10 @@
 							</div>
 						</div>
 					</a>
+					<!-- блог end -->
 				</div>
 				<div class="setka_col setka_col_middle">
+					<!-- event -->
 					<a href="#">
 						<div class="event_dig ruche" style="background-image: url(/new/i/trening.jpg);">
 							<div class="event_dig__body">
@@ -49,10 +52,12 @@
 							</div>
 						</div>
 					</a>
+					<!-- event end -->
 				</div>
 			</div>
 			<div class="setka_row">
 				<div class="setka_col setka_col_small">
+					<!-- bookmate -->
 					<a href="#">
 						<div class="bookmate_dig dark" style="background-image: url(/new/i/bookmate2x.jpg);">
 							<div class="bookmate_dig__body">
@@ -68,9 +73,11 @@
 							</div>
 						</div>
 					</a>
+					<!-- bookmate end -->
 				</div>
 				<div class="setka_col setka_col_small">
 					<a href="#">
+						<!-- archive -->
 						<div class="archive_dig dark">
 							<div class="archive_dig__body">
 								<div class="archive_dig__content">
@@ -87,8 +94,10 @@
 							</div>
 						</div>
 					</a>
+					<!-- archive end -->
 				</div>
 				<div class="setka_col setka_col_small">
+					<!-- podcast -->
 					<a href="#">
 						<div class="podcast_dig">
 							<div class="podcast_dig__body">
@@ -104,10 +113,12 @@
 							</div>
 						</div>
 					</a>
+					<!-- podcast -->
 				</div>
 			</div>
 			<div class="setka_row">
 				<div class="setka_col setka_col_small">
+					<!-- 7dates banner -->
 					<a href="#">
 						<div class="seven_dates_dig" style="background-image: url(/new/i/7dat_fon.jpg);">
 							<div class="seven_dates_dig__body">
@@ -120,8 +131,10 @@
 							</div>
 						</div>
 					</a>
+					<!-- 7dates banner end -->
 				</div>
 				<div class="setka_col setka_col_small">
+					<!-- book -->
 					<a href="#">
 						<div class="book_dig dark" style="background-image: url(/new/i/book.jpg);">
 							<div class="book_dig__body">
@@ -139,10 +152,12 @@
 							</div>
 						</div>
 					</a>
+					<!-- book end -->
 				</div>
 			</div>
 			<div class="setka_row">
 				<div class="setka_col setka_col_full">
+					<!-- cycle -->
 					<a href="#">
 						<div class="cycle_dig ruche ruche--right" style="background-image: url(/new/i/cycle.png);">
 							<div class="cycle_dig__body">
@@ -160,35 +175,39 @@
 							</div>
 						</div>
 					</a>
+					<!-- cycle end -->
 				</div>
 			</div>
 			<div class="setka_row">
 				<div class="setka_col setka_col_full">
+					<!-- magazine -->
 					<div class="magazine_dig">
 						<a href="#">
-						<div class="magazine_dig__content">
-							<p class="magazine_dig__rubric">
-								Журнал
-							</p>
-							<h3 class="magazine_dig__name">
-								Анатомия триумфа вторая строка
-							</h3>
-							<h2 class="magazine_dig__subheader">
-								Как устроены президентские выборы в России
-							</h2>
-							<div class="magazine__photo" style="background-image: url(/new/i/magazine.jpg);">
+							<div class="magazine_dig__content">
+								<p class="magazine_dig__rubric">
+									Журнал
+								</p>
+								<h3 class="magazine_dig__name">
+									Анатомия триумфа вторая строка
+								</h3>
+								<h2 class="magazine_dig__subheader">
+									Как устроены президентские выборы в России
+								</h2>
+								<div class="magazine__photo" style="background-image: url(/new/i/magazine.jpg);">
+								</div>
+								<p class="magazine_dig__lead">
+									Конец августа — эмоциональное дно украинского кризиса. Через три дня, 24-го, российские батальонно-тактические группы перейдут в под Илорвайском.
+								</p>
 							</div>
-							<p class="magazine_dig__lead">
-								Конец августа — эмоциональное дно украинского кризиса. Через три дня, 24-го, российские батальонно-тактические группы перейдут в под Илорвайском.
-							</p>
-						</div>
 						</a>
 					</div>
+					<!-- magazine end -->
 				</div>
 			</div>
 			<hr>
 			<div class="setka_row">
 				<div class="setka_col setka_col_full">
+					<!-- event -->
 					<a href="#">
 						<div class="event_dig ruche" style="background-image: url(/new/i/trening.jpg);">
 							<div class="event_dig__body">
@@ -217,10 +236,12 @@
 							</div>
 						</div>
 					</a>
+					<!-- event end -->
 				</div>
 			</div>
 			<div class="setka_row">
 				<div class="setka_col setka_col_full">
+					<!-- event with ticket -->
 					<a href="#">
 						<div class="ticket_dig" style="background-image: url(/new/i/cycle.png);">
 							<div class="ticket_dig__body">
@@ -264,10 +285,12 @@
 							</div>
 						</div>
 					</a>
+					<!-- event with ticket end -->
 				</div>
 			</div>
 			<div class="setka_row">
 				<div class="setka_col setka_col_full">
+					<!-- single event with ticket -->
 					<a href="#">
 						<div class="ticket_dig ticket_dig--single ruche ruche--left" style="background-image: url(/new/i/cycle.png);">
 							<div class="ticket_dig__body">
@@ -296,6 +319,7 @@
 							</div>
 						</div>
 					</a>
+					<!-- single event with ticket -->
 				</div>
 			</div>
 
