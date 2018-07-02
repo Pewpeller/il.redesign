@@ -9,6 +9,9 @@
 	.ticket_dig__body {
 		padding: 25px 22px;
 	}
+	.ticket_dig--single .ticket_dig__body {
+		padding: 25px 22px 25px 27px;
+	}
 	.ticket_dig__content {
 		max-width: 258px;
 	}
@@ -69,9 +72,16 @@
 	.ticket_dig__ticket .ticket_dig__body {
 		display: none;
 	}
-@media screen and (max-width: 991.99px) {
+@media screen and (max-width: 991px) {
 	.ticket_dig__ticket::after {
 		left: 5px;
+		top: 0;
+		right: auto;
+		bottom: 0;
+		width: 10px;
+		background-repeat: repeat-y;
+		height: auto;
+		background-position: -5px -9px;
 	}
 }
 @media screen and (min-width: 992px) {

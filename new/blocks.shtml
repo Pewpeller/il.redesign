@@ -154,7 +154,7 @@
 										Драматургия лжи
 									</h3>
 									<h2 class="cycle_dig__subheader">
-										Как нам врут в кино и по телевизору
+										Как нам врут в&nbsp;кино и&nbsp;по&nbsp;телевизору
 									</h2>
 								</div>
 							</div>
@@ -222,7 +222,7 @@
 			<div class="setka_row">
 				<div class="setka_col setka_col_full">
 					<a href="#">
-						<div class="ticket_dig cycle_dig--ticket" style="background-image: url(/new/i/cycle.png);">
+						<div class="ticket_dig" style="background-image: url(/new/i/cycle.png);">
 							<div class="ticket_dig__body">
 								<div class="ticket_dig__content">
 									<p class="ticket_dig__rubric">
@@ -232,7 +232,7 @@
 										Драматургия лжи
 									</h3>
 									<h2 class="ticket_dig__subheader">
-										Как нам врут в кино и по телевизору
+										Как нам врут в&nbsp;кино и&nbsp;по&nbsp;телевизору
 									</h2>
 								</div>
 							</div>
@@ -266,6 +266,39 @@
 					</a>
 				</div>
 			</div>
+			<div class="setka_row">
+				<div class="setka_col setka_col_full">
+					<a href="#">
+						<div class="ticket_dig ticket_dig--single ruche ruche--left" style="background-image: url(/new/i/cycle.png);">
+							<div class="ticket_dig__body">
+								<div class="ticket_dig__content">
+									<div class="db">
+										<div class="db__item db__2of3">
+											<div class="db__date">30.11–20.12.18</div>
+										</div>
+										<div class="db__item db__1of3">
+											<div class="db__mix">
+												<div class="db__day">пн ср вс</div>
+												<div class="db__time">19:00</div>
+											</div>
+										</div>
+									</div>
+									<p class="ticket_dig__rubric">
+										Цикл
+									</p>
+									<h3 class="ticket_dig__name">
+										Драматургия лжи
+									</h3>
+									<h2 class="ticket_dig__subheader">
+										Как нам врут в&nbsp;кино и&nbsp;по&nbsp;телевизору
+									</h2>
+								</div>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+
 		</div>
 
 		<!--#include virtual="/inc/footer.shtml" -->
