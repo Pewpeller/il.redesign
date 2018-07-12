@@ -117,6 +117,60 @@
 				</div>
 			</div>
 			<div class="setka_row">
+				<div class="setka_col setka_col_half">
+					<!-- course -->
+					<a href="#">
+						<div class="course_dig" style="background-image: url(/new/i/trening.jpg);">
+							<div class="course_dig__body">
+								<div class="course_dig__content">
+									<div class="db">
+										<div class="db__item db__2of3">
+											<div class="db__date">30.11–20.12.18</div>
+										</div>
+										<div class="db__item db__1of3">
+											<div class="db__mix">
+												<div class="db__day">пн ср вс</div>
+												<div class="db__time">19:00</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="course_dig__banner">
+								Оставить заявку
+							</div>
+						</div>
+					</a>
+					<!-- course end -->
+				</div>
+				<div class="setka_col setka_col_half">
+					<!-- course -->
+					<a href="#">
+						<div class="course_dig" style="background-image: url(/new/i/trening.jpg);">
+							<div class="course_dig__body">
+								<div class="course_dig__content">
+									<div class="db">
+										<div class="db__item db__2of3">
+											<div class="db__date">30.11–20.12.18</div>
+										</div>
+										<div class="db__item db__1of3">
+											<div class="db__mix">
+												<div class="db__day">пн ср вс</div>
+												<div class="db__time">19:00</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="course_dig__banner course_dig__banner--closed">
+								Оставить заявку
+							</div>
+						</div>
+					</a>
+					<!-- course end -->
+				</div>
+			</div>
+			<div class="setka_row">
 				<div class="setka_col setka_col_small">
 					<!-- 7dates banner -->
 					<a href="#">

@@ -1,23 +1,37 @@
-.event_dig {
+.course_dig {
 	position: relative;
 	background-position: 100% 100%;
 	background-repeat: no-repeat;
 	background-size: cover;
 	color: #fff;
-	height: 0;
-	padding-bottom: 114.343163538874%;
+	height: 340px;
 }
-	.event_dig__body {
+	.course_dig__body {
 		padding: 25px 22px;
 	}
-	.event_dig__content {
+	.course_dig__content {
 		max-width: 258px;
 	}
+	.course_dig__banner {
+		background-color: hsla(166, 100%, 70%, .8);
+		font: bold 14px/18px Figgins Sans, Arial, sans-serif;
+		padding: 13px 0 10px 0;
+		text-align: center;
+		width: 100%;
+		text-transform: uppercase;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+	}
+	.course_dig__banner--closed {
+		background-color: hsla(37, 100%, 94%, .8);
+	}
 @media screen and (min-width: 768px) {
-	.event_dig {
+	.course_dig {
 		padding-bottom: 61.35646687697161%;
 	}
-	.event_dig__body {
+	.course_dig__body {
 		position: absolute;
 		top: 0;
 		right: 0;
@@ -26,34 +40,38 @@
 	}
 }
 @media screen and (min-width: 992px) {
-	.event_dig__content {
+	.course_dig__content {
 		max-width: 320px;
 	}
 }
 
-.event_dig__rubric {
+.course_dig__rubric {
 	font: italic 14px/1.4285714286 Figgins Sans, Arial, sans-serif;
 	margin-bottom: 14px;
 }
 
-.event_dig__name,
-.event_dig__subheader {
+.course_dig__name,
+.course_dig__subheader {
 	text-transform: uppercase;
 	font: 18px/1.2222222222 Figgins Sans, Arial, sans-serif;
 }
-.event_dig__name {
+.course_dig__name {
 	font-weight: bold;
 }
 @media screen and (min-width: 768px) {
-	.event_dig__name,
-	.event_dig__subheader {
+	.course_dig__name,
+	.course_dig__subheader {
 		font-size: 22px;
 		line-height: 1.181818181818182;
 	}
 }
 @media screen and (min-width: 992px) {
-	.event_dig__name,
-	.event_dig__subheader {
+	.course_dig {
+		padding-bottom: 0;
+		height: 389px;
+	}
+	.course_dig__name,
+	.course_dig__subheader {
 		font-size: 28px;
 		line-height: 1.142857142857143;
 	}
