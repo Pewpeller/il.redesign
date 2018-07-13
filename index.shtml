@@ -124,8 +124,8 @@
 			<div class="layout">
 				<div class="grid">
 					<div class="grid__inner">
-						<div class="grid__cell grid_t_full grid_d_half">
-							<article class="course">
+						<div class="grid__cell grid_t_full grid_tm_half">
+							<article class="course course--full">
 								<a href="https://www.inliberty.ru/courses/economics/">
 									<div class="course__photo">
 										<img src="/i/dummies/Sapr_BAN.jpg" alt="">
@@ -137,8 +137,8 @@
 								</a>
 						    </article>
 						</div>
-						<div class="grid__cell grid_t_full grid_d_half">
-							<article class="course">
+						<div class="grid__cell grid_t_full grid_tm_half">
+							<article class="course course--full">
 								<a href="https://www.inliberty.ru/courses/economics/">
 									<div class="course__photo">
 										<img src="/i/dummies/MOZG_BAN.jpg" alt="">
