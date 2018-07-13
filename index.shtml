@@ -120,6 +120,40 @@
 			<!--#include virtual="/inc/library.shtml" -->
 			<!--#include virtual="/inc/blogs.shtml" -->
 			<!--#include virtual="/inc/book_announce.shtml" -->
+
+			<div class="layout">
+				<div class="grid">
+					<div class="grid__inner">
+						<div class="grid__cell grid_t_full grid_d_half">
+							<article class="course">
+								<a href="https://www.inliberty.ru/courses/economics/">
+									<div class="course__photo">
+										<img src="/i/dummies/Sapr_BAN.jpg" alt="">
+									</div>
+									<div class="ear">
+										<div class="ear__content">
+										</div>
+									</div>
+								</a>
+						    </article>
+						</div>
+						<div class="grid__cell grid_t_full grid_d_half">
+							<article class="course">
+								<a href="https://www.inliberty.ru/courses/economics/">
+									<div class="course__photo">
+										<img src="/i/dummies/MOZG_BAN.jpg" alt="">
+									</div>
+									<div class="ear">
+										<div class="ear__content">
+										</div>
+									</div>
+								</a>
+						    </article>
+						</div>
+					</div>
+				</div>
+			</div>
+
 			<!--#include virtual="/inc/old_stuff.shtml" -->
 		</div>
 		<!--#include virtual="/inc/footer.shtml" -->
