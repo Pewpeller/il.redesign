@@ -1,10 +1,11 @@
 .course_dig {
 	position: relative;
-	background-position: 100% 100%;
+	background-position: 50% 0;
 	background-repeat: no-repeat;
 	background-size: cover;
 	color: #fff;
-	height: 340px;
+	padding-bottom: 114.8225469728601%;
+	height: 0;
 }
 	.course_dig__body {
 		padding: 25px 22px;
@@ -28,9 +29,6 @@
 		background-color: hsla(37, 100%, 94%, .8);
 	}
 @media screen and (min-width: 768px) {
-	.course_dig {
-		padding-bottom: 61.35646687697161%;
-	}
 	.course_dig__body {
 		position: absolute;
 		top: 0;
@@ -67,8 +65,8 @@
 }
 @media screen and (min-width: 992px) {
 	.course_dig {
-		padding-bottom: 0;
-		height: 389px;
+		// padding-bottom: 0;
+		// height: 389px;
 	}
 	.course_dig__name,
 	.course_dig__subheader {
