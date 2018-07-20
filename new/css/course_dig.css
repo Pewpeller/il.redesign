@@ -24,10 +24,19 @@
 		bottom: 0;
 		left: 0;
 		right: 0;
+		box-sizing: border-box;
+		color: #181818;
 	}
 	.course_dig__banner--closed {
 		background-color: hsla(37, 100%, 94%, .8);
 	}
+@media screen and (min-width: 992px) {
+	.course_dig__banner {
+		font-size: 22px;
+		line-height: 28px;
+		padding: 23px 0 19px 0;
+	}
+}	
 @media screen and (min-width: 768px) {
 	.course_dig__body {
 		position: absolute;
