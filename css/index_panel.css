@@ -75,13 +75,18 @@
 	}
 	.index_panel__burger {
 		position: absolute;
-		right: 0;
+		right: 10px;
 		top: 0;
 		bottom: 0;
 		width: 32px;
 		height: 32px;
 		margin: auto 0;
 		text-align: left;
+	}
+	@media only screen and (min-width: 1024px) {
+		.index_panel__burger {
+			right: 22px;
+		}
 	}
 	.index_panel__burger .icon {
 		visibility: hidden;
