@@ -579,5 +579,12 @@ hr {
 	margin-bottom: 0;
 }
 .stk-post {
+	-webkit-hyphens: auto;
+	-ms-hyphens: auto;
 	hyphens: auto;
+}
+.no-hyphens {
+	-webkit-hyphens: manual;
+	-ms-hyphens: manual;
+	hyphens: manual;
 }
