@@ -588,3 +588,8 @@ hr {
 	-ms-hyphens: manual;
 	hyphens: manual;
 }
+.no-hyphens-hard {
+	-webkit-hyphens: manual !important;
+	-ms-hyphens: manual !important;
+	hyphens: manual !important;
+}
