@@ -588,8 +588,8 @@ hr {
 	-ms-hyphens: manual;
 	hyphens: manual;
 }
-.no-hyphens-hard {
-	-webkit-hyphens: manual !important;
-	-ms-hyphens: manual !important;
-	hyphens: manual !important;
+.no-hyphens-hard .stk-post {
+	-webkit-hyphens: manual;
+	-ms-hyphens: manual;
+	hyphens: manual;
 }
