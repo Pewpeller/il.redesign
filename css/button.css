@@ -111,3 +111,30 @@
 	font-size: 28px;
 	margin-bottom: 14px;
 }
+.il_button--custom {
+	height: 43px;
+	background-color: rgba(100, 255, 218, 1);
+	text-transform: uppercase;
+	width: auto;
+	min-width: 150px;
+	font: 14px/43px Figgins Sans, Arial, sans-serif;
+	line-height: 43px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	font-weight: 400;
+	color: #000;
+	border: none;
+}
+.il_button--custom::before,
+.il_button--custom::after {
+	content: none;
+}
+.il_button--custom:hover,
+.il_button--custom:focus {
+	background-color: rgba(100, 255, 218, .8);
+}
+.il_button--custom:focus {
+	outline: 3px solid rgba(255,255,255,.9);
+	outline-offset: -4px;
+}
