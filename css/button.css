@@ -113,6 +113,9 @@
 }
 .il_button--custom {
 	height: 43px;
+	padding-top: 2px;
+	padding-left: 15px;
+	padding-right: 15px;
 	background-color: rgba(100, 255, 218, 1);
 	text-transform: uppercase;
 	width: auto;
@@ -132,7 +135,7 @@
 }
 .il_button--custom:hover,
 .il_button--custom:focus {
-	background-color: rgba(100, 255, 218, .8);
+	color: #fff;
 }
 .il_button--custom:focus {
 	outline: 3px solid rgba(255,255,255,.9);

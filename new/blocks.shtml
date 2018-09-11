@@ -378,7 +378,7 @@
 			</div>
 			<button class="kbd_button il_button il_button--custom js-purchase-button" type="button">
 				<div class="kbd_button__body">
-					<b>Купить</b> 1500 руб.
+					<b>Купить курс</b>
 				</div>
 			</button>
 		</div>
