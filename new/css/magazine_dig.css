@@ -3,6 +3,17 @@
 	color: #181818;
 	text-align: center;
 }
+	.magazines_list .magazine_dig:not(:last-child) {
+		padding-bottom: 48px;
+		margin-bottom: 48px;
+		border-bottom: 3px solid #181818;
+	}
+	@media screen and (min-width: 992px) {
+		.magazines_list .magazine_dig:not(:last-child) {
+			padding-bottom: 70px;
+			margin-bottom: 70px;
+		}
+	}
 .magazine_dig__content {
 	max-width: 700px;
 	display: inline-block;
