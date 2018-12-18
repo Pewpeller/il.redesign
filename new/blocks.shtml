@@ -98,17 +98,18 @@
 				</div>
 				<div class="setka_col setka_col_small">
 					<!-- podcast -->
-					<a href="#">
-						<div class="podcast_dig">
+					<a href="https://soundcloud.com/inliberty" target="_blank">
+						<div class="podcast_dig" style="background-image: linear-gradient(to bottom, rgba(252, 80, 14, .8), rgba(254, 152, 15, .8));">
 							<div class="podcast_dig__body">
 								<div class="podcast_dig__content">
-									<h2 class="podcast_dig__name">
-										Подкасты<br>
-										Inliberty
-									</h2>
-									<p class="podcast_dig__rubric">
-										на Soundcloud
+									<p class="podcast_dig__rubric" style="margin-top: 0; margin-bottom: 11px;">
+										Подкасты Inliberty
 									</p>
+									<h2 class="podcast_dig__name">
+										Слушайте лекции<br>
+										и&nbsp;разговоры<br>
+										о&nbsp;свободном обществе там,&nbsp;где&nbsp;вам удобно
+									</h2>
 								</div>
 							</div>
 						</div>
