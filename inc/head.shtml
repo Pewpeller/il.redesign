@@ -71,6 +71,7 @@
 		<link rel="stylesheet" href="/new/css/magazine_dig.css">
 		<link rel="stylesheet" href="/new/css/ticket_dig.css">
 		<link rel="stylesheet" href="/new/css/course_dig.css">
+		<link rel="stylesheet" href="/new/css/subscribe.css">
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<script src="/js/jquery.slider.min.js" charset="utf-8"></script>
