@@ -1,0 +1,11 @@
+.subscribe_box {
+	height: calc(100vh - 64px);
+	width: 100%;
+	display: flex;
+	margin-top: -29px;
+	padding-bottom: 64px;
+}
+
+	.subscribe_box .main_footer__subscribe {
+		margin: auto;
+	}
