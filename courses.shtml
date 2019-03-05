@@ -11,7 +11,7 @@
 							Что такое курсы InLiberty?
 						</h1>
 						<div class="courses_header__lead">
-							InLiberty открывает <a href="#">собственную площадку</a> в Москве и круглогодичную программу курсов для взрослых и детей, в основе которой лежат принципы Liberal Arts огодичную программу.
+							InLiberty проводит круглогодичную программу курсов и тренингов для взрослых и детей, в основе которой лежат принципы Liberal Arts
 						</div>
 						<ul class="courses_concept">
 							<li class="courses_concept__item">
@@ -47,16 +47,18 @@
 						</ul>
 						<ul class="courses_features">
 							<li class="courses_features__item">
-								<b>Курсы</b> разной продолжительности, которые легко встроить в свой график
+								<b>Курсы и&nbsp;тренинги</b> разной продолжи-
+								<br>
+								тельности, которые легко встроить в&nbsp;свой график
 							</li>
 							<li class="courses_features__item">
-								<b>Форматы</b>, которые требуют вовлечения,  аналитической и проектной работы
+								<b>Форматы</b>, которые требуют вовлечения,  аналитической и&nbsp;проектной работы
 							</li>
 							<li class="courses_features__item">
-								<b>Темы</b>, которые позволяют увидеть жизнь общества в ее полноте и сложности
+								<b>Темы</b>, которые позволяют увидеть жизнь общества в&nbsp;ее полноте и&nbsp;сложности
 							</li>
 							<li class="courses_features__item">
-								<b>Пространство</b>, которое дает возможности для общения и нового культурного опыта
+								<b>Пространство</b>, которое дает возможности для общения и&nbsp;нового культурного опыта
 							</li>
 						</ul>
 						<button class="kbd_button courses_faq_button js-dialog-open" tabindex="0" type="button" data-dialog="#dialog-faq">
@@ -83,7 +85,7 @@
 
 				<div class="courses__digest">
 					<div class="layout">
-						<h2 class="courses__section_name">Весна-лето 2018</h2>
+						<h2 class="courses__section_name courses__section_name--marked">Набор открыт</h2>
 						<div class="grid">
 							<div class="grid__inner">
 								<div class="grid__cell grid_d_half">
@@ -250,7 +252,10 @@
 										</p>
 									</article>
 								</div>
-								<h2 class="courses__section_name">Курсы для детей</h2>
+								<h2 class="courses__section_name courses__section_name--marked">Курсы для детей</h2>
+								<div class="courses__section_disclaimer">
+									Набор на эти программы уже закрыт: оставьте заявку на странице заинтересовавшего вас курса или тренинга, и мы повторим его в ближайшем будущем!
+								</div>
 								<div class="grid__cell grid_t_full grid_d_half">
 									<article class="course">
 										<a href="#">
