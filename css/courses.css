@@ -328,7 +328,7 @@
 	}
 .courses__section_name--marked {
 	border-bottom: 3px solid #181818;
-	padding-bottom: 9px;
+	line-height: 2;
 	margin-bottom: 41px;
 }
 	.courses__section_name.courses__section_name--marked:first-child {

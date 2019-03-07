@@ -7,6 +7,48 @@
 			<div class="setka_content">
 				<div class="courses__section_name" style="color:red;text-align: center;">
 					setka.io
+<br>
+<style>
+	.timepad_button {
+		color: #000;
+		text-align: center;
+		background-color: #64ffda;
+		width: 200px;
+		margin-right: auto;
+		text-transform: uppercase;
+		display: inline-block;
+		font: bold 12px/40px Figgins Sans, Arial, sans-serif;
+		border-radius: 0;
+		min-height: 40px;
+		padding: 0;
+	}
+	.timepad_button:hover {
+		background-color: rgba(100, 255, 218, .8) !important;
+	}
+	</style>
+<a href="#" class="timepad_button" 
+	id="timepad_twf_register_925499">
+		Зарегистрироваться
+</a>
+
+<script async="async" defer="defer" charset="UTF-8"
+	data-timepad-customized="5018"
+	data-timepad-widget-v2="event_register"
+	src="https://timepad.ru/js/tpwf/loader/min/loader.js">
+		(function()
+			{
+				return {"event" : {"id" : 925499 },
+				"hidePreloading" : true,
+				"display" : "popup",
+				"popup" : {
+					"triggerSelector" : "#timepad_twf_register_925499"
+					}
+				}
+			}
+		)();
+</script>
+
+
 				</div>
 			</div>
 			<div class="course__footer">
@@ -29,23 +71,6 @@
 										<div class="kbd_button__body" tabindex="-1">Подать заявку</div>
 									</button>
 									-->
-
-<script type="text/javascript" async="async" defer="defer" charset="UTF-8" src="https://timepad.ru/js/tpwf/loader/min/loader.js" data-timepad-customized="5018" data-timepad-widget-v2="event_register">
-	(function(){
-		return {
-			"loadCSS": [
-				"http://dev2.toxa.ru/css/timepad_small_button.css"
-			],
-			"event":{"id":"891780"},
-			"hidePreloading":true,
-			"display" : "popup",
-			"popup" : {"triggerSelector" : "#timepad_twf_register_891780"},
-			"initialRoute":"button",
-			"buttonSettings":{"text":"Регистрация"}
-			};
-		})();
-</script>
-
 								</div>
 							</div>
 						</div>
