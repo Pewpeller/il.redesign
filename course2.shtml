@@ -8,28 +8,9 @@
 				<div class="courses__section_name" style="color:red;text-align: center;">
 					setka.io
 <br>
-<style>
-	.timepad_button {
-		color: #000;
-		text-align: center;
-		background-color: #64ffda;
-		width: 200px;
-		margin-left: auto;
-		margin-right: auto;
-		text-transform: uppercase;
-		display: block;
-		font: bold 12px/40px Figgins Sans, Arial, sans-serif;
-		border-radius: 0;
-		min-height: 40px;
-		padding: 0;
-	}
-	.timepad_button:hover {
-		background-color: rgba(100, 255, 218, .8) !important;
-	}
-	</style>
-<a href="#" class="timepad_button" 
-	id="timepad_twf_register_925499">
-		Зарегистрироваться
+
+<a href="#" class="il_button--custom" id="timepad_twf_register_925499" style="max-width: 202px;">
+		<b>Зарегистрироваться</b>
 </a>
 
 <script async="async" defer="defer" charset="UTF-8"
