@@ -255,7 +255,7 @@
 			opacity: 1;
 		}
 }
-.il_button--ahtung.il_button--ahtung {
+.il_button--ahtung.il_button--ahtung:not(.il_button--reclaim) {
 	display: none;
 }
 .main_header__buy .il_button--ahtung.il_button--ahtung {

@@ -33,6 +33,15 @@
 
 				</div>
 			</div>
+<hr>
+<!-- button test -->
+			<button class="il_button il_button--ahtung il_button--reclaim il_button--blocked kbd_button js-dialog-open" tabindex="0" type="button" data-dialog="#dialog-purchase">
+				<div class="kbd_button__body" tabindex="-1">
+					Оставить заявку
+				</div>
+			</button>
+<!-- button test end -->
+<hr>
 			<div class="course__footer">
 				<div class="layout">
 					<div class="course_board">
