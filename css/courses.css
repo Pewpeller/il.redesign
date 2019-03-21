@@ -486,6 +486,10 @@
 	.course__footer .announce_slider__nav {
 		width: 62px;
 	}
+	.courses_slider .announce_slider__nav:not(.slider-inactive) {
+		visibility: visible;
+		opacity: 1;
+	}
 }
 .course__footer .announce_slider__nav .slider-link {
 	top: 50%;
