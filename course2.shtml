@@ -9,7 +9,7 @@
 					setka.io
 <br>
 
-<a href="#" class="il_button--custom" id="timepad_twf_register_925499" style="max-width: 202px;">
+<a href="#" class="il_button il_button--custom il_button--blocked il_button--centered" id="timepad_twf_register_925499" style="max-width: 202px;">
 		<b>Зарегистрироваться</b>
 </a>
 
@@ -35,9 +35,9 @@
 			</div>
 <hr>
 <!-- button test -->
-			<button class="il_button il_button--ahtung il_button--reclaim il_button--blocked kbd_button js-dialog-open" tabindex="0" type="button" data-dialog="#dialog-purchase">
+			<button class="il_button il_button--custom il_button--blocked kbd_button js-dialog-open" tabindex="0" type="button" data-dialog="#dialog-purchase">
 				<div class="kbd_button__body" tabindex="-1">
-					Оставить заявку
+					<b>Оставить заявку</b>
 				</div>
 			</button>
 <!-- button test end -->

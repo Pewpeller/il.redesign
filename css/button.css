@@ -95,12 +95,13 @@
 .il_button--circle::after {
 	content: none;
 }
-.il_button--blocked {
+.il_button--blocked.il_button--blocked {
 	background-color: #fff3e0;
 }
-.il_button--blocked:hover,
-.il_button--blocked:focus {
+.il_button--blocked.il_button--blocked:hover,
+.il_button--blocked.il_button--blocked:focus {
 	background-color: hsla(37, 100%, 92%, 1);
+	color: #181818;
 }
 
 .il_button--circle {
@@ -140,4 +141,9 @@
 .il_button--custom:focus {
 	outline: 3px solid rgba(255,255,255,.9);
 	outline-offset: -4px;
+}
+.il_button--centered {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
 }
