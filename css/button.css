@@ -142,6 +142,15 @@
 	outline: 3px solid rgba(255,255,255,.9);
 	outline-offset: -4px;
 }
+.il_button--darkened {
+	background-color: #000;
+	color: #fff;
+}
+.il_button--darkened:hover,
+.il_button--darkened:focus {
+	color: rgba(100, 255, 218, 1);
+}
+
 .il_button--centered {
 	margin-left: auto;
 	margin-right: auto;
