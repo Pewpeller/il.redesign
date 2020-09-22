@@ -274,14 +274,8 @@
 .courses_faq_button__text {
 	font: bold 14px/22px Figgins Sans, Arial, sans-serif;
 	color: #181818;
-	margin-top: 21px;
 }
 @media only screen and (min-width: 1024px) {
-	.courses_faq_button {
-		top: -307px;
-		margin-bottom: -40px;
-		margin-right: 0;
-	}
 	.courses_faq_button__text {
 		font-size: 16px;
 	}
@@ -289,24 +283,15 @@
 
 .courses_socials {
 	font: 0/0 a;
-	width: 264px;
-	margin: 35px auto 38px auto;
+	margin: 35px 0 75px 0;
 }
 	.courses_socials__item {
 		display: inline-block;
-		vertical-align: top;
+		vertical-align: middle;
 	}
-		.courses_socials__item:nth-child(2) {
-			margin-left: 66px;
-			margin-right: 66px;
+		.courses_socials__item:not(:last-child) {
+			margin-right: 22px;
 		}
-@media only screen and (min-width: 1024px) {
-	.courses_socials {
-		position: absolute;
-		right: 0;
-		bottom: 66px;
-	}
-}
 
 .courses__digest {
 	/* border-top: 28px solid #64ffda; */

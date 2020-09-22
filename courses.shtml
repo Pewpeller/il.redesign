@@ -11,8 +11,10 @@
 							Что такое курсы InLiberty?
 						</h1>
 						<div class="courses_header__lead">
-							InLiberty проводит круглогодичную программу курсов и тренингов для взрослых и детей, в основе которой лежат принципы Liberal Arts
+							Курсы и тренинги InLiberty дают возможность овладеть интеллектуальными навыками, которые необходимы современному человеку вне зависимости от рода его занятий.<br>
+							Это критическое мышление и эффективная коммуникация, способность разбираться в собственных ценностях — и говорить о них с другими, а также практические инструменты успешной творческой работы. Это то, что позволяет двигаться вперед и менять мир вокруг себя.
 						</div>
+						<!-- 
 						<ul class="courses_concept">
 							<li class="courses_concept__item">
 								<div class="courses_concept__value">
@@ -61,15 +63,15 @@
 								<b>Пространство</b>, которое дает возможности для общения и&nbsp;нового культурного опыта
 							</li>
 						</ul>
-						<button class="kbd_button courses_faq_button js-dialog-open" tabindex="0" type="button" data-dialog="#dialog-faq">
-							<div class="kbd_button__body" tabindex="-1">
-								<span class="icon__may_zoom">
-									<svg class="icon icon--faq" role="img"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-faq"></use></svg>
-								</span>
-								<div class="courses_faq_button__text">FAQ</div>
-							</div>
-						</button>
+						-->
 						<div class="courses_socials">
+							<div class="courses_socials__item">
+								<button class="kbd_button courses_faq_button js-dialog-open" tabindex="0" type="button" data-dialog="#dialog-faq">
+									<div class="kbd_button__body" tabindex="-1">
+										<div class="courses_faq_button__text">FAQ</div>
+									</div>
+								</button>
+							</div>
 							<div class="courses_socials__item">
 								<a href="#" class="icon-shadow icon__may_zoom"><svg class="icon icon--fb" role="img"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#icon-fb"></use></svg></a>
 							</div>
