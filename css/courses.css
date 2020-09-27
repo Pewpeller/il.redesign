@@ -116,11 +116,15 @@
 .courses__section_disclaimer {
 	font: 17px/25px Parmigiano Piccolo Light, Arial, sans-serif;
 }
-
+.courses_header__lead a,
+.courses__section_disclaimer a,
+.courses_header__lead b,
+.courses__section_disclaimer b {
+	font: bold 19px/25px Figgins Sans, Arial, sans-serif;
+}
 .courses_header__lead a,
 .courses__section_disclaimer a {
 	color: #1de9b6;
-	font: bold 19px/25px Figgins Sans, Arial, sans-serif;
 	/*
 	border-bottom: 1px solid #64ffda;
 	*/
@@ -168,12 +172,14 @@
 	.courses__section_disclaimer {
 		font-size: 24px;
 		line-height: 32px;
+		max-width: calc(60px * 10 + 22px * 9);
 	}
 	.courses__section_disclaimer {
 		margin-top: -45px;
 		margin-bottom: 63px;
 	}
 	.courses_header__lead a,
+	.courses_header__lead b,
 	.courses__section_disclaimer a {
 		font-size: 27px;
 	}
